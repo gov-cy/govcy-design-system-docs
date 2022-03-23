@@ -10,7 +10,7 @@ Link to the new CSS as shown below instead of the old CSS.
 
 ```html
 <!-- CSS -->
-<link href="https://govcydesignsystem1.azureedge.net/bvtest/version/1.0.0/style.min.css" rel="stylesheet" >
+<link href="{{ site.cssCDN }}" rel="stylesheet" >
 ```
 
 ## Back link and User’s name and sign out 
