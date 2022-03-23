@@ -5,7 +5,7 @@ module.exports = {
   showTOC: true,
   showDraft: true,
   showVersion: true,
-  version:"1.0.0", 
+  version:"1.0.1", 
   cssCDN: "https://govcydesignsystem1.azureedge.net/bvtest/version/1.0.1/style.min.css",
   languages: [
     {
