@@ -51,6 +51,7 @@ Error messages should follow the guidance in [error message](../error_message) a
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control govcy-form-control-error">
         <label class="govcy-label" for="input">Label</label>
+        <span class="govcy-visually-hidden-error">Error: </span>
         <span class="govcy-input-error-msg">There is an error</span>
         <input type="text" class="govcy-text-input govcy-text-input-error">
     </div>
@@ -63,6 +64,7 @@ Error messages should follow the guidance in [error message](../error_message) a
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control govcy-form-control-error">
         <label class="govcy-label" for="input">Label</label>
+        <span class="govcy-visually-hidden-error">Error: </span>
         <span class="govcy-input-error-msg">There is an error</span>
         <input type="text" class="govcy-text-input govcy-text-input-error">
     </div>

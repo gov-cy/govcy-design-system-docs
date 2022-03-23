@@ -21,7 +21,7 @@ For each error:
 - use a red border to visually connect the message and the question it belongs to
 - if the error relates to a specific field within the question, give it a red border and refer to that field in the error message - for example: “you must enter a year”
 
-To help screen reader users, the error message component includes a hidden ‘Error:’ before the error message. These users will hear, for example, `<span class="govcy-visually-hidden"> Error:</span> The date your passport was issued must be in the past`.
+To help screen reader users, the error message component includes a hidden ‘Error:’ before the error message. These users will hear, for example, `<span class="govcy-visually-hidden-error"> Error: </span> The date your passport was issued must be in the past`.
 
 Summarize all errors at the top of the page the user is on using an [error summary](../error_summary).
 
@@ -30,12 +30,14 @@ Summarize all errors at the top of the page the user is on using an [error summa
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control govcy-form-control-error">
         <label class="govcy-label" for="input">Label</label>
+        <span class="govcy-visually-hidden-error">Error: </span>
         <span class="govcy-input-error-msg">There is an error</span>
         <input type="text" class="govcy-text-input govcy-text-input-error" placeholder="input">
     </div>
     <fieldset class="govcy-fieldset">
         <div class="govcy-form-control govcy-form-control-error">
             <label class="govcy-label govcy-mb-1" for="">Date of birth</label>
+        <span class="govcy-visually-hidden-error">Error: </span>
             <span class="govcy-input-error-msg govcy-mb-3">There is an error</span>
             <div class="govcy-d-flex">
                 <div class="govcy-d-block">
@@ -56,6 +58,7 @@ Summarize all errors at the top of the page the user is on using an [error summa
     <fieldset class="govcy-fieldset">
         <legend class="govcy-legend">Legend</legend>
         <div class="govcy-form-control govcy-form-control-error">
+            <span class="govcy-visually-hidden-error">Error: </span>
             <span class="govcy-input-error-msg">There is an error</span>
             <label class="govcy-checkbox">Option 1
                 <input class="govcy-checkbox-input" type="checkbox">
@@ -70,6 +73,7 @@ Summarize all errors at the top of the page the user is on using an [error summa
     <fieldset class="govcy-fieldset">
         <legend class="govcy-legend">Legend</legend>
         <div class="govcy-form-control govcy-form-control-error">
+            <span class="govcy-visually-hidden-error">Error: </span>
             <span class="govcy-input-error-msg">Mandatory field</span>
             <label class="govcy-radio">Option 1
                 <input class="govcy-radio-input" type="radio" name="radio">
@@ -87,6 +91,7 @@ Summarize all errors at the top of the page the user is on using an [error summa
     </fieldset>
     <div class="govcy-form-control govcy-form-control-error govcy-pb-1">
         <label class="govcy-label govcy-mb-1" for="">Upload a file</label>
+        <span class="govcy-visually-hidden-error">Error: </span>
         <span class="govcy-input-error-msg govcy-mb-3">There is an error</span>
         <input class="govcy-file-upload" type="file" id="" name="">
     </div>

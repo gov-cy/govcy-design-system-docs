@@ -3,17 +3,18 @@ title: "Get Started"
 order: 0
 tags : ['top_menu']
 category: "get started"
+searchKeys: "CSS CDN meta tags social theme manifest icon"
 ---
 
 Get started with GOV.CY design System.
 
 ## CSS and Javascript
 
-The easiest way to add the GOV.CY styles is to use the pre-built `main.css` css file. Just download the <a href="{{ site.url }}{{'css/main.css' }}">CSS file</a> and include the following code in your `<head>`. 
+The easiest way to add the GOV.CY styles is to use the pre-built `main.css` css file. Just use the CDM CSS file and include the following code in your `<head>`. 
 
 ```html
 <!-- CSS -->
-<link href="css/main.css" rel="stylesheet" >
+<link href="{{ site.cssCDN }}" rel="stylesheet" >
 ```
 
 All HTML code examples in this documentation utilizes the classes and styling defined in this css file. 
@@ -63,7 +64,7 @@ Use the following HTML template for your GOV.CY pages.
     <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57x57-precomposed.png">
  
     <!-- CSS -->
-    <link href="css/main.css" rel="stylesheet" >
+    <link href="{{ site.cssCDN }}" rel="stylesheet" >
     
     <title>Service Name - GOV.CY</title>
     <meta name="description" content="Description of what the service does">

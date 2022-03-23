@@ -29,7 +29,8 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ '/img/apple-touch-icon-72x72-precomposed.png' | url }}">
         <link rel="apple-touch-icon-precomposed" href="{{ '/img/apple-touch-icon-57x57-precomposed.png' | url }}">
         <!-- Bootstrap CSS -->
-        <link href="{{ '/css/main.css' | url }}" rel="stylesheet" >
+        <link href="{{ site.cssCDN }}" rel="stylesheet" >
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-theme-classic"/>
         <link href="{{ '/css/docs.css' | url }}" rel="stylesheet" >
         <!--<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">-->
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vs.min.css" integrity="sha512-54dqOdBwMzeeRRYZieLqjlGc/w9+AI3vLUdz9PW6QFVTfkL0e7CYLWXKQPV+HqZi5QIj8JKsbzIkeplWVhlY+A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -179,38 +180,7 @@
         <script>
             const { autocomplete } = window['@algolia/autocomplete-js'];
         </script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-theme-classic"/>
 
-
-        <style>
-            :root {
-                    --aa-search-input-height: 44px;
-                    --aa-primary-color-rgb: 38, 38, 39;
-            }
-
-            .aa-Autocomplete { 
-                width: 100%;
-            }
-
-            .aa-Form, .aa-DetachedSearchButton{
-                border: 2px solid #272525;
-                outline: none;
-                border-radius: 0px;
-            }
-
-            .aa-Form:focus-within {
-                border: 2px solid #272525;
-                box-shadow: 0 0 0 4pt #ffdd00;
-                outline: medium none currentColor;
-                border-radius: 0px;
-            }
-
-            @media (min-width: 768px){
-                .aa-Autocomplete { 
-                    width: 100%;
-                }
-            }
-        </style>
 
         <script>
         autocomplete({

@@ -56,6 +56,7 @@ Error messages should follow the guidance in [error message](../../components/er
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control govcy-form-control-error">
         <label class="govcy-label" for="input">Telephone Number</label>
+        <span class="govcy-visually-hidden-error">Error: </span>
         <span class="govcy-input-error-msg">Enter a telephone number in the correct format, like 99 123456</span>
         <input class="govcy-text-input govcy-text-input-char_20 govcy-text-input-error" id="tel" name="tel" type="tel" spellcheck="false" aria-describedby="tel-hint" autocomplete="tel">
     </div>
@@ -68,6 +69,7 @@ Error messages should follow the guidance in [error message](../../components/er
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control govcy-form-control-error">
         <label class="govcy-label" for="input">Telephone Number</label>
+        <span class="govcy-visually-hidden-error">Error: </span>
         <span class="govcy-input-error-msg">Enter a telephone number in the correct format, like 99 123456</span>
         <input class="govcy-text-input govcy-text-input-char_20 govcy-text-input-error" id="tel" name="tel" type="tel" spellcheck="false" aria-describedby="tel-hint" autocomplete="tel">
     </div>

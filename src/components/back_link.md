@@ -19,13 +19,10 @@ Use the back link component to help users go back to the previous page in a mult
 *Sample HTML Code*
 
 ```html
-<div class="govcy-container">
-    <span class="bi bi-chevron-left"></span>
-    <a href="#" class="govcy-back-link">Back</a>
-    <br>
-    <span class="bi bi-chevron-left"></span>
-    <a href="#" class="govcy-back-link">Πίσω</a>
-</div>    
+<div class="govcy-mb-4 govcy-float-start">
+	<span class="bi bi-chevron-left"></span>
+	<a class="govcy-back-link" href="/">Back</a>
+</div>   
 ```
 
 Although browsers have a back button, some sites break when you use it - so many users avoid it, instead of losing their progress in a service. Also, not all users are aware of the back button.
@@ -38,6 +35,8 @@ Never use the back link component together with breadcrumbs. If necessary, you s
 
 ## How it works
 Always place back links at the top of a page, in the [Before Main](../../styles/page_templates) (`<section id="before-main">`) element. Placing them here means that the ‘Skip to main content’ link allows the user to skip all navigation links, including the back link.
+
+If the user is logged in, the back link must be on the same line as the [User’s name and sign out](../user_name_and_sign_out) component. Use the `govcy-float-start` to achieve this as shown on the code example above.
 
 Make sure the link takes users to the previous page they were on, in the state they last saw it. Where possible, ensure it works even when JavaScript is not available.
 

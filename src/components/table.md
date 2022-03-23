@@ -216,13 +216,13 @@ When comparing columns of numbers, align the numbers to the right in table cells
 ```
 
 ### Responsive tables
-Responsive tables allow tables to be scrolled horizontally with ease. Make any table responsive across all viewports by wrapping a `.govcy-table` with `.table-responsive`. 
+Responsive tables allow tables to be scrolled horizontally with ease. Make any table responsive across all viewports by wrapping a `.govcy-table` with `.govcy-table-responsive`. 
 
 Always use responsive tables, unless there is a specific reason not to. 
 
 *Example*
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
-<div class="table-responsive">
+<div class="govcy-table-responsive">
     <table class="govcy-table">
         <thead>
         <tr>
@@ -283,7 +283,7 @@ Always use responsive tables, unless there is a specific reason not to.
 *Sample HTML Code*
 
 ```html
-<div class="table-responsive">
+<div class="govcy-table-responsive">
     <table class="govcy-table">
         <thead>
         <tr>

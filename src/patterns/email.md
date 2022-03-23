@@ -56,6 +56,7 @@ Error messages should follow the guidance in [error message](../../components/er
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control govcy-form-control-error">
         <label class="govcy-label" for="input">Email address</label>
+        <span class="govcy-visually-hidden-error">Error: </span>
         <span class="govcy-input-error-msg">Enter an email address in the correct format, like name@example.com</span>
         <input class="govcy-text-input govcy-text-input-error" id="email" name="email" type="email" spellcheck="false" aria-describedby="email-hint" autocomplete="email">
     </div>
@@ -68,6 +69,7 @@ Error messages should follow the guidance in [error message](../../components/er
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control govcy-form-control-error">
         <label class="govcy-label" for="input">Email address</label>
+        <span class="govcy-visually-hidden-error">Error: </span>
         <span class="govcy-input-error-msg">Enter an email address in the correct format, like name@example.com</span>
         <input class="govcy-text-input govcy-text-input-error" id="email" name="email" type="email" spellcheck="false" aria-describedby="email-hint" autocomplete="email">
     </div>

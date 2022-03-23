@@ -41,6 +41,7 @@ Error messages should follow the guidance in error message and have specific err
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control govcy-form-control-error govcy-pb-1">
         <label class="govcy-label govcy-mb-1" for="">Upload a file</label>
+        <span class="govcy-visually-hidden-error">Error: </span>
         <span class="govcy-input-error-msg govcy-mb-3">There is an error</span>
         <input class="govcy-file-upload" type="file" id="" name="">
     </div>
@@ -53,6 +54,7 @@ Error messages should follow the guidance in error message and have specific err
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control govcy-form-control-error govcy-pb-1">
         <label class="govcy-label govcy-mb-1" for="">Upload a file</label>
+        <span class="govcy-visually-hidden-error">Error: </span>
         <span class="govcy-input-error-msg govcy-mb-3">There is an error</span>
         <input class="govcy-file-upload" type="file" id="" name="">
     </div>
