@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Social -->
+        <meta property="og:description" content="Design your services using GOV.CY styles, components and patterns.">
+        <meta property="og:title" content="Design System GOV.CY">
+        <meta property="og:url" content="https://gov-cy.github.io/govcy-design-system-docs-v1/">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://gov-cy.github.io/govcy-design-system-docs-v1//img/icons-512.png">
+        <meta property="og:site_name" content="GOV.CY">
+    
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://gov-cy.github.io/govcy-design-system-docs-v1/">
+        <meta property="twitter:title" content="Design System GOV.CY">
+        <meta property="twitter:description" content="Design your services using GOV.CY styles, components and patterns.">
+        <meta property="twitter:image" content="https://gov-cy.github.io/govcy-design-system-docs-v1//img/icons-512.png">
+        <!-- Theme --> 
+        <link rel="manifest" href="/govcy-design-system-docs/manifest.json">
+        <meta name="theme-color" content="#31576F">
+        <link rel="icon" type="image/png" sizes="48x48" href="/govcy-design-system-docs/img/favicon-48x48.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/govcy-design-system-docs/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/govcy-design-system-docs/img/favicon-16x16.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/govcy-design-system-docs/img/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/govcy-design-system-docs/img/apple-touch-icon-120x120-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/govcy-design-system-docs/img/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/govcy-design-system-docs/img/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="/govcy-design-system-docs/img/apple-touch-icon-57x57-precomposed.png">
+        <!-- Bootstrap CSS -->
+        <link href="https://govcydesignsystem1.azureedge.net/bvtest/version/1.0.1/style.min.css" rel="stylesheet" >
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-theme-classic"/>
+        <link href="/govcy-design-system-docs/css/docs.css" rel="stylesheet" >
+        <!--<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">-->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vs.min.css" integrity="sha512-54dqOdBwMzeeRRYZieLqjlGc/w9+AI3vLUdz9PW6QFVTfkL0e7CYLWXKQPV+HqZi5QIj8JKsbzIkeplWVhlY+A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vsc-dark-plus.min.css" integrity="sha512-GU4Q2LAEtdpc8WmjcbSJGxM6c8D69ggI3mc5SRnfnxpg5AkYYA0BEVve0W9Oj2wZR0UItklQK2RBKLtDsQHNzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
+        <title>Utilities - GOV.CY</title>
+        <meta name="description" content="Design your services using GOV.CY styles, components and patterns.">
+    </head>
+    <body>
+    <!--Header-->
+    <div class="govcy-container-fluid govcy-p-0 govcy-m-0 govcy-position-relative govcy-d-print-none">
+         <div class="govcy-container">
+             <div class="row">
+                 <header class="govcy-header govcy-bg-primary govcy-text-white govcy-bg-primary-right">
+                      <a href="/govcy-design-system-docs/" class="govcy-logo"> <img></a>
+                     
+                     <input class="govcy-menu-btn govcy-d-none" type="checkbox" id="menu-btn">
+                     <label class="govcy-menu-icon govcy-d-md-none" for="menu-btn">Menu
+                         <span class="material-icons govcy-my-3">arrow_drop_down</span>
+                     </label>
+                     <span class="govcy-service-name">Design System </span>
+                     <ul class="govcy-menu govcy-bg-sub-menu govcy-bg-md-primary">
+                     
+                    <li>
+                            <a href="/govcy-design-system-docs/getting_started/" >
+                                Get Started
+                            </a>
+                            </li><li>
+                            <a href="/govcy-design-system-docs/styles/" >
+                                Styles
+                            </a>
+                            </li><li>
+                            <a href="/govcy-design-system-docs/components/" >
+                                Components
+                            </a>
+                            </li><li>
+                            <a href="/govcy-design-system-docs/patterns/" >
+                                Patterns
+                            </a>
+                            </li><li>
+                            <a href="/govcy-design-system-docs/css_utilities/"  class="active">
+                                Utilities
+                            </a>
+                            </li>
+                     </ul>
+                 </header>
+             </div>
+         </div>
+    </div>
+    <!--beforeMain-->
+    <section class="govcy-container govcy-my-2" id="beforeMainContainer">
+        <div class="row">
+            <div class="govcy-col-3 govcy-d-print-none">
+                <span id="autocomplete" class="govcy-w-50"></span>
+            </div>  
+            <div class="govcy-col-3 govcy-mt-2">
+        <span class="govcy-br-2 govcy-text-white govcy-br-danger govcy-rounded-1 govcy-bg-danger govcy-efs-small">&nbsp;DRAFT&nbsp;</span>
+        <span class="govcy-br-2 govcy-text-white govcy-br-info govcy-rounded-1 govcy-bg-info govcy-efs-small">&nbsp;Ver. 1.0.0&nbsp;</span>
+            </div>
+            
+        </div>
+    </section>
+    <!--Main-->
+    <main class="govcy-container govcy-my-2" id="mainContainer">
+        <div class="row">
+            <div class="govcy-col-12 govcy-order-last">
+                <h1>Utilities</h1>
+                
+                
+                    <aside class="toc-outter">
+                        <strong>On this page</strong>
+                        <nav class="toc">
+                <ol>
+                    
+                    <li><a href="#border">Border</a>
+            		</li>
+
+                    <li><a href="#margin%2C-padding">Margin, padding</a>
+            		</li>
+
+                    <li><a href="#width%2C-height">Width, height</a>
+            		</li>
+
+                    <li><a href="#background">Background</a>
+            		</li>
+
+                    <li><a href="#text">Text</a>
+            		</li>
+
+                    <li><a href="#general">General</a>
+            		</li>
+
+                    <li><a href="#display">Display</a>
+            		</li>
+
+                    <li><a href="#flex">Flex</a>
+            		</li>
+
+                    <li><a href="#flex-align%2C-order">Flex Align, order</a>
+            		</li>
+
+                    <li><a href="#position">Position</a>
+            		</li>
+
+                    <li><a href="#other">Other</a>
+            		</li>
+
+                    <li><a href="#examples-code">Examples code</a>
+            		</li>
+                </ol>
+            </nav>
+                    </aside>
+                
+                <p>The following utility classes have been created and can be used with the GOV.CY design system.</p>
+<h2 id="border" tabindex="-1">Border <a class="anchor-link" href="#border"> </a></h2>
+<table class="govcy-table">
+<thead>
+<tr>
+<th>Utility</th>
+<th>Usage</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>govcy-border-width</strong></td>
+<td><code>govcy-br-*</code><br /><br /> <code>govcy-br-top-*</code><br /><br /> <code>govcy-br-bottom-*</code><br /><br /> <code>govcy-br-left-*</code><br /><br /> <code>govcy-br-right-*</code></td>
+<td>Add or remove borders from an element. <br /><br /> * can have values <code>0</code> - <code>8</code>.</td>
+<td><code>&lt;div class=&quot;govcy-br-0&quot;&gt;Border-0&lt;/div&gt;</code> <br /><br /> <code>&lt;div class=&quot;govcy-br-1&quot;&gt;Border-1&lt;/div&gt;</code><br /><br /> <code>&lt;div class=&quot;govcy-br-left-4&quot;&gt;Border Left 4&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-border-color</strong></td>
+<td><code>govcy-br-*</code><br /><br /> <code>govcy-br-top-*</code><br /><br /> <code>govcy-br-bottom-*</code><br /><br /> <code>govcy-br-left-*</code><br /><br /> <code>govcy-br-right-*</code></td>
+<td>Change the colors of the borders of an element. <br /><br /> * can have values <code>primary</code>, <code>secondary</code>, <code>success</code>, <code>standard</code>, <code>danger</code>, <code>info</code>, <code>input</code>.</td>
+<td><code>&lt;div class=&quot;govcy-br-primary&quot;&gt;&lt;/div&gt;</code> <br /><br /> <code>&lt;div class=&quot;govcy-br-left-dange&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-rounded</strong></td>
+<td><code>govcy-rounded-*</code><br /><br /> <code>govcy-rounded-top-*</code><br /><br /> <code>govcy-rounded-bottom-*</code><br /><br /> <code>govcy-rounded-left-*</code><br /><br /> <code>govcy-rounded-right-*</code></td>
+<td>Change the borders radius of an element. <br /><br /> * can have values <code>0</code>, <code>1</code>, <code>2</code>, <code>3</code>, <code>circle</code>, <code>pill</code>.</td>
+<td><code>&lt;div class=&quot;govcy-rounded-2&quot;&gt;&lt;/div&gt;</code> <br /><br /> <code>&lt;div class=&quot;govcy-rounded-top-pill&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="margin%2C-padding" tabindex="-1">Margin, padding <a class="anchor-link" href="#margin%2C-padding"> </a></h2>
+<table class="govcy-table">
+<thead>
+<tr>
+<th>Utility</th>
+<th>Usage</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>govcy-margin</strong></td>
+<td><code>govcy-m-*</code><br /><br /> <code>govcy-mx-*</code><br /><br /> <code>govcy-my-*</code><br /><br /> <code>govcy-mt-*</code><br /><br /> <code>govcy-mb-*</code> <br /><br /> <code>govcy-mr-*</code><br /><br /> <code>govcy-ml-*</code></td>
+<td>Change the margin radius of an element. <code>govcy-m</code> changes margin in all directions, <code>govcy-mx</code> changes margin left and right, <code>govcy-my</code> changes margin top and bottom, <code>govcy-mt</code> changes margin top, <code>govcy-mb</code> changes margin bottom, <code>govcy-ml</code> changes margin left, <code>govcy-mr</code> changes margin right <br /><br /> * can have values <code>0</code> - <code>5</code>, <code>auto</code>.</td>
+<td><code>&lt;div class=&quot;govcy-m-2&quot;&gt;&lt;/div&gt;</code> <br /><br /> <code>&lt;div class=&quot;govcy-mx-1&quot;&gt;&lt;/div&gt;</code> <br /><br /> <code>&lt;div class=&quot;govcy-mt-auto&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-padding</strong></td>
+<td><code>govcy-p-*</code><br /><br /> <code>govcy-px-*</code><br /><br /> <code>govcy-py-*</code><br /><br /> <code>govcy-pt-*</code><br /><br /> <code>govcy-pb-*</code> <br /><br /> <code>govcy-pr-*</code><br /><br /> <code>govcy-pl-*</code></td>
+<td>Change the padding radius of an element. <code>govcy-p</code> changes padding in all directions, <code>govcy-px</code> changes padding left and right, <code>govcy-py</code> changes padding top and bottom, <code>govcy-pt</code> changes padding top, <code>govcy-pb</code> changes padding bottom, <code>govcy-pl</code> changes padding left, <code>govcy-pr</code> changes padding right <br /><br /> * can have values <code>0</code> - <code>5</code>.</td>
+<td><code>&lt;div class=&quot;govcy-p-2&quot;&gt;&lt;/div&gt;</code> <br /><br /> <code>&lt;div class=&quot;govcy-px-1&quot;&gt;&lt;/div&gt;</code> <br /><br /> <code>&lt;div class=&quot;govcy-pt-5&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="width%2C-height" tabindex="-1">Width, height <a class="anchor-link" href="#width%2C-height"> </a></h2>
+<table class="govcy-table">
+<thead>
+<tr>
+<th>Utility</th>
+<th>Usage</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>govcy-width</strong></td>
+<td><code>govcy-w-*</code></td>
+<td>Change the width of an element using percentage.<br /><br /> * can have values <code>10</code>, <code>15</code>, <code>25</code>, <code>35</code>, <code>50</code>, <code>60</code>, <code>75</code>, <code>100</code>, <code>auto</code>.</td>
+<td><code>&lt;div class=&quot;govcy-w-50&quot;&gt;&lt;/div&gt;</code> <br /><br /> <code>&lt;div class=&quot;govcy-w-100&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-height</strong></td>
+<td><code>govcy-h-*</code></td>
+<td>Change the height of an element using percentage.<br /><br /> * can have values <code>10</code>, <code>15</code>, <code>25</code>, <code>35</code>, <code>50</code>, <code>60</code>, <code>75</code>, <code>100</code>, <code>auto</code>.</td>
+<td><code>&lt;div class=&quot;govcy-h-50&quot;&gt;&lt;/div&gt;</code> <br /><br /> <code>&lt;div class=&quot;govcy-h-100&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="background" tabindex="-1">Background <a class="anchor-link" href="#background"> </a></h2>
+<table class="govcy-table">
+<thead>
+<tr>
+<th>Utility</th>
+<th>Usage</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>govcy-background-color</strong></td>
+<td><code>govcy-bg-*</code></td>
+<td>Change the background colour of an element.<br /><br /> * can have values <code>primary</code>, <code>secondary</code>, <code>success</code>, <code>info</code>, <code>danger</code>, <code>light</code>, <code>dark</code>, <code>white</code>, <code>gray</code>.</td>
+<td><code>&lt;div class=&quot;govcy-bg-primary&quot;&gt;&lt;/div&gt;</code> <br /><br /> <code>&lt;div class=&quot;govcy-bg-dark&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-opacity</strong></td>
+<td><code>govcy-opacity-*</code></td>
+<td>Change the opacity level of an element. The opacity-level describes the transparency-level, where 100 is not transparent at all, 50 is 50% see-through, and 0 is completely transparent.<br /><br /> * can have values <code>10</code>, <code>25</code>, <code>50</code>, <code>75</code>, <code>100</code>.</td>
+<td><code>&lt;div class=&quot;govcy-opacity-75&quot;&gt;&lt;/div&gt;</code> <br /><br /> <code>&lt;div class=&quot;govcy-opacity-50&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="text" tabindex="-1">Text <a class="anchor-link" href="#text"> </a></h2>
+<table class="govcy-table">
+<thead>
+<tr>
+<th>Utility</th>
+<th>Usage</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>govcy-text-color</strong></td>
+<td><code>govcy-text-*</code></td>
+<td>Change the text colour in an element.<br /><br /> * can have values <code>primary</code>, <code>secondary</code>, <code>success</code>, <code>info</code>, <code>danger</code>, <code>dark</code>, <code>white</code>.</td>
+<td><code>&lt;div class=&quot;govcy-text-primary&quot;&gt;&lt;/div&gt;</code> <br /><br /> <code>&lt;div class=&quot;govcy-text-white&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-text-align</strong></td>
+<td><code>govcy-text-*</code></td>
+<td>Change the text alignment in an element.<br /><br /> * can have values <code>start</code>, <code>end</code>, <code>center</code>.</td>
+<td><code>&lt;div class=&quot;govcy-text-start&quot;&gt;&lt;/div&gt;</code> <br /><br /> <code>&lt;div class=&quot;govcy-text-center&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-text-decoration</strong></td>
+<td><code>govcy-text-deco-*</code></td>
+<td>Change the text decoration in an element.<br /><br /> * can have values <code>none</code>, <code>underline</code>, <code>line-through</code>.</td>
+<td><code>&lt;div class=&quot;govcy-text-deco-none&quot;&gt;&lt;/div&gt;</code> <br /><br /> <code>&lt;div class=&quot;govcy-text-deco-underline&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-text-transform</strong></td>
+<td><code>govcy-text-*</code></td>
+<td>Change how to capitalize text in an element.<br /><br /> * can have values <code>lowercase</code>, <code>uppercase</code>, <code>capitalize</code>.</td>
+<td><code>&lt;div class=&quot;govcy-text-uppercase&quot;&gt;&lt;/div&gt;</code> <br /><br /> <code>&lt;div class=&quot;govcy-text-capitalize&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-font-size</strong></td>
+<td><code>govcy-fs-*</code></td>
+<td>Change the font size of text in an element.<br /><br /> * can have values <code>1</code> - <code>6</code>. Each value changes to the same font size as the sane header element. i.e. <code>govcy-fs-2</code> will have the same font size as an <code>&lt;h2&gt;</code> .</td>
+<td><code>&lt;div class=&quot;govcy-fs-2&quot;&gt;&lt;/div&gt;</code> <br /><br /> <code>&lt;div class=&quot;govcy-fs-5&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-extra-font-size</strong></td>
+<td><code>govcy-efs-*</code></td>
+<td>Change the font size of text in an element.<br /><br /> * can have values <code>large</code>,<code>larger</code>,<code>initial</code>,<code>medium</code>, <code>small</code>, <code>smaller</code>, <code>x-large</code>,<code>x-small</code>,<code>xx-large</code>,<code>xx-small</code>,<code>xxx-large</code>,<code>webkit-large</code>. More details on font sizes at https://developer.mozilla.org/en-US/docs/Web/CSS/font-size</td>
+<td><code>&lt;div class=&quot;govcy-efs-small&quot;&gt;&lt;/div&gt;</code> <br /><br /> <code>&lt;div class=&quot;govcy-efs-larger&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-font-style</strong></td>
+<td><code>govcy-fst-*</code></td>
+<td>Change the font style of text in an element.<br /><br /> * can have values <code>italic</code>,<code>normal</code></td>
+<td><code>&lt;div class=&quot;govcy-fst-normal&quot;&gt;&lt;/div&gt;</code> <br /><br /> <code>&lt;div class=&quot;govcy-fst-italic&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-font-weight</strong></td>
+<td><code>govcy-fw-*</code></td>
+<td>Change the font weight of text in an element.<br /><br /> * can have values <code>light</code>,<code>lighter</code>, <code>normal</code>, <code>bold</code>, <code>bolder</code></td>
+<td><code>&lt;div class=&quot;govcy-fw-normal&quot;&gt;&lt;/div&gt;</code> <br /><br /> <code>&lt;div class=&quot;govcy-fw-bold&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-line-height</strong></td>
+<td><code>govcy-lh-*</code></td>
+<td>Change the line height of text in an element.<br /><br /> * can have values <code>1</code>,<code>sm</code>, <code>base</code>, <code>lg</code></td>
+<td><code>&lt;div class=&quot;govcy-lh-base&quot;&gt;&lt;/div&gt;</code> <br /><br /> <code>&lt;div class=&quot;govcy-lh-lg&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="general" tabindex="-1">General <a class="anchor-link" href="#general"> </a></h2>
+<table class="govcy-table">
+<thead>
+<tr>
+<th>Utility</th>
+<th>Usage</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>govcy-valign</strong></td>
+<td><code>govcy-valign-*</code></td>
+<td>Change the vertical alignment of an inline, inline-block or table-cell box in an element.<br /><br /> * can have values <code>baseline</code>,<code>top</code>, <code>middle</code>, <code>bottom</code>, <code>text-bottom</code>, <code>text-top</code></td>
+<td><code>&lt;div class=&quot;govcy-valign-top&quot;&gt;&lt;/div&gt;</code> <br /><br /> <code>&lt;div class=&quot;govcy-valign-middle&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-float</strong></td>
+<td><code>govcy-float-*</code></td>
+<td>Change an element floats.<br /><br /> * can have values <code>start</code>,<code>end</code>, <code>none</code></td>
+<td><code>&lt;div class=&quot;govcy-float-start&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-overflow</strong></td>
+<td><code>govcy-overflow-*</code></td>
+<td>Change what should happen if content overflows an element’s box.<br /><br /> * can have values <code>auto</code>,<code>hidden</code>, <code>visible</code>, <code>scroll</code></td>
+<td><code>&lt;div class=&quot;govcy-overflow-auto&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="display" tabindex="-1">Display <a class="anchor-link" href="#display"> </a></h2>
+<table class="govcy-table">
+<thead>
+<tr>
+<th>Utility</th>
+<th>Usage</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>govcy-display</strong></td>
+<td><code>govcy-d-*</code></td>
+<td>Change the display behavior of an element.<br /><br /> * can have values <code>inline</code>, <code>inline-block</code>, <code>block</code>, <code>grid</code>, <code>table</code>, <code>table-row</code>, <code>table-cell</code>, <code>flex</code>, <code>inline-flex</code>, <code>none</code></td>
+<td><code>&lt;div class=&quot;govcy-d-none&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-display-{sm,md,lg,xl,xxl}</strong></td>
+<td><code>govcy-d-*</code></td>
+<td>Change the display behavior of an element for any responsive screen variation…<br /><br /> * can have values <code>inline</code>, <code>inline-block</code>, <code>block</code>, <code>grid</code>, <code>table</code>, <code>table-row</code>, <code>table-cell</code>, <code>flex</code>, <code>inline-flex</code>, <code>none</code></td>
+<td><code>&lt;div class=&quot;govcy-d-md-none&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-display-print</strong></td>
+<td><code>govcy-d-print-*</code></td>
+<td>Change the display behavior of an element when printing.<br /><br /> * can have values <code>inline</code>, <code>inline-block</code>, <code>block</code>, <code>grid</code>, <code>table</code>, <code>table-row</code>, <code>table-cell</code>, <code>flex</code>, <code>inline-flex</code>, <code>none</code></td>
+<td><code>&lt;div class=&quot;govcy-d-print-none&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="flex" tabindex="-1">Flex <a class="anchor-link" href="#flex"> </a></h2>
+<table class="govcy-table">
+<thead>
+<tr>
+<th>Utility</th>
+<th>Usage</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>govcy-flex</strong></td>
+<td><code>govcy-flex-*</code></td>
+<td>Change a flex item will grow or shrink to fit the space available in its flex container.<br /><br /> * can have values <code>fill</code>, <code>row</code>, <code>column</code>, <code>row-reverse</code>, <code>grow-0</code>, <code>grow-1</code>, <code>shrink-0</code>, <code>shrink-1</code></td>
+<td><code>&lt;div class=&quot;govcy-flex-fill&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-gap</strong></td>
+<td><code>govcy-gap-*</code></td>
+<td>Change the gaps (gutters) between rows and columns.<br /><br /> * can have values <code>0</code> - <code>5</code></td>
+<td><code>&lt;div class=&quot;govcy-gap-2&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-flex-wrap</strong></td>
+<td><code>govcy-flex-*</code></td>
+<td>Change whether flex items are forced onto one line or can wrap onto multiple lines.<br /><br /> * can have values <code>wrap</code>, <code>nowrap</code>, <code>wrap-reverse</code></td>
+<td><code>&lt;div class=&quot;govcy-flex-wrap&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="flex-align%2C-order" tabindex="-1">Flex Align, order <a class="anchor-link" href="#flex-align%2C-order"> </a></h2>
+<table class="govcy-table">
+<thead>
+<tr>
+<th>Utility</th>
+<th>Usage</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>govcy-justify-content</strong></td>
+<td><code>govcy-justify-content-*</code></td>
+<td>Change how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container.<br /><br /> * can have values <code>start</code>, <code>end</code>, <code>center</code>, <code>between</code>, <code>around</code>,<code>evenly</code></td>
+<td><code>&lt;div class=&quot;govcy-justify-content-center&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-align-items</strong></td>
+<td><code>govcy-align-items-*</code></td>
+<td>Change the align-items property of an element.<br /><br /> * can have values <code>start</code>, <code>end</code>, <code>center</code>, <code>baseline</code>, <code>stretch</code></td>
+<td><code>&lt;div class=&quot;govcy-align-items-stretch&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-align-content</strong></td>
+<td><code>govcy-align-content-*</code></td>
+<td>Change the align-content property of an element.<br /><br /> * can have values <code>start</code>, <code>end</code>, <code>center</code>, <code>between</code>, <code>around</code>, <code>stretch</code></td>
+<td><code>&lt;div class=&quot;govcy-align-content-stretch&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-align-self</strong></td>
+<td><code>govcy-align-self-*</code></td>
+<td>Change the align-self property of an element.<br /><br /> * can have values <code>auto</code>, <code>start</code>, <code>end</code>, <code>center</code>, <code>baseline</code>, <code>stretch</code></td>
+<td><code>&lt;div class=&quot;govcy-align-self-stretch&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-order</strong></td>
+<td><code>govcy-order-*</code></td>
+<td>Change the order property of an element.<br /><br /> * can have values <code>first</code>, <code>1</code> -<code>5</code>, <code>last</code></td>
+<td><code>&lt;div class=&quot;govcy-order-first&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="position" tabindex="-1">Position <a class="anchor-link" href="#position"> </a></h2>
+<table class="govcy-table">
+<thead>
+<tr>
+<th>Utility</th>
+<th>Usage</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>govcy-position</strong></td>
+<td><code>govcy-position-*</code></td>
+<td>Change the position property of an element.<br /><br /> * can have values <code>static</code> ,<code>relative</code> ,<code>absolute</code> ,<code>fixed</code> ,<code>sticky</code></td>
+<td><code>&lt;div class=&quot;govcy-position-static&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-top</strong></td>
+<td><code>govcy-top-*</code></td>
+<td>Change the top property of an element.<br /><br /> * can have values <code>0</code> ,<code>50</code> ,<code>100</code></td>
+<td><code>&lt;div class=&quot;govcy-top-0&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-bottom</strong></td>
+<td><code>govcy-bottom-*</code></td>
+<td>Change the bottom property of an element.<br /><br /> * can have values <code>0</code> ,<code>50</code> ,<code>100</code></td>
+<td><code>&lt;div class=&quot;govcy-bottom-0&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-left</strong></td>
+<td><code>govcy-left-*</code></td>
+<td>Change the left property of an element.<br /><br /> * can have values <code>0</code> ,<code>50</code> ,<code>100</code></td>
+<td><code>&lt;div class=&quot;govcy-left-0&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-right</strong></td>
+<td><code>govcy-right-*</code></td>
+<td>Change the right property of an element.<br /><br /> * can have values <code>0</code> ,<code>50</code> ,<code>100</code></td>
+<td><code>&lt;div class=&quot;govcy-right-0&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="other" tabindex="-1">Other <a class="anchor-link" href="#other"> </a></h2>
+<table class="govcy-table">
+<thead>
+<tr>
+<th>Utility</th>
+<th>Usage</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>govcy-user-select</strong></td>
+<td><code>govcy-user-select-*</code></td>
+<td>Change whether the text of an element can be selected.<br /><br /> * can have values <code>all</code> ,<code>auto</code> ,<code>none</code></td>
+<td><code>&lt;div class=&quot;govcy-user-select-none&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr>
+<td><strong>govcy-pointer-events</strong></td>
+<td><code>govcy-pe-*</code></td>
+<td>Change whether or not an element should react to pointer events.<br /><br /> * can have values <code>auto</code> ,<code>none</code></td>
+<td><code>&lt;div class=&quot;govcy-pe-none&quot;&gt;&lt;/div&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="examples-code" tabindex="-1">Examples code <a class="anchor-link" href="#examples-code"> </a></h2>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Border-0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Border-1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Border-2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Border-3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-4<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Border-4<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-5<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Border-5<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-2 govcy-br-primary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Primary<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-2 govcy-br-secondary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Secondary<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-2 govcy-br-success<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Success<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-2 govcy-br-standard<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Standard<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-2 govcy-br-danger<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Danger<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-2 govcy-br-info<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Info<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-2 govcy-br-input<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>input<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-1 govcy-br-sm-3 govcy-br-md-5 govcy-br-danger govcy-br-sm-secondary govcy-br-md-primary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Responsive<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-5 govcy-br-right-sm-0 govcy-br-bottom-md-0 govcy-br-left-lg-0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Remove<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-5 govcy-br-primary govcy-rounded 1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Rounded 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-5 govcy-br-primary govcy-rounded 2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Rounded 2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-5 govcy-br-primary govcy-rounded 3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Rounded 3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-5 govcy-br-primary govcy-rounded-pill<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Pill<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-5 govcy-br-primary govcy-rounded-circle<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Circle<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-5 govcy-br-primary govcy-rounded-top-3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Top<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-5 govcy-br-primary govcy-rounded-right-3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Right<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-5 govcy-br-primary govcy-rounded-bottom-3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Bottom<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-5 govcy-br-primary govcy-rounded-left<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Left<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-d-lg-none<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>hide on lg and wider screens<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-d-none govcy-d-lg-block<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>hide on screens smaller than lg<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-d-print-none<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Screen Only (Hide on print only)<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-d-none govcy-d-print-block<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Print Only (Hide on screen only)<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-d-none govcy-d-lg-block govcy-d-print-block<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Hide up to large on screen, but always show on print<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+
+            </div>
+    
+    
+        </div>
+    </main>
+    <!-- Footer -->
+    <div class="govcy-container-fluid govcy-br-top-8 govcy-br-top-primary govcy-p-3 govcy-bg-light govcy-d-print-none">
+            <div class="govcy-container">
+                <div class="row">   
+                    <footer class="govcy-footer">
+                        <span class="govcy-d-inline-block govcy-valign-top govcy-pb-2"><img alt="govcy-logo"></span>
+                                <ul class="govcy-d-inline-block  govcy-m-0 govcy-pl-3 govcy-efs-medium">
+                                <li><a href="#">Privacy statement</a></li>
+                                <li><a href="#">Cookie policy</a></li>
+                                <li><a href="#">Accessibility statement</a></li>
+                                <li class="govcy-d-block govcy-text-dark">© Republic of Cyprus, 2021</li>
+                            </ul>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        
+        
+        
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-js"></script>
+        <script>
+            const { autocomplete } = window['@algolia/autocomplete-js'];
+        </script>
+
+
+        <script>
+        autocomplete({
+        container: '#autocomplete',
+        placeholder: 'Search Design System',
+        getSources() {
+            return [
+            {
+                sourceId: 'links',
+                getItems({ query }) {
+                return [
+{ label: "Colours", url: '/govcy-design-system-docs/styles/colour/', keys: "" },{ label: "Page Templates", url: '/govcy-design-system-docs/styles/page_templates/', keys: "" },{ label: "Grid system", url: '/govcy-design-system-docs/styles/grid/', keys: "" },{ label: "Layout", url: '/govcy-design-system-docs/styles/layout/', keys: "" },{ label: "Typography", url: '/govcy-design-system-docs/styles/typography/', keys: "fonts text Paragraph Headings Unordered Ordered list Links" },{ label: "Back Link", url: '/govcy-design-system-docs/components/back_link/', keys: "" },{ label: "Button", url: '/govcy-design-system-docs/components/button/', keys: "" },{ label: "Checkbox", url: '/govcy-design-system-docs/components/checkbox/', keys: "" },{ label: "Date input", url: '/govcy-design-system-docs/components/date_input/', keys: "" },{ label: "Error Message", url: '/govcy-design-system-docs/components/error_message/', keys: "" },{ label: "Error Summary", url: '/govcy-design-system-docs/components/error_summary/', keys: "" },{ label: "Fieldset", url: '/govcy-design-system-docs/components/fieldset/', keys: "" },{ label: "File", url: '/govcy-design-system-docs/components/file/', keys: "" },{ label: "Footer", url: '/govcy-design-system-docs/components/footer/', keys: "" },{ label: "Header", url: '/govcy-design-system-docs/components/header/', keys: "" },{ label: "Radio", url: '/govcy-design-system-docs/components/radio/', keys: "" },{ label: "Table", url: '/govcy-design-system-docs/components/table/', keys: "" },{ label: "Text Input", url: '/govcy-design-system-docs/components/text_input/', keys: "" },{ label: "User’s name and sign out", url: '/govcy-design-system-docs/components/user_name_and_sign_out/', keys: "" },{ label: "Check answers", url: '/govcy-design-system-docs/patterns/check_answers/', keys: "" },{ label: "Email", url: '/govcy-design-system-docs/patterns/email/', keys: "" },{ label: "Hint Text", url: '/govcy-design-system-docs/patterns/hint_text/', keys: "" },{ label: "Labels and legends headings", url: '/govcy-design-system-docs/patterns/labels_and_legend_headings/', keys: "" },{ label: "Names", url: '/govcy-design-system-docs/patterns/names/', keys: "" },{ label: "Question pages", url: '/govcy-design-system-docs/patterns/question_pages/', keys: "" },{ label: "Telephone", url: '/govcy-design-system-docs/patterns/telephone/', keys: "" },{ label: "Design System", url: '/govcy-design-system-docs/', keys: "" },{ label: "Get Started", url: '/govcy-design-system-docs/getting_started/', keys: "CSS CDN meta tags social theme manifest icon" },{ label: "Styles", url: '/govcy-design-system-docs/styles/', keys: "" },{ label: "Components", url: '/govcy-design-system-docs/components/', keys: "" },{ label: "Patterns", url: '/govcy-design-system-docs/patterns/', keys: "" },{ label: "Moving from Version 0.1.0", url: '/govcy-design-system-docs/moving_from_v_0/', keys: "" },{ label: "Utilities", url: '/govcy-design-system-docs/css_utilities/', keys: "" },
+                ].filter(({ label ,keys }) =>
+                    label.toLowerCase().includes(query.toLowerCase()) 
+                    || keys.toLowerCase().includes(query.toLowerCase())
+                );
+                },
+                getItemUrl({ item }) {
+                    return item.url;
+                },
+                 templates: {
+                    item({ item, createElement }) {
+                        return createElement('div', {
+                        dangerouslySetInnerHTML: {
+                            __html: `<div>
+                            <a
+                                href="${item.url}">
+                                ${item.label}
+                            <a/> 
+                            </div>`,
+                        },
+                        });
+                    },
+                    noResults() {
+                        return 'No results.';
+                    }
+                }
+                // ...
+            },
+            ];
+        }
+    });
+
+        </script>
+    </body>
+</html>

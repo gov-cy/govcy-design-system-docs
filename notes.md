@@ -1,9 +1,5 @@
 # Notes on Design System
 
-## Cange in for version 1
-- explain govcy-visually-hidden (check your answer, error message)
-- responsive tables
-
 ## Links needed
 ### date_input.md
 - Section: When not to use this component, line 14 

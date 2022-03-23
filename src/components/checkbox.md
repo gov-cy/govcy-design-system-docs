@@ -233,6 +233,7 @@ Error messages should follow the guidance in [error message](../error_message) a
     <fieldset class="govcy-fieldset">
         <legend class="govcy-legend">Legend</legend>
         <div class="govcy-form-control govcy-form-control-error">
+            <span class="govcy-visually-hidden-error">Error: </span>
             <span class="govcy-input-error-msg">There is an error</span>
             <label class="govcy-checkbox">Option 1
                 <input class="govcy-checkbox-input" type="checkbox">
@@ -253,6 +254,7 @@ Error messages should follow the guidance in [error message](../error_message) a
     <fieldset class="govcy-fieldset">
         <legend class="govcy-legend">Legend</legend>
         <div class="govcy-form-control govcy-form-control-error">
+            <span class="govcy-visually-hidden-error">Error: </span>
             <span class="govcy-input-error-msg">There is an error</span>
             <label class="govcy-checkbox">Option 1
                 <input class="govcy-checkbox-input" type="checkbox">

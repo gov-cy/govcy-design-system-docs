@@ -86,6 +86,7 @@ Never automatically tab users between the fields of the date input because this 
         <fieldset class="govcy-fieldset">
             <div class="govcy-form-control govcy-form-control-error">
                 <label class="govcy-label govcy-mb-1" for="">Date of birth</label>
+                <span class="govcy-visually-hidden-error">Error: </span>
                 <span class="govcy-input-error-msg govcy-mb-3">There is an error</span>
                 <div class="govcy-d-flex">
                     <div class="govcy-d-block">
@@ -115,6 +116,7 @@ Never automatically tab users between the fields of the date input because this 
         <fieldset class="govcy-fieldset">
             <div class="govcy-form-control govcy-form-control-error">
                 <label class="govcy-label govcy-mb-1" for="">Date of birth</label>
+                <span class="govcy-visually-hidden-error">Error: </span>
                 <span class="govcy-input-error-msg govcy-mb-3">There is an error</span>
                 <div class="govcy-d-flex">
                     <div class="govcy-d-block">

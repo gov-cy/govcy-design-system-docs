@@ -13,28 +13,28 @@ Let users check their answers before submitting information to a service.
         <th scope="row">Name</th>
         <td>Jane Smith</td>
         <td class="col-2 govcy-text-end">
-            <a href="">Change</a>
+            <a href="">Change<span class="govcy-visually-hidden-error">Name</span></a>
         </td>
     </tr>
     <tr>
         <th scope="row">Child's date of birth</th>
         <td>5 Jan 2021</td>
         <td class="col-2 govcy-text-end">
-            <a href="">Change</a>
+            <a href="">Change<span class="govcy-visually-hidden-error"> Child's date of birth</span></a>
         </td>
     </tr>
     <tr>
         <th scope="row">Address</th>
         <td>Thornton</td>
         <td class="col-2 govcy-text-end">
-            <a href="">Change</a>
+            <a href="">Change<span class="govcy-visually-hidden-error"> Address</span></a>
         </td>
     </tr>
     <tr>
         <th scope="row">Social insurance number</th>
         <td>7361063</td>
         <td class="col-2 govcy-text-end">
-            <a href="">Change</a>
+            <a href="">Change<span class="govcy-visually-hidden-error"> Social insurance number</span></a>
         </td>
     </tr>
 </tbody>
@@ -50,28 +50,28 @@ Let users check their answers before submitting information to a service.
         <th scope="row">Name</th>
         <td>Jane Smith</td>
         <td class="col-2 govcy-text-end">
-            <a href="">Change</a>
+            <a href="">Change<span class="govcy-visually-hidden-error">Name</span></a>
         </td>
     </tr>
     <tr>
         <th scope="row">Child's date of birth</th>
         <td>5 Jan 2021</td>
         <td class="col-2 govcy-text-end">
-            <a href="">Change</a>
+            <a href="">Change<span class="govcy-visually-hidden-error"> Child's date of birth</span></a>
         </td>
     </tr>
     <tr>
         <th scope="row">Address</th>
         <td>Thornton</td>
         <td class="col-2 govcy-text-end">
-            <a href="">Change</a>
+            <a href="">Change<span class="govcy-visually-hidden-error"> Address</span></a>
         </td>
     </tr>
     <tr>
         <th scope="row">Social insurance number</th>
         <td>7361063</td>
         <td class="col-2 govcy-text-end">
-            <a href="">Change</a>
+            <a href="">Change<span class="govcy-visually-hidden-error"> Social insurance number</span></a>
         </td>
     </tr>
 </tbody>
@@ -80,105 +80,109 @@ Let users check their answers before submitting information to a service.
 
 *Example detailed table*
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
-<table class="govcy-table govcy-table-responsive govcy-mb-4">
-<tbody>
-    <tr>
-        <th scope="row" class="col-3">Bank Details</th>
-        <td class="col-7">
-        <p>
-            <span class="govcy-fw-bold">Account Name</span>
-            <span class="govcy-d-block">Andreas Andreou</span>
-        </p>
-        <p>
-            <span class="govcy-fw-bold">Bank</span>
-            <span class="govcy-d-block">Bank of Cyprus</span>
-        </p>
-        <p>
-            <span class="govcy-fw-bold">International Bank Account Number (IBAN)</span>
-            <span class="govcy-d-block">CY**********************7654</span>
-        </p>
-        </td>
-        <td class="col-2 govcy-text-end">
-        <a href="">Change</a>
-        </td>
-    </tr>
-    <tr>
-        <th scope="row" class="col-3">Personal Details</th>
-        <td class="col-7">
-        <p>
-            <span class="govcy-fw-bold">Email address</span>
-            <span class="govcy-d-block">nikanos@windowslive.com</span>
-        </p>
-        <p>
-            <span class="govcy-fw-bold">Mobile Number</span>
-            <span class="govcy-d-block">99412126</span>
-        </p>
-        </td>
-        <td class="col-2 govcy-text-end">
-        <a href="">Change</a>
-        </td>
-    </tr>
-    <tr>
-        <th scope="row" class="col-3">Claim Children</th>
-        <td class="col-7">
-        George
-        </td>
-        <td class="col-2"></td>
-    </tr>
+<div class="govcy-table-responsive">
+    <table class="govcy-table">
+    <tbody>
+        <tr>
+            <th scope="row" class="col-3">Bank Details</th>
+            <td class="col-7">
+            <p>
+                <span class="govcy-fw-bold">Account Name</span>
+                <span class="govcy-d-block">Andreas Andreou</span>
+            </p>
+            <p>
+                <span class="govcy-fw-bold">Bank</span>
+                <span class="govcy-d-block">Bank of Cyprus</span>
+            </p>
+            <p>
+                <span class="govcy-fw-bold">International Bank Account Number (IBAN)</span>
+                <span class="govcy-d-block">CY**********************7654</span>
+            </p>
+            </td>
+            <td class="col-2 govcy-text-end">
+            <a href="">Change<span class="govcy-visually-hidden-error"> Bank Details</span></a>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row" class="col-3">Personal Details</th>
+            <td class="col-7">
+            <p>
+                <span class="govcy-fw-bold">Email address</span>
+                <span class="govcy-d-block">nikanos@windowslive.com</span>
+            </p>
+            <p>
+                <span class="govcy-fw-bold">Mobile Number</span>
+                <span class="govcy-d-block">99412126</span>
+            </p>
+            </td>
+            <td class="col-2 govcy-text-end">
+            <a href="">Change<span class="govcy-visually-hidden-error"> Personal Details</span></a>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row" class="col-3">Claim Children</th>
+            <td class="col-7">
+            George
+            </td>
+            <td class="col-2"></td>
+        </tr>
     </tbody>
-</table>
+    </table>
+</div>
 </div>
 
 *Sample HTML Code*
 
 ```html
-<table class="govcy-table govcy-table-responsive govcy-mb-4">
+<div class="govcy-table-responsive">
+    <table class="govcy-table">
     <tbody>
-    <tr>
-        <th scope="row" class="col-3">Bank Details</th>
-        <td class="col-7">
-        <p>
-            <span class="govcy-fw-bold">Account Name</span>
-            <span class="govcy-d-block">Andreas Andreou</span>
-        </p>
-        <p>
-            <span class="govcy-fw-bold">Bank</span>
-            <span class="govcy-d-block">Bank of Cyprus</span>
-        </p>
-        <p>
-            <span class="govcy-fw-bold">International Bank Account Number (IBAN)</span>
-            <span class="govcy-d-block">CY**********************7654</span>
-        </p>
-        </td>
-        <td class="col-2 govcy-text-end">
-        <a href="">Change</a>
-        </td>
-    </tr>
-    <tr>
-        <th scope="row" class="col-3">Personal Details</th>
-        <td class="col-7">
-        <p>
-            <span class="govcy-fw-bold">Email address</span>
-            <span class="govcy-d-block">nikanos@windowslive.com</span>
-        </p>
-        <p>
-            <span class="govcy-fw-bold">Mobile Number</span>
-            <span class="govcy-d-block">99412126</span>
-        </p>
-        </td>
-        <td class="col-2 govcy-text-end">
-        <a href="">Change</a>
-        </td>
-    </tr>
-    <tr>
-        <th scope="row" class="col-3">Claim Children</th>
-        <td class="col-7">
-        George
-        </td>
-        <td class="col-2"></td>
-    </tr>
+        <tr>
+            <th scope="row" class="col-3">Bank Details</th>
+            <td class="col-7">
+            <p>
+                <span class="govcy-fw-bold">Account Name</span>
+                <span class="govcy-d-block">Andreas Andreou</span>
+            </p>
+            <p>
+                <span class="govcy-fw-bold">Bank</span>
+                <span class="govcy-d-block">Bank of Cyprus</span>
+            </p>
+            <p>
+                <span class="govcy-fw-bold">International Bank Account Number (IBAN)</span>
+                <span class="govcy-d-block">CY**********************7654</span>
+            </p>
+            </td>
+            <td class="col-2 govcy-text-end">
+            <a href="">Change<span class="govcy-visually-hidden-error"> Bank Details</span></a>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row" class="col-3">Personal Details</th>
+            <td class="col-7">
+            <p>
+                <span class="govcy-fw-bold">Email address</span>
+                <span class="govcy-d-block">nikanos@windowslive.com</span>
+            </p>
+            <p>
+                <span class="govcy-fw-bold">Mobile Number</span>
+                <span class="govcy-d-block">99412126</span>
+            </p>
+            </td>
+            <td class="col-2 govcy-text-end">
+            <a href="">Change<span class="govcy-visually-hidden-error"> Personal Details</span></a>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row" class="col-3">Claim Children</th>
+            <td class="col-7">
+            George
+            </td>
+            <td class="col-2"></td>
+        </tr>
     </tbody>
-</table>
+    </table>
+</div>
 ```
 
 ## When to use this pattern
@@ -199,7 +203,7 @@ On your check answers page you should:
 - make sure the submit button clearly shows the action it performs – for example ‘Change your tax details’ or ‘Send your claim form’
 
 ## Let users go back and change their answers
-You should provide a ‘Change’ link next to each section on your check answers page so that users can add or change the information. ‘Change’ links contain hidden text to make them accessible to screen reader users. Update the hidden text to describe what each ‘change’ link is for.
+You should provide a ‘Change’ link next to each section on your check answers page so that users can add or change the information. ‘Change’ links contain hidden text to make them accessible to screen reader users. Update the hidden text to describe what each ‘change’ link is for, i.e., `<a href="">Change<span class="govcy-visually-hidden-error"> Personal Details</span></a>`.
 
 The answers pages should look the same way they did when the user last used them, with all their answers pre-populated.
 

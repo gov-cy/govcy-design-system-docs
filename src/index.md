@@ -13,6 +13,12 @@ localization:
             <p>Design your services using GOV.CY styles, components and patterns.</p>
             <p>Use the design system to make your service consistent with GOV.CY and avoid repeating work that’s already been done. The Design System makes it easy for digital teams to build accessible, consistent, and performant services and products to meet Cyprus' needs.</p>
             <p><button type="button" class="govcy-btn-primary" onclick="window.location='getting_started/'">Get Started</button> </p>
+            <p>Currently <strong>v{{ site.version }}</strong>
+            <span class="govcy-px-1">·</span>
+            <a href="https://gov-cy.github.io/govcy-design-system-docs-v0/">v0.1.0 documentation</a>
+            <span class="govcy-px-1">·</span>
+            <a href="moving_from_v_0">How to move from Version 0.1.0</a>
+            </p>
         </div>
     </div>
 </div>

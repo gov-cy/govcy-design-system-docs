@@ -59,6 +59,8 @@ Error messages should follow the guidance in [error message](../../components/er
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control govcy-form-control-error">
         <label class="govcy-label" for="input">Full name</label>
+        <span class="govcy-visually-hidden-error">Error: </span>
+        <span class="govcy-input-error-msg">Name is required</span>
         <input class="govcy-text-input govcy-text-input-error" id="full-name" name="full-name" type="text" spellcheck="false" autocomplete="name">
     </div>
 </form>
@@ -70,6 +72,8 @@ Error messages should follow the guidance in [error message](../../components/er
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control govcy-form-control-error">
         <label class="govcy-label" for="input">Full name</label>
+        <span class="govcy-visually-hidden-error">Error: </span>
+        <span class="govcy-input-error-msg">Name is required</span>
         <input class="govcy-text-input govcy-text-input-error" id="full-name" name="full-name" type="text" spellcheck="false" autocomplete="name">
     </div>
 </form>

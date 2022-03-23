@@ -35,7 +35,7 @@
         <!--<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">-->
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vs.min.css" integrity="sha512-54dqOdBwMzeeRRYZieLqjlGc/w9+AI3vLUdz9PW6QFVTfkL0e7CYLWXKQPV+HqZi5QIj8JKsbzIkeplWVhlY+A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vsc-dark-plus.min.css" integrity="sha512-GU4Q2LAEtdpc8WmjcbSJGxM6c8D69ggI3mc5SRnfnxpg5AkYYA0BEVve0W9Oj2wZR0UItklQK2RBKLtDsQHNzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
-        <title>Error Summary - GOV.CY</title>
+        <title>Moving from Version 0.1.0 - GOV.CY</title>
         <meta name="description" content="Design your services using GOV.CY styles, components and patterns.">
     </head>
     <body>
@@ -62,7 +62,7 @@
                                 Styles
                             </a>
                             </li><li>
-                            <a href="/govcy-design-system-docs/components/"  class="active">
+                            <a href="/govcy-design-system-docs/components/" >
                                 Components
                             </a>
                             </li><li>
@@ -95,8 +95,8 @@
     <!--Main-->
     <main class="govcy-container govcy-my-2" id="mainContainer">
         <div class="row">
-            <div class="govcy-col-9 govcy-order-last">
-                <h1>Error Summary</h1>
+            <div class="govcy-col-12 govcy-order-last">
+                <h1>Moving from Version 0.1.0</h1>
                 
                 
                     <aside class="toc-outter">
@@ -104,62 +104,41 @@
                         <nav class="toc">
                 <ol>
                     
-                    <li><a href="#when-to-use-this-component">When to use this component</a>
+                    <li><a href="#use-new-css">Use new css</a>
             		</li>
 
-                    <li><a href="#how-it-works">How it works</a>
+                    <li><a href="#back-link-and-user%E2%80%99s-name-and-sign-out">Back link and User’s name and sign out</a>
             		</li>
 
-                    <li><a href="#linking-from-the-error-summary-to-each-answer">Linking from the error summary to each answer</a>
+                    <li><a href="#responsive-tables">Responsive Tables</a>
             		</li>
 
-                    <li><a href="#where-to-put-the-error-summary">Where to put the error summary</a>
+                    <li><a href="#visually-hidden-class-for-errors-and-check-your-answers">Visually-hidden class for errors and check your answers</a>
             		</li>
                 </ol>
             </nav>
                     </aside>
                 
-                <p>Use this component at the top of a page to summarise any errors a user has made.</p>
-<p>When a user makes an error, you must show both an error summary and an error message next to each answer that contains an error.</p>
-<p><em>Example</em></p>
-<div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
-<div class="row govcy-px-2">
-    <div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
-        <h2>There is a problem</h2>
-        <p class="govcy-mb-0">
-            <a href="#">Enter your full name</a>
-            <a href="#">Social insurance number should be 16 digit long</a>
-        </p>
-    </div>
-</div>
-</div>
-<p><em>Sample HTML Code</em></p>
-<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">></span></span>There is a problem<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-mb-0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Enter your full name<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Social insurance number should be 16 digit long<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
-<h2 id="when-to-use-this-component" tabindex="-1">When to use this component <a class="anchor-link" href="#when-to-use-this-component"> </a></h2>
-<p>Always show an error summary when there is a validation error, even if there’s only one.</p>
-<h2 id="how-it-works" tabindex="-1">How it works <a class="anchor-link" href="#how-it-works"> </a></h2>
-<p>You must:</p>
-<ul>
-<li>move keyboard focus to the error summary</li>
-<li>include the heading ‘There is a problem’ in English and ‘Υπάρχει κάποιο πρόβλημα’ in Greek</li>
-<li>link to each of the answers that have validation errors</li>
-<li>make sure the error messages in the error summary are worded the same as those which appear next to the inputs with errors</li>
-</ul>
-<h2 id="linking-from-the-error-summary-to-each-answer" tabindex="-1">Linking from the error summary to each answer <a class="anchor-link" href="#linking-from-the-error-summary-to-each-answer"> </a></h2>
-<p>You must link the errors in the error summary to the answer they relate to.</p>
-<p>For questions that require a user to answer using a single field, like a file upload, select, textarea, text input or character count, link to the field.</p>
-<p>When a user has to enter their answer into multiple fields, such as the day, month and year fields in the date input component, link to the first field that contains an error.</p>
-<p>If you do not know which field contains an error, link to the first field.</p>
-<p>For questions that require a user to select one or more options from a list using radios or checkboxes, link to the first radio or checkbox.</p>
-<h2 id="where-to-put-the-error-summary" tabindex="-1">Where to put the error summary <a class="anchor-link" href="#where-to-put-the-error-summary"> </a></h2>
-<p>Put the error summary at the top of the <a href="../../styles/page_templates">main</a> (<code>&lt;main&gt;</code>) container. If your page includes breadcrumbs or a back link, place it below these, but above the <code>&lt;h1&gt;</code>.</p>
+                <p>Developers will need to make the following changes in order to move from Version 0.1.X to Vesion 1.X.X using the CSS provided by GOV.CY.</p>
+<h2 id="use-new-css" tabindex="-1">Use new css <a class="anchor-link" href="#use-new-css"> </a></h2>
+<p>Link to the new CSS as shown below instead of the old CSS.</p>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- CSS --></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://govcydesignsystem1.azureedge.net/bvtest/version/1.0.0/style.min.css<span class="token punctuation">"</span></span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token punctuation">></span></span></code></pre>
+<h2 id="back-link-and-user%E2%80%99s-name-and-sign-out" tabindex="-1">Back link and User’s name and sign out <a class="anchor-link" href="#back-link-and-user%E2%80%99s-name-and-sign-out"> </a></h2>
+<p>Both these components must appear on the same line and have specific margin bottom. To do that we use <code>govcy-float-start</code> and <code>govcy-mb-4</code> classes as follows:</p>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- Back Link --></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-mb-4 govcy-float-start<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bi bi-chevron-left<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-back-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Back<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token comment">&lt;!-- User’s name and sign out --></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-text-end govcy-mb-4<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>	Nikanos Polykarpou | <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/Account/LogOut<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-back-link<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Log Out<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<p>More information at <a href="../components/back_link">back Link</a> and <a href="../components/user_name_and_sign_out">User’s name and sign out</a>.</p>
+<h2 id="responsive-tables" tabindex="-1">Responsive Tables <a class="anchor-link" href="#responsive-tables"> </a></h2>
+<p>The responsive tables wrapper class has changed from <code>table-responsive</code> to <code>govcy-table-responsive</code>. More information at <a href="../components/table/#responsive-tables">Responsive tables</a>.</p>
+<h2 id="visually-hidden-class-for-errors-and-check-your-answers" tabindex="-1">Visually-hidden class for errors and check your answers <a class="anchor-link" href="#visually-hidden-class-for-errors-and-check-your-answers"> </a></h2>
+<p>A class has been implemented <code>govcy-visually-hidden-error</code> that is hidden on the screen but readable by screen readers.</p>
+<p>It should be used in <a href="../components/error_message">error messages</a> by adding the word <code>Error</code>. For example:</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-visually-hidden-error<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Error: <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-input-error-msg<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>There is an error<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span></code></pre>
+<p>It should also be used in the <a href="../patterns/check_answers/#let-users-go-back-and-change-their-answers">check answers</a> pattern on the <code>change</code> link to indicate what the link is changing. For example:</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Change<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-visually-hidden-error<span class="token punctuation">"</span></span><span class="token punctuation">></span></span> Personal Details<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span></code></pre>
 
             </div>
     
-    <aside class="govcy-col-3 govcy-order-first">
-                <ul class="nav-side govcy-flex-column"><li><a href="/govcy-design-system-docs/components/back_link/" class="nav-link">Back Link</a></li><li><a href="/govcy-design-system-docs/components/button/" class="nav-link">Button</a></li><li><a href="/govcy-design-system-docs/components/checkbox/" class="nav-link">Checkbox</a></li><li><a href="/govcy-design-system-docs/components/date_input/" class="nav-link">Date input</a></li><li><a href="/govcy-design-system-docs/components/error_message/" class="nav-link">Error Message</a></li><li><a href="/govcy-design-system-docs/components/error_summary/" class="nav-link active">Error Summary</a></li><li><a href="/govcy-design-system-docs/components/fieldset/" class="nav-link">Fieldset</a></li><li><a href="/govcy-design-system-docs/components/file/" class="nav-link">File</a></li><li><a href="/govcy-design-system-docs/components/footer/" class="nav-link">Footer</a></li><li><a href="/govcy-design-system-docs/components/header/" class="nav-link">Header</a></li><li><a href="/govcy-design-system-docs/components/radio/" class="nav-link">Radio</a></li><li><a href="/govcy-design-system-docs/components/table/" class="nav-link">Table</a></li><li><a href="/govcy-design-system-docs/components/text_input/" class="nav-link">Text Input</a></li><li><a href="/govcy-design-system-docs/components/user_name_and_sign_out/" class="nav-link">User’s name and sign out</a></li>
-                </ul>
-            </aside>
+    
         </div>
     </main>
     <!-- Footer -->

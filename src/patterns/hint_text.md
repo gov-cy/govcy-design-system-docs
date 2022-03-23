@@ -12,6 +12,7 @@ Use hint text for help that’s relevant to the majority of users, like how thei
 <form action="" class="govcy-form" novalidate>
     <fieldset class="govcy-fieldset">
         <legend class="govcy-legend"><h1>Select your certificate</h1></legend>
+        <span class="govcy-hint govcy-mt-2">Different options will appear depending on your option.</span>
         <div class="govcy-form-control">
             <label class="govcy-radio">Vaccination
                 <input class="govcy-radio-input" type="radio" name="radio">
@@ -39,6 +40,7 @@ Use hint text for help that’s relevant to the majority of users, like how thei
 <form action="" class="govcy-form" novalidate>
     <fieldset class="govcy-fieldset">
         <legend class="govcy-legend"><h1>Select your certificate</h1></legend>
+        <span class="govcy-hint govcy-mt-2">Different options will appear depending on your option.</span>
         <div class="govcy-form-control">
             <label class="govcy-radio">Vaccination
                 <input class="govcy-radio-input" type="radio" name="radio">

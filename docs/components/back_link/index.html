@@ -7,16 +7,16 @@
         <!-- Social -->
         <meta property="og:description" content="Design your services using GOV.CY styles, components and patterns.">
         <meta property="og:title" content="Design System GOV.CY">
-        <meta property="og:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
+        <meta property="og:url" content="https://gov-cy.github.io/govcy-design-system-docs-v1/">
         <meta property="og:type" content="website">
-        <meta property="og:image" content="https://gov-cy.github.io/govcy-design-system-docs//img/icons-512.png">
+        <meta property="og:image" content="https://gov-cy.github.io/govcy-design-system-docs-v1//img/icons-512.png">
         <meta property="og:site_name" content="GOV.CY">
     
         <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
+        <meta property="twitter:url" content="https://gov-cy.github.io/govcy-design-system-docs-v1/">
         <meta property="twitter:title" content="Design System GOV.CY">
         <meta property="twitter:description" content="Design your services using GOV.CY styles, components and patterns.">
-        <meta property="twitter:image" content="https://gov-cy.github.io/govcy-design-system-docs//img/icons-512.png">
+        <meta property="twitter:image" content="https://gov-cy.github.io/govcy-design-system-docs-v1//img/icons-512.png">
         <!-- Theme --> 
         <link rel="manifest" href="/govcy-design-system-docs/manifest.json">
         <meta name="theme-color" content="#31576F">
@@ -29,7 +29,8 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/govcy-design-system-docs/img/apple-touch-icon-72x72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="/govcy-design-system-docs/img/apple-touch-icon-57x57-precomposed.png">
         <!-- Bootstrap CSS -->
-        <link href="/govcy-design-system-docs/css/main.css" rel="stylesheet" >
+        <link href="https://govcydesignsystem1.azureedge.net/bvtest/version/1.0.1/style.min.css" rel="stylesheet" >
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-theme-classic"/>
         <link href="/govcy-design-system-docs/css/docs.css" rel="stylesheet" >
         <!--<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">-->
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vs.min.css" integrity="sha512-54dqOdBwMzeeRRYZieLqjlGc/w9+AI3vLUdz9PW6QFVTfkL0e7CYLWXKQPV+HqZi5QIj8JKsbzIkeplWVhlY+A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -68,6 +69,10 @@
                             <a href="/govcy-design-system-docs/patterns/" >
                                 Patterns
                             </a>
+                            </li><li>
+                            <a href="/govcy-design-system-docs/css_utilities/" >
+                                Utilities
+                            </a>
                             </li>
                      </ul>
                  </header>
@@ -82,7 +87,7 @@
             </div>  
             <div class="govcy-col-3 govcy-mt-2">
         <span class="govcy-br-2 govcy-text-white govcy-br-danger govcy-rounded-1 govcy-bg-danger govcy-efs-small">&nbsp;DRAFT&nbsp;</span>
-        <span class="govcy-br-2 govcy-text-white govcy-br-info govcy-rounded-1 govcy-bg-info govcy-efs-small">&nbsp;Ver. 0.1.0&nbsp;</span>
+        <span class="govcy-br-2 govcy-text-white govcy-br-info govcy-rounded-1 govcy-bg-info govcy-efs-small">&nbsp;Ver. 1.0.0&nbsp;</span>
             </div>
             
         </div>
@@ -123,7 +128,7 @@
    </div> 
 </div>  
 <p><em>Sample HTML Code</em></p>
-<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-container<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bi bi-chevron-left<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-back-link<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Back<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bi bi-chevron-left<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-back-link<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Πίσω<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>    </code></pre>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-mb-4 govcy-float-start<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bi bi-chevron-left<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-back-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Back<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>   </code></pre>
 <p>Although browsers have a back button, some sites break when you use it - so many users avoid it, instead of losing their progress in a service. Also, not all users are aware of the back button.</p>
 <h2 id="when-to-use-this-component" tabindex="-1">When to use this component <a class="anchor-link" href="#when-to-use-this-component"> </a></h2>
 <p>Always include the back link component on <a href="../../patterns/question_pages">question pages</a>.</p>
@@ -131,6 +136,7 @@
 <p>Never use the back link component together with breadcrumbs. If necessary, you should do research with your users to learn which they find more helpful in your service.</p>
 <h2 id="how-it-works" tabindex="-1">How it works <a class="anchor-link" href="#how-it-works"> </a></h2>
 <p>Always place back links at the top of a page, in the <a href="../../styles/page_templates">Before Main</a> (<code>&lt;section id=&quot;before-main&quot;&gt;</code>) element. Placing them here means that the ‘Skip to main content’ link allows the user to skip all navigation links, including the back link.</p>
+<p>If the user is logged in, the back link must be on the same line as the <a href="../user_name_and_sign_out">User’s name and sign out</a> component. Use the <code>govcy-float-start</code> to achieve this as shown on the code example above.</p>
 <p>Make sure the link takes users to the previous page they were on, in the state they last saw it. Where possible, ensure it works even when JavaScript is not available.</p>
 <p>If this is not possible, you should hide the back link when JavaScript is not available.</p>
 
@@ -169,38 +175,7 @@
         <script>
             const { autocomplete } = window['@algolia/autocomplete-js'];
         </script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-theme-classic"/>
 
-
-        <style>
-            :root {
-                    --aa-search-input-height: 44px;
-                    --aa-primary-color-rgb: 38, 38, 39;
-            }
-
-            .aa-Autocomplete { 
-                width: 100%;
-            }
-
-            .aa-Form, .aa-DetachedSearchButton{
-                border: 2px solid #272525;
-                outline: none;
-                border-radius: 0px;
-            }
-
-            .aa-Form:focus-within {
-                border: 2px solid #272525;
-                box-shadow: 0 0 0 4pt #ffdd00;
-                outline: medium none currentColor;
-                border-radius: 0px;
-            }
-
-            @media (min-width: 768px){
-                .aa-Autocomplete { 
-                    width: 100%;
-                }
-            }
-        </style>
 
         <script>
         autocomplete({
@@ -212,7 +187,7 @@
                 sourceId: 'links',
                 getItems({ query }) {
                 return [
-{ label: "Colours", url: '/govcy-design-system-docs/styles/colour/', keys: "" },{ label: "Page Templates", url: '/govcy-design-system-docs/styles/page_templates/', keys: "" },{ label: "Grid system", url: '/govcy-design-system-docs/styles/grid/', keys: "" },{ label: "Layout", url: '/govcy-design-system-docs/styles/layout/', keys: "" },{ label: "Typography", url: '/govcy-design-system-docs/styles/typography/', keys: "fonts text Paragraph Headings Unordered Ordered list Links" },{ label: "Back Link", url: '/govcy-design-system-docs/components/back_link/', keys: "" },{ label: "Button", url: '/govcy-design-system-docs/components/button/', keys: "" },{ label: "Checkbox", url: '/govcy-design-system-docs/components/checkbox/', keys: "" },{ label: "Date input", url: '/govcy-design-system-docs/components/date_input/', keys: "" },{ label: "Error Message", url: '/govcy-design-system-docs/components/error_message/', keys: "" },{ label: "Error Summary", url: '/govcy-design-system-docs/components/error_summary/', keys: "" },{ label: "Fieldset", url: '/govcy-design-system-docs/components/fieldset/', keys: "" },{ label: "File", url: '/govcy-design-system-docs/components/file/', keys: "" },{ label: "Footer", url: '/govcy-design-system-docs/components/footer/', keys: "" },{ label: "Header", url: '/govcy-design-system-docs/components/header/', keys: "" },{ label: "Radio", url: '/govcy-design-system-docs/components/radio/', keys: "" },{ label: "Table", url: '/govcy-design-system-docs/components/table/', keys: "" },{ label: "Text Input", url: '/govcy-design-system-docs/components/text_input/', keys: "" },{ label: "User’s name and sign out", url: '/govcy-design-system-docs/components/user_name_and_sign_out/', keys: "" },{ label: "Check answers", url: '/govcy-design-system-docs/patterns/check_answers/', keys: "" },{ label: "Email", url: '/govcy-design-system-docs/patterns/email/', keys: "" },{ label: "Hint Text", url: '/govcy-design-system-docs/patterns/hint_text/', keys: "" },{ label: "Labels and legends headings", url: '/govcy-design-system-docs/patterns/labels_and_legend_headings/', keys: "" },{ label: "Names", url: '/govcy-design-system-docs/patterns/names/', keys: "" },{ label: "Question pages", url: '/govcy-design-system-docs/patterns/question_pages/', keys: "" },{ label: "Telephone", url: '/govcy-design-system-docs/patterns/telephone/', keys: "" },{ label: "Design System", url: '/govcy-design-system-docs/', keys: "" },{ label: "Get Started", url: '/govcy-design-system-docs/getting_started/', keys: "" },{ label: "Styles", url: '/govcy-design-system-docs/styles/', keys: "" },{ label: "Components", url: '/govcy-design-system-docs/components/', keys: "" },{ label: "Patterns", url: '/govcy-design-system-docs/patterns/', keys: "" },
+{ label: "Colours", url: '/govcy-design-system-docs/styles/colour/', keys: "" },{ label: "Page Templates", url: '/govcy-design-system-docs/styles/page_templates/', keys: "" },{ label: "Grid system", url: '/govcy-design-system-docs/styles/grid/', keys: "" },{ label: "Layout", url: '/govcy-design-system-docs/styles/layout/', keys: "" },{ label: "Typography", url: '/govcy-design-system-docs/styles/typography/', keys: "fonts text Paragraph Headings Unordered Ordered list Links" },{ label: "Back Link", url: '/govcy-design-system-docs/components/back_link/', keys: "" },{ label: "Button", url: '/govcy-design-system-docs/components/button/', keys: "" },{ label: "Checkbox", url: '/govcy-design-system-docs/components/checkbox/', keys: "" },{ label: "Date input", url: '/govcy-design-system-docs/components/date_input/', keys: "" },{ label: "Error Message", url: '/govcy-design-system-docs/components/error_message/', keys: "" },{ label: "Error Summary", url: '/govcy-design-system-docs/components/error_summary/', keys: "" },{ label: "Fieldset", url: '/govcy-design-system-docs/components/fieldset/', keys: "" },{ label: "File", url: '/govcy-design-system-docs/components/file/', keys: "" },{ label: "Footer", url: '/govcy-design-system-docs/components/footer/', keys: "" },{ label: "Header", url: '/govcy-design-system-docs/components/header/', keys: "" },{ label: "Radio", url: '/govcy-design-system-docs/components/radio/', keys: "" },{ label: "Table", url: '/govcy-design-system-docs/components/table/', keys: "" },{ label: "Text Input", url: '/govcy-design-system-docs/components/text_input/', keys: "" },{ label: "User’s name and sign out", url: '/govcy-design-system-docs/components/user_name_and_sign_out/', keys: "" },{ label: "Check answers", url: '/govcy-design-system-docs/patterns/check_answers/', keys: "" },{ label: "Email", url: '/govcy-design-system-docs/patterns/email/', keys: "" },{ label: "Hint Text", url: '/govcy-design-system-docs/patterns/hint_text/', keys: "" },{ label: "Labels and legends headings", url: '/govcy-design-system-docs/patterns/labels_and_legend_headings/', keys: "" },{ label: "Names", url: '/govcy-design-system-docs/patterns/names/', keys: "" },{ label: "Question pages", url: '/govcy-design-system-docs/patterns/question_pages/', keys: "" },{ label: "Telephone", url: '/govcy-design-system-docs/patterns/telephone/', keys: "" },{ label: "Design System", url: '/govcy-design-system-docs/', keys: "" },{ label: "Get Started", url: '/govcy-design-system-docs/getting_started/', keys: "CSS CDN meta tags social theme manifest icon" },{ label: "Styles", url: '/govcy-design-system-docs/styles/', keys: "" },{ label: "Components", url: '/govcy-design-system-docs/components/', keys: "" },{ label: "Patterns", url: '/govcy-design-system-docs/patterns/', keys: "" },{ label: "Moving from Version 0.1.0", url: '/govcy-design-system-docs/moving_from_v_0/', keys: "" },{ label: "Utilities", url: '/govcy-design-system-docs/css_utilities/', keys: "" },
                 ].filter(({ label ,keys }) =>
                     label.toLowerCase().includes(query.toLowerCase()) 
                     || keys.toLowerCase().includes(query.toLowerCase())

@@ -7,7 +7,7 @@ Use this component to help the user’s identify which account they are signed i
 *Example*
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
 <div class="govcy-container">
-    <div class="govcy-text-end"> User’s Name | 
+    <div class="govcy-text-end govcy-mb-4"> User’s Name | 
         <a href="#" class="govcy-sign-out">Sign Out</a>
     </div>
 </div>  
@@ -16,11 +16,9 @@ Use this component to help the user’s identify which account they are signed i
 *Sample HTML Code*
 
 ```html
-<div class="govcy-container">
-    <div class="govcy-text-end"> User’s Name | 
-        <a href="#" class="govcy-sign-out">Sign Out</a>
-    </div>
-</div>      
+<div class="govcy-text-end govcy-mb-4"> User’s Name | 
+    <a href="#" class="govcy-sign-out">Sign Out</a>
+</div>     
 ```
 
 The `User’s name` in this component should contain the name (not the username) of the signed in Ariadni profile account.
@@ -33,6 +31,6 @@ Never use the component when the user is not signed in.
 
 ## How it works
 
-Always place the user’s name and sign out component at the top of a page, in the [Before Main](../../styles/page_templates) (`<section id="before-main">`) element. The component should be the first component to appear after the header and should be aligned to the left of the page as shown in the example below. You can use the `govcy-text-end` class to align the component on the left.
+Always place the user’s name and sign out component at the top of a page, in the [Before Main](../../styles/page_templates) (`<section id="before-main">`) element. The component should be the second component to appear after the header (the [back link](../back_link) is first) and should be aligned to the left of the page as shown in the example below. You can use the `govcy-text-end` class to align the component on the left.
 
 Make sure to implement the sign out mechanism according to Ariadni’s standards when the user clicks the `sign out` link.

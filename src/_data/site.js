@@ -1,12 +1,12 @@
 module.exports = {
   buildTime: new Date(),
   isMultiLanguage : false,
-  url : "https://gov-cy.github.io/govcy-design-system-docs/",
+  url : "https://gov-cy.github.io/govcy-design-system-docs-v1/",
   showTOC: true,
   showDraft: true,
   showVersion: true,
-  version:"0.1.0", 
-  cssCDN: "https://govcydesignsystem1.azureedge.net/bvtest/version/0.0.0/style.min.css",
+  version:"1.0.0", 
+  cssCDN: "https://govcydesignsystem1.azureedge.net/bvtest/version/1.0.1/style.min.css",
   languages: [
     {
       label: "English",
