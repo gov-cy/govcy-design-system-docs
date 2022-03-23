@@ -3,7 +3,7 @@ module.exports = {
   isMultiLanguage : false,
   url : "https://gov-cy.github.io/govcy-design-system-docs-v1/",
   showTOC: true,
-  showDraft: true,
+  showDraft: false,
   showVersion: true,
   version:"1.0.1", 
   cssCDN: "https://govcydesignsystem1.azureedge.net/bvtest/version/1.0.1/style.min.css",
