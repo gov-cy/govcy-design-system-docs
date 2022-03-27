@@ -19,7 +19,7 @@ Use the back link component to help users go back to the previous page in a mult
 *Sample HTML Code*
 
 ```html
-<div class="govcy-mb-4 govcy-float-start">
+<div class="govcy-float-start">
 	<span class="bi bi-chevron-left"></span>
 	<a class="govcy-back-link" href="/">Back</a>
 </div>   

@@ -22,15 +22,15 @@ Do not use the checkboxes component if users can only choose one option from a s
         <div class="govcy-form-control">
             <label class="govcy-checkbox">Option 1
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="1"></span>
+                <span class="govcy-tickbox"></span>
             </label>
             <label class="govcy-checkbox">Option 2
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="2"></span>
+                <span class="govcy-tickbox"></span>
             </label>
             <label class="govcy-checkbox">Option 3
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="3"></span>
+                <span class="govcy-tickbox"></span>
             </label>
         </div>
     </fieldset>
@@ -46,15 +46,15 @@ Do not use the checkboxes component if users can only choose one option from a s
         <div class="govcy-form-control">
             <label class="govcy-checkbox">Option 1
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="1"></span>
+                <span class="govcy-tickbox"></span>
             </label>
             <label class="govcy-checkbox">Option 2
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="2"></span>
+                <span class="govcy-tickbox"></span>
             </label>
             <label class="govcy-checkbox">Option 3
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="3"></span>
+                <span class="govcy-tickbox"></span>
             </label>
         </div>
     </fieldset>
@@ -84,15 +84,15 @@ Example of how checkbox component looks like when asking one question on the pag
         <div class="govcy-form-control">
             <label class="govcy-checkbox">Cypriot
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="1"></span>
+                <span class="govcy-tickbox"></span>
             </label>
             <label class="govcy-checkbox">Other European Union country
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="2"></span>
+                <span class="govcy-tickbox"></span>
             </label>
             <label class="govcy-checkbox">Citizen of another country
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="3"></span>
+                <span class="govcy-tickbox"></span>
             </label>
         </div>
     </fieldset>
@@ -107,15 +107,15 @@ Example of how checkbox component looks like when asking one question on the pag
         <div class="govcy-form-control">
             <label class="govcy-checkbox">Cypriot
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="1"></span>
+                <span class="govcy-tickbox"></span>
             </label>
             <label class="govcy-checkbox">Other European Union country
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="2"></span>
+                <span class="govcy-tickbox"></span>
             </label>
             <label class="govcy-checkbox">Citizen of another country
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="3"></span>
+                <span class="govcy-tickbox"></span>
             </label>
         </div>
     </fieldset>
@@ -132,15 +132,15 @@ Example of how checkbox component looks like when asking more than one question 
         <div class="govcy-form-control">
             <label class="govcy-checkbox">Cypriot
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="1"></span>
+                <span class="govcy-tickbox"></span>
             </label>
             <label class="govcy-checkbox">Other European Union country
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="2"></span>
+                <span class="govcy-tickbox"></span>
             </label>
             <label class="govcy-checkbox">Citizen of another country
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="3"></span>
+                <span class="govcy-tickbox"></span>
             </label>
         </div>
     </fieldset>
@@ -155,15 +155,15 @@ Example of how checkbox component looks like when asking more than one question 
         <div class="govcy-form-control">
             <label class="govcy-checkbox">Cypriot
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="1"></span>
+                <span class="govcy-tickbox"></span>
             </label>
             <label class="govcy-checkbox">Other European Union country
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="2"></span>
+                <span class="govcy-tickbox"></span>
             </label>
             <label class="govcy-checkbox">Citizen of another country
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="3"></span>
+                <span class="govcy-tickbox"></span>
             </label>
         </div>
     </fieldset>
@@ -182,15 +182,15 @@ You can add [hints](../../patterns/hint_text) to checkbox items to provide addit
         <div class="govcy-form-control">
             <label class="govcy-checkbox">Cypriot
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="1"></span>
+                <span class="govcy-tickbox"></span>
             </label>
             <label class="govcy-checkbox">Other European Union country
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="2"></span>
+                <span class="govcy-tickbox"></span>
             </label>
             <label class="govcy-checkbox">Citizen of another country
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="3"></span>
+                <span class="govcy-tickbox"></span>
                 <span class="govcy-hint govcy-mt-2">Check this if you do not have nationality from a country </span>
             </label>
         </div>
@@ -207,15 +207,15 @@ You can add [hints](../../patterns/hint_text) to checkbox items to provide addit
         <div class="govcy-form-control">
             <label class="govcy-checkbox">Cypriot
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="1"></span>
+                <span class="govcy-tickbox"></span>
             </label>
             <label class="govcy-checkbox">Other European Union country
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="2"></span>
+                <span class="govcy-tickbox"></span>
             </label>
             <label class="govcy-checkbox">Citizen of another country
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="3"></span>
+                <span class="govcy-tickbox"></span>
                 <span class="govcy-hint govcy-mt-2">Check this if you do not have nationality from a country </span>
             </label>
         </div>
@@ -237,11 +237,11 @@ Error messages should follow the guidance in [error message](../error_message) a
             <span class="govcy-input-error-msg">There is an error</span>
             <label class="govcy-checkbox">Option 1
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="1"></span>
+                <span class="govcy-tickbox"></span>
             </label>
             <label class="govcy-checkbox">Option 2
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="2"></span>
+                <span class="govcy-tickbox"></span>
             </label>
         </div>
     </fieldset>
@@ -258,11 +258,11 @@ Error messages should follow the guidance in [error message](../error_message) a
             <span class="govcy-input-error-msg">There is an error</span>
             <label class="govcy-checkbox">Option 1
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="1"></span>
+                <span class="govcy-tickbox"></span>
             </label>
             <label class="govcy-checkbox">Option 2
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="2"></span>
+                <span class="govcy-tickbox"></span>
             </label>
         </div>
     </fieldset>

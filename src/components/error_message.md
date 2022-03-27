@@ -62,11 +62,11 @@ Summarize all errors at the top of the page the user is on using an [error summa
             <span class="govcy-input-error-msg">There is an error</span>
             <label class="govcy-checkbox">Option 1
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="1"></span>
+                <span class="govcy-tickbox"></span>
             </label>
             <label class="govcy-checkbox">Option 2
                 <input class="govcy-checkbox-input" type="checkbox">
-                <span class="govcy-tickbox" tabindex="2"></span>
+                <span class="govcy-tickbox"></span>
             </label>
         </div>
     </fieldset>
@@ -77,15 +77,15 @@ Summarize all errors at the top of the page the user is on using an [error summa
             <span class="govcy-input-error-msg">Mandatory field</span>
             <label class="govcy-radio">Option 1
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Option 2
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Option 3
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="3"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
         </div>
     </fieldset>

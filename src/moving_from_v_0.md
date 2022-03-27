@@ -18,15 +18,18 @@ Link to the new CSS as shown below instead of the old CSS.
 Both these components must appear on the same line and have specific margin bottom. To do that we use `govcy-float-start` and `govcy-mb-4` classes as follows:
 
 ```html
-<!-- Back Link -->
-<div class="govcy-mb-4 govcy-float-start">
-	<span class="bi bi-chevron-left"></span>
-	<a class="govcy-back-link" href="/">Back</a>
-</div>
-<!-- User’s name and sign out -->
-<div class="govcy-text-end govcy-mb-4">
-	Nikanos Polykarpou | <a href="/Account/LogOut" class="govcy-back-link">Log Out</a>
-</div>
+<!-- Before Main section -->
+<section class="govcy-container govcy-mb-4" id="beforeMainContainer">
+	<!-- Back Link -->
+	<div class="govcy-float-start">
+		<span class="bi bi-chevron-left"></span>
+		<a class="govcy-back-link" href="/">Back</a>
+	</div>
+	<!-- User’s name and sign out -->
+	<div class="govcy-text-end">
+		Nikanos Polykarpou | <a href="/Account/LogOut" class="govcy-back-link">Log Out</a>
+	</div>
+</section>
 ```
 
 More information at [back Link](../components/back_link) and [User’s name and sign out](../components/user_name_and_sign_out).

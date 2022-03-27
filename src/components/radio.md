@@ -20,15 +20,15 @@ Do not use the radios component if users might need to select more than one opti
         <div class="govcy-form-control">
             <label class="govcy-radio">Option 1
                 <input class="govcy-radio-input" type="radio" checked="checked" name="radio">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Option 2
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Option 3
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="3"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
         </div>
     </fieldset>
@@ -44,15 +44,15 @@ Do not use the radios component if users might need to select more than one opti
         <div class="govcy-form-control">
             <label class="govcy-radio">Option 1
                 <input class="govcy-radio-input" type="radio" checked="checked" name="radio">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Option 2
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Option 3
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="3"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
         </div>
     </fieldset>
@@ -84,27 +84,27 @@ Example of how radio component looks like when asking one question on the page:
         <div class="govcy-form-control">
             <label class="govcy-radio">Nicosia
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Limassol
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Larnaca
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="3"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Paphos
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="4"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Famagousta
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="5"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Kyrenia
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="5"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
         </div>
     </fieldset>
@@ -120,27 +120,27 @@ Example of how radio component looks like when asking one question on the page:
         <div class="govcy-form-control">
             <label class="govcy-radio">Nicosia
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Limassol
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Larnaca
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="3"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Paphos
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="4"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Famagousta
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="5"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Kyrenia
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="5"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
         </div>
     </fieldset>
@@ -157,27 +157,27 @@ Example of how radio component looks like when asking more than one question on 
         <div class="govcy-form-control">
             <label class="govcy-radio">Nicosia
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Limassol
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Larnaca
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="3"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Paphos
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="4"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Famagousta
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="5"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Kyrenia
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="5"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
         </div>
     </fieldset>
@@ -193,27 +193,27 @@ Example of how radio component looks like when asking more than one question on 
         <div class="govcy-form-control">
             <label class="govcy-radio">Nicosia
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Limassol
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Larnaca
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="3"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Paphos
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="4"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Famagousta
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="5"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Kyrenia
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="5"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
         </div>
     </fieldset>
@@ -239,11 +239,11 @@ Example or inline radios:
             <span class="govcy-input-error-msg">Mandatory field</span>
             <label class="govcy-radio govcy-d-sm-inline-block">Yes
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio govcy-d-sm-inline-block">No
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
         </div>
     </fieldset>
@@ -261,11 +261,11 @@ Example or inline radios:
             <span class="govcy-input-error-msg">Mandatory field</span>
             <label class="govcy-radio govcy-d-sm-inline-block">Yes
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio govcy-d-sm-inline-block">No
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
         </div>
     </fieldset>
@@ -284,17 +284,17 @@ You can add hints to radio items to provide additional information about the opt
         <div class="govcy-form-control">
             <label class="govcy-radio">Vaccination
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
                 <span class="govcy-hint govcy-mt-2">You have been vaccinated and this has been entered in the relevant database of the Ministry of Health.</span>
             </label>
             <label class="govcy-radio">Recovery
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
                 <span class="govcy-hint govcy-mt-2">You have been diagnosed with COVID-19, and the test result has been declared and entered in the relevant database of the Ministry of Health.</span>
             </label>
             <label class="govcy-radio">Laboratory testing
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="3"></span>
+                <span class="govcy-radio-checked"></span>
                 <span class="govcy-hint govcy-mt-2">You have been tested during the last 7 days for COVID-19 after undergoing a laboratory antigen rapid test or molecular methodology (RT-PCR) test and received a negative result which has been entered by the laboratory in the relevant database of the Ministry of Health.</span>
             </label>
         </div>
@@ -311,17 +311,17 @@ You can add hints to radio items to provide additional information about the opt
         <div class="govcy-form-control">
             <label class="govcy-radio">Vaccination
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
                 <span class="govcy-hint govcy-mt-2">You have been vaccinated and this has been entered in the relevant database of the Ministry of Health.</span>
             </label>
             <label class="govcy-radio">Recovery
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
                 <span class="govcy-hint govcy-mt-2">You have been diagnosed with COVID-19, and the test result has been declared and entered in the relevant database of the Ministry of Health.</span>
             </label>
             <label class="govcy-radio">Laboratory testing
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="3"></span>
+                <span class="govcy-radio-checked"></span>
                 <span class="govcy-hint govcy-mt-2">You have been tested during the last 7 days for COVID-19 after undergoing a laboratory antigen rapid test or molecular methodology (RT-PCR) test and received a negative result which has been entered by the laboratory in the relevant database of the Ministry of Health.</span>
             </label>
         </div>
@@ -342,11 +342,11 @@ This might make two related questions easier to answer by grouping them on the s
         <div class="govcy-form-control">
             <label class="govcy-radio">Use existing email address
                 <input class="govcy-radio-input" name="collapseGroup" type="radio" data-bs-toggle="collapse" data-bs-target=".email.show" checked="">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">No, use different email address
                 <input class="govcy-radio-input collapsed" name="collapseGroup" type="radio" data-bs-toggle="collapse" data-bs-target=".email:not(.show)" aria-expanded="false">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <div class="email govcy-pl-3 govcy-ml-1 collapse" style="">
                 <div class="govcy-form-control govcy-form-control-hint">
@@ -368,11 +368,11 @@ This might make two related questions easier to answer by grouping them on the s
         <div class="govcy-form-control">
             <label class="govcy-radio">Use existing email address
                 <input class="govcy-radio-input" name="collapseGroup" type="radio" data-bs-toggle="collapse" data-bs-target=".email.show" checked="">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">No, use different email address
                 <input class="govcy-radio-input collapsed" name="collapseGroup" type="radio" data-bs-toggle="collapse" data-bs-target=".email:not(.show)" aria-expanded="false">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <div class="email govcy-pl-3 govcy-ml-1 collapse" style="">
                 <div class="govcy-form-control govcy-form-control-hint">
@@ -403,11 +403,11 @@ Display an error message if none of the radios are selected.
             <span class="govcy-input-error-msg">Select how you would like to proceed</span>
             <label class="govcy-radio">Yes
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">No
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
         </div>
     </fieldset>
@@ -418,11 +418,11 @@ Display an error message if none of the radios are selected.
             <span class="govcy-input-error-msg">Select how you would like to proceed</span>
             <label class="govcy-radio govcy-d-sm-inline-block">Yes
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio govcy-d-sm-inline-block">No
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
         </div>
     </fieldset>
@@ -431,11 +431,11 @@ Display an error message if none of the radios are selected.
         <div class="govcy-form-control">
             <label class="govcy-radio">Use existing home address
                 <input class="govcy-radio-input" name="collapseGroup" type="radio" data-bs-toggle="collapse" data-bs-target=".address.show" checked="">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">No, use different home address
                 <input class="govcy-radio-input" name="collapseGroup" type="radio" data-bs-toggle="collapse" data-bs-target=".address:not(.show)">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <div class="collapse address govcy-pl-3 govcy-ml-1">
                 <div class="govcy-form-control govcy-form-control-error">
@@ -460,11 +460,11 @@ Display an error message if none of the radios are selected.
             <span class="govcy-input-error-msg">Select how you would like to proceed</span>
             <label class="govcy-radio">Yes
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">No
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
         </div>
     </fieldset>
@@ -475,11 +475,11 @@ Display an error message if none of the radios are selected.
             <span class="govcy-input-error-msg">Select how you would like to proceed</span>
             <label class="govcy-radio govcy-d-sm-inline-block">Yes
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio govcy-d-sm-inline-block">No
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
         </div>
     </fieldset>
@@ -488,11 +488,11 @@ Display an error message if none of the radios are selected.
         <div class="govcy-form-control">
             <label class="govcy-radio">Use existing home address
                 <input class="govcy-radio-input" name="collapseGroup" type="radio" data-bs-toggle="collapse" data-bs-target=".address.show" checked="">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">No, use different home address
                 <input class="govcy-radio-input" name="collapseGroup" type="radio" data-bs-toggle="collapse" data-bs-target=".address:not(.show)">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <div class="collapse address govcy-pl-3 govcy-ml-1">
                 <div class="govcy-form-control govcy-form-control-error">

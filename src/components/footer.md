@@ -18,7 +18,7 @@ You can add links to:
 
 
 *Example (in English)*
-<div class="govcy-container-fluid govcy-br-top-8 govcy-br-top-primary govcy-p-3 govcy-bg-light">
+<div class="govcy-container-fluid govcy-br-top-8 govcy-br-top-primary govcy-p-3 govcy-bg-light govcy-d-print-none">
     <div class="govcy-container">
         <div class="row">   
             <footer class="govcy-footer">
@@ -35,7 +35,7 @@ You can add links to:
 </div>
 
 *Example (in Greek)*
-<div class="govcy-container-fluid govcy-br-top-8 govcy-br-top-primary govcy-p-3 govcy-bg-light">
+<div class="govcy-container-fluid govcy-br-top-8 govcy-br-top-primary govcy-p-3 govcy-bg-light govcy-d-print-none">
     <div class="govcy-container">
         <div class="row">   
             <footer class="govcy-footer">
@@ -54,7 +54,7 @@ You can add links to:
 *Sample HTML Code*
 
 ```html
-<div class="govcy-container-fluid govcy-br-top-8 govcy-br-top-primary govcy-p-3 govcy-bg-light">
+<div class="govcy-container-fluid govcy-br-top-8 govcy-br-top-primary govcy-p-3 govcy-bg-light govcy-d-print-none">
     <div class="govcy-container">
         <div class="row">   
             <footer class="govcy-footer">

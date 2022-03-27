@@ -7,7 +7,7 @@ Use this component to help the user’s identify which account they are signed i
 *Example*
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
 <div class="govcy-container">
-    <div class="govcy-text-end govcy-mb-4"> User’s Name | 
+    <div class="govcy-text-end"> User’s Name | 
         <a href="#" class="govcy-sign-out">Sign Out</a>
     </div>
 </div>  
@@ -16,7 +16,7 @@ Use this component to help the user’s identify which account they are signed i
 *Sample HTML Code*
 
 ```html
-<div class="govcy-text-end govcy-mb-4"> User’s Name | 
+<div class="govcy-text-end"> User’s Name | 
     <a href="#" class="govcy-sign-out">Sign Out</a>
 </div>     
 ```

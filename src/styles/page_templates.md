@@ -27,22 +27,22 @@ All pages must use the following structure inside the `<body>` tag. The page wid
 
 </div>
 
-Sample HTML Code:
+Use the sample HTML Code below as a page template. The code below includes all the sections described above and uses apprpriatre govcy classes to accomodate [vertical spacing](../vertical_spacing), [header](../../components/header) and [footer](../../components/footer) components :
 
 ```html
 <body>
     <!--bodyStart-->
     <section  class="govcy-container-fluid" id="bodyStartContainer"> </section>
     <!--Header-->
-    <section class="govcy-container-fluid"> 
+    <section class="govcy-container-fluid govcy-p-0 govcy-m-0 govcy-position-relative govcy-d-print-none"> 
     <div class="govcy-container" id="headerContainer"></div>
     </section>
     <!--beforeMain-->
-    <section class="govcy-container" id="beforeMainContainer"> </section>
+    <section class="govcy-container govcy-mb-4" id="beforeMainContainer"> </section>
     <!--main-->
     <main class="govcy-container" id="mainContainer"> </main>
     <!-- Footer -->
-    <section class="govcy-container-fluid">
+    <section class="govcy-container-fluid govcy-br-top-8 govcy-br-top-primary govcy-p-3 govcy-bg-light govcy-d-print-none">
         <div class="govcy-container" id="footerContainer"></div>
     </section>
     <!--bodyEnd-->

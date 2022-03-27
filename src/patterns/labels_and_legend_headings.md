@@ -52,11 +52,11 @@ To set the contents of a legend as the page heading, you need to put the `<legen
         <div class="govcy-form-control">
             <label class="govcy-radio">Yes
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">No
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
         </div>
     </fieldset>
@@ -72,11 +72,11 @@ To set the contents of a legend as the page heading, you need to put the `<legen
         <div class="govcy-form-control">
             <label class="govcy-radio">Yes
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">No
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
             </label>
         </div>
     </fieldset>

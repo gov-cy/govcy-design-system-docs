@@ -16,17 +16,17 @@ Use hint text for help that’s relevant to the majority of users, like how thei
         <div class="govcy-form-control">
             <label class="govcy-radio">Vaccination
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
                 <span class="govcy-hint govcy-mt-2">You have been vaccinated and this has been entered in the relevant database of the Ministry of Health.</span>
             </label>
             <label class="govcy-radio">Recovery
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
                 <span class="govcy-hint govcy-mt-2">You have been diagnosed with COVID-19, and the test result has been declared and entered in the relevant database of the Ministry of Health.</span>
             </label>
             <label class="govcy-radio">Laboratory testing
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="3"></span>
+                <span class="govcy-radio-checked"></span>
                 <span class="govcy-hint govcy-mt-2">You have been tested during the last 7 days for COVID-19 after undergoing a laboratory antigen rapid test or molecular methodology (RT-PCR) test and received a negative result which has been entered by the laboratory in the relevant database of the Ministry of Health.</span>
             </label>
         </div>
@@ -44,17 +44,17 @@ Use hint text for help that’s relevant to the majority of users, like how thei
         <div class="govcy-form-control">
             <label class="govcy-radio">Vaccination
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="1"></span>
+                <span class="govcy-radio-checked"></span>
                 <span class="govcy-hint govcy-mt-2">You have been vaccinated and this has been entered in the relevant database of the Ministry of Health.</span>
             </label>
             <label class="govcy-radio">Recovery
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="2"></span>
+                <span class="govcy-radio-checked"></span>
                 <span class="govcy-hint govcy-mt-2">You have been diagnosed with COVID-19, and the test result has been declared and entered in the relevant database of the Ministry of Health.</span>
             </label>
             <label class="govcy-radio">Laboratory testing
                 <input class="govcy-radio-input" type="radio" name="radio">
-                <span class="govcy-radio-checked" tabindex="3"></span>
+                <span class="govcy-radio-checked"></span>
                 <span class="govcy-hint govcy-mt-2">You have been tested during the last 7 days for COVID-19 after undergoing a laboratory antigen rapid test or molecular methodology (RT-PCR) test and received a negative result which has been entered by the laboratory in the relevant database of the Ministry of Health.</span>
             </label>
         </div>
