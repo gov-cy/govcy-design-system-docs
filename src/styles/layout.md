@@ -1,6 +1,6 @@
 ---
 title: "Layout"
-date: 2022-02-01 00:00:04Z
+date: 2022-02-01 00:00:05Z
 ---
 
 Layouts section concerns content that resides inside the `<main>` element of the [page template](../page_templates). 
