@@ -1,7 +1,7 @@
 module.exports = {
   buildTime: new Date(),
   isMultiLanguage : false,
-  url : "https://gov-cy.github.io/govcy-design-system-docs-v1/",
+  url : "https://gov-cy.github.io/govcy-design-system-docs/",
   showTOC: true,
   showDraft: false,
   showVersion: true,
