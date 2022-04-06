@@ -10,7 +10,7 @@ Unless otherwise stated, use the following font properties for the default body 
 |Propery     |Value       |
 |------------|------------|
 |font-family | Roboto     |
-|font-size   | 19px       |
+|font-size   | 18px       |
 |font-weight | normal     |
 |color       | [body](../colour/)|
 
