@@ -27,6 +27,9 @@ Read more about designing good questions(LINK) in the Design principles section.
 You can also learn more about how starting with one thing per page(LINK) helps users in the design principles section. 
 ```
 
+### panel
+- 'confirmation pages' link
+
 ## Change log
 - Check Answers pattern
 - Updated links
