@@ -21,10 +21,10 @@ Use this component to help the user’s identify which account they are signed i
 </div>     
 ```
 
-The `User’s name` in this component should contain the name (not the username) of the signed in Ariadni profile account.
+The `User’s name` in this component should contain the name (not the username) of the signed in CY Login profile account.
 
 ## When to use this component
-Always include this component when the user is signed in with an Ariadni account.
+Always include this component when the user is signed in with an CY Login account.
 
 ## When not to use this component
 Never use the component when the user is not signed in. 
@@ -33,4 +33,4 @@ Never use the component when the user is not signed in.
 
 Always place the user’s name and sign out component at the top of a page, in the [Before Main](../../styles/page_templates) (`<section id="before-main">`) element. The component should be the second component to appear after the header (the [back link](../back_link) is first) and should be aligned to the left of the page as shown in the example below. You can use the `govcy-text-end` class to align the component on the left.
 
-Make sure to implement the sign out mechanism according to Ariadni’s standards when the user clicks the `sign out` link.
+Make sure to implement the sign out mechanism according to CY Login’s standards when the user clicks the `sign out` link.

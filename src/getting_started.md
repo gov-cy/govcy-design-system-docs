@@ -31,7 +31,7 @@ Use the following HTML template for your GOV.CY pages.
 
 ```html
 <!doctype html>
-<html>
+<html lang="el">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -45,7 +45,7 @@ Use the following HTML template for your GOV.CY pages.
     <meta property="og:site_name" content="GOV.CY">
  
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="hthttps://SERVICE_URL">
+    <meta property="twitter:url" content="https://SERVICE_URL">
     <meta property="twitter:title" content="Service title - GOV.CY">
     <meta property="twitter:description" content="Description of what the service does">
     <meta property="twitter:image" content="https://URL_OF_CY_LOGO.png">
@@ -88,10 +88,12 @@ Use the HTML5 doctype
 
 ```html
 <!doctype html>
-<html>
+<html lang="el">
   ...
 </html>
 ```
+
+The language of the document or a page element must be identified using the lang attribute as follows `<html lang="en">`. Change the `lang` attribute according to the language used in the document. For example if the language of the page is in Greek, you must have `<html lang="el">`.
 
 ### Responsive meta tag
 To ensure proper rendering and touch zooming for all devices, add the responsive viewport meta tag to your `<head>`
@@ -103,19 +105,22 @@ To ensure proper rendering and touch zooming for all devices, add the responsive
 ## Other Head Tags
 
 ### title, description 
-- `title`: Use the following naming convention “Service Name - GOV.CY”
-- `description`: Description of what the service does
+Use the following tags inside the `<head>` tag.
 
 ```html
 <title>Service Name - GOV.CY</title>
 <meta name="description" content="Description of what the service does">
 ```
 
+Change the content of the above tags as follows:
+- `title`: Use the following naming convention “Service Name - GOV.CY”
+- `description`: Description of what the service does
+
 ### social tags
 Use the following meta tags inside the `<head>` tag.
 
 ```html
-<meta property="og:description" content="Description of what the service does">
+<meta property="og:description" content="Description of what the service does"> 
 <meta property="og:title" content="Service title - GOV.CY">
 <meta property="og:url" content="https://SERVICE_URL">
 <meta property="og:type" content="website">
@@ -123,12 +128,21 @@ Use the following meta tags inside the `<head>` tag.
 <meta property="og:site_name" content="GOV.CY">
  
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="hthttps://SERVICE_URL">
+<meta property="twitter:url" content="https://SERVICE_URL">
 <meta property="twitter:title" content="Service title - GOV.CY">
 <meta property="twitter:description" content="Description of what the service does">
 <meta property="twitter:image" content="https://URL_OF_CY_LOGO.png">
 
 ```
+
+Change the content of the above tags as follows:
+- `og:title`, `twitter:title`: Use the following naming convention “Service Name - GOV.CY”
+- `og:description`, `twitter:description`: Description of what the service does
+- `og:url`, `twitter:url`: The URL of the stating page of the service
+- `og:image`, `twitter:image`: The URL of the icon. The icon should be 512 x 512 px. See the images section below for the standard gov.cy icon image.
+- `og:type`: Should be `website`
+- `og:site_name`: Should be `GOV.CY`
+- `twitter:card`: Should be `summary_large_image`
 
 ### theme, app manifest and apple-touch-icon
 Use the following tags inside the `<head>` tag.

@@ -4,6 +4,8 @@ date: 2022-02-01 00:00:02Z
 --- 
 
 ## Max-width 
+Max-width defines the maximum width of the content of a page. Note that some sections such as `header` and `footer` use a fluid design for background colour and styling, but content such as text, links and icons are restricted within the max-width limit. 
+
 The default maximum width is `1280px`.
 
 ## Responsive breakpoint
