@@ -1,6 +1,7 @@
 ---
 "title" : "Panel"
 date: 2022-02-01 00:01:01Z
+searchKeys: "success panel"
 ---
 
 The panel component is a visible container used on confirmation or results pages to highlight important content.
