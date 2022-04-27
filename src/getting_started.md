@@ -10,12 +10,14 @@ Get started with GOV.CY design System.
 
 ## CSS and Javascript
 
-The easiest way to add the GOV.CY styles is to use the pre-built `main.css` css file. Just use the CDM CSS file and include the following code in your `<head>`. 
+The easiest way to add the GOV.CY styles is to use the pre-built `main.css` css file. Just <a target='_blank' rel="noreferrer noopener" href='https://raw.githubusercontent.com/gov-cy/govcy-design-system/main/dist/css/main.min.css'>download the CSS file</a> and include the following code in your `<head>`. 
 
 ```html
 <!-- CSS -->
-<link href="{{ site.cssCDN }}" rel="stylesheet" >
+<link href="css/main.min.css" rel="stylesheet" >
 ```
+
+**NOTE**: if the location or filename of your css is different, please adjust the code appropriately. 
 
 All HTML code examples in this documentation utilizes the classes and styling defined in this css file. 
 
@@ -64,7 +66,7 @@ Use the following HTML template for your GOV.CY pages.
     <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57x57-precomposed.png">
  
     <!-- CSS -->
-    <link href="{{ site.cssCDN }}" rel="stylesheet" >
+    <link href="css/main.min.css" rel="stylesheet" >
     
     <title>Service Name - GOV.CY</title>
     <meta name="description" content="Description of what the service does">

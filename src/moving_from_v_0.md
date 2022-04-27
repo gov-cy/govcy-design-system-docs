@@ -4,15 +4,6 @@ title: "Moving from Version 0.1.0"
 
 Developers will need to make the following changes in order to move from Version 0.1.X to Vesion 1.X.X using the CSS provided by GOV.CY.
 
-## Use new css 
-
-Link to the new CSS as shown below instead of the old CSS.
-
-```html
-<!-- CSS -->
-<link href="{{ site.cssCDN }}" rel="stylesheet" >
-```
-
 ## Back link and User’s name and sign out 
 
 Both these components must appear on the same line and have specific margin bottom. To do that we use `govcy-float-start` and `govcy-mb-4` classes as follows:
