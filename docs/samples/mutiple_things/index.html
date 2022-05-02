@@ -100,17 +100,191 @@
                 <h1></h1>
                 
                 
-                <h1>Contributions from abroad</h1>
+                <style>
+.govcy-table>tbody>tr>th {
+    font-weight: 700 !important;
+}
+
+.govcy-fw-bold {
+    font-weight: 500 !important;
+}
+
+@media screen and (max-width: 768px) {
+    table.govcy-table-responsive-vertical {width:100%;}
+    table.govcy-table-responsive-vertical thead {display: none;}
+    table.govcy-table-responsive-vertical tr:nth-of-type(2n) {background-color: inherit;}
+    /*tr td:first-child { font-weight:normal;font-size:1.3em;}*/
+    table.govcy-table-responsive-vertical tr {border-bottom-width: 1px;box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);}
+    table.govcy-table-responsive-vertical tbody td {display: block;  text-align:left; border-bottom-width: 0px !important;}
+}
+</style>
+
+<h1>Contributions from abroad</h1>
+<h2>Non responsive </h2>
 <div class="govcy-table-responsive">
-    <table class="govcy-table">
+<table class="govcy-table ">
+    <thead>
+        <th>Question</th>
+        <th>Values</th>
+        <th></th>
+    </thead>
     <tbody>
         <tr>
-            <td class="govcy-hint">
-                No contributions added
+            <th scope="row" class="col-3">Bank Details</th>
+            <td class="col-7">
+            <p>
+                <span class="govcy-fw-bold">Account Name</span>
+                <span class="govcy-d-block">Andreas Andreou</span>
+            </p>
+            <p>
+                <span class="govcy-fw-bold">Bank</span>
+                <span class="govcy-d-block">Bank of Cyprus</span>
+            </p>
+            <p>
+                <span class="govcy-fw-bold">International Bank Account Number (IBAN)</span>
+                <span class="govcy-d-block">CY**********************7654</span>
+            </p>
+            </td>
+            <td class="col-2 govcy-text-end">
+            <a href="">Change<span class="govcy-visually-hidden-error"> Bank Details</span></a>
             </td>
         </tr>
+        <tr>
+            <th scope="row" class="col-3">Personal Details</th>
+            <td class="col-7">
+            <p>
+                <span class="govcy-fw-bold">Email address</span>
+                <span class="govcy-d-block">nikanos@windowslive.com</span>
+            </p>
+            <p>
+                <span class="govcy-fw-bold">Mobile Number</span>
+                <span class="govcy-d-block">99412126</span>
+            </p>
+            </td>
+            <td class="col-2 govcy-text-end">
+            <a href="">Change<span class="govcy-visually-hidden-error"> Personal Details</span></a>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row" class="col-3">Claim Children</th>
+            <td class="col-7">
+            George
+            </td>
+            <td class="col-2"></td>
+        </tr>
     </tbody>
-    </table>
+</table>
+</div>  
+<h2>With row headers</h2>
+<div class="govcy-table-responsive">
+<table class="govcy-table govcy-table-responsive-vertical">
+    <thead>
+        <th>Question</th>
+        <th>Values</th>
+        <th></th>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row" class="col-3">Bank Details</th>
+            <td class="col-7">
+            <p>
+                <span class="govcy-fw-bold">Account Name</span>
+                <span class="govcy-d-block">Andreas Andreou</span>
+            </p>
+            <p>
+                <span class="govcy-fw-bold">Bank</span>
+                <span class="govcy-d-block">Bank of Cyprus</span>
+            </p>
+            <p>
+                <span class="govcy-fw-bold">International Bank Account Number (IBAN)</span>
+                <span class="govcy-d-block">CY**********************7654</span>
+            </p>
+            </td>
+            <td class="col-2 govcy-text-end">
+            <a href="">Change<span class="govcy-visually-hidden-error"> Bank Details</span></a>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row" class="col-3">Personal Details</th>
+            <td class="col-7">
+            <p>
+                <span class="govcy-fw-bold">Email address</span>
+                <span class="govcy-d-block">nikanos@windowslive.com</span>
+            </p>
+            <p>
+                <span class="govcy-fw-bold">Mobile Number</span>
+                <span class="govcy-d-block">99412126</span>
+            </p>
+            </td>
+            <td class="col-2 govcy-text-end">
+            <a href="">Change<span class="govcy-visually-hidden-error"> Personal Details</span></a>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row" class="col-3">Claim Children</th>
+            <td class="col-7">
+            George
+            </td>
+            <td class="col-2"></td>
+        </tr>
+    </tbody>
+</table>
+</div>  
+
+<h2>With no row headers</h2>
+<div class="govcy-table-responsive">
+<table class="govcy-table govcy-table-responsive-vertical">
+    <thead>
+        <th>Question</th>
+        <th>Values</th>
+        <th></th>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="govcy-fw-bolder">Bank Details</td>
+            <td >
+            <p>
+                <span class="govcy-fw-bold">Account Name</span>
+                <span class="govcy-d-block">Andreas Andreou</span>
+            </p>
+            <p>
+                <span class="govcy-fw-bold">Bank</span>
+                <span class="govcy-d-block">Bank of Cyprus</span>
+            </p>
+            <p>
+                <span class="govcy-fw-bold">International Bank Account Number (IBAN)</span>
+                <span class="govcy-d-block">CY**********************7654</span>
+            </p>
+            </td>
+            <td class="govcy-text-end">
+            <a href="">Change<span class="govcy-visually-hidden-error"> Bank Details</span></a>
+            </td>
+        </tr>
+        <tr>
+            <td class="govcy-fw-bolder" class="">Personal Details</td>
+            <td class="">
+            <p>
+                <span class="govcy-fw-bold">Email address</span>
+                <span class="govcy-d-block">nikanos@windowslive.com</span>
+            </p>
+            <p>
+                <span class="govcy-fw-bold">Mobile Number</span>
+                <span class="govcy-d-block">99412126</span>
+            </p>
+            </td>
+            <td class=" govcy-text-end">
+            <a href="">Change<span class="govcy-visually-hidden-error"> Personal Details</span></a>
+            </td>
+        </tr>
+        <tr>
+            <td class="govcy-fw-bolder">Claim Children</td>
+            <td class="">
+            George
+            </td>
+            <td class=""></td>
+        </tr>
+    </tbody>
+</table>
 </div>
 <div class="govcy-mb-4"><a class="govcy-mb-4" href="#"><b>Add Contribution</b></a></div>
 <div><button type="button" class="govcy-btn-primary govcy-mr-4">Primary</button><button type="button" class="govcy-btn-secondary">Secondary</button></div>
