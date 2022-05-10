@@ -112,7 +112,7 @@ Let users check their answers before submitting information to a service.
             </p>
             <p>
                 <span class="govcy-fw-bold">Mobile Number</span>
-                <span class="govcy-d-block">99412126</span>
+                <span class="govcy-d-block">99123456</span>
             </p>
             </td>
             <td class="col-2 govcy-text-end">
@@ -166,7 +166,7 @@ Let users check their answers before submitting information to a service.
             </p>
             <p>
                 <span class="govcy-fw-bold">Mobile Number</span>
-                <span class="govcy-d-block">99412126</span>
+                <span class="govcy-d-block">99123456</span>
             </p>
             </td>
             <td class="col-2 govcy-text-end">
