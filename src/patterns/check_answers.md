@@ -108,7 +108,7 @@ Let users check their answers before submitting information to a service.
             <td class="col-7">
             <p>
                 <span class="govcy-fw-bold">Email address</span>
-                <span class="govcy-d-block">nikanos@windowslive.com</span>
+                <span class="govcy-d-block">some@email.com</span>
             </p>
             <p>
                 <span class="govcy-fw-bold">Mobile Number</span>
@@ -162,7 +162,7 @@ Let users check their answers before submitting information to a service.
             <td class="col-7">
             <p>
                 <span class="govcy-fw-bold">Email address</span>
-                <span class="govcy-d-block">nikanos@windowslive.com</span>
+                <span class="govcy-d-block">some@email.com</span>
             </p>
             <p>
                 <span class="govcy-fw-bold">Mobile Number</span>

@@ -18,7 +18,7 @@ Both these components must appear on the same line and have specific margin bott
 	</div>
 	<!-- User’s name and sign out -->
 	<div class="govcy-text-end">
-		Nikanos Polykarpou | <a href="/Account/LogOut" class="govcy-back-link">Log Out</a>
+		Constantinos Evangelou | <a href="/Account/LogOut" class="govcy-back-link">Log Out</a>
 	</div>
 </section>
 ```
