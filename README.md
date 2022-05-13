@@ -322,7 +322,3 @@ module.exports = {
 };
 ```
 - You can have a default language by adding the following code in the `index.html` : `<meta http-equiv="refresh" content="0; URL=en/" />`. This will redirect users to the `en` locale content.
-
-## Todo
-- ~~sidemap.xml + robot.txt~~
-- ~~search~~
