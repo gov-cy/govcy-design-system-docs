@@ -49,6 +49,9 @@
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/date_input/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/details/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/error_message/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
@@ -73,6 +76,12 @@
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/radio/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/select/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/skip_link/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/table/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
@@ -86,6 +95,9 @@
             <lastmod>2022-02-01T00:01:02.000Z</lastmod>
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/email/</loc>
+            <lastmod>2022-02-01T00:01:02.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/focus_state/</loc>
             <lastmod>2022-02-01T00:01:02.000Z</lastmod>
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/hint_text/</loc>
@@ -129,5 +141,8 @@
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/test/</loc>
             <lastmod>2022-05-15T19:07:36.304Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/mobile_auto/</loc>
+            <lastmod>2022-07-29T11:36:02.892Z</lastmod>
         </url>
 </urlset>

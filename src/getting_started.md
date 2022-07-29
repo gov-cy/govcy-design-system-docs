@@ -74,6 +74,8 @@ Use the following HTML template for your GOV.CY pages.
  
   </head>
   <body>
+    <a href="#mainContainer" class="govcy-skip-link">Skip to main content</a>
+    
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
@@ -194,6 +196,14 @@ The code above implies the existence of a `manifest.json` file. Use the followin
 ```
 
 **NOTE**: if the location or filenames of your images are different, please adjust the code appropriately. 
+
+## Skip to main content
+Add the [skip link](../components/skip_link) right after the opening `<body>`.
+
+```html
+<a href="#mainContainer" class="govcy-skip-link">Skip to main content</a>
+```
+
 
 ## <a id="image">Images</a>
 Images mentioned are listed below and can be found below.

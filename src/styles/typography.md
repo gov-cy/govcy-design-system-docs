@@ -17,7 +17,53 @@ Unless otherwise stated, use the following font properties for the default body 
 {.govcy-table}
 
 ## Responsive text
-The Design System uses the  [Responsive Font Size (RFS)](https://github.com/twbs/rfs/) engine to resize font sizes. The engine generates CSS that automatically calculates the appropriate values for your font sizes based on the dimensions of the browser viewport. Use the Design System’s CSS for [paragraphs](#paragraph) and [headings](#headings) CSS.
+The Design System uses the  [Responsive Font Size (RFS)](https://github.com/twbs/rfs/) engine to resize font sizes. The engine generates CSS that automatically calculates the appropriate values for your font sizes based on the dimensions of the browser viewport.
+
+See below some examples of how the font-size and line-height changes in different viewports.
+
+**1200 px width**
+
+| Element | font-size (px) | line-height (px) |
+| ------- | -------------- | ---------------- |
+| p       | 18             | 27               |
+| h1      | 45             | 54               |
+| h2      | 36             | 43.2             |
+| h3      | 31.5           | 37.8             |
+| h4      | 27             | 32.4             |
+| h5      | 22.5           | 27               |
+| h6      | 18             | 21.6             |
+
+{.govcy-table}
+
+**833 px width**
+
+| Element | font-size (px) | line-height (px) |
+| ------- | -------------- | ---------------- |
+| p       | 18             | 27               |
+| h1      | 38.1           | 45.75            |
+| h2      | 31.584         | 37.92            |
+| h3      | 28.326         | 34.005           |
+| h4      | 25.068         | 30.09            |
+| h5      | 26.172         | 26.175           |
+| h6      | 18             | 21.6             |
+
+{.govcy-table}
+
+**373 px width**  
+
+| Element | font-size (px) | line-height (px) |
+| ------- | -------------- | ---------------- |
+| p       | 18             | 27               |
+| h1      | 29.5           | 35.4             |
+| h2      | 26.08          | 31.296           |
+| h3      | 24.37          | 29.244           |
+| h4      | 22.66          | 27.192           |
+| h5      | 20.95          | 25.14            |
+| h6      | 18             | 21.6             |
+
+{.govcy-table}
+
+ If you use the Design System’s CSS for [paragraphs](#paragraph) and [headings](#headings) CSS, text will resize automatically.
 
 ## Paragraph
 To be used for paragraph text. Use the default fonts described above.
@@ -25,7 +71,7 @@ To be used for paragraph text. Use the default fonts described above.
 ## Headings
 To be used for headings h1, h2, h3, h4, h5 and h6. Use the default fonts described above with the following differences. 
 
-- Font-Weight: **500**;
+- Font-Weight: **700**;
 - Font-Size: The size is calculated in relation to the [base font](#base-fonts) size as described in the table below. 
 
 |Heading |Size                     |

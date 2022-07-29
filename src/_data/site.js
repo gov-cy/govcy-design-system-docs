@@ -5,8 +5,8 @@ module.exports = {
   showTOC: true,
   showDraft: false,
   showVersion: true,
-  version:"1.0.1", 
-  cssCDN: "https://govcydesignsystem1.azureedge.net/bvtest/version/1.0.1/style.min.css",
+  version:"1.3.2", 
+  cssCDN: "https://govcydesignsystem1.azureedge.net/bvtest/version/1.3.2/style.min.css",
   languages: [
     {
       label: "English",
@@ -35,7 +35,8 @@ module.exports = {
       "cookie_label":"Προστασία Προσωπικών Δεδομένων",
       "accessibility_label":"Προσβασιμότητα",
       "copyright_label":"© Κυπριακή Δημοκρατία, 2021",
-      "search_placeholder":"Έρευνα στο Design System"
+      "search_placeholder":"Έρευνα στο Design System",
+      "skip_to_main" : "Μετάβαση στο κυρίως περιεχόμενο"
     },
     "en" : {
       "title" : "GOV.CY",
@@ -54,7 +55,8 @@ module.exports = {
       "cookie_label":"Cookie policy",
       "accessibility_label":"Accessibility statement",
       "copyright_label":"© Republic of Cyprus, 2021",
-      "search_placeholder":"Search Design System"
+      "search_placeholder":"Search Design System",
+      "skip_to_main" : "Skip to main content"
     }
   }
 };

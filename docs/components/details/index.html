@@ -36,7 +36,7 @@
         <!--<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">-->
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vs.min.css" integrity="sha512-54dqOdBwMzeeRRYZieLqjlGc/w9+AI3vLUdz9PW6QFVTfkL0e7CYLWXKQPV+HqZi5QIj8JKsbzIkeplWVhlY+A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vsc-dark-plus.min.css" integrity="sha512-GU4Q2LAEtdpc8WmjcbSJGxM6c8D69ggI3mc5SRnfnxpg5AkYYA0BEVve0W9Oj2wZR0UItklQK2RBKLtDsQHNzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
-        <title>Oops! Not Found - GOV.CY</title>
+        <title>Details - GOV.CY</title>
         <meta name="description" content="Design your services using GOV.CY styles, components and patterns.">
     </head>
     <body>
@@ -64,7 +64,7 @@
                                 Styles
                             </a>
                             </li><li>
-                            <a href="/govcy-design-system-docs/components/" >
+                            <a href="/govcy-design-system-docs/components/"  class="active">
                                 Components
                             </a>
                             </li><li>
@@ -97,16 +97,56 @@
     <!--Main-->
     <main class="govcy-container govcy-my-2" id="mainContainer">
         <div class="row">
-            <div class="govcy-col-12 govcy-order-last">
-                <h1>Oops! Not Found</h1>
+            <div class="govcy-col-9 govcy-order-last">
+                <h1>Details</h1>
                 
                 
+                    <aside class="toc-outter">
+                        <strong>On this page</strong>
+                        <nav class="toc">
+                <ol>
+                    
+                    <li><a href="#when-to-use-this-component">When to use this component</a>
+            		</li>
+
+                    <li><a href="#when-not-to-use-this-component">When not to use this component</a>
+            		</li>
+
+                    <li><a href="#how-it-works">How it works</a>
+            		</li>
+                </ol>
+            </nav>
+                    </aside>
                 
-The page you are looking for is not found. Try our <a href="/govcy-design-system-docs/">home page</a> to navigate through the site.
+                <p>Make it easier for the users to scan the page, by letting them reveal more detailed information only if they need it.</p>
+<h2 id="when-to-use-this-component" tabindex="-1">When to use this component <a class="anchor-link" href="#when-to-use-this-component"> </a></h2>
+<p>Use the details component to make a page easier to scan when it contains information that only some users will need.</p>
+<h2 id="when-not-to-use-this-component" tabindex="-1">When not to use this component <a class="anchor-link" href="#when-not-to-use-this-component"> </a></h2>
+<p>Do not use the details component to hide information that the majority of your users will need.</p>
+<h2 id="how-it-works" tabindex="-1">How it works <a class="anchor-link" href="#how-it-works"> </a></h2>
+<p>The details component is a short link that shows more detailed help text when a user clicks on it.</p>
+<p>Make the link text short and descriptive so users can quickly work out if they need to click on it.</p>
+<p>You can use the HTML below to create a select component.</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
+<details class="govcy-details">
+    <summary class="govcy-details__summary">
+        <span class="govcy-details__summary-text">How to control cookies</span>
+    </summary>
+    <p class="govcy-details__text">
+        You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. If you do this, however, you may have to manually adjust some preferences every time you visit a site and some services and functionalities may not work.
+    </p>
+</details>
+</div>
+<p><em>Sample HTML Code</em></p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>details</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-details<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-details__summary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-details__summary-text<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>How to control cookies<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-details__text<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. If you do this, however, you may have to manually adjust some preferences every time you visit a site and some services and functionalities may not work.<br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>details</span><span class="token punctuation">></span></span></code></pre>
 
             </div>
     
-    
+    <aside class="govcy-col-3 govcy-order-first">
+                <ul class="nav-side govcy-flex-column"><li><a href="/govcy-design-system-docs/components/back_link/" class="nav-link">Back Link</a></li><li><a href="/govcy-design-system-docs/components/button/" class="nav-link">Button</a></li><li><a href="/govcy-design-system-docs/components/checkbox/" class="nav-link">Checkbox</a></li><li><a href="/govcy-design-system-docs/components/date_input/" class="nav-link">Date input</a></li><li><a href="/govcy-design-system-docs/components/details/" class="nav-link active">Details</a></li><li><a href="/govcy-design-system-docs/components/error_message/" class="nav-link">Error Message</a></li><li><a href="/govcy-design-system-docs/components/error_summary/" class="nav-link">Error Summary</a></li><li><a href="/govcy-design-system-docs/components/fieldset/" class="nav-link">Fieldset</a></li><li><a href="/govcy-design-system-docs/components/file/" class="nav-link">File</a></li><li><a href="/govcy-design-system-docs/components/footer/" class="nav-link">Footer</a></li><li><a href="/govcy-design-system-docs/components/header/" class="nav-link">Header</a></li><li><a href="/govcy-design-system-docs/components/panel/" class="nav-link">Panel</a></li><li><a href="/govcy-design-system-docs/components/radio/" class="nav-link">Radio</a></li><li><a href="/govcy-design-system-docs/components/select/" class="nav-link">Select</a></li><li><a href="/govcy-design-system-docs/components/skip_link/" class="nav-link">Skip Link</a></li><li><a href="/govcy-design-system-docs/components/table/" class="nav-link">Table</a></li><li><a href="/govcy-design-system-docs/components/text_input/" class="nav-link">Text Input</a></li><li><a href="/govcy-design-system-docs/components/user_name_and_sign_out/" class="nav-link">User’s name and sign out</a></li>
+                </ul>
+            </aside>
         </div>
     </main>
     <!-- Footer -->
