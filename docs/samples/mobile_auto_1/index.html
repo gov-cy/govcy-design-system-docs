@@ -113,7 +113,6 @@
   </form>
   <script>
 // Feature detection
-const otpField = document.querySelector('#otp-field')
 if ('OTPCredential' in window) {
   window.addEventListener('DOMContentLoaded', e => {
     const input = document.querySelector('input[autocomplete="one-time-code"]');
@@ -132,7 +131,8 @@ if ('OTPCredential' in window) {
       otp: { transport:['sms'] },
       signal: ac.signal
     }).then(otp => {
-        otpField.value = otp.code;
+      alert(otp.code);
+      input.value = otp.code;
       // Automatically submit the form when an OTP is obtained.
       // if (form) form.submit();
     }).catch(err => {
