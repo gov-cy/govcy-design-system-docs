@@ -10,7 +10,7 @@ Get started with GOV.CY design System.
 
 ## CSS and Javascript
 
-The easiest way to add the GOV.CY styles is to use the pre-built `main.css` css file. Just <a target='_blank' rel="noreferrer noopener" href='https://raw.githubusercontent.com/gov-cy/govcy-design-system/main/dist/css/main.min.css'>download the CSS file</a> and include the following code in your `<head>`. 
+The easiest way to add the GOV.CY styles is to use the pre-built `main.css` css file. Just <a target='_blank' rel="noreferrer noopener" href='{{ site.cssDownload }}'>download the CSS file</a> and include the following code in your `<head>`. 
 
 ```html
 <!-- CSS -->

@@ -7,6 +7,7 @@ module.exports = {
   showVersion: true,
   version:"1.3.2", 
   cssCDN: "https://govcydesignsystem1.azureedge.net/bvtest/version/1.3.2/style.min.css",
+  cssDownload: "https://raw.githubusercontent.com/gov-cy/govcy-design-system/v1.3.2/dist/css/main.min.css",
   languages: [
     {
       label: "English",
