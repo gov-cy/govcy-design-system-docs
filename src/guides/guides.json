@@ -1,0 +1,7 @@
+{
+    "layout" : "base.njk",
+    "category" : "guides",
+    "tags" : "guides",
+    "showCategoryMenu" : false,
+    "showIndexInCategoryMenu" : false
+  }

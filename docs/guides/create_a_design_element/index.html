@@ -36,7 +36,7 @@
         <!--<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">-->
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vs.min.css" integrity="sha512-54dqOdBwMzeeRRYZieLqjlGc/w9+AI3vLUdz9PW6QFVTfkL0e7CYLWXKQPV+HqZi5QIj8JKsbzIkeplWVhlY+A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vsc-dark-plus.min.css" integrity="sha512-GU4Q2LAEtdpc8WmjcbSJGxM6c8D69ggI3mc5SRnfnxpg5AkYYA0BEVve0W9Oj2wZR0UItklQK2RBKLtDsQHNzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
-        <title>Details - GOV.CY</title>
+        <title>How to create new design elements using the gov.cy utility classes - GOV.CY</title>
         <meta name="description" content="Design your services using GOV.CY styles, components and patterns.">
     </head>
     <body>
@@ -64,7 +64,7 @@
                                 Styles
                             </a>
                             </li><li>
-                            <a href="/govcy-design-system-docs/components/"  class="active">
+                            <a href="/govcy-design-system-docs/components/" >
                                 Components
                             </a>
                             </li><li>
@@ -76,7 +76,7 @@
                                 Utilities
                             </a>
                             </li><li>
-                            <a href="/govcy-design-system-docs/guides/" >
+                            <a href="/govcy-design-system-docs/guides/"  class="active">
                                 Guides
                             </a>
                             </li>
@@ -101,56 +101,42 @@
     <!--Main-->
     <main class="govcy-container govcy-my-2" id="mainContainer">
         <div class="row">
-            <div class="govcy-col-9 govcy-order-last">
-                <h1>Details</h1>
+            <div class="govcy-col-12 govcy-order-last">
+                <h1>How to create new design elements using the gov.cy utility classes</h1>
                 
                 
-                    <aside class="toc-outter">
-                        <strong>On this page</strong>
-                        <nav class="toc">
-                <ol>
-                    
-                    <li><a href="#when-to-use-this-component">When to use this component</a>
-            		</li>
-
-                    <li><a href="#when-not-to-use-this-component">When not to use this component</a>
-            		</li>
-
-                    <li><a href="#how-it-works">How it works</a>
-            		</li>
-                </ol>
-            </nav>
-                    </aside>
-                
-                <p>Make it easier for the users to scan the page, by letting them reveal more detailed information only if they need it.</p>
-<h2 id="when-to-use-this-component" tabindex="-1">When to use this component <a class="anchor-link" href="#when-to-use-this-component"> </a></h2>
-<p>Use the details component to make a page easier to scan when it contains information that only some users will need.</p>
-<h2 id="when-not-to-use-this-component" tabindex="-1">When not to use this component <a class="anchor-link" href="#when-not-to-use-this-component"> </a></h2>
-<p>Do not use the details component to hide information that the majority of your users will need.</p>
-<h2 id="how-it-works" tabindex="-1">How it works <a class="anchor-link" href="#how-it-works"> </a></h2>
-<p>The details component is a short link that shows more detailed help text when a user clicks on it.</p>
-<p>Make the link text short and descriptive so users can quickly work out if they need to click on it.</p>
-<p>You can use the HTML below to create a select component.</p>
-<p><em>Example</em></p>
+                <p>In this article we will be looking at an actual example for developers, of how to use the gov.cy utility classes to create a brand new HTML design element. If you would like to see an example of building a page using the Design System library and other tools, see article <a href="../create_a_page">How to create a page using the gov.cy design system</a>.</p>
+<p>The gov.cy <a href="../../">Design System</a> provides the basic components for creating digital service straight out of the box. These components may not be enough to build all services end to end, so the DSF team has created a library of <a href="../../css_utilities">CSS utility classes</a> that apply unique styling and formatting to a group of HTML elements, that can be used to build new design elements, in the ‘gov.cy way’.</p>
+<p>We will be looking at how to create a “Testing banner” to warn users when a service is built, and being tested, but not available for the public to start using. Our team has found from user research and consulting with testing partners during the <a href="https://dsf.dmrid.gov.cy/service-standard/#a-understanding-user-needs" target="_blank">discovery and design phases</a> that there was a need for a design element with a “badge like” warning with the word “TESTING” and text explaining that this is a testing service, to be placed on the top of the <code>main</code> section of each page.</p>
+<p>We start by creating a <code>&lt;div&gt;</code> container. In order to comply with the <a href="../../styles/vertical_spacing">vertical spacing requirements</a> of our design system we will assign the <code>govcy-mb-4</code> class in our <code>&lt;div&gt;</code>.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span> govcy-mb-4<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<p>We can now create the ‘badge like’ element inside in our <code>&lt;div&gt;</code>. We can use a <code>&lt;span&gt;</code> inline container and assign the following classes to it:</p>
+<ul>
+<li><code>govcy-br-2</code> class to add a 2px border in our element</li>
+<li><code>govcy-br-primary</code> class to set the <a href="../../styles/colour/#theme-colours">primary colour</a> for the border</li>
+<li><code>govcy-text-white</code> class to set the text to white</li>
+<li><code>govcy-rounded-1</code> class to change the borders radius</li>
+<li><code>govcy-bg-primary</code> class to set primary colour for the background</li>
+<li><code>govcy-px-3</code> class to set the left and right padding to 3px</li>
+<li><code>govcy-fw-bold</code> class to set font weight of text to bold</li>
+</ul>
+<p>We can now simply add the rest of the text inside the <code>&lt;div&gt;</code>.</p>
+<p>Our code now looks like this:</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span> govcy-mb-4<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-2 govcy-text-white govcy-br-primary govcy-rounded-1 govcy-bg-primary govcy-px-3 govcy-fw-bold<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>TESTING<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>   This is not an actual gov.cy service. It is only used for testing purposes. Any submissions made though this service will not be processed.<br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<p>Visually our element looks like this:</p>
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
-<details class="govcy-details">
-    <summary class="govcy-details__summary">
-        <span class="govcy-details__summary-text">How to control cookies</span>
-    </summary>
-    <p class="govcy-details__text">
-        You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. If you do this, however, you may have to manually adjust some preferences every time you visit a site and some services and functionalities may not work.
-    </p>
-</details>
+<div class=" govcy-mb-4">
+  <span class="govcy-br-2 govcy-text-white govcy-br-primary govcy-rounded-1 govcy-bg-primary govcy-px-3 govcy-fw-bold">TESTING</span>
+   This is not an actual gov.cy service. It is only used for testing purposes. Any submissions made though this service will not be processed.
 </div>
-<p><em>Sample HTML Code</em></p>
-<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>details</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-details<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-details__summary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-details__summary-text<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>How to control cookies<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-details__text<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. If you do this, however, you may have to manually adjust some preferences every time you visit a site and some services and functionalities may not work.<br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>details</span><span class="token punctuation">></span></span></code></pre>
+</div>
+<p>This is how the element looks like placed first inside the <code>&lt;main&gt;</code> container of an actual page:</p>
+<p><img src="../../img/custom_design_element.png" alt="Custom design element in a page" class="img-fluid"></p>
+<p>This is it. We were able to easily create a new design element, aligned with the styles of gov.cy, meeting user needs, without writing any new styling code and this saves a lot of time.</p>
 
             </div>
     
-    <aside class="govcy-col-3 govcy-order-first">
-                <ul class="nav-side govcy-flex-column"><li><a href="/govcy-design-system-docs/components/back_link/" class="nav-link">Back Link</a></li><li><a href="/govcy-design-system-docs/components/button/" class="nav-link">Button</a></li><li><a href="/govcy-design-system-docs/components/checkbox/" class="nav-link">Checkbox</a></li><li><a href="/govcy-design-system-docs/components/date_input/" class="nav-link">Date input</a></li><li><a href="/govcy-design-system-docs/components/details/" class="nav-link active">Details</a></li><li><a href="/govcy-design-system-docs/components/error_message/" class="nav-link">Error Message</a></li><li><a href="/govcy-design-system-docs/components/error_summary/" class="nav-link">Error Summary</a></li><li><a href="/govcy-design-system-docs/components/fieldset/" class="nav-link">Fieldset</a></li><li><a href="/govcy-design-system-docs/components/file/" class="nav-link">File</a></li><li><a href="/govcy-design-system-docs/components/footer/" class="nav-link">Footer</a></li><li><a href="/govcy-design-system-docs/components/header/" class="nav-link">Header</a></li><li><a href="/govcy-design-system-docs/components/panel/" class="nav-link">Panel</a></li><li><a href="/govcy-design-system-docs/components/radio/" class="nav-link">Radio</a></li><li><a href="/govcy-design-system-docs/components/select/" class="nav-link">Select</a></li><li><a href="/govcy-design-system-docs/components/skip_link/" class="nav-link">Skip Link</a></li><li><a href="/govcy-design-system-docs/components/table/" class="nav-link">Table</a></li><li><a href="/govcy-design-system-docs/components/text_input/" class="nav-link">Text Input</a></li><li><a href="/govcy-design-system-docs/components/user_name_and_sign_out/" class="nav-link">User’s name and sign out</a></li>
-                </ul>
-            </aside>
+    
         </div>
     </main>
     <!-- Footer -->

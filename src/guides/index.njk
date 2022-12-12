@@ -1,0 +1,19 @@
+---
+title: "Guides"
+order: 5
+tags : ['top_menu']
+---
+
+<ul class="govcy-pl-0">
+{%- for pag in collections[category] -%}
+    {#- Checks for same locale -#}
+    {% if locale  == pag.data.locale -%}
+        {#- Checks if we want to show the index page -#}
+        {% if (pag.fileSlug == category and showIndexInCategoryMenu) or pag.fileSlug != category -%}
+            <li class="nav-side"><h2 class="govcy-fs-4"><a href="{{ pag.url | url }}">{{ pag.data.title }}</a></h2>
+            <p>{{pag.data.summary}}</p>
+            </li>
+        {%- endif %}
+    {%- endif %}
+{%- endfor -%}
+</ul>
