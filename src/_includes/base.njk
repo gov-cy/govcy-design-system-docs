@@ -155,9 +155,9 @@
                     <footer class="govcy-footer">
                         <span class="govcy-d-inline-block govcy-valign-top govcy-pb-2"><img alt="govcy-logo"></span>
                                 <ul class="govcy-d-inline-block  govcy-m-0 govcy-pl-3 govcy-efs-medium">
-                                <li><a href="#">{{ site.localization[locale].privacy_label }}</a></li>
-                                <li><a href="#">{{ site.localization[locale].cookie_label }}</a></li>
-                                <li><a href="#">{{ site.localization[locale].accessibility_label }}</a></li>
+                                <li><a href="{{ '/privacy-statement' | url }}">{{ site.localization[locale].privacy_label }}</a></li>
+                                <li><a href="{{ '/cookie-policy' | url }}">{{ site.localization[locale].cookie_label }}</a></li>
+                                <li><a href="{{ '/accessibility-statement' | url }}">{{ site.localization[locale].accessibility_label }}</a></li>
                                 <li class="govcy-d-block govcy-text-dark">{{ site.localization[locale].copyright_label }}</li>
                             </ul>
                     </footer>
