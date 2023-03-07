@@ -75,3 +75,54 @@ Error messages should follow the guidance in [error message](../../components/er
     </div>
 </form>
 ```
+
+### Displaying phone number
+
+When displaying a submitted or stored international phone number (either in a text input, hyperlink or text) replace `00` with `+` as users are more familiar with these format.
+
+*Sample HTML Code*
+
+```html
+<a href="tel:+4412345678">+4412345678</a>
+```
+
+When displaying a local phone number, make sure you include `+357` in the hyperlink. 
+
+
+*Sample HTML Code*
+
+```html
+<a href="tel:+35722123456">22123456</a>
+```
+
+### Storing phone number
+
+If the phone numbers will be used to send notifications, prefer to store them in the following form:
+
+```json
+00[county code][local phone number]
+``` 
+This format will reduce the risk of unsuccessful SMS being sent by a notification gateway.
+
+To convert a phone number to the preferred stored format:
+
+1. Remove space and `-` dash characters.
+2. If the 1st character is `+` replace it with `00`.
+3. If phone doesn’t start with `00` add `00357` at the start of the number.
+
+The preferred stored format also makes it easier to perform validations such as:
+
+- Validating that the phone number consists of only digits with 8 to 15 digits length.
+- Validating if they are Cypriot phone number for numbers starting with `00357` or International for the rest.
+- Validating that the phone number is a mobile number (if mobile number is required).
+
+Here are some examples of the Preferred stored and Display format :
+
+| Input by user          | Preferred stored format  | Display form         |
+| -----------------------| -------------------------------- | ---------------------   |
+| 99 123456              | 0035799123456               | +35799123456    |
+| +44-1234 567           | 00441234567                    | +441234567        |
+| 001 1234 567           | 0011234567                      | +11234567           |
+| 00357 99123456         | 0035799123456                | +35799123456    |
+
+{.govcy-table}

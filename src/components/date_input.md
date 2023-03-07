@@ -32,16 +32,16 @@ Never automatically tab users between the fields of the date input because this 
                     <span class="govcy-hint govcy-mb-3">For emample, 12 11 2007</span>
                     <div class="govcy-d-flex">
                         <div class="govcy-d-block">
-                            <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="">Day</label>
-                            <input class="govcy-text-input govcy-text-input-char_3 govcy-p-2" placeholder="" maxlength="2" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric">
+                            <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="day_1">Day</label>
+                            <input class="govcy-text-input govcy-text-input-char_3 govcy-p-2" id="day_1" placeholder="" maxlength="2" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric">
                         </div>
                         <div class="govcy-d-block govcy-ml-2">
-                            <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="">Month</label>
-                            <input class="govcy-text-input govcy-text-input-char_3 govcy-p-2" placeholder="" maxlength="2" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric">
+                            <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="month_1">Month</label>
+                            <input class="govcy-text-input govcy-text-input-char_3 govcy-p-2" id="month_1" placeholder="" maxlength="2" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric">
                         </div>
                         <div class="govcy-d-block govcy-ml-2">
-                            <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="">Year</label>
-                            <input class="govcy-text-input govcy-text-input-char_6 govcy-p-3" placeholder="" maxlength="4" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric">
+                            <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="year_1">Year</label>
+                            <input class="govcy-text-input govcy-text-input-char_6 govcy-p-3" id="year_1" placeholder="" maxlength="4" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric">
                         </div>
                     </div>
                 </div>
@@ -61,16 +61,16 @@ Never automatically tab users between the fields of the date input because this 
                 <span class="govcy-hint govcy-mb-3">For emample, 12 11 2007</span>
                 <div class="govcy-d-flex">
                     <div class="govcy-d-block">
-                        <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="">Day</label>
-                        <input class="govcy-text-input govcy-text-input-char_3 govcy-p-2" placeholder="" maxlength="2" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric">
+                        <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="day_1">Day</label>
+                        <input class="govcy-text-input govcy-text-input-char_3 govcy-p-2" id="day_1" placeholder="" maxlength="2" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric">
                     </div>
                     <div class="govcy-d-block govcy-ml-2">
-                        <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="">Month</label>
-                        <input class="govcy-text-input govcy-text-input-char_3 govcy-p-2" placeholder="" maxlength="2" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric">
+                        <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="month_1">Month</label>
+                        <input class="govcy-text-input govcy-text-input-char_3 govcy-p-2" id="month_1" placeholder="" maxlength="2" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric">
                     </div>
                     <div class="govcy-d-block govcy-ml-2">
-                        <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="">Year</label>
-                        <input class="govcy-text-input govcy-text-input-char_6 govcy-p-3" placeholder="" maxlength="4" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric">
+                        <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="year_1">Year</label>
+                        <input class="govcy-text-input govcy-text-input-char_6 govcy-p-3" id="year_1" placeholder="" maxlength="4" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric">
                     </div>
                 </div>
             </div>
@@ -87,19 +87,19 @@ Never automatically tab users between the fields of the date input because this 
             <div class="govcy-form-control govcy-form-control-error">
                 <label class="govcy-label govcy-mb-1" for="">Date of birth</label>
                 <span class="govcy-visually-hidden-error">Error: </span>
-                <span class="govcy-input-error-msg govcy-mb-3">There is an error</span>
+                <p id="date_error_1" class="govcy-input-error-msg govcy-mb-3">There is an error</p>
                 <div class="govcy-d-flex">
                     <div class="govcy-d-block">
-                        <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="">Day</label>
-                        <input class="govcy-text-input govcy-text-input-error govcy-text-input-char_3 govcy-p-2" placeholder="" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric">
+                        <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="day_2">Day</label>
+                        <input class="govcy-text-input govcy-text-input-error govcy-text-input-char_3 govcy-p-2" id="day_2" placeholder="" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" aria-describedby="date_error_1">
                     </div>
                     <div class="govcy-d-block govcy-ml-2">
-                        <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="">Month</label>
-                        <input class="govcy-text-input govcy-text-input-error govcy-text-input-char_3 govcy-p-2" placeholder="" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric">
+                        <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="month_2">Month</label>
+                        <input class="govcy-text-input govcy-text-input-error govcy-text-input-char_3 govcy-p-2"  id="month_2" placeholder="" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" aria-describedby="date_error_1">
                     </div>
                     <div class="govcy-d-block govcy-ml-2">
-                        <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="">Year</label>
-                        <input class="govcy-text-input govcy-text-input-error govcy-text-input-char_6 govcy-p-3" placeholder="" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric">
+                        <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="year_2">Year</label>
+                        <input class="govcy-text-input govcy-text-input-error govcy-text-input-char_6 govcy-p-3" id="year_2" placeholder="" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" aria-describedby="date_error_1">
                     </div>
                 </div>
             </div>
@@ -117,19 +117,19 @@ Never automatically tab users between the fields of the date input because this 
             <div class="govcy-form-control govcy-form-control-error">
                 <label class="govcy-label govcy-mb-1" for="">Date of birth</label>
                 <span class="govcy-visually-hidden-error">Error: </span>
-                <span class="govcy-input-error-msg govcy-mb-3">There is an error</span>
+                <p id="date_error_1" class="govcy-input-error-msg govcy-mb-3">There is an error</p>
                 <div class="govcy-d-flex">
                     <div class="govcy-d-block">
-                        <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="">Day</label>
-                        <input class="govcy-text-input govcy-text-input-error govcy-text-input-char_3 govcy-p-2" placeholder="" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric">
+                        <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="day_2">Day</label>
+                        <input class="govcy-text-input govcy-text-input-error govcy-text-input-char_3 govcy-p-2" id="day_2" placeholder="" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" aria-describedby="date_error_1">
                     </div>
                     <div class="govcy-d-block govcy-ml-2">
-                        <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="">Month</label>
-                        <input class="govcy-text-input govcy-text-input-error govcy-text-input-char_3 govcy-p-2" placeholder="" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric">
+                        <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="month_2">Month</label>
+                        <input class="govcy-text-input govcy-text-input-error govcy-text-input-char_3 govcy-p-2"  id="month_2" placeholder="" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" aria-describedby="date_error_1">
                     </div>
                     <div class="govcy-d-block govcy-ml-2">
-                        <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="">Year</label>
-                        <input class="govcy-text-input govcy-text-input-error govcy-text-input-char_6 govcy-p-3" placeholder="" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric">
+                        <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="year_2">Year</label>
+                        <input class="govcy-text-input govcy-text-input-error govcy-text-input-char_6 govcy-p-3" id="year_2" placeholder="" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" aria-describedby="date_error_1">
                     </div>
                 </div>
             </div>

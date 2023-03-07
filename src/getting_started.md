@@ -6,15 +6,22 @@ category: "get started"
 searchKeys: "CSS CDN meta tags social theme manifest icon"
 ---
 
-Get started with GOV.CY design System.
+Get started with gov.cy design System.
 
 ## CSS and Javascript
 
-The easiest way to add the GOV.CY styles is to use the pre-built `main.css` css file. Just <a target='_blank' rel="noreferrer noopener" href='{{ site.cssDownload }}'>download the CSS file</a> and include the following code in your `<head>`. 
+The easiest way to add the gov.cy styles is to use the pre-built `main.css` css file. Just <a target='_blank' rel="noreferrer noopener" href='{{ site.cssDownload }}'>download the CSS file</a> and include the following code in your `<head>`. 
 
 ```html
 <!-- CSS -->
 <link href="css/main.min.css" rel="stylesheet" >
+```
+
+Alternatively you can use jsdelivr CDN by including the following code in your `<head>`.
+
+```html
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v1.3.2/dist/css/main.min.css" integrity="sha384-uAn1GxyU+g+MxJJGEfazTA6fSVrjEC1Trj0v3vUaV3j+6jUxy7oPWTiuELT6vL/D" crossorigin="anonymous">
 ```
 
 **NOTE**: if the location or filename of your css is different, please adjust the code appropriately. 
@@ -29,7 +36,7 @@ Many of our components require the use of JavaScript to function. Place the foll
 ```
 
 ## Starter Template
-Use the following HTML template for your GOV.CY pages.
+Use the following HTML template for your gov.cy pages.
 
 ```html
 <!doctype html>
@@ -40,15 +47,15 @@ Use the following HTML template for your GOV.CY pages.
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Social -->
     <meta property="og:description" content="Description of what the service does">
-    <meta property="og:title" content="Service title - GOV.CY">
+    <meta property="og:title" content="Page title - Service title - gov.cy">
     <meta property="og:url" content="https://SERVICE_URL">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://URL_OF_CY_LOGO.png">
-    <meta property="og:site_name" content="GOV.CY">
+    <meta property="og:site_name" content="gov.cy">
  
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://SERVICE_URL">
-    <meta property="twitter:title" content="Service title - GOV.CY">
+    <meta property="twitter:title" content="Page title - Service title - gov.cy">
     <meta property="twitter:description" content="Description of what the service does">
     <meta property="twitter:image" content="https://URL_OF_CY_LOGO.png">
  
@@ -68,7 +75,7 @@ Use the following HTML template for your GOV.CY pages.
     <!-- CSS -->
     <link href="css/main.min.css" rel="stylesheet" >
     
-    <title>Service Name - GOV.CY</title>
+    <title>Page title - Service Name - gov.cy</title>
     <meta name="description" content="Description of what the service does">
  
  
@@ -112,12 +119,12 @@ To ensure proper rendering and touch zooming for all devices, add the responsive
 Use the following tags inside the `<head>` tag.
 
 ```html
-<title>Service Name - GOV.CY</title>
+<title>Page title - Service Name - gov.cy</title>
 <meta name="description" content="Description of what the service does">
 ```
 
 Change the content of the above tags as follows:
-- `title`: Use the following naming convention “Service Name - GOV.CY”
+- `title`: Page titles should be unique and informative so that users know which page they are on. Use the following naming convention “Page title - Service Name - gov.cy” to ensure titles are unique. 
 - `description`: Description of what the service does
 
 ### social tags
@@ -125,27 +132,27 @@ Use the following meta tags inside the `<head>` tag.
 
 ```html
 <meta property="og:description" content="Description of what the service does"> 
-<meta property="og:title" content="Service title - GOV.CY">
+<meta property="og:title" content="Page title - Service title - gov.cy">
 <meta property="og:url" content="https://SERVICE_URL">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://URL_OF_CY_LOGO.png">
-<meta property="og:site_name" content="GOV.CY">
+<meta property="og:site_name" content="gov.cy">
  
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://SERVICE_URL">
-<meta property="twitter:title" content="Service title - GOV.CY">
+<meta property="twitter:title" content="Page title - Service title - gov.cy">
 <meta property="twitter:description" content="Description of what the service does">
 <meta property="twitter:image" content="https://URL_OF_CY_LOGO.png">
 
 ```
 
 Change the content of the above tags as follows:
-- `og:title`, `twitter:title`: Use the following naming convention “Service Name - GOV.CY”
+- `og:title`, `twitter:title`: Use the following naming convention “Page title - Service Name - gov.cy”
 - `og:description`, `twitter:description`: Description of what the service does
 - `og:url`, `twitter:url`: The URL of the stating page of the service
 - `og:image`, `twitter:image`: The URL of the icon. The icon should be 512 x 512 px. See the images section below for the standard gov.cy icon image.
 - `og:type`: Should be `website`
-- `og:site_name`: Should be `GOV.CY`
+- `og:site_name`: Should be `gov.cy`
 - `twitter:card`: Should be `summary_large_image`
 
 ### theme, app manifest and apple-touch-icon
@@ -169,7 +176,7 @@ The code above implies the existence of a `manifest.json` file. Use the followin
 ```json
 {
     "short_name": "Service title",
-    "name": "Service title - GOV.CY",
+    "name": "Page title - Service title - gov.cy",
     "icons": [
         {
             "src": "/img/icons-128.png",
