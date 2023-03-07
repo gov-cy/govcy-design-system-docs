@@ -20,9 +20,9 @@ module.exports = {
   ],
   localization: {
     "el" : {
-      "title" : "GOV.CY",
+      "title" : "gov.cy",
       "subtitle" : "Οδηγός Σχεδίασης",
-      "description" : "Design your services using GOV.CY styles, components and patterns.",
+      "description" : "Design your services using gov.cy styles, components and patterns.",
       "menu" : "Μενού",
       "draft" : "DRAFT",
       "version" : "Ver.",
@@ -40,9 +40,9 @@ module.exports = {
       "skip_to_main" : "Μετάβαση στο κυρίως περιεχόμενο"
     },
     "en" : {
-      "title" : "GOV.CY",
+      "title" : "gov.cy",
       "subtitle" : "Design System",
-      "description" : "Design your services using GOV.CY styles, components and patterns.",
+      "description" : "Design your services using gov.cy styles, components and patterns.",
       "menu" : "Menu",
       "draft" : "DRAFT",
       "version" : "Ver.",
