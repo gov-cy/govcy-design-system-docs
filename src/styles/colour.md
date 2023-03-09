@@ -15,7 +15,7 @@ Use theme colours for buttons, alerts, list groups, borders, text and background
 |<div class="govcy-rounded-2" style="width:70px; background-color:#B09038">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>|secondary| `#B09038` |To be used as the colour for secondary buttons and other classes as secondary colour.|
 |<div class="govcy-rounded-2" style="width:70px; background-color:#00703C">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>|success  | `#00703C` |To be used to mark success in messages and alerts.|
 |<div class="govcy-rounded-2" style="width:70px; background-color:#d4351c">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>|danger   | `#d4351c` |To be used to mark danger or errors in messages and alerts.|
-|<div class="govcy-rounded-2" style="width:70px; background-color:#52879D">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>|info     | `#52879D` |To be used in informational messages and alerts.|
+|<div class="govcy-rounded-2" style="width:70px; background-color:#487d93">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>|info     | `#487d93` |To be used in informational messages and alerts.|
 |<div class="govcy-rounded-2" style="width:70px; background-color:#ebf1f3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>|light     | `#ebf1f3` |To be used as a light background on specific components such as [Footer](#).|
 
 {.govcy-table}

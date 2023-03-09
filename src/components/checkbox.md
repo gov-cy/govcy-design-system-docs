@@ -233,14 +233,13 @@ Error messages should follow the guidance in [error message](../error_message) a
     <fieldset class="govcy-fieldset">
         <legend class="govcy-legend">Legend</legend>
         <div class="govcy-form-control govcy-form-control-error">
-            <span class="govcy-visually-hidden-error">Error: </span>
-            <span class="govcy-input-error-msg">There is an error</span>
+            <p class="govcy-input-error-msg" id="error1"><span class="govcy-visually-hidden-error">Error: </span>There is an error</p>
             <label class="govcy-checkbox">Option 1
-                <input class="govcy-checkbox-input" type="checkbox">
+                <input class="govcy-checkbox-input" type="checkbox" aria-describedby="error1">
                 <span class="govcy-tickbox"></span>
             </label>
             <label class="govcy-checkbox">Option 2
-                <input class="govcy-checkbox-input" type="checkbox">
+                <input class="govcy-checkbox-input" type="checkbox" aria-describedby="error1">
                 <span class="govcy-tickbox"></span>
             </label>
         </div>
@@ -254,14 +253,13 @@ Error messages should follow the guidance in [error message](../error_message) a
     <fieldset class="govcy-fieldset">
         <legend class="govcy-legend">Legend</legend>
         <div class="govcy-form-control govcy-form-control-error">
-            <span class="govcy-visually-hidden-error">Error: </span>
-            <span class="govcy-input-error-msg">There is an error</span>
+            <p class="govcy-input-error-msg" id="error1"><span class="govcy-visually-hidden-error">Error: </span>There is an error</p>
             <label class="govcy-checkbox">Option 1
-                <input class="govcy-checkbox-input" type="checkbox">
+                <input class="govcy-checkbox-input" type="checkbox" aria-describedby="error1">
                 <span class="govcy-tickbox"></span>
             </label>
             <label class="govcy-checkbox">Option 2
-                <input class="govcy-checkbox-input" type="checkbox">
+                <input class="govcy-checkbox-input" type="checkbox" aria-describedby="error1">
                 <span class="govcy-tickbox"></span>
             </label>
         </div>

@@ -29,7 +29,7 @@ Never automatically tab users between the fields of the date input because this 
             <fieldset class="govcy-fieldset">
                 <div class="govcy-form-control">
                     <label class="govcy-label govcy-mb-1" for="">Date of birth</label>
-                    <span class="govcy-hint govcy-mb-3">For emample, 12 11 2007</span>
+                    <span class="govcy-hint govcy-mb-3">For example, 12 11 2007</span>
                     <div class="govcy-d-flex">
                         <div class="govcy-d-block">
                             <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="day_1">Day</label>
@@ -58,7 +58,7 @@ Never automatically tab users between the fields of the date input because this 
         <fieldset class="govcy-fieldset">
             <div class="govcy-form-control">
                 <label class="govcy-label govcy-mb-1" for="">Date of birth</label>
-                <span class="govcy-hint govcy-mb-3">For emample, 12 11 2007</span>
+                <span class="govcy-hint govcy-mb-3">For example, 12 11 2007</span>
                 <div class="govcy-d-flex">
                     <div class="govcy-d-block">
                         <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="day_1">Day</label>

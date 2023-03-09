@@ -21,7 +21,7 @@ Alternatively you can use jsdelivr CDN by including the following code in your `
 
 ```html
 <!-- CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v1.3.2/dist/css/main.min.css" integrity="sha384-uAn1GxyU+g+MxJJGEfazTA6fSVrjEC1Trj0v3vUaV3j+6jUxy7oPWTiuELT6vL/D" crossorigin="anonymous">
+{{ site.cssCDN }}
 ```
 
 **NOTE**: if the location or filename of your css is different, please adjust the code appropriately. 
@@ -32,7 +32,8 @@ Many of our components require the use of JavaScript to function. Place the foll
 
 ```html
 <!-- Javascripts -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>.
+{{ site.jsCDN }}
 ```
 
 ## Starter Template
@@ -85,6 +86,7 @@ Use the following HTML template for your gov.cy pages.
     
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    {{ site.jsCDN }}
   </body>
 </html>
 ```

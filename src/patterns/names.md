@@ -11,7 +11,7 @@ Follow this pattern whenever you need to ask for a user’s name .
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Full name</label>
+        <label class="govcy-label" for="full-name">Full name</label>
         <input class="govcy-text-input" id="full-name" name="full-name" type="text" spellcheck="false" autocomplete="name">
     </div>
 </form>
@@ -22,7 +22,7 @@ Follow this pattern whenever you need to ask for a user’s name .
 ```html
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Full name</label>
+        <label class="govcy-label" for="full-name">Full name</label>
         <input class="govcy-text-input" id="full-name" name="full-name" type="text" spellcheck="false" autocomplete="name">
     </div>
 </form>
@@ -58,10 +58,9 @@ Error messages should follow the guidance in [error message](../../components/er
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control govcy-form-control-error">
-        <label class="govcy-label" for="input">Full name</label>
-        <span class="govcy-visually-hidden-error">Error: </span>
-        <span class="govcy-input-error-msg">Name is required</span>
-        <input class="govcy-text-input govcy-text-input-error" id="full-name" name="full-name" type="text" spellcheck="false" autocomplete="name">
+        <label class="govcy-label" for="full-name-2">Full name</label>
+        <p class="govcy-input-error-msg" id="error2"><span class="govcy-visually-hidden-error">Error: </span>Name is required</p>
+        <input class="govcy-text-input govcy-text-input-error" id="full-name-2" name="full-name-2" type="text" spellcheck="false" autocomplete="name" aria-describedby="error2">
     </div>
 </form>
 </div>
@@ -71,10 +70,9 @@ Error messages should follow the guidance in [error message](../../components/er
 ```html
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control govcy-form-control-error">
-        <label class="govcy-label" for="input">Full name</label>
-        <span class="govcy-visually-hidden-error">Error: </span>
-        <span class="govcy-input-error-msg">Name is required</span>
-        <input class="govcy-text-input govcy-text-input-error" id="full-name" name="full-name" type="text" spellcheck="false" autocomplete="name">
+        <label class="govcy-label" for="full-name-2">Full name</label>
+        <p class="govcy-input-error-msg" id="error2"><span class="govcy-visually-hidden-error">Error: </span>Name is required</p>
+        <input class="govcy-text-input govcy-text-input-error" id="full-name-2" name="full-name-2" type="text" spellcheck="false" autocomplete="name" aria-describedby="error2">
     </div>
 </form>
 ```

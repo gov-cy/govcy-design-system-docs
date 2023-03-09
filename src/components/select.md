@@ -23,7 +23,7 @@ You can use the HTML below to create a select component.
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
 <form action="" novalidate class="govcy-form">
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Label</label>
+        <label class="govcy-label" for="sort">Label</label>
         <span class="govcy-hint">Hint</span>
         <select class="govcy-select" id="sort" name="sort" required>
             <option value="" selected>None</option>
@@ -61,11 +61,11 @@ Error messages should follow the guidance in error message and have specific err
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
 <form action="" novalidate class="govcy-form">
     <div class="govcy-form-control govcy-form-control-error">
-        <label class="govcy-label" for="select-option-input">Label</label>
+        <label class="govcy-label" for="sort1">Label</label>
         <p id="select-option-input-error" class="govcy-input-error-msg">
         <span class="govcy-visually-hidden-error">Error:</span>Please select valid options
         </p>
-        <select class="govcy-select govcy-select-error" id="sort" name="sort" required>
+        <select class="govcy-select govcy-select-error" id="sort1" name="sort1" required aria-describedby="select-option-input-error">
             <option value="" selected>None</option>
             <option value="published">Recently published</option>
             <option value="updated">Recently updated</option>
@@ -81,11 +81,11 @@ Error messages should follow the guidance in error message and have specific err
 ```html
 <form action="" novalidate class="govcy-form">
     <div class="govcy-form-control govcy-form-control-error">
-        <label class="govcy-label" for="select-option-input">Label</label>
+        <label class="govcy-label" for="sort1">Label</label>
         <p id="select-option-input-error" class="govcy-input-error-msg">
         <span class="govcy-visually-hidden-error">Error:</span>Please select valid options
         </p>
-        <select class="govcy-select govcy-select-error" id="sort" name="sort" required>
+        <select class="govcy-select govcy-select-error" id="sort1" name="sort1" required aria-describedby="select-option-input-error">
             <option value="" selected>None</option>
             <option value="published">Recently published</option>
             <option value="updated">Recently updated</option>

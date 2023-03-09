@@ -175,25 +175,25 @@ Use bold font weight for `<labels>` or `<legends>` that describe each field.
     <h1>Password Details</h1>
     <form action="" class="govcy-form" novalidate>
         <div class="govcy-form-control govcy-mb-4">
-        <label class="govcy-label" for="input">Passport Number</label>
-        <input type="text" class="govcy-text-input" spellcheck="false" pattern="[0-9]*" inputmode="numeric">
+        <label class="govcy-label" for="passport">Passport Number</label>
+        <input type="text" class="govcy-text-input" spellcheck="false" pattern="[0-9]*" inputmode="numeric" id="passport">
     </div>
     <fieldset class="govcy-fieldset govcy-mb-4">
         <div class="govcy-form-control">
-            <label class="govcy-label govcy-mb-1" for="">Expiry Date</label>
-            <span class="govcy-hint govcy-mb-3">For emample, 12 11 2027</span>
+            <legend class="govcy-label govcy-mb-1">Expiry Date</legend>
+            <span class="govcy-hint govcy-mb-3">For example, 12 11 2027</span>
             <div class="govcy-d-flex">
                 <div class="govcy-d-block">
-                    <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="">Day</label>
-                    <input class="govcy-text-input govcy-text-input-char_3 govcy-p-2" placeholder="" maxlength="2" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric">
+                    <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="day">Day</label>
+                    <input class="govcy-text-input govcy-text-input-char_3 govcy-p-2" placeholder="" maxlength="2" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" id="day">
                 </div>
                 <div class="govcy-d-block govcy-ml-2">
-                    <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="">Month</label>
-                    <input class="govcy-text-input govcy-text-input-char_3 govcy-p-2" placeholder="" maxlength="2" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric">
+                    <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="month">Month</label>
+                    <input class="govcy-text-input govcy-text-input-char_3 govcy-p-2" placeholder="" maxlength="2" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" id="month">
                 </div>
                 <div class="govcy-d-block govcy-ml-2">
-                    <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="">Year</label>
-                    <input class="govcy-text-input govcy-text-input-char_6 govcy-p-3" placeholder="" maxlength="4" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric">
+                    <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="year">Year</label>
+                    <input class="govcy-text-input govcy-text-input-char_6 govcy-p-3" placeholder="" maxlength="4" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" id="year">
                 </div>
             </div>
         </div>

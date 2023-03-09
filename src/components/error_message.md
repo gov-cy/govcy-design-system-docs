@@ -23,34 +23,34 @@ For each error:
 
 To help screen reader users, the error message component includes a hidden ‘Error:’ before the error message. These users will hear, for example, `<span class="govcy-visually-hidden-error"> Error: </span> The date your passport was issued must be in the past`.
 
+Use `aria-describedby="error_message_id"` to help announce the error message on screen readers.
+
 Summarize all errors at the top of the page the user is on using an [error summary](../error_summary).
 
 *Examples*
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control govcy-form-control-error">
-        <label class="govcy-label" for="input">Label</label>
-        <span class="govcy-visually-hidden-error">Error: </span>
-        <span class="govcy-input-error-msg">There is an error</span>
-        <input type="text" class="govcy-text-input govcy-text-input-error" placeholder="input">
+        <label class="govcy-label" for="in1">Label</label>
+        <p class="govcy-input-error-msg" id="error1"><span class="govcy-visually-hidden-error">Error: </span>There is an error</p>
+        <input type="text" id="in1" class="govcy-text-input govcy-text-input-error" aria-describedby="error1">
     </div>
     <fieldset class="govcy-fieldset">
         <div class="govcy-form-control govcy-form-control-error">
-            <label class="govcy-label govcy-mb-1" for="">Date of birth</label>
-        <span class="govcy-visually-hidden-error">Error: </span>
-            <span class="govcy-input-error-msg govcy-mb-3">There is an error</span>
+            <label class="govcy-label govcy-mb-1">Date of birth</label>
+            <p class="govcy-input-error-msg govcy-mb-3" id="error2"><span class="govcy-visually-hidden-error">Error: </span>There is an error</p>
             <div class="govcy-d-flex">
                 <div class="govcy-d-block">
-                    <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="">Day</label>
-                    <input type="text" class="govcy-text-input govcy-text-input-error govcy-text-input-char_3 govcy-p-2" placeholder="" maxlength="2">
+                    <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="day">Day</label>
+                    <input type="text" class="govcy-text-input govcy-text-input-error govcy-text-input-char_3 govcy-p-2" id="day" maxlength="2" aria-describedby="error2">
                 </div>
                 <div class="govcy-d-block govcy-ml-2">
-                    <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="">Month</label>
-                    <input type="text" class="govcy-text-input govcy-text-input-error govcy-text-input-char_3 govcy-p-2" placeholder="" maxlength="2">
+                    <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="month">Month</label>
+                    <input type="text" class="govcy-text-input govcy-text-input-error govcy-text-input-char_3 govcy-p-2" id="month" maxlength="2" aria-describedby="error2">
                 </div>
                 <div class="govcy-d-block govcy-ml-2">
-                    <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="">Year</label>
-                    <input type="text" class="govcy-text-input govcy-text-input-error govcy-text-input-char_6 govcy-p-3" placeholder="" maxlength="4">
+                    <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="year">Year</label>
+                    <input type="text" class="govcy-text-input govcy-text-input-error govcy-text-input-char_6 govcy-p-3" id="year" maxlength="4" aria-describedby="error2">
                 </div>
             </div>
         </div>
@@ -58,14 +58,13 @@ Summarize all errors at the top of the page the user is on using an [error summa
     <fieldset class="govcy-fieldset">
         <legend class="govcy-legend">Legend</legend>
         <div class="govcy-form-control govcy-form-control-error">
-            <span class="govcy-visually-hidden-error">Error: </span>
-            <span class="govcy-input-error-msg">There is an error</span>
+            <p class="govcy-input-error-msg" id="error3"><span class="govcy-visually-hidden-error">Error: </span>There is an error</span>
             <label class="govcy-checkbox">Option 1
-                <input class="govcy-checkbox-input" type="checkbox">
+                <input class="govcy-checkbox-input" type="checkbox" aria-describedby="error3">
                 <span class="govcy-tickbox"></span>
             </label>
             <label class="govcy-checkbox">Option 2
-                <input class="govcy-checkbox-input" type="checkbox">
+                <input class="govcy-checkbox-input" type="checkbox" aria-describedby="error3">
                 <span class="govcy-tickbox"></span>
             </label>
         </div>
@@ -73,27 +72,25 @@ Summarize all errors at the top of the page the user is on using an [error summa
     <fieldset class="govcy-fieldset">
         <legend class="govcy-legend">Legend</legend>
         <div class="govcy-form-control govcy-form-control-error">
-            <span class="govcy-visually-hidden-error">Error: </span>
-            <span class="govcy-input-error-msg">Mandatory field</span>
+            <p class="govcy-input-error-msg" id="error4"><span class="govcy-visually-hidden-error">Error: </span>Mandatory field</p>
             <label class="govcy-radio">Option 1
-                <input class="govcy-radio-input" type="radio" name="radio">
+                <input class="govcy-radio-input" type="radio" name="radio" aria-describedby="error4">
                 <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Option 2
-                <input class="govcy-radio-input" type="radio" name="radio">
+                <input class="govcy-radio-input" type="radio" name="radio" aria-describedby="error4">
                 <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">Option 3
-                <input class="govcy-radio-input" type="radio" name="radio">
+                <input class="govcy-radio-input" type="radio" name="radio" aria-describedby="error4">
                 <span class="govcy-radio-checked"></span>
             </label>
         </div>
     </fieldset>
     <div class="govcy-form-control govcy-form-control-error govcy-pb-1">
-        <label class="govcy-label govcy-mb-1" for="">Upload a file</label>
-        <span class="govcy-visually-hidden-error">Error: </span>
-        <span class="govcy-input-error-msg govcy-mb-3">There is an error</span>
-        <input class="govcy-file-upload" type="file" id="" name="">
+        <label class="govcy-label govcy-mb-1" for="in2">Upload a file</label>
+        <p class="govcy-input-error-msg govcy-mb-3" id="error5"><span class="govcy-visually-hidden-error">Error: </span>There is an error</p>
+        <input class="govcy-file-upload" type="file" id="in2" name="in2" aria-describedby="error5">
     </div>
 </form>
 </div>
