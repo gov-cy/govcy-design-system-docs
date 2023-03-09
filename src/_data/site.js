@@ -5,9 +5,11 @@ module.exports = {
   showTOC: true,
   showDraft: false,
   showVersion: true,
-  version:"1.3.2", 
-  cssCDN: "https://govcydesignsystem1.azureedge.net/bvtest/version/1.3.2/style.min.css",
-  cssDownload: "https://raw.githubusercontent.com/gov-cy/govcy-design-system/v1.3.2/dist/css/main.min.css",
+  version:"2.1.1", 
+  cssCDN: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v2.1.1/dist/css/main.min.css" integrity="sha384-F+ky8v3AaxUWgO4Q36KXarGEFx5YNCparZr/q7m9S7yMVbvBdIJ9Bw0P9gFmw87r" crossorigin="anonymous">`,
+  cssDownload: "https://raw.githubusercontent.com/gov-cy/govcy-design-system/v2.1.1/dist/css/main.min.css",
+  jsCDN: `<script src="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v2.1.1/dist/js/app.min.js" integrity="sha384-xv0o+su1i+C0o4fYwrsX+q0dhbhj/IsZscMn7qvrt49Wboy+TIWT0GlfyiW39aH/" crossorigin="anonymous"></script>`,
+  jsDownload: "https://raw.githubusercontent.com/gov-cy/govcy-design-system/v2.1.1/dist/js/app.min.js",
   languages: [
     {
       label: "English",

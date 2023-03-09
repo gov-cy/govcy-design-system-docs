@@ -15,20 +15,20 @@ Use the fieldset component when you need to show a relationship between multiple
     <fieldset class="govcy-fieldset">
         <legend class="govcy-legend">Contact Address</legend>
         <div class="govcy-form-control">
-            <label class="govcy-label" for="">Address / Number</label>
-            <input id="" type="text" class="govcy-text-input" placeholder="Addresss and number">
+            <label class="govcy-label" for="address">Address / Number</label>
+            <input id="address" type="text" class="govcy-text-input" >
         </div>
         <div class="govcy-form-control">
-            <label class="govcy-label" for="">District / Village</label>
-            <input id="" type="text" class="govcy-text-input" placeholder="District or village">
+            <label class="govcy-label" for="village">Town / Village</label>
+            <input id="village" type="text" class="govcy-text-input" >
         </div>
         <div class="govcy-form-control">    
-            <label class="govcy-label" for="">District</label>
-            <input id="" type="text" class="govcy-text-input" placeholder="District">
+            <label class="govcy-label" for="district">District</label>
+            <input id="district" type="text" class="govcy-text-input" >
         </div>
         <div class="govcy-form-control">
-            <label class="govcy-label" for="">Postal code</label>
-            <input id="" type="text" class="govcy-text-input" placeholder="Postal code">
+            <label class="govcy-label" for="postcode">Postal code</label>
+            <input id="postcode" type="text" class="govcy-text-input" >
         </div>
     </fieldset>
 </form>
@@ -41,20 +41,20 @@ Use the fieldset component when you need to show a relationship between multiple
     <fieldset class="govcy-fieldset">
         <legend class="govcy-legend">Contact Address</legend>
         <div class="govcy-form-control">
-            <label class="govcy-label" for="">Address / Number</label>
-            <input id="" type="text" class="govcy-text-input" placeholder="Addresss and number">
+            <label class="govcy-label" for="address">Address / Number</label>
+            <input id="address" type="text" class="govcy-text-input" >
         </div>
         <div class="govcy-form-control">
-            <label class="govcy-label" for="">District / Village</label>
-            <input id="" type="text" class="govcy-text-input" placeholder="District or village">
+            <label class="govcy-label" for="village">Town / Village</label>
+            <input id="village" type="text" class="govcy-text-input" >
         </div>
         <div class="govcy-form-control">    
-            <label class="govcy-label" for="">District</label>
-            <input id="" type="text" class="govcy-text-input" placeholder="District">
+            <label class="govcy-label" for="district">District</label>
+            <input id="district" type="text" class="govcy-text-input" >
         </div>
         <div class="govcy-form-control">
-            <label class="govcy-label" for="">Postal code</label>
-            <input id="" type="text" class="govcy-text-input" placeholder="Postal code">
+            <label class="govcy-label" for="postcode">Postal code</label>
+            <input id="postcode" type="text" class="govcy-text-input" >
         </div>
     </fieldset>
 </form>

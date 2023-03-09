@@ -235,14 +235,13 @@ Example or inline radios:
     <fieldset class="govcy-fieldset">
         <legend class="govcy-legend"><h1>Do you wish to continue?</h1></legend>
         <div class="govcy-form-control govcy-form-control-error">
-            <span class="govcy-visually-hidden-error">Error: </span>
-            <span class="govcy-input-error-msg">Mandatory field</span>
+            <p class="govcy-input-error-msg" id="error1"><span class="govcy-visually-hidden-error">Error: </span>Mandatory field</p>
             <label class="govcy-radio govcy-d-sm-inline-block">Yes
-                <input class="govcy-radio-input" type="radio" name="radio">
+                <input class="govcy-radio-input" type="radio" name="radio" aria-describedby="error1">
                 <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio govcy-d-sm-inline-block">No
-                <input class="govcy-radio-input" type="radio" name="radio">
+                <input class="govcy-radio-input" type="radio" name="radio" aria-describedby="error1">
                 <span class="govcy-radio-checked"></span>
             </label>
         </div>
@@ -257,14 +256,13 @@ Example or inline radios:
     <fieldset class="govcy-fieldset">
         <legend class="govcy-legend"><h1>Do you wish to continue?</h1></legend>
         <div class="govcy-form-control govcy-form-control-error">
-            <span class="govcy-visually-hidden-error">Error: </span>
-            <span class="govcy-input-error-msg">Mandatory field</span>
+            <p class="govcy-input-error-msg" id="error1"><span class="govcy-visually-hidden-error">Error: </span>Mandatory field</p>
             <label class="govcy-radio govcy-d-sm-inline-block">Yes
-                <input class="govcy-radio-input" type="radio" name="radio">
+                <input class="govcy-radio-input" type="radio" name="radio" aria-describedby="error1">
                 <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio govcy-d-sm-inline-block">No
-                <input class="govcy-radio-input" type="radio" name="radio">
+                <input class="govcy-radio-input" type="radio" name="radio" aria-describedby="error1">
                 <span class="govcy-radio-checked"></span>
             </label>
         </div>
@@ -399,14 +397,13 @@ Display an error message if none of the radios are selected.
     <fieldset class="govcy-fieldset">
         <legend class="govcy-legend">Do you wish to continue</legend>
         <div class="govcy-form-control govcy-form-control-error">
-            <span class="govcy-visually-hidden-error">Error: </span>
-            <span class="govcy-input-error-msg">Select how you would like to proceed</span>
+            <p class="govcy-input-error-msg" id="error2"><span class="govcy-visually-hidden-error">Error: </span>Select how you would like to proceed</p>
             <label class="govcy-radio">Yes
-                <input class="govcy-radio-input" type="radio" name="radio">
+                <input class="govcy-radio-input" type="radio" name="radio" aria-describedby="error2">
                 <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">No
-                <input class="govcy-radio-input" type="radio" name="radio">
+                <input class="govcy-radio-input" type="radio" name="radio" aria-describedby="error2">
                 <span class="govcy-radio-checked"></span>
             </label>
         </div>
@@ -414,14 +411,13 @@ Display an error message if none of the radios are selected.
     <fieldset class="govcy-fieldset">
         <legend class="govcy-legend">Do you wish to continue</legend>
         <div class="govcy-form-control govcy-form-control-error">
-            <span class="govcy-visually-hidden-error">Error: </span>
-            <span class="govcy-input-error-msg">Select how you would like to proceed</span>
+            <p class="govcy-input-error-msg" id="error3"><span class="govcy-visually-hidden-error">Error: </span>Select how you would like to proceed</p>
             <label class="govcy-radio govcy-d-sm-inline-block">Yes
-                <input class="govcy-radio-input" type="radio" name="radio">
+                <input class="govcy-radio-input" type="radio" name="radio" aria-describedby="error3">
                 <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio govcy-d-sm-inline-block">No
-                <input class="govcy-radio-input" type="radio" name="radio">
+                <input class="govcy-radio-input" type="radio" name="radio" aria-describedby="error3">
                 <span class="govcy-radio-checked"></span>
             </label>
         </div>
@@ -440,9 +436,8 @@ Display an error message if none of the radios are selected.
             <div class="collapse address govcy-pl-3 govcy-ml-1">
                 <div class="govcy-form-control govcy-form-control-error">
                     <label class="govcy-label" for="">Home address</label>
-                    <span class="govcy-visually-hidden-error">Error: </span>
-                    <span class="govcy-input-error-msg">Please type valid home address</span>
-                    <textarea type="textarea" class="govcy-text-area" placeholder="home address"></textarea>
+                    <p class="govcy-input-error-msg" id="error4"><span class="govcy-visually-hidden-error">Error: </span>Please type valid home address</p>
+                    <textarea type="textarea" class="govcy-text-area" placeholder="home address"  aria-describedby="error4"></textarea>
                 </div>
             </div>
         </div>
@@ -456,14 +451,13 @@ Display an error message if none of the radios are selected.
     <fieldset class="govcy-fieldset">
         <legend class="govcy-legend">Do you wish to continue</legend>
         <div class="govcy-form-control govcy-form-control-error">
-            <span class="govcy-visually-hidden-error">Error: </span>
-            <span class="govcy-input-error-msg">Select how you would like to proceed</span>
+            <p class="govcy-input-error-msg" id="error2"><span class="govcy-visually-hidden-error">Error: </span>Select how you would like to proceed</p>
             <label class="govcy-radio">Yes
-                <input class="govcy-radio-input" type="radio" name="radio">
+                <input class="govcy-radio-input" type="radio" name="radio" aria-describedby="error2">
                 <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio">No
-                <input class="govcy-radio-input" type="radio" name="radio">
+                <input class="govcy-radio-input" type="radio" name="radio" aria-describedby="error2">
                 <span class="govcy-radio-checked"></span>
             </label>
         </div>
@@ -471,14 +465,13 @@ Display an error message if none of the radios are selected.
     <fieldset class="govcy-fieldset">
         <legend class="govcy-legend">Do you wish to continue</legend>
         <div class="govcy-form-control govcy-form-control-error">
-            <span class="govcy-visually-hidden-error">Error: </span>
-            <span class="govcy-input-error-msg">Select how you would like to proceed</span>
+            <p class="govcy-input-error-msg" id="error3"><span class="govcy-visually-hidden-error">Error: </span>Select how you would like to proceed</p>
             <label class="govcy-radio govcy-d-sm-inline-block">Yes
-                <input class="govcy-radio-input" type="radio" name="radio">
+                <input class="govcy-radio-input" type="radio" name="radio" aria-describedby="error3">
                 <span class="govcy-radio-checked"></span>
             </label>
             <label class="govcy-radio govcy-d-sm-inline-block">No
-                <input class="govcy-radio-input" type="radio" name="radio">
+                <input class="govcy-radio-input" type="radio" name="radio" aria-describedby="error3">
                 <span class="govcy-radio-checked"></span>
             </label>
         </div>
@@ -497,9 +490,8 @@ Display an error message if none of the radios are selected.
             <div class="collapse address govcy-pl-3 govcy-ml-1">
                 <div class="govcy-form-control govcy-form-control-error">
                     <label class="govcy-label" for="">Home address</label>
-                    <span class="govcy-visually-hidden-error">Error: </span>
-                    <span class="govcy-input-error-msg">Please type valid home address</span>
-                    <textarea type="textarea" class="govcy-text-area" placeholder="home address"></textarea>
+                    <p class="govcy-input-error-msg" id="error4"><span class="govcy-visually-hidden-error">Error: </span>Please type valid home address</p>
+                    <textarea type="textarea" class="govcy-text-area" placeholder="home address"  aria-describedby="error4"></textarea>
                 </div>
             </div>
         </div>

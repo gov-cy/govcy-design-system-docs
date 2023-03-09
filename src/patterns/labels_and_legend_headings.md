@@ -21,9 +21,9 @@ To set the contents of a label as the page heading, you need to put the `<label>
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control">
-        <h1><label class="govcy-label" for="input">Label</label></h1>
+        <h1><label class="govcy-label" for="in1">Label</label></h1>
         <span class="govcy-hint">Hint</span>
-        <input type="text" class="govcy-text-input">
+        <input type="text" class="govcy-text-input" id="in1">
     </div>
 </form>
 </div>
@@ -33,9 +33,9 @@ To set the contents of a label as the page heading, you need to put the `<label>
 ```html
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control">
-        <h1><label class="govcy-label" for="input">Label</label></h1>
+        <h1><label class="govcy-label" for="in1">Label</label></h1>
         <span class="govcy-hint">Hint</span>
-        <input type="text" class="govcy-text-input">
+        <input type="text" class="govcy-text-input" id="in1">
     </div>
 </form>
 ```

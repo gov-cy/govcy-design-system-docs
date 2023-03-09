@@ -14,9 +14,9 @@ You can use the HTML below to create a file component.
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control">
-        <label class="govcy-label govcy-mb-1" for="">Upload a file</label>
-        <span class="govcy-hint">The file must be a PDF</span>
-        <input class="govcy-file-upload" type="file" id="" name="">
+        <label class="govcy-label govcy-mb-1" for="infile">Upload a file</label>
+        <span class="govcy-hint" id="infile_hint">The file must be a PDF</span>
+        <input class="govcy-file-upload" type="file" id="infile" name="infile" aria-describedby="infile_hint">
     </div>
 </form>
 </div>
@@ -26,9 +26,9 @@ You can use the HTML below to create a file component.
 ```html
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control">
-        <label class="govcy-label govcy-mb-1" for="">Upload a file</label>
-        <span class="govcy-hint">The file must be a PDF</span>
-        <input class="govcy-file-upload" type="file" id="" name="">
+        <label class="govcy-label govcy-mb-1" for="infile">Upload a file</label>
+        <span class="govcy-hint" id="infile_hint">The file must be a PDF</span>
+        <input class="govcy-file-upload" type="file" id="infile" name="infile" aria-describedby="infile_hint">
     </div>
 </form>
 ```
@@ -40,10 +40,9 @@ Error messages should follow the guidance in error message and have specific err
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control govcy-form-control-error govcy-pb-1">
-        <label class="govcy-label govcy-mb-1" for="">Upload a file</label>
-        <span class="govcy-visually-hidden-error">Error: </span>
-        <span class="govcy-input-error-msg govcy-mb-3">There is an error</span>
-        <input class="govcy-file-upload" type="file" id="" name="">
+        <label class="govcy-label govcy-mb-1" for="infile1">Upload a file</label>
+        <p class="govcy-input-error-msg govcy-mb-3" id="infile_error"><span class="govcy-visually-hidden-error">Error: </span>There is an error</p>
+        <input class="govcy-file-upload" type="file" id="infile1" name="infile1" aria-describedby="infile_error">
     </div>
 </form>
 </div>
@@ -53,10 +52,9 @@ Error messages should follow the guidance in error message and have specific err
 ```html
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control govcy-form-control-error govcy-pb-1">
-        <label class="govcy-label govcy-mb-1" for="">Upload a file</label>
-        <span class="govcy-visually-hidden-error">Error: </span>
-        <span class="govcy-input-error-msg govcy-mb-3">There is an error</span>
-        <input class="govcy-file-upload" type="file" id="" name="">
+        <label class="govcy-label govcy-mb-1" for="infile1">Upload a file</label>
+        <p class="govcy-input-error-msg govcy-mb-3" id="infile_error"><span class="govcy-visually-hidden-error">Error: </span>There is an error</p>
+        <input class="govcy-file-upload" type="file" id="infile1" name="infile1" aria-describedby="infile_error">
     </div>
 </form>
 ```

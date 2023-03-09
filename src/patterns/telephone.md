@@ -11,9 +11,9 @@ Follow this pattern whenever you need to ask for a telephone address.
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Cyprus telephone number</label>
+        <label class="govcy-label" for="in-tel">Cyprus telephone number</label>
         <span class="govcy-hint" id="tel-hint">We’ll only use this for this application</span>
-        <input class="govcy-text-input govcy-text-input-char_20" id="tel" name="tel" type="tel" spellcheck="false" aria-describedby="tel-hint" autocomplete="tel">
+        <input class="govcy-text-input govcy-text-input-char_20" id="in-tel" name="in-tel" type="tel" spellcheck="false" aria-describedby="tel-hint" autocomplete="tel">
     </div>
 </form>
 </div>
@@ -23,9 +23,9 @@ Follow this pattern whenever you need to ask for a telephone address.
 ```html
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Cyprus telephone number</label>
+        <label class="govcy-label" for="in-tel">Cyprus telephone number</label>
         <span class="govcy-hint" id="tel-hint">We’ll only use this for this application</span>
-        <input class="govcy-text-input govcy-text-input-char_20" id="tel" name="tel" type="tel" spellcheck="false" aria-describedby="tel-hint" autocomplete="tel">
+        <input class="govcy-text-input govcy-text-input-char_20" id="in-tel" name="in-tel" type="tel" spellcheck="false" aria-describedby="tel-hint" autocomplete="tel">
     </div>
 </form>
 ```
@@ -55,10 +55,9 @@ Error messages should follow the guidance in [error message](../../components/er
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control govcy-form-control-error">
-        <label class="govcy-label" for="input">Telephone Number</label>
-        <span class="govcy-visually-hidden-error">Error: </span>
-        <span class="govcy-input-error-msg">Enter a telephone number in the correct format, like 99 123456</span>
-        <input class="govcy-text-input govcy-text-input-char_20 govcy-text-input-error" id="tel" name="tel" type="tel" spellcheck="false" aria-describedby="tel-hint" autocomplete="tel">
+        <label class="govcy-label" for="in-tel-2">Telephone Number</label>
+        <p class="govcy-input-error-msg" id="error2"><span class="govcy-visually-hidden-error">Error: </span>Enter a telephone number in the correct format, like 99 123456</p>
+        <input class="govcy-text-input govcy-text-input-char_20 govcy-text-input-error" id="in-tel-2" name="in-tel-2" type="tel" spellcheck="false" aria-describedby="tel-hint" autocomplete="tel" aria-describedby="error2">
     </div>
 </form>
 </div>
@@ -68,10 +67,9 @@ Error messages should follow the guidance in [error message](../../components/er
 ```html
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control govcy-form-control-error">
-        <label class="govcy-label" for="input">Telephone Number</label>
-        <span class="govcy-visually-hidden-error">Error: </span>
-        <span class="govcy-input-error-msg">Enter a telephone number in the correct format, like 99 123456</span>
-        <input class="govcy-text-input govcy-text-input-char_20 govcy-text-input-error" id="tel" name="tel" type="tel" spellcheck="false" aria-describedby="tel-hint" autocomplete="tel">
+        <label class="govcy-label" for="in-tel-2">Telephone Number</label>
+        <p class="govcy-input-error-msg" id="error2"><span class="govcy-visually-hidden-error">Error: </span>Enter a telephone number in the correct format, like 99 123456</p>
+        <input class="govcy-text-input govcy-text-input-char_20 govcy-text-input-error" id="in-tel-2" name="in-tel-2" type="tel" spellcheck="false" aria-describedby="tel-hint" autocomplete="tel" aria-describedby="error2">
     </div>
 </form>
 ```

@@ -14,9 +14,9 @@ Do not use the text input component if you need to let users enter longer answer
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Label</label>
+        <label class="govcy-label" for="in1">Label</label>
         <span class="govcy-hint">Hint</span>
-        <input type="text" class="govcy-text-input">
+        <input type="text" class="govcy-text-input" id="in1">
     </div>
 </form>
 </div>
@@ -26,9 +26,9 @@ Do not use the text input component if you need to let users enter longer answer
 ```html
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Label</label>
+        <label class="govcy-label" for="in1">Label</label>
         <span class="govcy-hint">Hint</span>
-        <input type="text" class="govcy-text-input">
+        <input type="text" class="govcy-text-input" id="in1">
     </div>
 </form>
 ```
@@ -50,10 +50,9 @@ Error messages should follow the guidance in [error message](../error_message) a
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control govcy-form-control-error">
-        <label class="govcy-label" for="input">Label</label>
-        <span class="govcy-visually-hidden-error">Error: </span>
-        <span class="govcy-input-error-msg">There is an error</span>
-        <input type="text" class="govcy-text-input govcy-text-input-error">
+        <label class="govcy-label" for="in2">Label</label>
+        <p class="govcy-input-error-msg" id="error1"><span class="govcy-visually-hidden-error">Error: </span>There is an error</p>
+        <input type="text" class="govcy-text-input govcy-text-input-error" id="in2" aria-describedby="error1">
     </div>
 </form>
 </div>
@@ -63,10 +62,9 @@ Error messages should follow the guidance in [error message](../error_message) a
 ```html
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control govcy-form-control-error">
-        <label class="govcy-label" for="input">Label</label>
-        <span class="govcy-visually-hidden-error">Error: </span>
-        <span class="govcy-input-error-msg">There is an error</span>
-        <input type="text" class="govcy-text-input govcy-text-input-error">
+        <label class="govcy-label" for="in2">Label</label>
+        <p class="govcy-input-error-msg" id="error1"><span class="govcy-visually-hidden-error">Error: </span>There is an error</p>
+        <input type="text" class="govcy-text-input govcy-text-input-error" id="in2" aria-describedby="error1">
     </div>
 </form>
 ```
@@ -83,28 +81,28 @@ If you want to make the input smaller, you can either use a fixed width input, o
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Label</label>
-        <input type="text" class="govcy-text-input govcy-text-input-char_20" placeholder="20 Characters" maxlength="20">
+        <label class="govcy-label" for="in3">Label</label>
+        <input type="text" class="govcy-text-input govcy-text-input-char_20" placeholder="20 Characters" maxlength="20" id="in3">
     </div>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Label</label>
-        <input type="text" class="govcy-text-input govcy-text-input-char_10" placeholder="10 Characters" maxlength="10">
+        <label class="govcy-label" for="in4">Label</label>
+        <input type="text" class="govcy-text-input govcy-text-input-char_10" placeholder="10 Characters" maxlength="10" id="in4">
     </div>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Label</label>
-        <input type="text" class="govcy-text-input govcy-text-input-char_5" placeholder="5 Chars" maxlength="5">
+        <label class="govcy-label" for="in5">Label</label>
+        <input type="text" class="govcy-text-input govcy-text-input-char_5" placeholder="5 Chars" maxlength="5" id="in5">
     </div>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Label</label>
-        <input type="text" class="govcy-text-input govcy-text-input-char_4" placeholder="4 Chars" maxlength="4">
+        <label class="govcy-label" for="in6">Label</label>
+        <input type="text" class="govcy-text-input govcy-text-input-char_4" placeholder="4 Chars" maxlength="4" id="in6">
     </div>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Label</label>
-        <input type="text" class="govcy-text-input govcy-text-input-char_3" placeholder="3" maxlength="3">
+        <label class="govcy-label" for="in7">Label</label>
+        <input type="text" class="govcy-text-input govcy-text-input-char_3" placeholder="3" maxlength="3" id="in7">
     </div>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Label</label>
-        <input type="text" class="govcy-text-input govcy-text-input-char_2" placeholder="2" maxlength="2">
+        <label class="govcy-label" for="in8">Label</label>
+        <input type="text" class="govcy-text-input govcy-text-input-char_2" placeholder="2" maxlength="2" id="in8">
     </div>
 </form>
 </div>
@@ -114,28 +112,28 @@ If you want to make the input smaller, you can either use a fixed width input, o
 ```html
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Label</label>
-        <input type="text" class="govcy-text-input govcy-text-input-char_20" placeholder="20 Characters" maxlength="20">
+        <label class="govcy-label" for="in3">Label</label>
+        <input type="text" class="govcy-text-input govcy-text-input-char_20" placeholder="20 Characters" maxlength="20" id="in3">
     </div>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Label</label>
-        <input type="text" class="govcy-text-input govcy-text-input-char_10" placeholder="10 Characters" maxlength="10">
+        <label class="govcy-label" for="in4">Label</label>
+        <input type="text" class="govcy-text-input govcy-text-input-char_10" placeholder="10 Characters" maxlength="10" id="in4">
     </div>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Label</label>
-        <input type="text" class="govcy-text-input govcy-text-input-char_5" placeholder="5 Chars" maxlength="5">
+        <label class="govcy-label" for="in5">Label</label>
+        <input type="text" class="govcy-text-input govcy-text-input-char_5" placeholder="5 Chars" maxlength="5" id="in5">
     </div>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Label</label>
-        <input type="text" class="govcy-text-input govcy-text-input-char_4" placeholder="4 Chars" maxlength="4">
+        <label class="govcy-label" for="in6">Label</label>
+        <input type="text" class="govcy-text-input govcy-text-input-char_4" placeholder="4 Chars" maxlength="4" id="in6">
     </div>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Label</label>
-        <input type="text" class="govcy-text-input govcy-text-input-char_3" placeholder="3" maxlength="3">
+        <label class="govcy-label" for="in7">Label</label>
+        <input type="text" class="govcy-text-input govcy-text-input-char_3" placeholder="3" maxlength="3" id="in7">
     </div>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Label</label>
-        <input type="text" class="govcy-text-input govcy-text-input-char_2" placeholder="2" maxlength="2">
+        <label class="govcy-label" for="in8">Label</label>
+        <input type="text" class="govcy-text-input govcy-text-input-char_2" placeholder="2" maxlength="2" id="in8">
     </div>
 </form>
 ```
@@ -148,9 +146,9 @@ Use the textarea component when you need to let users enter an amount of text th
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Can you provide more detail?</label>
+        <label class="govcy-label" for="in9">Can you provide more detail?</label>
         <span class="govcy-hint">Do not include personal or financial information, like credit card details.</span>
-        <textarea class="govcy-text-area" rows="5"></textarea>
+        <textarea class="govcy-text-area" rows="5" id="in9"></textarea>
         <span class="govcy-hint">You may enter up to 300 characters.</span>
     </div>
 </form>
@@ -161,9 +159,9 @@ Use the textarea component when you need to let users enter an amount of text th
 ```html
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Can you provide more detail?</label>
+        <label class="govcy-label" for="in9">Can you provide more detail?</label>
         <span class="govcy-hint">Do not include personal or financial information, like credit card details.</span>
-        <textarea class="govcy-text-area" rows="5"></textarea>
+        <textarea class="govcy-text-area" rows="5" id="in9"></textarea>
         <span class="govcy-hint">You may enter up to 300 characters.</span>
     </div>
 </form>
@@ -182,8 +180,8 @@ To do this set the `spellcheck` attribute to `false` as shown in this example.
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Social Insurance</label>
-        <input type="text" class="govcy-text-input" spellcheck="false">
+        <label class="govcy-label" for="in10">Social Insurance</label>
+        <input type="text" class="govcy-text-input" spellcheck="false" id="in10">
     </div>
 </form>
 </div>
@@ -193,8 +191,8 @@ To do this set the `spellcheck` attribute to `false` as shown in this example.
 ```html
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Social Insurance</label>
-        <input type="text" class="govcy-text-input" spellcheck="false">
+        <label class="govcy-label" for="in10">Social Insurance</label>
+        <input type="text" class="govcy-text-input" spellcheck="false" id="in10">
     </div>
 </form>
 ```
@@ -207,8 +205,8 @@ For mobile and figner friendly numeric inputs, use the `inputmode` and `pattern`
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Credit Card number</label>
-        <input type="text" class="govcy-text-input" spellcheck="false" pattern="[0-9]*" inputmode="numeric">
+        <label class="govcy-label" for="in11">Credit Card number</label>
+        <input type="text" class="govcy-text-input" spellcheck="false" pattern="[0-9]*" inputmode="numeric" id="in11">
     </div>
 </form>
 </div>
@@ -218,8 +216,8 @@ For mobile and figner friendly numeric inputs, use the `inputmode` and `pattern`
 ```html
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Credit Card number</label>
-        <input type="text" class="govcy-text-input" spellcheck="false" pattern="[0-9]*" inputmode="numeric">
+        <label class="govcy-label" for="in11">Credit Card number</label>
+        <input type="text" class="govcy-text-input" spellcheck="false" pattern="[0-9]*" inputmode="numeric" id="in11">
     </div>
 </form>
 ```
@@ -250,8 +248,8 @@ For example, to enable autofill on a postcode field, set the autocomplete attrib
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Postcode</label>
-        <input type="text" class="govcy-text-input"spellcheck="false" autocomplete="postal-code">
+        <label class="govcy-label" for="in12">Postcode</label>
+        <input type="text" class="govcy-text-input"spellcheck="false" autocomplete="postal-code" id="in12">
     </div>
 </form>
 </div>
@@ -261,8 +259,8 @@ For example, to enable autofill on a postcode field, set the autocomplete attrib
 ```html
 <form action="" class="govcy-form" novalidate>
     <div class="govcy-form-control">
-        <label class="govcy-label" for="input">Postcode</label>
-        <input type="text" class="govcy-text-input"spellcheck="false" autocomplete="postal-code">
+        <label class="govcy-label" for="in12">Postcode</label>
+        <input type="text" class="govcy-text-input"spellcheck="false" autocomplete="postal-code" id="in12">
     </div>
 </form>
 ```
