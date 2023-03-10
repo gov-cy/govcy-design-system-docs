@@ -37,7 +37,7 @@ Summarize all errors at the top of the page the user is on using an [error summa
     </div>
     <fieldset class="govcy-fieldset">
         <div class="govcy-form-control govcy-form-control-error">
-            <label class="govcy-label govcy-mb-1">Date of birth</label>
+            <legend class="govcy-legend govcy-mb-1">Date of birth</legend>
             <p class="govcy-input-error-msg govcy-mb-3" id="error2"><span class="govcy-visually-hidden-error">Error: </span>There is an error</p>
             <div class="govcy-d-flex">
                 <div class="govcy-d-block">

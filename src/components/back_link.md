@@ -31,7 +31,7 @@ Although browsers have a back button, some sites break when you use it - so many
 Always include the back link component on [question pages](../../patterns/question_pages).
 
 ## When not to use this component
-Never use the back link component together with breadcrumbs. If necessary, you should do research with your users to learn which they find more helpful in your service.
+Never use the back link component together with [breadcrumbs](../breadcrumbs). If necessary, you should do research with your users to learn which they find more helpful in your service.
 
 ## How it works
 Always place back links at the top of a page, in the [Before Main](../../styles/page_templates) (`<section id="before-main">`) element. Placing them here means that the ‘Skip to main content’ link allows the user to skip all navigation links, including the back link.
