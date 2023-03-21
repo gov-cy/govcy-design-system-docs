@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Social -->
         <meta property="og:description" content="Design your services using gov.cy styles, components and patterns.">
-        <meta property="og:title" content="Cookies used by the Design System - Design System - gov.cy">
+        <meta property="og:title" content="There is a problem with the service pages - Design System - gov.cy">
         <meta property="og:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
         <meta property="og:type" content="website">
         <meta property="og:image" content="https://gov-cy.github.io/govcy-design-system-docs/img/icons-512.png">
@@ -14,7 +14,7 @@
     
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
-        <meta property="twitter:title" content="Cookies used by the Design System - Design System - gov.cy">
+        <meta property="twitter:title" content="There is a problem with the service pages - Design System - gov.cy">
         <meta property="twitter:description" content="Design your services using gov.cy styles, components and patterns.">
         <meta property="twitter:image" content="https://gov-cy.github.io/govcy-design-system-docs/img/icons-512.png">
         <!-- Theme --> 
@@ -36,7 +36,7 @@
         <!--<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">-->
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vs.min.css" integrity="sha512-54dqOdBwMzeeRRYZieLqjlGc/w9+AI3vLUdz9PW6QFVTfkL0e7CYLWXKQPV+HqZi5QIj8JKsbzIkeplWVhlY+A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vsc-dark-plus.min.css" integrity="sha512-GU4Q2LAEtdpc8WmjcbSJGxM6c8D69ggI3mc5SRnfnxpg5AkYYA0BEVve0W9Oj2wZR0UItklQK2RBKLtDsQHNzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
-        <title>Cookies used by the Design System - Design System - gov.cy</title>
+        <title>There is a problem with the service pages - Design System - gov.cy</title>
         <meta name="description" content="Design your services using gov.cy styles, components and patterns.">
     </head>
     <body>
@@ -68,7 +68,7 @@
                                 Components
                             </a>
                             </li><li>
-                            <a href="/govcy-design-system-docs/patterns/" >
+                            <a href="/govcy-design-system-docs/patterns/"  class="active">
                                 Patterns
                             </a>
                             </li><li>
@@ -101,8 +101,8 @@
     <!--Main-->
     <main class="govcy-container govcy-my-2" id="mainContainer">
         <div class="row">
-            <div class="govcy-col-12 govcy-order-last">
-                <h1>Cookies used by the Design System</h1>
+            <div class="govcy-col-9 govcy-order-last">
+                <h1>There is a problem with the service pages</h1>
                 
                 
                     <aside class="toc-outter">
@@ -110,20 +110,71 @@
                         <nav class="toc">
                 <ol>
                     
-                    <li><a href="#how-to-control-cookies">How to control cookies</a>
+                    <li><a href="#when-to-use-this-pattern">When to use this pattern</a>
+            		</li>
+
+                    <li><a href="#how-it-works">How it works</a>
             		</li>
                 </ol>
             </nav>
                     </aside>
                 
-                <p>The ‘Design System’ website does not use any cookies.</p>
-<h2 id="how-to-control-cookies" tabindex="-1">How to control cookies <a class="anchor-link" href="#how-to-control-cookies"> </a></h2>
-<p><a href="https://www.aboutcookies.org/how-to-manage-and-delete-cookies" target="_blank">Find out how to control and delete cookies on your device</a>.</p>
-<p>You can delete all cookies that are already on your device and you can set most browsers to prevent them from being placed. If you do this, however, you may have to manually adjust some preferences every time you visit a site and some services and functionalities may not work.</p>
+                <p>Tell the user there is something wrong with the service. These are also known as 500 and internal server error pages.</p>
+<h2 id="when-to-use-this-pattern" tabindex="-1">When to use this pattern <a class="anchor-link" href="#when-to-use-this-pattern"> </a></h2>
+<p>Use this page when there is an unexpected problem with the service. Use the same page for all unexpected problems.</p>
+<p>Log all errors and fix them as quickly as possible.</p>
+<p>Only display the page for a short time. If a problem cannot be fixed quickly, close the service and use a <a href="../service-unavailable-pages">service unavailable page</a>.</p>
+<h2 id="how-it-works" tabindex="-1">How it works <a class="anchor-link" href="#how-it-works"> </a></h2>
+<p>The page should have:</p>
+<ul>
+<li>as the page title:
+<ul>
+<li>in Greek ‘Λυπούμαστε, υπάρχει πρόβλημα με την υπηρεσία – service name – gov.cy’</li>
+<li>in English ‘Sorry, there is a problem with the service – service name – gov.cy’</li>
+</ul>
+</li>
+<li>as the H1
+<ul>
+<li>in Greek ‘Λυπούμαστε, υπάρχει πρόβλημα με την υπηρεσία’</li>
+<li>in English ‘Sorry, there is a problem with the service’</li>
+</ul>
+</li>
+<li>if possible, information about what has happened to their answers if they are in the middle of a transaction</li>
+<li>contact information, if it exists and helps meet a user need</li>
+<li>a link to another service, if they can use it to do what they came to do</li>
+</ul>
+<p>Have clear and concise content and do not use:</p>
+<ul>
+<li>breadcrumbs</li>
+<li>jargon like 500 or bad request</li>
+<li>‘We are experiencing technical difficulties’</li>
+<li>red text to warn people</li>
+</ul>
+<p><em>Example in Greek</em></p>
+<div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
+<!--beforeMain-->
+<!--main-->
+<main class="govcy-container" id="mainContainer">
+    <h1>Λυπούμαστε, υπάρχει πρόβλημα με την υπηρεσία</h1> 
+    <p>Προσπαθούμε να το διορθώσουμε το συντομότερο δυνατόν. Δοκιμάστε ξανά αργότερα.</p>
+</main>
+</div>
+<p><em>Example in English</em></p>
+<div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
+<!--beforeMain-->
+<!--main-->
+<main class="govcy-container" id="mainContainer">
+    <h1>Sorry, there is a problem with the service</h1> 
+    <p>We're working to fix the issue as soon as possible. Try again later.</p>
+</main>
+</div>
 
             </div>
     
-    
+    <aside class="govcy-col-3 govcy-order-first">
+                <ul class="nav-side govcy-flex-column"><li>Ask users for</li><li><a href="/govcy-design-system-docs/patterns/dates/" class="nav-link">Dates</a></li><li><a href="/govcy-design-system-docs/patterns/email/" class="nav-link">Email</a></li><li><a href="/govcy-design-system-docs/patterns/names/" class="nav-link">Names</a></li><li><a href="/govcy-design-system-docs/patterns/telephone/" class="nav-link">Telephone</a></li><li>Help users</li><li><a href="/govcy-design-system-docs/patterns/check_answers/" class="nav-link">Check answers</a></li><li><a href="/govcy-design-system-docs/patterns/confirm_phone_number/" class="nav-link">Confirm a phone number</a></li><li><a href="/govcy-design-system-docs/patterns/hint_text/" class="nav-link">Hint Text</a></li><li>Pages</li><li><a href="/govcy-design-system-docs/patterns/page-not-found-pages/" class="nav-link">Page not found pages</a></li><li><a href="/govcy-design-system-docs/patterns/question_pages/" class="nav-link">Question pages</a></li><li><a href="/govcy-design-system-docs/patterns/service-unavailable-pages/" class="nav-link">Service unavailable pages</a></li><li><a href="/govcy-design-system-docs/patterns/there-is-a-problem/" class="nav-link active">There is a problem with the service pages</a></li><li>How to</li><li><a href="/govcy-design-system-docs/patterns/focus_state/" class="nav-link">Focus state</a></li><li><a href="/govcy-design-system-docs/patterns/labels_and_legend_headings/" class="nav-link">Labels and legends headings</a></li>
+                </ul>
+            </aside>
         </div>
     </main>
     <!-- Footer -->
