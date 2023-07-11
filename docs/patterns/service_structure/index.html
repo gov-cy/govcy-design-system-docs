@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Social -->
+        <meta property="og:description" content="Design your services using gov.cy styles, components and patterns.">
+        <meta property="og:title" content="Structuring a service - Design System - gov.cy">
+        <meta property="og:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://gov-cy.github.io/govcy-design-system-docs/img/icons-512.png">
+        <meta property="og:site_name" content="gov.cy">
+    
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
+        <meta property="twitter:title" content="Structuring a service - Design System - gov.cy">
+        <meta property="twitter:description" content="Design your services using gov.cy styles, components and patterns.">
+        <meta property="twitter:image" content="https://gov-cy.github.io/govcy-design-system-docs/img/icons-512.png">
+        <!-- Theme --> 
+        <link rel="manifest" href="/govcy-design-system-docs/manifest.json">
+        <meta name="theme-color" content="#31576F">
+        <link rel="icon" type="image/png" sizes="48x48" href="/govcy-design-system-docs/img/favicon-48x48.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/govcy-design-system-docs/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/govcy-design-system-docs/img/favicon-16x16.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/govcy-design-system-docs/img/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/govcy-design-system-docs/img/apple-touch-icon-120x120-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/govcy-design-system-docs/img/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/govcy-design-system-docs/img/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="/govcy-design-system-docs/img/apple-touch-icon-57x57-precomposed.png">
+        <!-- Bootstrap CSS -->
+        <link href="/govcy-design-system-docs/css/main.css" rel="stylesheet" >
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-theme-classic"/>
+        <link href="/govcy-design-system-docs/css/docs.css" rel="stylesheet" >
+        <!--<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">-->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vs.min.css" integrity="sha512-54dqOdBwMzeeRRYZieLqjlGc/w9+AI3vLUdz9PW6QFVTfkL0e7CYLWXKQPV+HqZi5QIj8JKsbzIkeplWVhlY+A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vsc-dark-plus.min.css" integrity="sha512-GU4Q2LAEtdpc8WmjcbSJGxM6c8D69ggI3mc5SRnfnxpg5AkYYA0BEVve0W9Oj2wZR0UItklQK2RBKLtDsQHNzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
+        <title>Structuring a service - Design System - gov.cy</title>
+        <meta name="description" content="Design your services using gov.cy styles, components and patterns.">
+    </head>
+    <body>
+    <a href="#mainContainer" class="govcy-skip-link">Skip to main content</a> 
+    <!--Header-->
+    <div class="govcy-container-fluid govcy-p-0 govcy-m-0 govcy-position-relative govcy-d-print-none">
+         <div class="govcy-container">
+             <div class="row">
+                 <header class="govcy-header govcy-bg-primary govcy-text-white govcy-bg-primary-right">
+                      <a href="/govcy-design-system-docs/" class="govcy-logo"> <img></a>
+                     
+                     <input class="govcy-menu-btn govcy-d-none" type="checkbox" id="menu-btn">
+                     <label class="govcy-menu-icon govcy-d-md-none" for="menu-btn">Menu
+                         <span class="material-icons govcy-my-3">arrow_drop_down</span>
+                     </label>
+                     <span class="govcy-service-name">Design System </span>
+                     <ul class="govcy-menu govcy-bg-sub-menu govcy-bg-md-primary">
+                     
+                    <li>
+                            <a href="/govcy-design-system-docs/getting_started/" >
+                                Get Started
+                            </a>
+                            </li><li>
+                            <a href="/govcy-design-system-docs/styles/" >
+                                Styles
+                            </a>
+                            </li><li>
+                            <a href="/govcy-design-system-docs/components/" >
+                                Components
+                            </a>
+                            </li><li>
+                            <a href="/govcy-design-system-docs/patterns/"  class="active">
+                                Patterns
+                            </a>
+                            </li><li>
+                            <a href="/govcy-design-system-docs/css_utilities/" >
+                                Utilities
+                            </a>
+                            </li><li>
+                            <a href="/govcy-design-system-docs/guides/" >
+                                Guides
+                            </a>
+                            </li>
+                     </ul>
+                 </header>
+             </div>
+         </div>
+    </div>
+    <!--beforeMain-->
+    <section class="govcy-container govcy-my-2" id="beforeMainContainer">
+        <div class="row">
+            <div class="govcy-col-3 govcy-d-print-none">
+                <span id="autocomplete" class="govcy-w-50"></span>
+            </div>  
+            <div class="govcy-col-3 govcy-mt-2">
+        
+        <span class="govcy-br-2 govcy-text-white govcy-br-primary govcy-rounded-1 govcy-bg-primary govcy-px-3 govcy-fw-bold govcy-efs-small">Ver. 2.2.0</span>
+            </div>
+            
+        </div>
+    </section>
+    <!--Main-->
+    <main class="govcy-container govcy-my-2" id="mainContainer">
+        <div class="row">
+            <div class="govcy-col-9 govcy-order-last">
+                <h1>Structuring a service</h1>
+                
+                
+                    <aside class="toc-outter">
+                        <strong>On this page</strong>
+                        <nav class="toc">
+                <ol>
+                    
+                    <li><a href="#basic-structure">Basic structure</a>
+            		</li>
+
+                    <li><a href="#start-page">Start page</a>
+            		</li>
+
+                    <li><a href="#one-thing-at-a-time">One thing at a time</a>
+            		</li>
+
+                    <li><a href="#check-your-answers-page">Check your answers page</a>
+            		</li>
+
+                    <li><a href="#confirmation-page">Confirmation page</a>
+            		</li>
+
+                    <li><a href="#contribute">Contribute</a>
+            		</li>
+                </ol>
+            </nav>
+                    </aside>
+                
+                <p>This guide explains how to structure an online service.</p>
+<h2 id="basic-structure" tabindex="-1">Basic structure <a class="anchor-link" href="#basic-structure"> </a></h2>
+<p>The basic structure of a service should:</p>
+<ol>
+<li>Start with an informative start page</li>
+<li>If needed, ask the users to sign-in</li>
+<li>Gather information from the users, one question at a time</li>
+<li>Let the users check their answers before submitting</li>
+<li>Show the users a confirmation of successful completion page.</li>
+</ol>
+<p><img src="../../img/example_flow_of_a_standard_service.png" alt="An example flow of a standard service" class="img-fluid"></p>
+<h2 id="start-page" tabindex="-1">Start page <a class="anchor-link" href="#start-page"> </a></h2>
+<p>Before starting the service, users should be presented with a page describing all the information they will need from the start, such as:</p>
+<ul>
+<li>What the service does</li>
+<li>Who it is for</li>
+<li>What is needed to use the service</li>
+<li>Other ways to apply</li>
+<li>How they can get help</li>
+</ul>
+<p><img src="../../img/illustration_start_page.png" alt="Illustration of a start page" class="img-fluid"></p>
+<p>Keep in mind that research has shown that users avoid reading long text, so keep your information minimal, and to the point and avoid using legal jargon.</p>
+<p>This page usually resides on the GOV.CY portal.</p>
+<h2 id="one-thing-at-a-time" tabindex="-1">One thing at a time <a class="anchor-link" href="#one-thing-at-a-time"> </a></h2>
+<p>Prefer to split the <a href="../question_pages">questions</a> across multiple pages with each page containing just one thing, for example:</p>
+<ul>
+<li>one piece of information you’re telling a user</li>
+<li>one decision they have to make</li>
+<li>one question they have to answer</li>
+</ul>
+<p><img src="../../img/one-thing-at-a-time.png" alt="Illustration of splitting questions to ask one thing at a time" class="img-fluid"></p>
+<p>User research will tell you when you can merge pages together. For example, if you’re designing an internal service for government users who need to repeat and switch between tasks quickly.<br>
+Keeping one thing on a page helps users to:</p>
+<ul>
+<li>understand what you’re asking them to do</li>
+<li>focus on the specific question and its answer</li>
+<li>reduce the stress of filling out humongous forms</li>
+<li>find their way through an unfamiliar process</li>
+<li>use the service on a mobile device</li>
+<li>recover easily from errors</li>
+</ul>
+<p>It may also help to:</p>
+<ul>
+<li>save users’ answers automatically as they go</li>
+<li>capture analytics and statistics about each question</li>
+<li>handle branching questions and <a href="../multiple_things">loops</a></li>
+<li>apply conditional logic and guide users to complete the service in a more relaxed manner</li>
+<li>direct the users to a specific question where they can change their answer (see <a href="../check_answers">check answers pattern</a>).</li>
+</ul>
+<h2 id="check-your-answers-page" tabindex="-1">Check your answers page <a class="anchor-link" href="#check-your-answers-page"> </a></h2>
+<p>Use the <a href="../check_answers">check answers pattern</a> to let users check their answers before submitting information to a service.</p>
+<p><img src="../../img/illustration_check_answers.png" alt="Illustration a check your answers page" class="img-fluid"></p>
+<h2 id="confirmation-page" tabindex="-1">Confirmation page <a class="anchor-link" href="#confirmation-page"> </a></h2>
+<p>After the users have submitted their application, present a confirmation page with a <a href="../../components/panel">panel</a> to tell them that they have successfully completed the transaction. This reassures the users their application has been filed and provides useful information on what will happen next.</p>
+<p><img src="../../img/illustration_confirmation_page.png" alt="Illustration a confirmation page" class="img-fluid"></p>
+<p>Research has shown that users feel more at ease when:</p>
+<ul>
+<li>they are presented with a reference number for their application</li>
+<li>they receive a notification either by SMS or by email</li>
+<li>they can print or save the confirmation.</li>
+</ul>
+<h2 id="contribute" tabindex="-1">Contribute <a class="anchor-link" href="#contribute"> </a></h2>
+<p>If you have used or researched this pattern, please let us have your feedback, so we can make it better for everyone. Send us an email at <a href="mailto:dsf@dits.dmrid.gov.cy" target="_blank">dsf@dits.dmrid.gov.cy</a> to get in touch.</p>
+
+            </div>
+    
+    <aside class="govcy-col-3 govcy-order-first">
+                <ul class="nav-side govcy-flex-column"><li>Ask users for</li><li><a href="/govcy-design-system-docs/patterns/dates/" class="nav-link">Dates</a></li><li><a href="/govcy-design-system-docs/patterns/email/" class="nav-link">Email</a></li><li><a href="/govcy-design-system-docs/patterns/names/" class="nav-link">Names</a></li><li><a href="/govcy-design-system-docs/patterns/telephone/" class="nav-link">Telephone</a></li><li>Help users</li><li><a href="/govcy-design-system-docs/patterns/check_answers/" class="nav-link">Check answers</a></li><li><a href="/govcy-design-system-docs/patterns/confirm_phone_number/" class="nav-link">Confirm a phone number</a></li><li><a href="/govcy-design-system-docs/patterns/hint_text/" class="nav-link">Hint Text</a></li><li>Pages</li><li><a href="/govcy-design-system-docs/patterns/page-not-found-pages/" class="nav-link">Page not found pages</a></li><li><a href="/govcy-design-system-docs/patterns/question_pages/" class="nav-link">Question pages</a></li><li><a href="/govcy-design-system-docs/patterns/service-unavailable-pages/" class="nav-link">Service unavailable pages</a></li><li><a href="/govcy-design-system-docs/patterns/there-is-a-problem/" class="nav-link">There is a problem with the service pages</a></li><li>How to</li><li><a href="/govcy-design-system-docs/patterns/focus_state/" class="nav-link">Focus state</a></li><li><a href="/govcy-design-system-docs/patterns/labels_and_legend_headings/" class="nav-link">Labels and legends headings</a></li><li><a href="/govcy-design-system-docs/patterns/multiple_things/" class="nav-link">Add multiple things </a></li><li><a href="/govcy-design-system-docs/patterns/service_structure/" class="nav-link active">Structuring a service</a></li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+    <!-- Footer -->
+    <div class="govcy-container-fluid govcy-br-top-8 govcy-br-top-primary govcy-p-3 govcy-bg-light govcy-d-print-none">
+            <div class="govcy-container">
+                <div class="row">   
+                    <footer class="govcy-footer">
+                        <span class="govcy-d-inline-block govcy-valign-top govcy-pb-2"><img alt="govcy-logo"></span>
+                                <ul class="govcy-d-inline-block  govcy-m-0 govcy-pl-3 govcy-efs-medium">
+                                <li><a href="/govcy-design-system-docs/privacy-statement">Privacy statement</a></li>
+                                <li><a href="/govcy-design-system-docs/cookie-policy">Cookie policy</a></li>
+                                <li><a href="/govcy-design-system-docs/accessibility-statement">Accessibility statement</a></li>
+                                <li class="govcy-d-block govcy-text-dark">© Republic of Cyprus, 2021</li>
+                            </ul>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        
+        
+        
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-js"></script>
+        <script>
+            const { autocomplete } = window['@algolia/autocomplete-js'];
+        </script>
+
+
+        <script>
+        autocomplete({
+        container: '#autocomplete',
+        placeholder: 'Search Design System',
+        getSources() {
+            return [
+            {
+                sourceId: 'links',
+                getItems({ query }) {
+                return [
+{ label: "Colours", url: '/govcy-design-system-docs/styles/colour/', keys: "" },{ label: "Page Templates", url: '/govcy-design-system-docs/styles/page_templates/', keys: "" },{ label: "Grid system", url: '/govcy-design-system-docs/styles/grid/', keys: "" },{ label: "Vertical Spacing", url: '/govcy-design-system-docs/styles/vertical_spacing/', keys: "" },{ label: "Layout", url: '/govcy-design-system-docs/styles/layout/', keys: "" },{ label: "Typography", url: '/govcy-design-system-docs/styles/typography/', keys: "fonts text Paragraph Headings Unordered Ordered list Links" },{ label: "Back Link", url: '/govcy-design-system-docs/components/back_link/', keys: "" },{ label: "Breadcrumbs", url: '/govcy-design-system-docs/components/breadcrumbs/', keys: "" },{ label: "Button", url: '/govcy-design-system-docs/components/button/', keys: "" },{ label: "Checkbox", url: '/govcy-design-system-docs/components/checkbox/', keys: "" },{ label: "Date input", url: '/govcy-design-system-docs/components/date_input/', keys: "" },{ label: "Details", url: '/govcy-design-system-docs/components/details/', keys: "" },{ label: "Error Message", url: '/govcy-design-system-docs/components/error_message/', keys: "" },{ label: "Error Summary", url: '/govcy-design-system-docs/components/error_summary/', keys: "" },{ label: "Fieldset", url: '/govcy-design-system-docs/components/fieldset/', keys: "" },{ label: "File", url: '/govcy-design-system-docs/components/file/', keys: "" },{ label: "Footer", url: '/govcy-design-system-docs/components/footer/', keys: "" },{ label: "Header", url: '/govcy-design-system-docs/components/header/', keys: "" },{ label: "Panel", url: '/govcy-design-system-docs/components/panel/', keys: "success panel" },{ label: "Radio", url: '/govcy-design-system-docs/components/radio/', keys: "" },{ label: "Select", url: '/govcy-design-system-docs/components/select/', keys: "" },{ label: "Skip Link", url: '/govcy-design-system-docs/components/skip_link/', keys: "" },{ label: "Table", url: '/govcy-design-system-docs/components/table/', keys: "" },{ label: "Text Input", url: '/govcy-design-system-docs/components/text_input/', keys: "" },{ label: "User’s name and sign out", url: '/govcy-design-system-docs/components/user_name_and_sign_out/', keys: "" },{ label: "How to create a page using the gov.cy design system", url: '/govcy-design-system-docs/guides/create_a_page/', keys: "" },{ label: "How to create new design elements using the gov.cy utility classes", url: '/govcy-design-system-docs/guides/create_a_design_element/', keys: "" },{ label: "Check answers", url: '/govcy-design-system-docs/patterns/check_answers/', keys: "" },{ label: "Confirm a phone number", url: '/govcy-design-system-docs/patterns/confirm_phone_number/', keys: "" },{ label: "Dates", url: '/govcy-design-system-docs/patterns/dates/', keys: "" },{ label: "Email", url: '/govcy-design-system-docs/patterns/email/', keys: "" },{ label: "Focus state", url: '/govcy-design-system-docs/patterns/focus_state/', keys: "" },{ label: "Hint Text", url: '/govcy-design-system-docs/patterns/hint_text/', keys: "" },{ label: "Labels and legends headings", url: '/govcy-design-system-docs/patterns/labels_and_legend_headings/', keys: "" },{ label: "Add multiple things ", url: '/govcy-design-system-docs/patterns/multiple_things/', keys: "" },{ label: "Names", url: '/govcy-design-system-docs/patterns/names/', keys: "" },{ label: "Page not found pages", url: '/govcy-design-system-docs/patterns/page-not-found-pages/', keys: "" },{ label: "Question pages", url: '/govcy-design-system-docs/patterns/question_pages/', keys: "" },{ label: "Service unavailable pages", url: '/govcy-design-system-docs/patterns/service-unavailable-pages/', keys: "" },{ label: "Structuring a service", url: '/govcy-design-system-docs/patterns/service_structure/', keys: "" },{ label: "Telephone", url: '/govcy-design-system-docs/patterns/telephone/', keys: "" },{ label: "There is a problem with the service pages", url: '/govcy-design-system-docs/patterns/there-is-a-problem/', keys: "" },{ label: "Design System", url: '/govcy-design-system-docs/', keys: "" },{ label: "Get Started", url: '/govcy-design-system-docs/getting_started/', keys: "CSS CDN meta tags social theme manifest icon" },{ label: "Styles", url: '/govcy-design-system-docs/styles/', keys: "" },{ label: "Components", url: '/govcy-design-system-docs/components/', keys: "" },{ label: "Patterns", url: '/govcy-design-system-docs/patterns/', keys: "" },{ label: "Utilities", url: '/govcy-design-system-docs/css_utilities/', keys: "" },{ label: "Moving from Version 0.1.0", url: '/govcy-design-system-docs/moving_from_v_0/', keys: "" },{ label: "Guides", url: '/govcy-design-system-docs/guides/', keys: "" },{ label: "Privacy policy – your personal information", url: '/govcy-design-system-docs/privacy-statement/', keys: "" },{ label: "Cookies used by the Design System", url: '/govcy-design-system-docs/cookie-policy/', keys: "" },{ label: "Accessibility statement", url: '/govcy-design-system-docs/accessibility-statement/', keys: "" },
+                ].filter(({ label ,keys }) =>
+                    label.toLowerCase().includes(query.toLowerCase()) 
+                    || keys.toLowerCase().includes(query.toLowerCase())
+                );
+                },
+                getItemUrl({ item }) {
+                    return item.url;
+                },
+                 templates: {
+                    item({ item, createElement }) {
+                        return createElement('div', {
+                        dangerouslySetInnerHTML: {
+                            __html: `<div>
+                            <a
+                                href="${item.url}">
+                                ${item.label}
+                            <a/> 
+                            </div>`,
+                        },
+                        });
+                    },
+                    noResults() {
+                        return 'No results.';
+                    }
+                }
+                // ...
+            },
+            ];
+        }
+    });
+
+        </script>
+    </body>
+</html>
