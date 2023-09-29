@@ -7,33 +7,33 @@ Let users check their answers before submitting information to a service.
 
 *Example Simple table*
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
-<table class="govcy-table govcy-table-responsive">
+<table class="govcy-table govcy-table-responsive-vertical">
 <tbody>
     <tr>
         <th scope="row">Name</th>
         <td>Jane Smith</td>
-        <td class="col-2 govcy-text-end">
+        <td class="col-2 govcy-text-sm-start govcy-text-md-end">
             <a href="">Change<span class="govcy-visually-hidden-error">Name</span></a>
         </td>
     </tr>
     <tr>
         <th scope="row">Child's date of birth</th>
         <td>5 Jan 2021</td>
-        <td class="col-2 govcy-text-end">
+        <td class="col-2 govcy-text-sm-start govcy-text-md-end">
             <a href="">Change<span class="govcy-visually-hidden-error"> Child's date of birth</span></a>
         </td>
     </tr>
     <tr>
         <th scope="row">Address</th>
         <td>Thornton</td>
-        <td class="col-2 govcy-text-end">
+        <td class="col-2 govcy-text-sm-start govcy-text-md-end">
             <a href="">Change<span class="govcy-visually-hidden-error"> Address</span></a>
         </td>
     </tr>
     <tr>
         <th scope="row">Social insurance number</th>
         <td>7361063</td>
-        <td class="col-2 govcy-text-end">
+        <td class="col-2 govcy-text-sm-start govcy-text-md-end">
             <a href="">Change<span class="govcy-visually-hidden-error"> Social insurance number</span></a>
         </td>
     </tr>
@@ -44,33 +44,33 @@ Let users check their answers before submitting information to a service.
 *Sample HTML Code*
 
 ```html
-<table class="govcy-table govcy-table-responsive">
+<table class="govcy-table govcy-table-responsive-vertical">
 <tbody>
     <tr>
         <th scope="row">Name</th>
         <td>Jane Smith</td>
-        <td class="col-2 govcy-text-end">
+        <td class="col-2 govcy-text-sm-start govcy-text-md-end">
             <a href="">Change<span class="govcy-visually-hidden-error">Name</span></a>
         </td>
     </tr>
     <tr>
         <th scope="row">Child's date of birth</th>
         <td>5 Jan 2021</td>
-        <td class="col-2 govcy-text-end">
+        <td class="col-2 govcy-text-sm-start govcy-text-md-end">
             <a href="">Change<span class="govcy-visually-hidden-error"> Child's date of birth</span></a>
         </td>
     </tr>
     <tr>
         <th scope="row">Address</th>
         <td>Thornton</td>
-        <td class="col-2 govcy-text-end">
+        <td class="col-2 govcy-text-sm-start govcy-text-md-end">
             <a href="">Change<span class="govcy-visually-hidden-error"> Address</span></a>
         </td>
     </tr>
     <tr>
         <th scope="row">Social insurance number</th>
         <td>7361063</td>
-        <td class="col-2 govcy-text-end">
+        <td class="col-2 govcy-text-sm-start govcy-text-md-end">
             <a href="">Change<span class="govcy-visually-hidden-error"> Social insurance number</span></a>
         </td>
     </tr>
@@ -80,8 +80,7 @@ Let users check their answers before submitting information to a service.
 
 *Example detailed table*
 <div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
-<div class="govcy-table-responsive">
-    <table class="govcy-table">
+<table class="govcy-table govcy-table-responsive-vertical">
     <tbody>
         <tr>
             <th scope="row" class="col-3">Bank Details</th>
@@ -99,7 +98,7 @@ Let users check their answers before submitting information to a service.
                 <span class="govcy-d-block">CY**********************7654</span>
             </p>
             </td>
-            <td class="col-2 govcy-text-end">
+            <td class="col-2 govcy-text-sm-start govcy-text-md-end">
             <a href="">Change<span class="govcy-visually-hidden-error"> Bank Details</span></a>
             </td>
         </tr>
@@ -115,7 +114,7 @@ Let users check their answers before submitting information to a service.
                 <span class="govcy-d-block">99123456</span>
             </p>
             </td>
-            <td class="col-2 govcy-text-end">
+            <td class="col-2 govcy-text-sm-start govcy-text-md-end">
             <a href="">Change<span class="govcy-visually-hidden-error"> Personal Details</span></a>
             </td>
         </tr>
@@ -127,15 +126,13 @@ Let users check their answers before submitting information to a service.
             <td class="col-2"></td>
         </tr>
     </tbody>
-    </table>
-</div>
+</table>
 </div>
 
 *Sample HTML Code*
 
 ```html
-<div class="govcy-table-responsive">
-    <table class="govcy-table">
+<table class="govcy-table govcy-table-responsive-vertical">
     <tbody>
         <tr>
             <th scope="row" class="col-3">Bank Details</th>
@@ -153,7 +150,7 @@ Let users check their answers before submitting information to a service.
                 <span class="govcy-d-block">CY**********************7654</span>
             </p>
             </td>
-            <td class="col-2 govcy-text-end">
+            <td class="col-2 govcy-text-sm-start govcy-text-md-end">
             <a href="">Change<span class="govcy-visually-hidden-error"> Bank Details</span></a>
             </td>
         </tr>
@@ -169,7 +166,7 @@ Let users check their answers before submitting information to a service.
                 <span class="govcy-d-block">99123456</span>
             </p>
             </td>
-            <td class="col-2 govcy-text-end">
+            <td class="col-2 govcy-text-sm-start govcy-text-md-end">
             <a href="">Change<span class="govcy-visually-hidden-error"> Personal Details</span></a>
             </td>
         </tr>
@@ -181,8 +178,8 @@ Let users check their answers before submitting information to a service.
             <td class="col-2"></td>
         </tr>
     </tbody>
-    </table>
-</div>
+</table>
+
 ```
 
 ## When to use this pattern
