@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="{{locale}}">
+    <head>
+    <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Social -->
+        <meta property="og:description" content="{{ site.localization[locale].description }}">
+        <meta property="og:title" content="{{ site.localization[locale].subtitle }} {{ site.localization[locale].title }}">
+        <meta property="og:url" content="{{ site.url }}">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="{{ site.url }}img/icons-512.png">
+        <meta property="og:site_name" content="{{ site.localization[locale].title }}">
+    
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="{{ site.url }}">
+        <meta property="twitter:title" content="{{ site.localization[locale].subtitle }} {{ site.localization[locale].title }}">
+        <meta property="twitter:description" content="{{ site.localization[locale].description }}">
+        <meta property="twitter:image" content="{{ site.url }}img/icons-512.png">
+        <!-- Theme --> 
+        <link rel="manifest" href="{{'/manifest.json' | url }}">
+        <meta name="theme-color" content="#31576F">
+        <link rel="icon" type="image/png" sizes="48x48" href="{{ '/img/favicon-48x48.png' | url }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ '/img/favicon-32x32.png' | url }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ '/img/favicon-16x16.png' | url }}">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ '/img/apple-touch-icon-144x144-precomposed.png' | url }}">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ '/img/apple-touch-icon-120x120-precomposed.png' | url }}">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ '/img/apple-touch-icon-114x114-precomposed.png' | url }}">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ '/img/apple-touch-icon-72x72-precomposed.png' | url }}">
+        <link rel="apple-touch-icon-precomposed" href="{{ '/img/apple-touch-icon-57x57-precomposed.png' | url }}">
+        <!-- Bootstrap CSS -->
+        <link href="{{ '/css/main.css' | url }}" rel="stylesheet" >
+        {# <link href="{{ site.cssCDN }}" rel="stylesheet" > #}
+        <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vs.min.css" integrity="sha512-54dqOdBwMzeeRRYZieLqjlGc/w9+AI3vLUdz9PW6QFVTfkL0e7CYLWXKQPV+HqZi5QIj8JKsbzIkeplWVhlY+A==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vsc-dark-plus.min.css" integrity="sha512-GU4Q2LAEtdpc8WmjcbSJGxM6c8D69ggI3mc5SRnfnxpg5AkYYA0BEVve0W9Oj2wZR0UItklQK2RBKLtDsQHNzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
+        <title>{{ title }} - {{ site.localization[locale].title }}</title>
+        <meta name="description" content="{{ site.localization[locale].description }}">
+    </head>
+    <body>
+        <!--Header-->
+        <div class="govcy-container-fluid govcy-p-0 govcy-m-0 govcy-position-relative govcy-d-print-none">
+            <div class="govcy-container">
+                <div class="row">
+                    <header class="govcy-header govcy-bg-primary govcy-text-white govcy-bg-primary-right">
+                        <a href="{% if site.isMultiLanguage %}{{locale}}{{ '/' | url }}{%else%}{{ '/' | url }}{% endif %}" class="govcy-logo"> <img></a>
+                        {% if site.isMultiLanguage %}
+                        <form class="govcy-text-white govcy-bg-primary">
+                            <select id="govcy-lang-menu" name="govcy-lang-menu" class="govcy-lang-menu govcy-text-white">
+                            {# loop through languages #}
+                            {% for language in site.languages %}
+                                <option value="{{ language.code }}"{% if locale == language.code %} selected{% endif %}>{{ language.label }}</option>
+                            {% endfor %}
+                        </form>
+                        {% endif %}
+                        <input class="govcy-menu-btn govcy-d-none" type="checkbox" id="menu-btn">
+                        <label class="govcy-menu-icon govcy-d-md-none" for="menu-btn">{{ site.localization[locale].menu }}
+                            <span class="material-icons govcy-my-3">arrow_drop_down</span>
+                        </label>
+                        <span class="govcy-service-name">{{ site.localization[locale].subtitle }} </span>
+                        <ul class="govcy-menu govcy-bg-sub-menu govcy-bg-md-primary">
+                        {# Depending on locale loop through categories #}
+                        {% if locale == 'en' %}
+                            {%- for cat in collections.categoriesSortByOrderAscEn -%}
+                                <li>
+                                <a href="{{ cat.url | url }}" {% if category == cat.data.category %} class="active"{% endif %}>
+                                    {{ cat.data.title }}
+                                </a>
+                                </li>
+                            {%- endfor -%}
+                        {% elif locale == 'el' %}
+                            {%- for cat in collections.categoriesSortByOrderAscEl -%}
+                                <li>
+                                <a href="{{ cat.url | url }}" {% if category == cat.data.category %} class="active"{% endif %}>
+                                    {{ cat.data.title }}
+                                </a>
+                                </li>
+                            {%- endfor -%}
+                        {% endif %}
+                        </ul>
+                    </header>
+                </div>
+            </div>
+        </div>
+        {{ content | safe }}
+        <!-- Footer -->
+        <div class="govcy-container-fluid govcy-br-top-8 govcy-br-top-primary govcy-p-3 govcy-bg-light govcy-d-print-none">
+            <div class="govcy-container">
+                <div class="row">   
+                    <footer class="govcy-footer">
+                        <span class="govcy-d-inline-block govcy-valign-top govcy-pb-2"><img alt="govcy-logo"></span>
+                                <ul class="govcy-d-inline-block  govcy-m-0 govcy-pl-3 govcy-efs-medium">
+                                <li><a href="{{ '/privacy-statement' | url }}">{{ site.localization[locale].privacy_label }}</a></li>
+                                <li><a href="{{ '/cookie-policy' | url }}">{{ site.localization[locale].cookie_label }}</a></li>
+                                <li><a href="{{ '/accessibility-statement' | url }}">{{ site.localization[locale].accessibility_label }}</a></li>
+                                <li class="govcy-d-block govcy-text-dark">{{ site.localization[locale].copyright_label }}</li>
+                            </ul>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </body>
