@@ -106,23 +106,23 @@ When filling up stored or submitted amounts of money within text inputs, they sh
     <form action="" class="govcy-form" novalidate> 
         <div class="govcy-form-control"> 
             <label class="govcy-label" for="in3">Whole number (€)</label>  
-            <input type="text" value="123456" spellcheck="false" class="govcy-text-input govcy-text-input-char_20" maxlength="20" id="in3">  
+            <input type="text" value="123456" spellcheck="false" pattern="[0-9]*" inputmode="numeric" class="govcy-text-input govcy-text-input-char_20" maxlength="20" id="in3">  
         </div> 
         <div class="govcy-form-control"> 
             <label class="govcy-label" for="in4">Large decimal number (€)</label>  
-            <input type="text" value="123456789,12" spellcheck="false" pattern="[0-9]*" inputmode="numeric" class="govcy-text-input govcy-text-input-char_20" maxlength="20" id="in4">  
+            <input type="text" value="123456789,12" spellcheck="false" class="govcy-text-input govcy-text-input-char_20" maxlength="20" id="in4">  
         </div> 
         <div class="govcy-form-control"> 
             <label class="govcy-label" for="in5">Small whole number (€)</label>  
-            <input type="text" value="123" spellcheck="false" class="govcy-text-input govcy-text-input-char_20" maxlength="20" id="in5">  
+            <input type="text" value="123" spellcheck="false" pattern="[0-9]*" inputmode="numeric" class="govcy-text-input govcy-text-input-char_20" maxlength="20" id="in5">  
         </div> 
         <div class="govcy-form-control"> 
             <label class="govcy-label" for="in6">Small decimal number (€)</label>  
-            <input type="text" value="123,02" spellcheck="false" pattern="[0-9]*" inputmode="numeric" class="govcy-text-input govcy-text-input-char_20" maxlength="20" id="in6">  
+            <input type="text" value="123,02" spellcheck="false" class="govcy-text-input govcy-text-input-char_20" maxlength="20" id="in6">  
         </div> 
         <div class="govcy-form-control"> 
             <label class="govcy-label" for="in7">Another small decimal number (€)</label>  
-            <input type="text" value="123,20" spellcheck="false" pattern="[0-9]*" inputmode="numeric" class="govcy-text-input govcy-text-input-char_20" maxlength="20" id="in7">  
+            <input type="text" value="123,20" spellcheck="false" class="govcy-text-input govcy-text-input-char_20" maxlength="20" id="in7">  
         </div> 
     </form> 
 </div>
