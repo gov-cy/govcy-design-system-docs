@@ -1,0 +1,22 @@
+---
+title: "Patterns"
+order: 3
+tags : ['top_menu']
+---
+<p>Use these best practice design solutions for specific user-focused tasks and page types, such as addresses, bank details and so on.</p>
+
+
+{%- for subCat in availableSubcategories -%}
+    {#- show the subcategory name -#}
+    <h3>{{ site.localization[locale][subCat] }}</h3>
+    <div class="govcy-container">
+        <div class="row">
+        {%- for pagSubCat in collections[subCat] -%}
+            {#- Checks if we want to show the index page -#}
+            {% if (pagSubCat.fileSlug == category and showIndexInCategoryMenu) or pagSubCat.fileSlug != category -%}
+                <div class="govcy-col-4 govcy-mb-3"><a class="app-card" href="{{ pagSubCat.url | url }}" class="nav-link{% if page.url == pagSubCat.url %} active{% endif %}">{{ pagSubCat.data.title }}</a></div>
+            {%- endif %}
+        {%- endfor -%}
+        </div>
+    </div>
+{%- endfor -%}
