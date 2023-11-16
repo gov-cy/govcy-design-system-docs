@@ -1,0 +1,22 @@
+---
+title: "Components"
+order: 2
+tags : ['top_menu']
+---
+<p>Use these reusable elements of the user interface such as components for forms, navigation, panels, tables and more. </p>
+
+<p>You can use individual components in many different <a href="../patterns">patterns</a> and contexts. For example, you can use the text input component to ask for an email address or contact details name.</p>
+
+<div class="govcy-container">
+    <div class="row">
+    {%- for pag in collections[category] -%}
+        {#- Checks for same locale -#}
+        {% if locale  == pag.data.locale -%}
+            {#- Checks if we want to show the index page -#}
+            {% if (pag.fileSlug == category and showIndexInCategoryMenu) or pag.fileSlug != category -%}
+                <div class="govcy-col-4 govcy-mb-3"><a class="app-card" href="{{ pag.url | url }}">{{ pag.data.title }}</a></div>
+            {%- endif %}
+        {%- endif %}
+    {%- endfor -%}
+    </div>
+</div> 

@@ -100,3 +100,22 @@ header.govcy-bg-primary-right:after {
     width: 50%;
     z-index: -1;
 }
+
+.app-card {
+    background-color: #EBF1F3;
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: #272525;
+    text-decoration: none!important;
+    font-weight: 500;
+}
+.app-card:hover,
+.app-card:visited,
+.app-card:focus {
+    color: #272525;
+}
+.app-card:hover {
+    background-color: #DAE5EA;
+}
