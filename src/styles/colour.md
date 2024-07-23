@@ -14,7 +14,7 @@ Always use the gov.cy colour palette.
         <p class="govcy-pl-4 govcy-pt-6">
 		<span class="govcy-warning-text govcy-d-inline">
 			<span class="govcy-warning-text-icon" aria-hidden="true">!</span></span>
-			<a href="../../getting-started/principles/#6.-consistent">Consistency</a> is very important, so do not deviate from the colours used in the guidance and coded examples of the Unified Design System. If you are using the our <a href="../../getting-started/developer-assets">developers assets</a> and the code in our documentation, you will not need any additional styling.
+			<a href="../../getting-started/principles/#6.-consistent">Consistency</a> is very important, so do not deviate from the colours used in the guidance and coded examples of the Unified Design System. If you are using the <a href="../../getting-started/developer-assets">developers assets</a> and the code in our documentation, you will not need any additional styling.
 		</p>
     </div>
 </div>
