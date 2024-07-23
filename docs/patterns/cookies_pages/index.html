@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+        <head>
+    <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Social -->
+        <meta property="og:description" content="Design your services using gov.cy styles, components and patterns.">
+        <meta property="og:title" content="Cookies page and cookies consent - Unified Design System - gov.cy">
+        <meta property="og:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://gov-cy.github.io/govcy-design-system-docs/img/icons-512.png">
+        <meta property="og:site_name" content="gov.cy">
+    
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
+        <meta property="twitter:title" content="Cookies page and cookies consent - Unified Design System - gov.cy">
+        <meta property="twitter:description" content="Design your services using gov.cy styles, components and patterns.">
+        <meta property="twitter:image" content="https://gov-cy.github.io/govcy-design-system-docs/img/icons-512.png">
+        <!-- Theme --> 
+        <link rel="manifest" href="/govcy-design-system-docs/manifest.json">
+        <meta name="theme-color" content="#31576F">
+        <link rel="icon" type="image/png" sizes="48x48" href="/govcy-design-system-docs/img/favicon-48x48.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/govcy-design-system-docs/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/govcy-design-system-docs/img/favicon-16x16.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/govcy-design-system-docs/img/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/govcy-design-system-docs/img/apple-touch-icon-120x120-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/govcy-design-system-docs/img/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/govcy-design-system-docs/img/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="/govcy-design-system-docs/img/apple-touch-icon-57x57-precomposed.png">
+        <!-- Bootstrap CSS -->
+        <link href="/govcy-design-system-docs/css/govcy.uds.min.css" rel="stylesheet" >
+        
+        <link href="/govcy-design-system-docs/css/docs.css" rel="stylesheet" >
+        <!-- Prism Highlighter CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-a11y-dark.min.css" rel="stylesheet">
+        <title>Cookies page and cookies consent - Unified Design System - gov.cy</title>
+        <meta name="description" content="Design your services using gov.cy styles, components and patterns.">
+    </head>
+    <body>
+        <section class="govcy-container-fluid" id="bodyStartContainer">
+        <a href="#mainContainer" class="govcy-skip-link">Skip to main content</a> 
+    </section>
+    <header class="govcy-header govcy-d-print-none" id="headerContainer">
+  <div class="govcy-header-main-area">
+    <div
+      class="govcy-container govcy-main-area-items govcy-justify-content-between"
+    >
+      <div class="govcy-navigation-container govcy-align-items-center">
+        <div class="govcy-service-container">
+          <a href="https://www.gov.cy" class="govcy-logo" title="Go to the GOV.CY homepage"
+            ><img alt="gov.cy Logo"
+          /></a>
+          <span class="govcy-service-name">
+            <a href="/govcy-design-system-docs/">Unified Design System</a>
+          </span>
+        </div>
+        <ul class="govcy-menu-items">
+          <li class="govcy-mobile-menu govcy-mobile-menu-only govcy-dropdown govcy-ms-auto">
+            <span>
+                <a href="#" class="govcy-menu-item govcy-expand-btn">Menu</a>
+            </span>
+          </li>
+          <li class="govcy-global-search">
+            <span><a href="#" class="govcy-menu-item" aria-label="Search, expands search text box when clicked" aria-haspopup="true"><i class="govcy-search-icon"></i></a></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="govcy-header-menu-area">
+    <nav class="govcy-mainmenu">
+      <div class="govcy-container">
+          <ul class="govcy-menu-items">
+              <li>
+                      <a href="/govcy-design-system-docs/getting-started/" class="govcy-menu-item">
+                          Get Started
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/styles/" class="govcy-menu-item">
+                          Styles
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/components/" class="govcy-menu-item">
+                          Components
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/patterns/" class="govcy-menu-item active">
+                          Patterns
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/css_utilities/" class="govcy-menu-item">
+                          Utilities
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/guides/" class="govcy-menu-item">
+                          Guides
+                      </a>
+                  </li>
+          </ul>
+      </div>
+    </nav>
+    <div class="govcy-header-search-area">
+        <div class="govcy-container">
+            <div class="govcy-form">
+                
+                <div class="govcy-form-control">
+                    <span class="pagefind-custom-label">Search the Design System</span>
+                    <link href="/govcy-design-system-docs/pagefind/pagefind-ui.css" rel="stylesheet">
+                    <div id="search-div" class="search"></div>
+                    <script src="/govcy-design-system-docs/pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search-div', showImages: false, translations : {placeholder:''} }); document.querySelector('.pagefind-ui__search-input').setAttribute('aria-label', 'Search the Design System');"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</header>
+
+    
+<!--beforeMain-->
+    <section class="govcy-container" id="beforeMainContainer">
+        
+        
+        <div class="govcy-phase-banner">
+            <span class="govcy-tag">Ver. 3.0.0</span>
+            <span class="govcy-ml-2">For the older version visit <a href='https://gov-cy.github.io/govcy-design-system-docs-v2/'>v2 documentation</a> </span>
+        </div>
+        
+    </section>
+
+    <!--Main-->
+    <main class="govcy-container" id="mainContainer">
+        <div class="govcy-row">
+            <div class="govcy-col-md-9 govcy-col-lg-10 govcy-order-last-desk">
+                <h1 data-pagefind-weight="10">Cookies page and cookies consent</h1>
+                
+                
+                    <aside class="toc-outter">
+                        <strong>On this page</strong>
+                        <nav class="toc">
+                <ol>
+                    
+                    <li><a href="#when-to-use-this-pattern">When to use this pattern</a>
+            		</li>
+
+                    <li><a href="#how-it-works">How it works</a>
+            
+                <ol>
+                    
+                    <li><a href="#preparing-your-cookies-page">Preparing your cookies page</a>
+            		</li>
+
+                    <li><a href="#writing-your-cookies-page">Writing your cookies page</a>
+            		</li>
+
+                    <li><a href="#strictly-necessary-cookies">Strictly necessary cookies</a>
+            		</li>
+
+                    <li><a href="#optional-cookies-that-need-consent-for">Optional cookies that need consent for</a>
+            
+                <ol>
+                    
+                    <li><a href="#cookie-banner">Cookie banner</a>
+            		</li>
+
+                    <li><a href="#cookies-page%2C-letting-users-accept-or-reject-cookies">Cookies page, letting users accept or reject cookies</a>
+            		</li>
+
+                    <li><a href="#cookies-page-with-consent-examples">Cookies page with consent examples</a>
+            		</li>
+                </ol>
+            		</li>
+                </ol>
+            		</li>
+                </ol>
+            </nav>
+                    </aside>
+                
+                <p>Tell users about the cookies you’re setting on their device and let them accept or reject different types of non-essential cookies.</p>
+<h2 id="when-to-use-this-pattern" tabindex="-1">When to use this pattern</h2>
+<p>Use a cookies page to tell users about any cookies your service or website uses - or any other technologies that work in a similar way and store information on their device.</p>
+<h2 id="how-it-works" tabindex="-1">How it works</h2>
+<p>A cookies page helps you to be transparent about the cookies you’re using.</p>
+<p>Keep use of cookies to a minimum, and be transparent about the ones you do use. You must:</p>
+<ul>
+<li>use as few cookies as possible, and stop setting any cookies that are not needed anymore</li>
+<li>store the smallest amount of information that you need, for as short a time as necessary</li>
+<li>publish a cookie policy telling users about the cookies you’re using</li>
+<li>get users’ consent before you set any cookies that are not essential to providing the service</li>
+</ul>
+<p>The Cookie policy can be accessed by a link at the footer of any service and website.</p>
+<p>This page should have the following sections and items:</p>
+<ul>
+<li>Cookie policy description</li>
+<li>the purpose and scope of the policy</li>
+<li>what information is collected and for what purposes</li>
+<li>contact information regarding the policy</li>
+<li>cookie settings</li>
+<li>review of policy</li>
+<li>go back link</li>
+<li>make the page available in all service / site languages</li>
+</ul>
+<p>Make sure to include the name of the service in the cookie policy description to help users understand that the policy you’re talking about is different from the one set by the main gov.cy platform, or a different site or service.</p>
+<p>Do not use:</p>
+<ul>
+<li>breadcrumbs</li>
+<li>red text to warn people</li>
+</ul>
+<h3 id="preparing-your-cookies-page" tabindex="-1">Preparing your cookies page</h3>
+<p>You must publish a cookies page by the time your service goes into public beta. The cookies page must be unique to your service: do not link to the cookie policy for the main gov.cy website.</p>
+<p>Follow the steps below to create a cookie policy.</p>
+<ol>
+<li>audit your cookies.</li>
+<li>categorise your cookies.</li>
+<li>write your cookies page.</li>
+</ol>
+<h3 id="writing-your-cookies-page" tabindex="-1">Writing your cookies page</h3>
+<p>Work with your organisation’s privacy expert to write the cookies page.</p>
+<p>The cookie policy must be written in plain language.</p>
+<p>List the cookies individually on the cookies page, under the relevant category. For each cookie, give:</p>
+<ul>
+<li>the cookie name</li>
+<li>a brief description of what the cookie does</li>
+<li>for third party cookies, who is setting the cookie (for example, social media websites may require users to accept their cookies in order to provide their functionality as part of your service)</li>
+<li>when the cookie will expire</li>
+</ul>
+<p>Do not bury your cookie policy in a ‘terms and conditions’ page.</p>
+<p>Have an agreed process for updating the cookie policy when you add or remove a cookie. Make sure the relevant people on your team know what the process is.</p>
+<div class="govcy-alert-notification govcy-br-5 govcy-br-info govcy-px-0">
+    <div class="govcy-alert-notification-header govcy-fw-bold govcy-bg-info govcy-fs-4">Warning</div>
+    <div class="govcy-alert-notification-body">
+        <p class="govcy-pl-4 govcy-pt-6">
+		<span class="govcy-warning-text govcy-d-inline">
+			<span class="govcy-warning-text-icon" aria-hidden="true">!</span></span>
+			Do not copy the examples in this page without amending the specifics. Make sure to adjust your cookies page according to your case.
+		</p>
+    </div>
+</div>
+<h3 id="strictly-necessary-cookies" tabindex="-1">Strictly necessary cookies</h3>
+<p>See below examples of the cookies page when using only ‘strictly necessary’ cookies. A cookie is ‘strictly necessary’ if the service will not work without it.</p>
+<p><em>Example in English</em><br>
+<a href="../../samples/cookies-essential-en/" rel="noreferrer noopener" target="_blank">Open in new tab</a></p>
+<iframe src="../../samples/cookies-essential-en/" width="100%" frameborder="0" scrolling="no" class="govcy-br-1 govcy-br-standard govcy-mb-4" onload="resizeIframe(this)"></iframe>
+<p><em>Example in Greek</em><br>
+<a href="../../samples/cookies-essential-el/" rel="noreferrer noopener" target="_blank">Open in new tab</a></p>
+<iframe src="../../samples/cookies-essential-el/" width="100%" frameborder="0" scrolling="no" class="govcy-br-1 govcy-br-standard govcy-mb-4" onload="resizeIframe(this)"></iframe>
+<h3 id="optional-cookies-that-need-consent-for" tabindex="-1">Optional cookies that need consent for</h3>
+<p>You do not need the user’s consent to set essential or ‘strictly necessary’ cookies. A cookie is ‘strictly necessary’ if the service will not work without it.</p>
+<p>You must get the user’s consent before you set any cookies that are not strictly necessary.</p>
+<p>You can get the user’s consent:</p>
+<ul>
+<li>by using a cookie banner</li>
+<li>by letting the user change and save their settings on the cookies page</li>
+</ul>
+<h4 id="cookie-banner" tabindex="-1">Cookie banner</h4>
+<p>Use the <a href="../../components/cookie_banner">cookie banner component</a> to get the user’s consent. The component should include the following:</p>
+<ul>
+<li>Text informing the user that the site or service uses cookies</li>
+<li>Accept cookies option</li>
+<li>Decline cookies option</li>
+<li>Adjust cookies option (settings)</li>
+</ul>
+<p><em>Example in English</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<div class="govcy-cookie-consent-banner">
+    <div class="govcy-container">
+        <h3>Cookies on xyz service</h3>
+        <p>We use some essential cookies to make this website work.</p>
+        <p>We’d like to set additional cookies to understand how you use the service, remember your settings and improve government services.</p>
+        <div class="govcy-d-flex govcy-align-items-center">
+        <a href="#" class="govcy-btn-primary me-2">Accept cookies</a>
+        <a href="#" class="govcy-btn-primary me-2">Reject cookies</a>
+        <a href="#">Adjust cookies</a>
+        </div>
+    </div>
+</div>
+</div>
+<p><em>HTML code</em></p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-cookie-consent-banner<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-container<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h3</span><span class="token punctuation">></span></span>Cookies on xyz service<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h3</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>We use some essential cookies to make this website work.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>We’d like to set additional cookies to understand how you use the service, remember your settings and improve government services.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-d-flex govcy-align-items-center<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-btn-primary me-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Accept cookies<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-btn-primary me-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Reject cookies<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Adjust cookies<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<p><em>Example in Greek</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<div class="govcy-cookie-consent-banner">
+    <div class="govcy-container">
+        <h3>Cookies στην υπηρεσία xyz</h3>
+        <p>Χρησιμοποιούμε ορισμένα απαραίτητα cookies για να λειτουργήσει αυτός ο ιστότοπος.</p>
+        <p>Θα θέλαμε να ορίσουμε επιπλέον cookies για να κατανοήσουμε πώς χρησιμοποιείτε την υπηρεσία, να θυμόμαστε τις ρυθμίσεις σας και να βελτιώνουμε τις κρατικές υπηρεσίες.</p>
+        <div class="govcy-d-flex govcy-align-items-center">
+        <a href="#" class="govcy-btn-primary me-2">Αποδοχή cookies</a>
+        <a href="#" class="govcy-btn-primary me-2">Απόρριψη cookies</a>
+        <a href="#">Προσαρμόστε τα cookies</a>
+        </div>
+    </div>
+</div>
+</div>
+<p><em>HTML code</em></p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-cookie-consent-banner<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-container<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h3</span><span class="token punctuation">></span></span>Cookies στην υπηρεσία xyz<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h3</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>Χρησιμοποιούμε ορισμένα απαραίτητα cookies για να λειτουργήσει αυτός ο ιστότοπος.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>Θα θέλαμε να ορίσουμε επιπλέον cookies για να κατανοήσουμε πώς χρησιμοποιείτε την υπηρεσία, να θυμόμαστε τις ρυθμίσεις σας και να βελτιώνουμε τις κρατικές υπηρεσίες.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-d-flex govcy-align-items-center<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-btn-primary me-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Αποδοχή cookies<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-btn-primary me-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Απόρριψη cookies<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Προσαρμόστε τα cookies<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<p>If the user selects to adjust the cookies, the cookies page should open, displaying the cookies and what each one does. They should be given the ability to adjust the cookies, accept all, save their settings or deny the cookies.</p>
+<p>The popup should appear at the top of the page, in the <a href="../../getting-started/page-template/#sections">“body start” section</a> of the page.</p>
+<p>Do not use different backgrounds with low opacity to hide the main content of the pages.</p>
+<p>See below an example of a page with the cookie banner.</p>
+<p><a href="../../samples/cookies-with-concent/" rel="noreferrer noopener" target="_blank">Open in new tab</a></p>
+<iframe src="../../samples/cookies-with-concent/" width="100%" frameborder="0" scrolling="no" class="govcy-br-1 govcy-br-standard govcy-mb-4" onload="resizeIframe(this)"></iframe>
+<h4 id="cookies-page%2C-letting-users-accept-or-reject-cookies" tabindex="-1">Cookies page, letting users accept or reject cookies</h4>
+<p>List the optional cookies and their purpose and use <a href="../../components/radio">radios</a> and a <a href="../../components/button">button</a> to let users accept or reject non-essential cookies.</p>
+<p>Load the page with the radios set to ‘no’ on the user’s first visit. If they’ve previously used the service and set their preferences, load the page with those preferences selected.</p>
+<p><em>Example in English</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<h2 data-toc-exclude>Analytics cookies (optional)</h2>
+<p>With yout permission, we use additional analytics to collect data about how you use this service. This infomation helps us improve our service.</p>
+<table class="govcy-table">
+	<thead>
+		<tr class="govcy-br-input">
+			<th scope="col">Name</th>
+			<th scope="col">Purpose</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>_abc</th>
+			<td>This cookie helps us counts how many people visited the service, by telling us if you've visited before.</td>
+		</tr>
+		<tr>
+			<th>_efg</th>
+			<td>This cookie helps us calculate the time spend in the service.</td>
+		</tr>
+	</tbody>
+</table>
+<div class="govcy-form">
+	<fieldset class="govcy-fieldset">
+		<legend class="govcy-legend">Do you want to accept analytics cookies?</legend>
+		<div class="govcy-form-control">
+			<div class="govcy-radio">
+				<input class="govcy-radio-input" type="radio" name="cookiesRadio" id="option-yes">
+				<label class="govcy-label" for="option-yes">Yes</label>
+			</div>
+			<div class="govcy-radio">
+				<input class="govcy-radio-input" type="radio" name="cookiesRadio" id="option-no" checked>
+				<label class="govcy-label" for="option-no">No</label>
+			</div>
+		</div>
+	</fieldset>
+	<button type="button" class="govcy-btn-primary">Save cookie settings</button>
+</div>
+</div>
+<p><em>HTML code</em></p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">></span></span>Analytics cookies (optional)<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>With yout permission, we use additional analytics to collect data about how you use this service. This infomation helps us improve our service.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-table<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>thead</span><span class="token punctuation">></span></span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-input<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">scope</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>col<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Name<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">scope</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>col<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Purpose<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>thead</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tbody</span><span class="token punctuation">></span></span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span>_abc<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>This cookie helps us counts how many people visited the service, by telling us if you've visited before.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span>_efg<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>This cookie helps us calculate the time spend in the service.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tbody</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form<span class="token punctuation">"</span></span> <span class="token attr-name">novalidate</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>fieldset</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-fieldset<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>legend</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-legend<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Do you want to accept analytics cookies?<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>legend</span><span class="token punctuation">></span></span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form-control<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>				<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio-input<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>cookiesRadio<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option-yes<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>				<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option-yes<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Yes<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>				<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio-input<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>cookiesRadio<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option-no<span class="token punctuation">"</span></span> <span class="token attr-name">checked</span><span class="token punctuation">></span></span><br>				<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option-no<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>No<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>fieldset</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-btn-primary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Save cookie settings<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">></span></span></code></pre>
+<p><em>Example in Greek</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<h2 data-toc-exclude>Αναλυτικά cookies (προαιρετικά)</h2>
+<p>Με την άδειά σας, χρησιμοποιούμε πρόσθετα αναλυτικά στοιχεία για τη συλλογή δεδομένων σχετικά με τον τρόπο χρήσης αυτής της υπηρεσίας. Αυτές οι πληροφορίες μας βοηθούν να βελτιώσουμε τις υπηρεσίες μας.</p>
+<table class="govcy-table">
+	<thead>
+		<tr class="govcy-br-input">
+			<th scope="col">Όνομα</th>
+			<th scope="col">Σκοπός</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>_abc</th>
+			<td>Αυτό το cookie μας βοηθά να μετράμε πόσα άτομα επισκέφτηκαν την υπηρεσία, λέγοντάς μας εάν την έχετε επισκεφτεί στο παρελθόν.</td>
+		</tr>
+		<tr>
+			<th>_efg</th>
+			<td>Αυτό το cookie μας βοηθά να υπολογίσουμε τον χρόνο που χρησιμοποιείτε την υπηρεσία.</td>
+		</tr>
+	</tbody>
+</table>
+<div class="govcy-form">
+	<fieldset class="govcy-fieldset">
+		<legend class="govcy-legend">Θέλετε να αποδεχτείτε τα cookies αναλυτικών στοιχείων;</legend>
+		<div class="govcy-form-control">
+			<div class="govcy-radio">
+				<input class="govcy-radio-input" type="radio" name="cookiesRadio" id="option-yes-el">
+				<label class="govcy-label" for="option-yes-el">Ναι</label>
+			</div>
+			<div class="govcy-radio">
+				<input class="govcy-radio-input" type="radio" name="cookiesRadio" id="option-no-el" checked>
+				<label class="govcy-label" for="option-no-el">Όχι</label>
+			</div>
+		</div>
+	</fieldset>
+	<button type="button" class="govcy-btn-primary">Αποθήκευση ρυθμίσεων cookie</button>
+</div>
+</div>
+<p><em>HTML code</em></p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">></span></span>Αναλυτικά cookies (προαιρετικά)<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>Με την άδειά σας, χρησιμοποιούμε πρόσθετα αναλυτικά στοιχεία για τη συλλογή δεδομένων σχετικά με τον τρόπο χρήσης αυτής της υπηρεσίας. Αυτές οι πληροφορίες μας βοηθούν να βελτιώσουμε τις υπηρεσίες μας.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-table<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>thead</span><span class="token punctuation">></span></span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-br-input<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">scope</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>col<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Όνομα<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">scope</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>col<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Σκοπός<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>thead</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tbody</span><span class="token punctuation">></span></span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span>_abc<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>Αυτό το cookie μας βοηθά να μετράμε πόσα άτομα επισκέφτηκαν την υπηρεσία, λέγοντάς μας εάν την έχετε επισκεφτεί στο παρελθόν.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span>_efg<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>Αυτό το cookie μας βοηθά να υπολογίσουμε τον χρόνο που χρησιμοποιείτε την υπηρεσία.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tbody</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form<span class="token punctuation">"</span></span> <span class="token attr-name">novalidate</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>fieldset</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-fieldset<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>legend</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-legend<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Θέλετε να αποδεχτείτε τα cookies αναλυτικών στοιχείων;<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>legend</span><span class="token punctuation">></span></span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form-control<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>				<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio-input<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>cookiesRadio<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option-yes-el<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>				<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option-yes-el<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Ναι<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>				<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio-input<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>cookiesRadio<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option-no-el<span class="token punctuation">"</span></span> <span class="token attr-name">checked</span><span class="token punctuation">></span></span><br>				<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option-no-el<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Όχι<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>fieldset</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-btn-primary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Αποθήκευση ρυθμίσεων cookie<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">></span></span></code></pre>
+<p>When the user sets or changes their cookie preferences, use a green notification banner at the top of the <a href="../../getting-started/page-template/#sections">main section</a> before the <code>&lt;h1&gt;</code>, to confirm that the service has updated the user’s cookie settings. Make sure focus is on the success banner and that the message is also read by screen readers.</p>
+<p><em>Example in English</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<div class="govcy-alert-notification govcy-br-5 govcy-br-success govcy-px-0">
+    <div class="govcy-alert-notification-header govcy-fw-bold govcy-bg-success">Success</div>
+    <div class="govcy-alert-notification-body">
+        <p class="govcy-pl-4 govcy-pt-6 govcy-fw-bold">You’ve set your cookie preferences.</p>
+    </div>
+</div>
+</div>
+<p><em>HTML code</em></p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-alert-notification govcy-br-5 govcy-br-success govcy-px-0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-alert-notification-header govcy-fw-bold govcy-bg-success<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Success<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-alert-notification-body<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-pl-4 govcy-pt-6 govcy-fw-bold<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>You’ve set your cookie preferences.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<p><em>Example in Greek</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<div class="govcy-alert-notification govcy-br-5 govcy-br-success govcy-px-0">
+    <div class="govcy-alert-notification-header govcy-fw-bold govcy-bg-success">Επιτυχία</div>
+    <div class="govcy-alert-notification-body">
+        <p class="govcy-pl-4 govcy-pt-6 govcy-fw-bold">Έχετε ορίσει τις προτιμήσεις σας για τα cookies.</p>
+    </div>
+</div>
+</div>
+<p><em>HTML code</em></p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-alert-notification govcy-br-5 govcy-br-success govcy-px-0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-alert-notification-header govcy-fw-bold govcy-bg-success<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Επιτυχία<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-alert-notification-body<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-pl-4 govcy-pt-6 govcy-fw-bold<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Έχετε ορίσει τις προτιμήσεις σας για τα cookies.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<h4 id="cookies-page-with-consent-examples" tabindex="-1">Cookies page with consent examples</h4>
+<p>See below examples of the cookies page when including the consent for optional cookies.</p>
+<p><em>Example in English</em><br>
+<a href="../../samples/cookies-optional-en/" rel="noreferrer noopener" target="_blank">Open in new tab</a></p>
+<iframe src="../../samples/cookies-optional-en/" width="100%" frameborder="0" scrolling="no" class="govcy-br-1 govcy-br-standard govcy-mb-4" onload="resizeIframe(this)"></iframe>
+<p><em>Example in Greek</em><br>
+<a href="../../samples/cookies-optional-el/" rel="noreferrer noopener" target="_blank">Open in new tab</a></p>
+<iframe src="../../samples/cookies-optional-el/" width="100%" frameborder="0" scrolling="no" class="govcy-br-1 govcy-br-standard govcy-mb-4" onload="resizeIframe(this)"></iframe>
+
+            </div>
+    
+    <aside class="govcy-col-md-3 govcy-col-lg-2 govcy-order-first-desk">
+                <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Pages in this section</div>
+                <ul class="govcy-list-unstyled"><li class="govcy-fw-bolder govcy-mb-3">Ask users for</li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/addresses/">Addresses</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/bank_details/">Bank details</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/currency-amount/">Currency amount</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/dates/">Dates</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/email/">Email</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/gender_sex/">Gender or sex</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/names/">Names</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/numeric_inputs/">Numeric inputs</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/social_insurance_number/">Social Insurance Numbers</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/telephone/">Telephone numbers</a></li><li class="govcy-fw-bolder govcy-mb-3">Help users</li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/confirm_email_address/">Confirm an email address</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/confirm_phone_number/">Confirm a phone number</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/contact_department_or_team/">Contact a department or service team</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/filter_results/">Filter results</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/multiple_things/">Add multiple things </a></li><li class="govcy-fw-bolder govcy-mb-3">Pages</li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/check_answers/">Check answers page</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/confirmation-pages/">Confirmation pages</a></li><li class="app-side-link active"><a href="/govcy-design-system-docs/patterns/cookies_pages/">Cookies page and cookies consent</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/page-not-found-pages/">Page not found pages</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/question_pages/">Question pages</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/service-unavailable-pages/">Service unavailable pages</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/step_by_step_navigation/">Step by step navigation</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/task-list-page/">Task list page</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/there-is-a-problem/">There is a problem with the service pages</a></li><li class="govcy-fw-bolder govcy-mb-3">How to</li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/focus_state/">Focus state</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/labels_and_legend_headings/">Labels and legends</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/service_structure/">Structuring a service</a></li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+        <!-- Footer -->
+    <footer class="govcy-footer govcy-d-print-none"> 
+    <div class="govcy-px-4">
+        <div class="govcy-container">
+            <div class="govcy-row">
+                <div class="govcy-col-md-12 govcy-footer-column">
+                    <div class="govcy-row">
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Links</h3></li>
+                                <li><a href="/govcy-design-system-docs/">Home</a></li>
+                                <li><a href="/govcy-design-system-docs/getting-started">Get started</a></li>
+                                <li><a href="https://github.com/gov-cy/govcy-design-system" target="_blank">Github - Developer Assets</a></li>
+                                <li><a href="https://github.com/gov-cy/govcy-design-system-docs" target="_blank">Github - Design System website</a></li>
+                            </ul>
+                        </div>
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Tools and libraries</h3></li>
+                                <li><a href="https://www.figma.com/@dsf_cy" target="_blank">Figma</a></li>
+                                <li><a href="https://excalidraw-libraries-git-cevangelougovcy-gov-e2dec6-excalidraw.vercel.app/?theme=light&sort=default#cevangelougovcy-gov-cy-uds-library" target="_blank">Exalidraw</a></li>
+                                <li><a href="https://www.npmjs.com/~gov-cy" target="_blank">npm</a></li>
+                            </ul>
+                        </div>
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Previous Versions</h3></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v2/" target="_blank">Ver. 2x</a></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v0/" target="_blank">Ver. 0x</a></li></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="govcy-container govcy-footer-separator">
+            <div class="govcy-d-flex govcy-justify-content-between govcy-align-items-end govcy-flex-wrap">
+                <div class="govcy-my-4">
+                    <ul>
+                        <li><a href="/govcy-design-system-docs/privacy-statement">Privacy statement</a></li>
+                        <li><a href="/govcy-design-system-docs/cookie-policy">Cookies</a></li>
+                        <li><a href="/govcy-design-system-docs/accessibility-statement">Accessibility</a></li>
+                    </ul>
+                    <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
+                        <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
+                        <span class="govcy-mr-6 govcy-mt-2 govcy-mb-2">© Republic of Cyprus, 2024</span>
+                        <a href="https://europa.eu/" title="Go to EU Website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="/govcy-design-system-docs/img/FundedbyEU_NextGeneration_H53-EN.png" alt="Funded by the EU Next Generation EU"></a>
+                        <a href="http://www.cyprus-tomorrow.gov.cy/" title="Go to Cyprus to tomorrow website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="/govcy-design-system-docs/img/CYpros to aurio logo eng_H53_EN.png" alt="Cyprus tomorrow, recovery and resilience plan"></a>
+                    </div>
+                </div>
+                <div class="govcy-my-4">
+                   <a href="https://www.gov.cy" class="govcy-footer-logo" title="Go to the GOV.CY homepage"><img alt="gov.cy Logo"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+            <script src="/govcy-design-system-docs/js/govcy.uds.min.js" type="text/javascript"></script>
+        <script src="/govcy-design-system-docs/js/uds.js" type="text/javascript"></script>
+    </body>
+</html>

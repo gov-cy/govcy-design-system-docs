@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+        <head>
+    <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Social -->
+        <meta property="og:description" content="Design your services using gov.cy styles, components and patterns.">
+        <meta property="og:title" content="Page Template - Unified Design System - gov.cy">
+        <meta property="og:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://gov-cy.github.io/govcy-design-system-docs/img/icons-512.png">
+        <meta property="og:site_name" content="gov.cy">
+    
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
+        <meta property="twitter:title" content="Page Template - Unified Design System - gov.cy">
+        <meta property="twitter:description" content="Design your services using gov.cy styles, components and patterns.">
+        <meta property="twitter:image" content="https://gov-cy.github.io/govcy-design-system-docs/img/icons-512.png">
+        <!-- Theme --> 
+        <link rel="manifest" href="/govcy-design-system-docs/manifest.json">
+        <meta name="theme-color" content="#31576F">
+        <link rel="icon" type="image/png" sizes="48x48" href="/govcy-design-system-docs/img/favicon-48x48.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/govcy-design-system-docs/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/govcy-design-system-docs/img/favicon-16x16.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/govcy-design-system-docs/img/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/govcy-design-system-docs/img/apple-touch-icon-120x120-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/govcy-design-system-docs/img/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/govcy-design-system-docs/img/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="/govcy-design-system-docs/img/apple-touch-icon-57x57-precomposed.png">
+        <!-- Bootstrap CSS -->
+        <link href="/govcy-design-system-docs/css/govcy.uds.min.css" rel="stylesheet" >
+        
+        <link href="/govcy-design-system-docs/css/docs.css" rel="stylesheet" >
+        <!-- Prism Highlighter CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-a11y-dark.min.css" rel="stylesheet">
+        <title>Page Template - Unified Design System - gov.cy</title>
+        <meta name="description" content="Design your services using gov.cy styles, components and patterns.">
+    </head>
+    <body>
+        <section class="govcy-container-fluid" id="bodyStartContainer">
+        <a href="#mainContainer" class="govcy-skip-link">Skip to main content</a> 
+    </section>
+    <header class="govcy-header govcy-d-print-none" id="headerContainer">
+  <div class="govcy-header-main-area">
+    <div
+      class="govcy-container govcy-main-area-items govcy-justify-content-between"
+    >
+      <div class="govcy-navigation-container govcy-align-items-center">
+        <div class="govcy-service-container">
+          <a href="https://www.gov.cy" class="govcy-logo" title="Go to the GOV.CY homepage"
+            ><img alt="gov.cy Logo"
+          /></a>
+          <span class="govcy-service-name">
+            <a href="/govcy-design-system-docs/">Unified Design System</a>
+          </span>
+        </div>
+        <ul class="govcy-menu-items">
+          <li class="govcy-mobile-menu govcy-mobile-menu-only govcy-dropdown govcy-ms-auto">
+            <span>
+                <a href="#" class="govcy-menu-item govcy-expand-btn">Menu</a>
+            </span>
+          </li>
+          <li class="govcy-global-search">
+            <span><a href="#" class="govcy-menu-item" aria-label="Search, expands search text box when clicked" aria-haspopup="true"><i class="govcy-search-icon"></i></a></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="govcy-header-menu-area">
+    <nav class="govcy-mainmenu">
+      <div class="govcy-container">
+          <ul class="govcy-menu-items">
+              <li>
+                      <a href="/govcy-design-system-docs/getting-started/" class="govcy-menu-item active">
+                          Get Started
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/styles/" class="govcy-menu-item">
+                          Styles
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/components/" class="govcy-menu-item">
+                          Components
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/patterns/" class="govcy-menu-item">
+                          Patterns
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/css_utilities/" class="govcy-menu-item">
+                          Utilities
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/guides/" class="govcy-menu-item">
+                          Guides
+                      </a>
+                  </li>
+          </ul>
+      </div>
+    </nav>
+    <div class="govcy-header-search-area">
+        <div class="govcy-container">
+            <div class="govcy-form">
+                
+                <div class="govcy-form-control">
+                    <span class="pagefind-custom-label">Search the Design System</span>
+                    <link href="/govcy-design-system-docs/pagefind/pagefind-ui.css" rel="stylesheet">
+                    <div id="search-div" class="search"></div>
+                    <script src="/govcy-design-system-docs/pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search-div', showImages: false, translations : {placeholder:''} }); document.querySelector('.pagefind-ui__search-input').setAttribute('aria-label', 'Search the Design System');"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</header>
+
+    
+<!--beforeMain-->
+    <section class="govcy-container" id="beforeMainContainer">
+        
+        
+        <div class="govcy-phase-banner">
+            <span class="govcy-tag">Ver. 3.0.0</span>
+            <span class="govcy-ml-2">For the older version visit <a href='https://gov-cy.github.io/govcy-design-system-docs-v2/'>v2 documentation</a> </span>
+        </div>
+        
+    </section>
+
+    <!--Main-->
+    <main class="govcy-container" id="mainContainer">
+        <div class="govcy-row">
+            <div class="govcy-col-md-9 govcy-col-lg-10 govcy-order-last-desk">
+                <h1 data-pagefind-weight="10">Page Template</h1>
+                
+                
+                    <aside class="toc-outter">
+                        <strong>On this page</strong>
+                        <nav class="toc">
+                <ol>
+                    
+                    <li><a href="#starter-template">Starter Template</a>
+            		</li>
+
+                    <li><a href="#head">Head</a>
+            
+                <ol>
+                    
+                    <li><a href="#important-globals">Important Globals</a>
+            
+                <ol>
+                    
+                    <li><a href="#html5-doctype-and-lang">HTML5 doctype and lang</a>
+            		</li>
+
+                    <li><a href="#responsive-meta-tag">Responsive meta tag</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#other-head-tags">Other Head Tags</a>
+            
+                <ol>
+                    
+                    <li><a href="#title%2C-description">title, description</a>
+            		</li>
+
+                    <li><a href="#social-tags">social tags</a>
+            		</li>
+
+                    <li><a href="#theme%2C-app-manifest-and-apple-touch-icon">theme, app manifest and apple-touch-icon</a>
+            		</li>
+                </ol>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#body">Body</a>
+            
+                <ol>
+                    
+                    <li><a href="#max-width">Max-width</a>
+            		</li>
+
+                    <li><a href="#responsive-breakpoint">Responsive breakpoint</a>
+            		</li>
+
+                    <li><a href="#sections">Sections</a>
+            		</li>
+
+                    <li><a href="#element-placement-order">Element Placement Order</a>
+            		</li>
+
+                    <li><a href="#skip-to-main-content">Skip to main content</a>
+            		</li>
+
+                    <li><a href="#main-section">Main section</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#sample-pages">Sample pages</a>
+            		</li>
+
+                    <li><a href="#accessibility">Accessibility</a>
+            		</li>
+                </ol>
+            </nav>
+                    </aside>
+                
+                <h2 id="starter-template" tabindex="-1">Starter Template</h2>
+<p>Use the following HTML template for your gov.cy pages.</p>
+<pre class="language-html"><code class="language-html"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">doctype</span> <span class="token name">html</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>el<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span><br>    <span class="token comment">&lt;!-- Required meta tags --></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>utf-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token comment">&lt;!-- Social --></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:description<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Description of what the service does<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:title<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Page title - Service title - gov.cy<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:url<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://SERVICE_URL<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:type<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>website<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:image<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/img/icons-512.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:site_name<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>gov.cy<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br> <br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:card<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>summary_large_image<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:url<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://SERVICE_URL<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:title<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Page title - Service title - gov.cy<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:description<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Description of what the service does<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:image<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/img/icons-512.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br> <br>    <span class="token comment">&lt;!-- Theme --></span> <br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>manifest<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>manifest.json<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>theme-color<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#31576F<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>icon<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>image/png<span class="token punctuation">"</span></span> <span class="token attr-name">sizes</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>48x48<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/img/favicon-48x48.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>icon<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>image/png<span class="token punctuation">"</span></span> <span class="token attr-name">sizes</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>32x32<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/img/favicon-32x32.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>icon<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>image/png<span class="token punctuation">"</span></span> <span class="token attr-name">sizes</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>16x16<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/img/favicon-16x16.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br> <br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>apple-touch-icon-precomposed<span class="token punctuation">"</span></span> <span class="token attr-name">sizes</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>144x144<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/img/apple-touch-icon-144x144-precomposed.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>apple-touch-icon-precomposed<span class="token punctuation">"</span></span> <span class="token attr-name">sizes</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>120x120<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/img/apple-touch-icon-120x120-precomposed.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>apple-touch-icon-precomposed<span class="token punctuation">"</span></span> <span class="token attr-name">sizes</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>114x114<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/img/apple-touch-icon-114x114-precomposed.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>apple-touch-icon-precomposed<span class="token punctuation">"</span></span> <span class="token attr-name">sizes</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>72x72<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/img/apple-touch-icon-72x72-precomposed.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>apple-touch-icon-precomposed<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/img/apple-touch-icon-57x57-precomposed.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br> <br>    <span class="token comment">&lt;!-- CSS --></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.0.0/dist/css/govcy.uds.min.css<span class="token punctuation">"</span></span> <span class="token attr-name">integrity</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>sha384-1zLHWOtnS0hOIz5mVEPZp0UH5gUE6eo0CQcCGA3sF2TyYhHyKOd3Ni8Iy/NjEASU<span class="token punctuation">"</span></span> <span class="token attr-name">crossorigin</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>anonymous<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>Page title - Service Name - gov.cy<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>description<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Description of what the service does<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br> <br> <br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span><br>    <span class="token comment">&lt;!--bodyStart--></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>section</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-container-fluid<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bodyStartContainer<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>         <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#mainContainer<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-skip-link<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Skip to main content<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>        ...<br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>section</span><span class="token punctuation">></span></span><br><br>    <span class="token comment">&lt;!--Header--></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-header govcy-d-print-none<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>headerContainer<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        ...<br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>header</span><span class="token punctuation">></span></span><br><br>    <span class="token comment">&lt;!--beforeMain--></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>section</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-container<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>beforeMainContainer<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        ...<br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>section</span><span class="token punctuation">></span></span><br><br>    <span class="token comment">&lt;!--main--></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>main</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-container<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mainContainer<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        ...<br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>main</span><span class="token punctuation">></span></span><br><br>    <span class="token comment">&lt;!-- Footer --></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>footer</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-footer govcy-d-print-none<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footerContainer<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        ...<br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>footer</span><span class="token punctuation">></span></span><br><br>    <span class="token comment">&lt;!--bodyEnd--></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>section</span>  <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-container-fluid<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bodyEndContainer<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        ...<br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>section</span><span class="token punctuation">></span></span>    <br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.0.0/dist/js/govcy.uds.min.js<span class="token punctuation">"</span></span> <span class="token attr-name">integrity</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>sha384-zOuDuogVaaTveh/Ou2iYwCk14zFiSmMk7Ax8yRnXDtOJMyKZH5+ZNibNVwZSKtw+<span class="token punctuation">"</span></span> <span class="token attr-name">crossorigin</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>anonymous<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre>
+<p>The code above includes the <a href="#head">head</a> and all the sections described in the <a href="#body">body</a> section and uses the appropriate gov.cy CSS classes to accommodate <a href="../../styles/vertical_spacing/">spacing</a>, <a href="../../components/header/">header</a> and <a href="../../components/footer/">footer</a> components.</p>
+<h2 id="head" tabindex="-1">Head</h2>
+<h3 id="important-globals" tabindex="-1">Important Globals</h3>
+<p>The starter template employs the following important global styles and settings that you’ll need to be aware of when using it.</p>
+<h4 id="html5-doctype-and-lang" tabindex="-1">HTML5 doctype and lang</h4>
+<p>Use the HTML5 doctype</p>
+<pre class="language-html"><code class="language-html"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">doctype</span> <span class="token name">html</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>el<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  ...<br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre>
+<p>The language of the document or a page element must be identified using the lang attribute as follows <code>&lt;html lang=&quot;en&quot;&gt;</code>. This is a very important accessibility requirement as it instructs the screen readers which language to use.</p>
+<div class="govcy-alert-notification govcy-br-5 govcy-br-info govcy-px-0">
+    <div class="govcy-alert-notification-header govcy-fw-bold govcy-bg-info govcy-fs-4">Warning</div>
+    <div class="govcy-alert-notification-body">
+        <p class="govcy-pl-4 govcy-pt-6">
+		<span class="govcy-warning-text govcy-d-inline">
+			<span class="govcy-warning-text-icon" aria-hidden="true">!</span></span>
+			Change the lang attribute according to the language used in the document
+            <ul class="govcy-ml-4">
+                <li>If the language of the page is in Greek, you must have <code>&lt;html lang="el""&gt;</code>. </li>
+                <li>If the language of the page is in English, you must have <code>&lt;html lang="en""&gt;</code></li>
+                <li>If the language of the page is in Turkish, you must have <code>&lt;html lang="tr""&gt;</code></li>
+            </ul>
+		</p>
+    </div>
+</div>
+<h4 id="responsive-meta-tag" tabindex="-1">Responsive meta tag</h4>
+<p>To ensure proper rendering and touch zooming for all devices, add the responsive viewport meta tag to your <code>&lt;head&gt;</code></p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre>
+<h3 id="other-head-tags" tabindex="-1">Other Head Tags</h3>
+<h4 id="title%2C-description" tabindex="-1">title, description</h4>
+<p>Use the following tags inside the <code>&lt;head&gt;</code> tag.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>Page title - Service Name - gov.cy<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>description<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Description of what the service does<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre>
+<p>Page titles should be unique and informative so that users know which page they are on. Change the content of the above tags, depending if you are implementing a content page or a service :</p>
+<div class="govcy-table-responsive">
+<table class="govcy-table">
+<thead>
+<tr>
+<th>tags</th>
+<th>Content pages</th>
+<th>Services</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>title</strong></td>
+<td>Use the following naming convention <br> <code>Page name - Site Name - gov.cy</code> <br><br>For example:<br> <code>About - Department of Information Technology Services - gov.cy</code></td>
+<td>Use the following naming convention <br> <code>Page title - Service Name - gov.cy</code> <br><br>For example:<br> <code>Address we can use to write to you - Update my personal details - gov.cy</code></td>
+</tr>
+<tr>
+<td><strong>description</strong></td>
+<td>Description of what the site is about</td>
+<td>Description of what the service does</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>For the gov.cy portal websites use the following naming conventions:</p>
+<ul>
+<li>For sub-site home page: <code>Site Name - gov.cy</code> For example:<br>
+<code>Department of Information Technology Services - gov.cy</code></li>
+<li>For other sub-site pages: <code>Page name - Site Name - gov.cy</code>. For example: <code>About - Department of Information Technology Services - gov.cy</code></li>
+</ul>
+<h4 id="social-tags" tabindex="-1">social tags</h4>
+<p>Use the following meta tags inside the <code>&lt;head&gt;</code> tag.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:description<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Description of what the service does<span class="token punctuation">"</span></span><span class="token punctuation">></span></span> <br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:title<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Page title - Service title - gov.cy<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:url<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://SERVICE_URL<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:type<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>website<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:image<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/img/icons-512.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:site_name<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>gov.cy<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br> <br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:card<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>summary_large_image<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:url<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://SERVICE_URL<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:title<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Page title - Service title - gov.cy<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:description<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Description of what the service does<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:image<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/img/icons-512.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre>
+<p>Change the content of the above tags as follows:</p>
+<ul>
+<li><code>og:title</code>, <code>twitter:title</code>: Use the same naming convention as explained above for the <code>&lt;title&gt;</code></li>
+<li><code>og:description</code>, <code>twitter:description</code>: Description of what the service does. In most cases should be the same as with <code>&lt;meta name=&quot;description&quot; content=&quot;...&quot;&gt;</code></li>
+<li><code>og:url</code>, <code>twitter:url</code>: The URL of the stating page of the service</li>
+<li><code>og:image</code>, <code>twitter:image</code>: The URL of the icon. The icon should be 512 x 512 px. Use the <code>icons-512.png</code> <a href="../developer-assets/#images">image from our developer assets</a>.</li>
+<li><code>og:type</code>: Should be <code>website</code></li>
+<li><code>og:site_name</code>: Should be <code>gov.cy</code></li>
+<li><code>twitter:card</code>: Should be <code>summary_large_image</code></li>
+</ul>
+<h4 id="theme%2C-app-manifest-and-apple-touch-icon" tabindex="-1">theme, app manifest and apple-touch-icon</h4>
+<p>Use the following tags inside the <code>&lt;head&gt;</code> tag.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>manifest<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>manifest.json<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>theme-color<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#31576F<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>icon<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>image/png<span class="token punctuation">"</span></span> <span class="token attr-name">sizes</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>48x48<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/img/favicon-48x48.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>icon<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>image/png<span class="token punctuation">"</span></span> <span class="token attr-name">sizes</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>32x32<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/img/favicon-32x32.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>icon<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>image/png<span class="token punctuation">"</span></span> <span class="token attr-name">sizes</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>16x16<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/img/favicon-16x16.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>apple-touch-icon-precomposed<span class="token punctuation">"</span></span> <span class="token attr-name">sizes</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>144x144<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/img/apple-touch-icon-144x144-precomposed.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>apple-touch-icon-precomposed<span class="token punctuation">"</span></span> <span class="token attr-name">sizes</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>120x120<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/img/apple-touch-icon-120x120-precomposed.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>apple-touch-icon-precomposed<span class="token punctuation">"</span></span> <span class="token attr-name">sizes</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>114x114<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/img/apple-touch-icon-114x114-precomposed.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>apple-touch-icon-precomposed<span class="token punctuation">"</span></span> <span class="token attr-name">sizes</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>72x72<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/img/apple-touch-icon-72x72-precomposed.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>apple-touch-icon-precomposed<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/img/apple-touch-icon-57x57-precomposed.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre>
+<p>All images referenced in the <code>head</code> section and <code>manifest.json</code> are included in the <a href="../developer-assets/">starter kid</a> under the <code>/img</code> folder.</p>
+<p>The code above implies the existence of a <code>manifest.json</code> file. Use the following template for the manifest file.</p>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span><br>    <span class="token property">"short_name"</span><span class="token operator">:</span> <span class="token string">"Service title"</span><span class="token punctuation">,</span><br>    <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"Service title - gov.cy"</span><span class="token punctuation">,</span><br>    <span class="token property">"icons"</span><span class="token operator">:</span> <span class="token punctuation">[</span><br>        <span class="token punctuation">{</span><br>            <span class="token property">"src"</span><span class="token operator">:</span> <span class="token string">"/img/icons-128.png"</span><span class="token punctuation">,</span><br>            <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"image/png"</span><span class="token punctuation">,</span><br>            <span class="token property">"sizes"</span><span class="token operator">:</span> <span class="token string">"128x128"</span><br>        <span class="token punctuation">}</span><span class="token punctuation">,</span><br>        <span class="token punctuation">{</span><br>            <span class="token property">"src"</span><span class="token operator">:</span> <span class="token string">"/img/icons-192.png"</span><span class="token punctuation">,</span><br>            <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"image/png"</span><span class="token punctuation">,</span><br>            <span class="token property">"sizes"</span><span class="token operator">:</span> <span class="token string">"192x192"</span><br>        <span class="token punctuation">}</span><span class="token punctuation">,</span><br>        <span class="token punctuation">{</span><br>            <span class="token property">"src"</span><span class="token operator">:</span> <span class="token string">"/img/icons-512.png"</span><span class="token punctuation">,</span><br>            <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"image/png"</span><span class="token punctuation">,</span><br>            <span class="token property">"sizes"</span><span class="token operator">:</span> <span class="token string">"512x512"</span><br>        <span class="token punctuation">}</span><br>    <span class="token punctuation">]</span><span class="token punctuation">,</span><br>    <span class="token property">"start_url"</span><span class="token operator">:</span> <span class="token string">"/LOCATION_OF_START_PAGE"</span><span class="token punctuation">,</span><br>    <span class="token property">"background_color"</span><span class="token operator">:</span> <span class="token string">"#31576F"</span><span class="token punctuation">,</span><br>    <span class="token property">"display"</span><span class="token operator">:</span> <span class="token string">"browser"</span><span class="token punctuation">,</span><br>    <span class="token property">"scope"</span><span class="token operator">:</span> <span class="token string">"/"</span><span class="token punctuation">,</span><br>    <span class="token property">"theme_color"</span><span class="token operator">:</span> <span class="token string">"#31576F"</span><br><span class="token punctuation">}</span></code></pre>
+<p><strong>NOTE</strong>: if the location or filenames of your images are different, please adjust the code appropriately.</p>
+<h2 id="body" tabindex="-1">Body</h2>
+<h3 id="max-width" tabindex="-1">Max-width</h3>
+<p>Max-width defines the maximum width of the content of a page.</p>
+<p>Note that some sections such as <code>Body start</code> and <code>Body end</code> use a fluid design for background colour and styling, but content such as text, links and icons are restricted within the max-width limit.</p>
+<p>The default maximum width is <code>1200px</code>.</p>
+<h3 id="responsive-breakpoint" tabindex="-1">Responsive breakpoint</h3>
+<p>Breakpoint is the width that determines how your responsive layout behaves across devices. The default breakpoint is <code>≥768px</code>.</p>
+<h3 id="sections" tabindex="-1">Sections</h3>
+<p>All pages must use the following structure inside the <code>&lt;body&gt;</code> tag.</p>
+<div class="govcy-table-responsive">
+<table class="govcy-table">
+<thead>
+<tr>
+<th>Section Name</th>
+<th>HTML Tag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Body start</strong></td>
+<td><code>&lt;section class=&quot;govcy-container-fluid&quot; id=&quot;bodyStartContainer&quot;&gt; &lt;/section&gt;</code></td>
+<td>To be used to render the content before the <code>&lt;header&gt;</code> such as <a href="#skip-to-main-content">skip link</a> and <a href="../../components/cookie_banner/">cookie consent</a> (Skip link must always be first). Width must be fluid, same as the viewport.</td>
+</tr>
+<tr>
+<td><strong>Header</strong></td>
+<td><code>&lt;header class=&quot;govcy-header  govcy-d-print-none&quot; id=&quot;headerContainer&quot;&gt; &lt;/header&gt;</code></td>
+<td>To be used as the <a href="../../components/header/">page header</a>. Width must be fluid, same as the viewport. Use the <code>govcy-d-print-none</code> class to hide the header on print.</td>
+</tr>
+<tr>
+<td><strong>Before main</strong></td>
+<td><code>&lt;section class=&quot;govcy-container&quot; id=&quot;beforeMainContainer&quot;&gt; &lt;/section&gt;</code></td>
+<td>To be used to render the content before the <code>&lt;main&gt;</code> (i.e. <a href="../../components/back_link/">back link</a>, <a href="../../components/breadcrumbs/">breadcrumbs</a> and <a href="../../components/phase_banner/">phase banner</a> only ) . This section must comply with the <a href="#max-width">max-width</a> reference above and be placed in the center of the viewport with <code>text-align</code> set to <code>start</code>.</td>
+</tr>
+<tr>
+<td><strong>Main</strong></td>
+<td><code>&lt;main class=&quot;govcy-container&quot; id=&quot;mainContainer&quot;&gt; &lt;/main&gt;</code></td>
+<td>To be used to render the service/website content (i.e. <a href="../../patterns/question_pages/">question page</a>. This section can have one of the layouts described in the <a href="../../styles/layout/">layouts</a> page. This section must comply with the <a href="#max-width">max-width</a> reference above and be placed in the center of the viewport with <code>text-align</code> set to <code>start</code>.</td>
+</tr>
+<tr>
+<td><strong>Footer</strong></td>
+<td><code>&lt;footer class=&quot;govcy-footer  govcy-d-print-none&quot; id=&quot;footerContainer&quot;&gt; &lt;/footer&gt;</code></td>
+<td>To be used as the page <a href="../../components/footer/">footer</a>. Use the <code>govcy-d-print-none</code> class to hide the footer on print.</td>
+</tr>
+<tr>
+<td><strong>Body end</strong></td>
+<td><code>&lt;section class=&quot;govcy-container-fluid&quot; id=&quot;bodyEndContainer&quot;&gt; &lt;/section&gt;</code></td>
+<td>To be used to render the content after the <code>&lt;footer&gt;</code>. Width must be fluid, same as the viewport.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><img src="../../img/v3_sections_of_page.png" alt="Visual example marking the different sections of a gov.cy page" style="aspect-ratio: auto;"></p>
+<h3 id="element-placement-order" tabindex="-1">Element Placement Order</h3>
+<p>Depending on the website or service, you might need to implement more than one design elements withing a section. Use the following order in each section:</p>
+<ol class="govcy-br-1 govcy-br-standard govcy-py-4">
+<li><strong>Body start section</strong>
+<ol>
+<li><a href="#skip-to-main-content">Skip to main content</a></li>
+<li><a href="../../components/cookie_banner/">Cookies banner</a></li>
+</ol>
+</li>
+<li><strong>Header section</strong>
+<ol>
+<li><a href="../../components/header/">Header</a> component</li>
+</ol>
+</li>
+<li><strong>Before main section</strong>
+<ol>
+<li><a href="../../components/breadcrumbs/">Breadcrumbs</a> or <a href="../../components/back_link/">Back link</a> component</li>
+<li><a href="../../components/phase_banner/">Phase banner</a> component</li>
+</ol>
+</li>
+<li><strong>Main section</strong>
+<ol>
+<li><a href="../../components/error_summary/">Error summary</a> component, in the case of errors.</li>
+<li><a href="../../styles/typography/#headings">Header 1 <code>&lt;h1&gt;</code></a>. If your using an input component and you are asking just one question on a page, follow the instructions for <a href="../../patterns/labels_and_legend_headings/#single-question-page">single question page labels and legends</a> and adjust the header accordingly.</li>
+<li>Other <a href="../../components/">components</a>, <a href="../../patterns/">patterns</a> or <a href="../../styles/typography/">typography</a></li>
+</ol>
+</li>
+<li><strong>Footer section</strong>
+<ol>
+<li><a href="../../components/footer/">Footer</a> component</li>
+</ol>
+</li>
+</ol>
+<p>See below an sample page with most design elements present in the correct order.</p>
+<p><a href="../../samples/template-order-of-things-all/" rel="noreferrer noopener" target="_blank">Open in new tab</a></p>
+<iframe src="../../samples/template-order-of-things-all/" width="100%" frameborder="0" scrolling="no" class="govcy-br-1 govcy-br-standard govcy-mb-4" onload="resizeIframe(this)"></iframe>
+<h3 id="skip-to-main-content" tabindex="-1">Skip to main content</h3>
+<p>Always include the skip link right after the opening <code>&lt;body&gt;</code> in the “Body start” section (bodyStartContainer).</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#mainContainer<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-skip-link<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Skip to main content<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span></code></pre>
+<p>Make sure that the target element of the anchor is the <strong>main section</strong> container and that it includes the <a href="../../components/error_summary/">error summary</a>  if applicable, the <code>h1</code> and the main content of the page. However, if you’re using a component that must be read before the user can skip to the main content (such as a cookie banner) , place the skip link immediately after the component.</p>
+<p>The skip link component is visually hidden until a keyboard press activates it. The link should give the users the option to bypass the top-level navigation links and jump to the main content (<code>mainContainer</code>) of the page.</p>
+<p>Use the following content:</p>
+<ul>
+<li>In English: <code>Skip to main content</code></li>
+<li>In Greek: <code>Μεταφορά στο κεντρικό περιεχόμενο</code></li>
+</ul>
+<h3 id="main-section" tabindex="-1">Main section</h3>
+<p>The main section is where the content of each page is placed. If you are building a service, this is where you will place your components and patterns.</p>
+<p>Remember that services should work independently and in isolation from other services, and that the <code>main</code> section should help users focus on their goal. Include only elements that are necessary for the user to complete the task at hand.</p>
+<p>For more information about the <code>&lt;main&gt;</code> section content, see the <a href="../../styles/layout/">layouts</a> page.</p>
+<h2 id="sample-pages" tabindex="-1">Sample pages</h2>
+<p>Here are some sample pages using the gov.cy page template.</p>
+<p><strong>Content pages</strong>:</p>
+<ul>
+<li><a href="../../samples/templare-heading-title/" rel="noreferrer noopener" target="_blank">Page with title and paragraph (opens in new tab)</a></li>
+<li><a href="../../samples/templare-heading-title-more/" rel="noreferrer noopener" target="_blank">Page with title, different headings and paragraphs (opens in new tab)</a></li>
+<li><a href="../../samples/template-heading-back/" rel="noreferrer noopener" target="_blank">Page with back link (opens in new tab)</a></li>
+<li><a href="../../samples/template-heading-breadcrumbs/" rel="noreferrer noopener" target="_blank">Page with breadcrumbs (opens in new tab)</a></li>
+<li><a href="../../samples/template-heading-phase-banner/" rel="noreferrer noopener" target="_blank">Page with phase banner (opens in new tab)</a></li>
+</ul>
+<p><strong>Service pages</strong>:</p>
+<ul>
+<li><a href="../../samples/template-heading-input/" rel="noreferrer noopener" target="_blank">Page with a question (opens in new tab)</a></li>
+<li><a href="../../samples/template-heading-error-summary/" rel="noreferrer noopener" target="_blank">Page with an error (opens in new tab)</a></li>
+<li><a href="../../samples/template-address/" rel="noreferrer noopener" target="_blank">Page asking for address (opens in new tab)</a></li>
+<li><a href="../../samples/template-radios/" rel="noreferrer noopener" target="_blank">Page with radios question (opens in new tab)</a></li>
+</ul>
+<h2 id="accessibility" tabindex="-1">Accessibility</h2>
+<p>Make sure:</p>
+<ul>
+<li>you include the <a href="#skip-to-main-content">skip link (opens in new tab)</a> in your page</li>
+<li>you use the correct <a href="#html5-doctype-and-lang">lang attribute (opens in new tab)</a> in your page</li>
+<li>the <a href="#title%2C-description">page titles are unique (opens in new tab)</a></li>
+</ul>
+
+            </div>
+    
+    <aside class="govcy-col-md-3 govcy-col-lg-2 govcy-order-first-desk">
+                <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Pages in this section</div>
+                <ul class="govcy-list-unstyled"><li class="app-side-link"><a href="/govcy-design-system-docs/getting-started/">Get Started</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/getting-started/principles/">Design System Principles</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/getting-started/developer-assets/">Developer assets</a></li><li class="app-side-link active"><a href="/govcy-design-system-docs/getting-started/page-template/">Page Template</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/getting-started/dsf-libraries/">DSF tools</a></li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+        <!-- Footer -->
+    <footer class="govcy-footer govcy-d-print-none"> 
+    <div class="govcy-px-4">
+        <div class="govcy-container">
+            <div class="govcy-row">
+                <div class="govcy-col-md-12 govcy-footer-column">
+                    <div class="govcy-row">
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Links</h3></li>
+                                <li><a href="/govcy-design-system-docs/">Home</a></li>
+                                <li><a href="/govcy-design-system-docs/getting-started">Get started</a></li>
+                                <li><a href="https://github.com/gov-cy/govcy-design-system" target="_blank">Github - Developer Assets</a></li>
+                                <li><a href="https://github.com/gov-cy/govcy-design-system-docs" target="_blank">Github - Design System website</a></li>
+                            </ul>
+                        </div>
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Tools and libraries</h3></li>
+                                <li><a href="https://www.figma.com/@dsf_cy" target="_blank">Figma</a></li>
+                                <li><a href="https://excalidraw-libraries-git-cevangelougovcy-gov-e2dec6-excalidraw.vercel.app/?theme=light&sort=default#cevangelougovcy-gov-cy-uds-library" target="_blank">Exalidraw</a></li>
+                                <li><a href="https://www.npmjs.com/~gov-cy" target="_blank">npm</a></li>
+                            </ul>
+                        </div>
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Previous Versions</h3></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v2/" target="_blank">Ver. 2x</a></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v0/" target="_blank">Ver. 0x</a></li></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="govcy-container govcy-footer-separator">
+            <div class="govcy-d-flex govcy-justify-content-between govcy-align-items-end govcy-flex-wrap">
+                <div class="govcy-my-4">
+                    <ul>
+                        <li><a href="/govcy-design-system-docs/privacy-statement">Privacy statement</a></li>
+                        <li><a href="/govcy-design-system-docs/cookie-policy">Cookies</a></li>
+                        <li><a href="/govcy-design-system-docs/accessibility-statement">Accessibility</a></li>
+                    </ul>
+                    <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
+                        <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
+                        <span class="govcy-mr-6 govcy-mt-2 govcy-mb-2">© Republic of Cyprus, 2024</span>
+                        <a href="https://europa.eu/" title="Go to EU Website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="/govcy-design-system-docs/img/FundedbyEU_NextGeneration_H53-EN.png" alt="Funded by the EU Next Generation EU"></a>
+                        <a href="http://www.cyprus-tomorrow.gov.cy/" title="Go to Cyprus to tomorrow website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="/govcy-design-system-docs/img/CYpros to aurio logo eng_H53_EN.png" alt="Cyprus tomorrow, recovery and resilience plan"></a>
+                    </div>
+                </div>
+                <div class="govcy-my-4">
+                   <a href="https://www.gov.cy" class="govcy-footer-logo" title="Go to the GOV.CY homepage"><img alt="gov.cy Logo"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+            <script src="/govcy-design-system-docs/js/govcy.uds.min.js" type="text/javascript"></script>
+        <script src="/govcy-design-system-docs/js/uds.js" type="text/javascript"></script>
+    </body>
+</html>

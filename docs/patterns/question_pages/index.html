@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="en">
-    <head>
+        <head>
     <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Social -->
         <meta property="og:description" content="Design your services using gov.cy styles, components and patterns.">
-        <meta property="og:title" content="Question pages - Design System - gov.cy">
+        <meta property="og:title" content="Question pages - Unified Design System - gov.cy">
         <meta property="og:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
         <meta property="og:type" content="website">
         <meta property="og:image" content="https://gov-cy.github.io/govcy-design-system-docs/img/icons-512.png">
@@ -14,7 +14,7 @@
     
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
-        <meta property="twitter:title" content="Question pages - Design System - gov.cy">
+        <meta property="twitter:title" content="Question pages - Unified Design System - gov.cy">
         <meta property="twitter:description" content="Design your services using gov.cy styles, components and patterns.">
         <meta property="twitter:image" content="https://gov-cy.github.io/govcy-design-system-docs/img/icons-512.png">
         <!-- Theme --> 
@@ -29,80 +29,110 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/govcy-design-system-docs/img/apple-touch-icon-72x72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="/govcy-design-system-docs/img/apple-touch-icon-57x57-precomposed.png">
         <!-- Bootstrap CSS -->
-        <link href="/govcy-design-system-docs/css/main.css" rel="stylesheet" >
+        <link href="/govcy-design-system-docs/css/govcy.uds.min.css" rel="stylesheet" >
         
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-theme-classic"/>
         <link href="/govcy-design-system-docs/css/docs.css" rel="stylesheet" >
-        <!--<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">-->
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vs.min.css" integrity="sha512-54dqOdBwMzeeRRYZieLqjlGc/w9+AI3vLUdz9PW6QFVTfkL0e7CYLWXKQPV+HqZi5QIj8JKsbzIkeplWVhlY+A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vsc-dark-plus.min.css" integrity="sha512-GU4Q2LAEtdpc8WmjcbSJGxM6c8D69ggI3mc5SRnfnxpg5AkYYA0BEVve0W9Oj2wZR0UItklQK2RBKLtDsQHNzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
-        <title>Question pages - Design System - gov.cy</title>
+        <!-- Prism Highlighter CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-a11y-dark.min.css" rel="stylesheet">
+        <title>Question pages - Unified Design System - gov.cy</title>
         <meta name="description" content="Design your services using gov.cy styles, components and patterns.">
     </head>
     <body>
-    <a href="#mainContainer" class="govcy-skip-link">Skip to main content</a> 
-    <!--Header-->
-    <div class="govcy-container-fluid govcy-p-0 govcy-m-0 govcy-position-relative govcy-d-print-none">
-         <div class="govcy-container">
-             <div class="row">
-                 <header class="govcy-header govcy-bg-primary govcy-text-white govcy-bg-primary-right">
-                      <a href="/govcy-design-system-docs/" class="govcy-logo"> <img></a>
-                     
-                     <input class="govcy-menu-btn govcy-d-none" type="checkbox" id="menu-btn">
-                     <label class="govcy-menu-icon govcy-d-md-none" for="menu-btn">Menu
-                         <span class="material-icons govcy-my-3">arrow_drop_down</span>
-                     </label>
-                     <span class="govcy-service-name">Design System </span>
-                     <ul class="govcy-menu govcy-bg-sub-menu govcy-bg-md-primary">
-                     
-                    <li>
-                            <a href="/govcy-design-system-docs/getting_started/" >
-                                Get Started
-                            </a>
-                            </li><li>
-                            <a href="/govcy-design-system-docs/styles/" >
-                                Styles
-                            </a>
-                            </li><li>
-                            <a href="/govcy-design-system-docs/components/" >
-                                Components
-                            </a>
-                            </li><li>
-                            <a href="/govcy-design-system-docs/patterns/"  class="active">
-                                Patterns
-                            </a>
-                            </li><li>
-                            <a href="/govcy-design-system-docs/css_utilities/" >
-                                Utilities
-                            </a>
-                            </li><li>
-                            <a href="/govcy-design-system-docs/guides/" >
-                                Guides
-                            </a>
-                            </li>
-                     </ul>
-                 </header>
-             </div>
-         </div>
-    </div>
-    <!--beforeMain-->
-    <section class="govcy-container govcy-my-2" id="beforeMainContainer">
-        <div class="row">
-            <div class="govcy-col-3 govcy-d-print-none">
-                <span id="autocomplete" class="govcy-w-50"></span>
-            </div>  
-            <div class="govcy-col-3 govcy-mt-2">
-        
-        <span class="govcy-br-2 govcy-text-white govcy-br-primary govcy-rounded-1 govcy-bg-primary govcy-px-3 govcy-fw-bold govcy-efs-small">Ver. 2.2.0</span>
-            </div>
-            
-        </div>
+        <section class="govcy-container-fluid" id="bodyStartContainer">
+        <a href="#mainContainer" class="govcy-skip-link">Skip to main content</a> 
     </section>
+    <header class="govcy-header govcy-d-print-none" id="headerContainer">
+  <div class="govcy-header-main-area">
+    <div
+      class="govcy-container govcy-main-area-items govcy-justify-content-between"
+    >
+      <div class="govcy-navigation-container govcy-align-items-center">
+        <div class="govcy-service-container">
+          <a href="https://www.gov.cy" class="govcy-logo" title="Go to the GOV.CY homepage"
+            ><img alt="gov.cy Logo"
+          /></a>
+          <span class="govcy-service-name">
+            <a href="/govcy-design-system-docs/">Unified Design System</a>
+          </span>
+        </div>
+        <ul class="govcy-menu-items">
+          <li class="govcy-mobile-menu govcy-mobile-menu-only govcy-dropdown govcy-ms-auto">
+            <span>
+                <a href="#" class="govcy-menu-item govcy-expand-btn">Menu</a>
+            </span>
+          </li>
+          <li class="govcy-global-search">
+            <span><a href="#" class="govcy-menu-item" aria-label="Search, expands search text box when clicked" aria-haspopup="true"><i class="govcy-search-icon"></i></a></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="govcy-header-menu-area">
+    <nav class="govcy-mainmenu">
+      <div class="govcy-container">
+          <ul class="govcy-menu-items">
+              <li>
+                      <a href="/govcy-design-system-docs/getting-started/" class="govcy-menu-item">
+                          Get Started
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/styles/" class="govcy-menu-item">
+                          Styles
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/components/" class="govcy-menu-item">
+                          Components
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/patterns/" class="govcy-menu-item active">
+                          Patterns
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/css_utilities/" class="govcy-menu-item">
+                          Utilities
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/guides/" class="govcy-menu-item">
+                          Guides
+                      </a>
+                  </li>
+          </ul>
+      </div>
+    </nav>
+    <div class="govcy-header-search-area">
+        <div class="govcy-container">
+            <div class="govcy-form">
+                
+                <div class="govcy-form-control">
+                    <span class="pagefind-custom-label">Search the Design System</span>
+                    <link href="/govcy-design-system-docs/pagefind/pagefind-ui.css" rel="stylesheet">
+                    <div id="search-div" class="search"></div>
+                    <script src="/govcy-design-system-docs/pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search-div', showImages: false, translations : {placeholder:''} }); document.querySelector('.pagefind-ui__search-input').setAttribute('aria-label', 'Search the Design System');"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</header>
+
+    
+<!--beforeMain-->
+    <section class="govcy-container" id="beforeMainContainer">
+        
+        
+        <div class="govcy-phase-banner">
+            <span class="govcy-tag">Ver. 3.0.0</span>
+            <span class="govcy-ml-2">For the older version visit <a href='https://gov-cy.github.io/govcy-design-system-docs-v2/'>v2 documentation</a> </span>
+        </div>
+        
+    </section>
+
     <!--Main-->
-    <main class="govcy-container govcy-my-2" id="mainContainer">
-        <div class="row">
-            <div class="govcy-col-9 govcy-order-last">
-                <h1>Question pages</h1>
+    <main class="govcy-container" id="mainContainer">
+        <div class="govcy-row">
+            <div class="govcy-col-md-9 govcy-col-lg-10 govcy-order-last-desk">
+                <h1 data-pagefind-weight="10">Question pages</h1>
                 
                 
                     <aside class="toc-outter">
@@ -120,11 +150,11 @@
                     <li><a href="#back-link">Back link</a>
             		</li>
 
-                    <li><a href="#page-headings">Page headings</a>
+                    <li><a href="#page-headings-and-questions">Page headings and questions</a>
             
                 <ol>
                     
-                    <li><a href="#start-by-asking-one-question-per-page">Start by asking one question per page</a>
+                    <li><a href="#one-question-per-page">One question per page</a>
             		</li>
 
                     <li><a href="#asking-complex-questions">Asking complex questions</a>
@@ -137,47 +167,218 @@
 
                     <li><a href="#continue-button">Continue button</a>
             		</li>
+
+                    <li><a href="#optional-information">Optional information</a>
+            		</li>
                 </ol>
             		</li>
                 </ol>
             </nav>
                     </aside>
                 
-                <p>This pattern explains when to use question pages and what elements they need to include.</p>
-<p><em>Example</em></p>
-<div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
-<!--beforeMain-->
-<section class="govcy-container govcy-mb-4" id="beforeMainContainer">
-    <span class="bi bi-chevron-left"></span>
-    <a href="#" class="govcy-back-link">Back</a>
-</section>
-<!--main-->
-<main class="govcy-container" id="mainContainer">
-    <form action="" class="govcy-form" novalidate>
-        <fieldset class="govcy-fieldset govcy-mb-4">
-            <legend class="govcy-legend"><h1>Where do you live?</h1></legend>
-            <div class="govcy-form-control">
-                <label class="govcy-radio">Cyprus
-                    <input class="govcy-radio-input" type="radio" name="radio">
-                    <span class="govcy-radio-checked"></span>
-                </label>
-                <label class="govcy-radio">Abroad
-                    <input class="govcy-radio-input" type="radio" name="radio">
-                    <span class="govcy-radio-checked"></span>
-                </label>
-            </div>
-        </fieldset>
-    <button type="button" class="govcy-btn-primary govcy-mb-4">Next</button>
-    </form>
-</main>
-</div>
-<h2 id="when-to-use-this-pattern" tabindex="-1">When to use this pattern <a class="anchor-link" href="#when-to-use-this-pattern"> </a></h2>
+                <p>This pattern explains when to use question pages and what elements they need to include. Note that all code examples in this pattern shows only the <code>Before main</code> and <code>Main</code> sections.</p>
+<h2 id="when-to-use-this-pattern" tabindex="-1">When to use this pattern</h2>
 <p>Follow this pattern whenever you need to ask users questions within your service.</p>
 <p>You should make sure you know why you’re asking every question and only ask users for information you really need.</p>
+<h2 id="how-it-works" tabindex="-1">How it works</h2>
+<p>Before you start, review the design system’s <a href="../../getting-started/principles/">principles</a> to design user-focused questions.</p>
+<p>Question pages must include a:</p>
+<ul>
+<li><a href="../../components/back_link/">back link</a></li>
+<li><a href="../../styles/typography/#headings">page heading (<code>&lt;h1&gt;</code>)</a> and questions</li>
+<li><a href="../../components/button/">continue button</a></li>
+</ul>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<!--beforeMain-->
+<section class="govcy-container">
+    <a class="govcy-back-link" href="#">Back</a>
+</section>
+ <!--main-->
+ <div class="govcy-container">
+    <div class="govcy-row">
+        <article class="govcy-col-8">
+            <form action="" class="govcy-form" novalidate>
+                <fieldset class="govcy-fieldset">
+                    <legend class="govcy-legend"><h1>Where do you live?</h1></legend>
+                    <div class="govcy-form-control">
+                        <div class="govcy-radio">
+                            <input class="govcy-radio-input" type="radio" name="option1" id="option1-cy">
+                            <label class="govcy-label" for="option1-cy">Cyprus</label>
+                        </div>
+                        <div class="govcy-radio">
+                            <input class="govcy-radio-input" type="radio" name="option1" id="option1-abroad">
+                            <label class="govcy-label" for="option1-abroad">Abroad</label>
+                        </div>
+                    </div>
+                </fieldset>
+                <button type="submit" class="govcy-btn-primary">Continue</button>
+            </form>
+        </article>
+    </div>
+</div>
+</div>
+<p><em>HTML code</em></p>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!--beforeMain--></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>section</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-container<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-back-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Back<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>section</span><span class="token punctuation">></span></span><br> <span class="token comment">&lt;!--main--></span><br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>main</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-container<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-row<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>article</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-col-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form<span class="token punctuation">"</span></span> <span class="token attr-name">novalidate</span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>fieldset</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-fieldset<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>legend</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-legend<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span>Where do you live?<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>legend</span><span class="token punctuation">></span></span><br>                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form-control<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio-input<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option1<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option1-cy<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option1-cy<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Cyprus<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio-input<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option1<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option1-abroad<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option1-abroad<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Abroad<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>fieldset</span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-btn-primary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Continue<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>main</span><span class="token punctuation">></span></span></code></pre>
+<h3 id="back-link" tabindex="-1">Back link</h3>
+<p>Always include a <a href="../../components/back_link/">back link</a> at the top of question pages to reassure the users it’s possible to go back and change previous answers.</p>
+<h3 id="page-headings-and-questions" tabindex="-1">Page headings and questions</h3>
+<p>Page headings can be questions or statements.</p>
+<p>Prefer to split the questions of your service across multiple pages, with each page containing just one question. Research has shown that asking multiple questions in a page, can be more difficult for users to answer.</p>
+<h4 id="one-question-per-page" tabindex="-1">One question per page</h4>
+<p>Asking just one question per question page helps users understand what you’re asking them to do, and focus on the specific question and its answer.</p>
+<p>When you’re asking just one question on a page, set the question as the page’s heading (<code>&lt;h1&gt;</code>), and as the <code>&lt;label&gt;</code> or <code>&lt;legend&gt;</code> for the input. This is good practice as it means that users of screen readers will only hear the contents once.</p>
+<p>Read more about <a href="../../patterns/labels_and_legend_headings/#single-question-page">single question page labels and legends</a>.</p>
+<p>Do not use the same page heading across multiple pages.</p>
+<p>The page heading should relate specifically to the information being asked for on the current page, not any higher-level section the page is part of.</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<!--beforeMain-->
+<section class="govcy-container">
+    <a class="govcy-back-link" href="#">Back</a>
+</section>
+ <!--main-->
+ <div class="govcy-container">
+    <div class="govcy-row">
+        <article class="govcy-col-8">
+            <form action="" class="govcy-form" novalidate>
+                <div class="govcy-form-control">
+	                <h1><label class="govcy-label govcy-label-primary" for="email-in">What is your email address?</label></h1>
+                    <span id="email-hint" class="govcy-hint">We’ll only use this email address for this application</span>
+                    <input id="email-in" type="email" class="govcy-text-input" aria-describedby="email-hint" autocomplete="email" spellcheck="false">
+                </div>
+                <button type="submit" class="govcy-btn-primary">Continue</button>
+            </form>
+        </article>
+    </div>
+</div>
+</div>
+<p><em>HTML code</em></p>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!--beforeMain--></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>section</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-container<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-back-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Back<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>section</span><span class="token punctuation">></span></span><br> <span class="token comment">&lt;!--main--></span><br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>main</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-container<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-row<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>article</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-col-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form<span class="token punctuation">"</span></span> <span class="token attr-name">novalidate</span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form-control<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>	                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label govcy-label-primary<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email-in<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>What is your email address?<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><br>                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email-hint<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-hint<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>We’ll only use this email address for this application<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email-in<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-text-input<span class="token punctuation">"</span></span> <span class="token attr-name">aria-describedby</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email-hint<span class="token punctuation">"</span></span> <span class="token attr-name">autocomplete</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">spellcheck</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>false<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-btn-primary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Continue<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>main</span><span class="token punctuation">></span></span></code></pre>
+<h4 id="asking-complex-questions" tabindex="-1">Asking complex questions</h4>
+<p>Use hint text if you need to give a small explanation.</p>
+<p>Do not use hint text if you need to give a lengthy explanation with lists and paragraphs. Screen readers read out the entire text when users interact with the form element. This could frustrate users if the text is long.</p>
+<p>Do not use links in hint text. While screen readers will read out the link text when describing the field, they will not tell users the text is a link.</p>
+<p>If you’re asking a question that needs a detailed explanation, use:</p>
+<ul>
+<li>a <code>&lt;h1&gt;</code> heading that’s a statement (for example, ‘Eligibility through SI contributions from Abroad’) rather than a question</li>
+<li>whatever mix of text, paragraphs, lists and examples best explains your question to users</li>
+<li>a label, above the form input, that asks users a specific question – for example, ‘Are there Social Insurance contributions in another country?’</li>
+</ul>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<!--beforeMain-->
+<section class="govcy-container">
+    <a class="govcy-back-link" href="#">Back</a>
+</section>
+ <!--main-->
+ <div class="govcy-container">
+    <div class="govcy-row">
+        <article class="govcy-col-8">
+            <form action="" class="govcy-form" novalidate>
+                <fieldset class="govcy-fieldset" aria-describedby="option4-fildset-hint">
+                    <legend class="govcy-legend"><h1>Select your certificate</h1></legend>
+                    <div class="govcy-form-control">
+	                    <span class="govcy-hint" id="option4-fildset-hint">Different options will appear depending on your option.</span>
+                        <div class="govcy-radio">
+                            <input class="govcy-radio-input" type="radio" name="option4" id="option4-1" aria-describedby="option4-1-hint">
+                            <label class="govcy-label" for="option4-1">Vaccination</label>
+                            <span id="option4-1-hint" class="govcy-hint">You have been vaccinated and this has been entered in the relevant database of the Ministry of Health.</span>
+                        </div>
+                        <div class="govcy-radio">
+                            <input class="govcy-radio-input" type="radio" name="option4" id="option4-2" aria-describedby="option4-2-hint">
+                            <label class="govcy-label" for="option4-2">Recovery</label>
+                            <span id="option4-2-hint" class="govcy-hint">You have been diagnosed with COVID-19, and the test result has been declared and entered in the relevant database of the Ministry of Health.</span>
+                        </div>
+                        <div class="govcy-radio">
+                            <input class="govcy-radio-input" type="radio" name="option4" id="option4-3" aria-describedby="option4-3-hint">
+                            <label class="govcy-label" for="option4-3">Laboratory testing</label>
+                            <span id="option4-3-hint" class="govcy-hint">You have been tested during the last 7 days for COVID-19 after undergoing a laboratory antigen rapid test or molecular methodology (RT-PCR) test and received a negative result which has been entered by the laboratory in the relevant database of the Ministry of Health.</span>
+                        </div>
+                    </div>
+                </fieldset>
+                <button type="submit" class="govcy-btn-primary">Continue</button>
+            </form>
+        </article>
+    </div>
+</div>
+</div>
+<p><em>HTML code</em></p>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!--beforeMain--></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>section</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-container<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-back-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Back<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>section</span><span class="token punctuation">></span></span><br> <span class="token comment">&lt;!--main--></span><br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>main</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-container<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-row<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>article</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-col-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form<span class="token punctuation">"</span></span> <span class="token attr-name">novalidate</span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>fieldset</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-fieldset<span class="token punctuation">"</span></span> <span class="token attr-name">aria-describedby</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option4-fildset-hint<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>legend</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-legend<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span>Select your certificate<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>legend</span><span class="token punctuation">></span></span><br>                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form-control<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>	                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-hint<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option4-fildset-hint<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Different options will appear depending on your option.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio-input<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option4<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option4-1<span class="token punctuation">"</span></span> <span class="token attr-name">aria-describedby</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option4-1-hint<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option4-1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Vaccination<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option4-1-hint<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-hint<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>You have been vaccinated and this has been entered in the relevant database of the Ministry of Health.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio-input<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option4<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option4-2<span class="token punctuation">"</span></span> <span class="token attr-name">aria-describedby</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option4-2-hint<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option4-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Recovery<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option4-2-hint<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-hint<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>You have been diagnosed with COVID-19, and the test result has been declared and entered in the relevant database of the Ministry of Health.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio-input<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option4<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option4-3<span class="token punctuation">"</span></span> <span class="token attr-name">aria-describedby</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option4-3-hint<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option4-3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Laboratory testing<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option4-3-hint<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-hint<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>You have been tested during the last 7 days for COVID-19 after undergoing a laboratory antigen rapid test or molecular methodology (RT-PCR) test and received a negative result which has been entered by the laboratory in the relevant database of the Ministry of Health.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>fieldset</span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-btn-primary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Continue<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>main</span><span class="token punctuation">></span></span></code></pre>
+<h4 id="asking-multiple-questions-on-a-page" tabindex="-1">Asking multiple questions on a page</h4>
+<p>Sometimes it makes sense to group a number of related questions on the same page.</p>
+<p>User research will tell you when you can group pages together. For example, if you’re designing an internal service for government users who need to repeat and switch between tasks quickly.</p>
+<p>If you need to ask for multiple related things on a page, use a statement as the heading(<code>&lt;h1&gt;</code>).</p>
+<p>Read more about <a href="../../patterns/labels_and_legend_headings/#multiple-question">multiple question page labels and legends</a>.</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<!--beforeMain-->
+<section class="govcy-container">
+    <a class="govcy-back-link" href="#">Back</a>
+</section>
+ <!--main-->
+ <div class="govcy-container">
+    <div class="govcy-row">
+        <article class="govcy-col-8">
+            <h1>Password Details</h1>
+            <form action="" class="govcy-form" novalidate>
+                <div class="govcy-form-control">
+                    <label class="govcy-label govcy-label-primary" for="pass-no">Passport Number</label>
+                    <input id="pass-no" type="text" class="govcy-text-input govcy-text-input-char_20" spellcheck="false" pattern="[0-9]*" inputmode="numeric" >
+                </div>
+                <fieldset class="govcy-fieldset" role="group" aria-describedby="date2-hint">
+                    <legend class="govcy-legend">Expiry Date</legend>
+                    <div class="govcy-form-control">
+                        <span class="govcy-hint" id="date2-hint">For example, 12 11 2027</span>
+                        <div class="govcy-d-flex govcy-flex-wrap">
+                            <div class="govcy-d-block govcy-mr-3">
+                                <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="day_2">Day</label>
+                                <input id="day_2" class="govcy-text-input govcy-text-input-char_3" maxlength="2" type="text" pattern="[0-9]*" inputmode="numeric">
+                            </div>
+                            <div class="govcy-d-block govcy-mr-3">
+                                <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="month_2">Month</label>
+                                <select id="month_2" class="govcy-select">
+                                    <option value="" selected=""></option>
+                                    <option value="1">1 - January</option>
+                                    <option value="2">2 - February</option>
+                                    <option value="3">3 - March</option>
+                                    <option value="4">4 - April</option>
+                                    <option value="5">5 - May</option>
+                                    <option value="6">6 - June</option>
+                                    <option value="7">7 - July</option>
+                                    <option value="8">8 - August</option>
+                                    <option value="9">9 - September</option>
+                                    <option value="10">10 - October</option>
+                                    <option value="11">11 - November</option>
+                                    <option value="12">12 - December</option>
+                                </select>
+                            </div>
+                            <div class="govcy-d-block govcy-mr-3">
+                                <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="year_2">Year</label>
+                                <input id="year_2" class="govcy-text-input govcy-text-input-char_6" placeholder="" maxlength="4" type="text" pattern="[0-9]*" inputmode="numeric">
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <button type="submit" class="govcy-btn-primary">Continue</button>
+            </form>
+        </article>
+    </div>
+</div>
+</div>
+<p><em>HTML code</em></p>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!--beforeMain--></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>section</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-container<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-back-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Back<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>section</span><span class="token punctuation">></span></span><br> <span class="token comment">&lt;!--main--></span><br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>main</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-container<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-row<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>article</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-col-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span>Password Details<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form<span class="token punctuation">"</span></span> <span class="token attr-name">novalidate</span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form-control<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label govcy-label-primary<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>pass-no<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Passport Number<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>pass-no<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-text-input govcy-text-input-char_20<span class="token punctuation">"</span></span> <span class="token attr-name">spellcheck</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>false<span class="token punctuation">"</span></span> <span class="token attr-name">pattern</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>[0-9]*<span class="token punctuation">"</span></span> <span class="token attr-name">inputmode</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>numeric<span class="token punctuation">"</span></span> <span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>fieldset</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-fieldset<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>group<span class="token punctuation">"</span></span> <span class="token attr-name">aria-describedby</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>date2-hint<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>legend</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-legend<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Expiry Date<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>legend</span><span class="token punctuation">></span></span><br>                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form-control<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-hint<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>date2-hint<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>For example, 12 11 2027<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-d-flex govcy-flex-wrap<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-d-block govcy-mr-3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>day_2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Day<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>day_2<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-text-input govcy-text-input-char_3<span class="token punctuation">"</span></span> <span class="token attr-name">maxlength</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>2<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">pattern</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>[0-9]*<span class="token punctuation">"</span></span> <span class="token attr-name">inputmode</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>numeric<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-d-block govcy-mr-3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>month_2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Month<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>month_2<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-select<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">selected</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span><br>                                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>1 - January<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span><br>                                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>2 - February<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span><br>                                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>3 - March<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span><br>                                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>4<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>4 - April<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span><br>                                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>5<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>5 - May<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span><br>                                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>6<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>6 - June<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span><br>                                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>7<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>7 - July<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span><br>                                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>8 - August<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span><br>                                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>9<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>9 - September<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span><br>                                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>10<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>10 - October<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span><br>                                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>11<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>11 - November<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span><br>                                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>12<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>12 - December<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span><br>                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">></span></span><br>                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-d-block govcy-mr-3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>year_2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Year<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>year_2<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-text-input govcy-text-input-char_6<span class="token punctuation">"</span></span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">maxlength</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>4<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">pattern</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>[0-9]*<span class="token punctuation">"</span></span> <span class="token attr-name">inputmode</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>numeric<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>fieldset</span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-btn-primary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Continue<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>main</span><span class="token punctuation">></span></span></code></pre>
+<h3 id="continue-button" tabindex="-1">Continue button</h3>
+<p>Make sure your ‘Continue’ <a href="../../components/button/">button</a> is:</p>
+<ul>
+<li>labelled ‘Continue’, not ‘Next’.</li>
+<li>aligned to the left so users do not miss it</li>
+</ul>
+<h3 id="optional-information" tabindex="-1">Optional information</h3>
 <p>If you ask for optional information:</p>
 <ul>
 <li>in most contexts, add ‘(optional)’ to the labels of optional fields</li>
-<li>for radios and checkboxes, add ‘(optional)’ to the legend</li>
+<li>for <a href="../../components/radio/">radios</a> and <a href="../../components/checkbox/">checkboxes</a>, add ‘(optional)’ to the legend</li>
 </ul>
 <p>Never mark mandatory fields with asterisks.</p>
 <p>On every question page you should:</p>
@@ -185,229 +386,71 @@
 <li>make sure it’s clear to users why you’re asking each question</li>
 <li>allow users to answer ‘I do not know’ or ‘I’m not sure’ if they are valid responses</li>
 </ul>
-<h2 id="how-it-works" tabindex="-1">How it works <a class="anchor-link" href="#how-it-works"> </a></h2>
-<p>Question pages must include a:</p>
-<ul>
-<li>back link</li>
-<li>page heading</li>
-<li>continue button</li>
-</ul>
-<p>If research it’s helpful for users, you can also include a progress indicator.</p>
-<h3 id="back-link" tabindex="-1">Back link <a class="anchor-link" href="#back-link"> </a></h3>
-<p>Always include a <a href="../../components/back_link">back link</a> at the top of question pages to reassure them it’s possible to go back and change previous answers.</p>
-<p>However, do not break the browser back button. Make sure it takes users to the previous page they were on, in the state they last saw it.</p>
-<p>An exception to this is when the user has performed an action they should only do once, like make a payment or complete an application. The browser back button should still work, but show the user a sensible message rather than let them perform the action again.</p>
-<h3 id="page-headings" tabindex="-1">Page headings <a class="anchor-link" href="#page-headings"> </a></h3>
-<p>Page headings can be questions or statements.</p>
-<h4 id="start-by-asking-one-question-per-page" tabindex="-1">Start by asking one question per page <a class="anchor-link" href="#start-by-asking-one-question-per-page"> </a></h4>
-<p>Asking just one question per question page helps users understand what you’re asking them to do, and focus on the specific question and its answer.</p>
-<p>To help you follow this approach, you can set the contents of a <code>&lt;legend&gt;</code> or <code>&lt;label&gt;</code> for a page’s input as the page heading. This is good practice as it means that users of screen readers will only hear the contents once.</p>
-<p>Read more about why and <a href="../labels_and_legend_headings">how to set labels and legends as headings</a>.</p>
-<p>Do not use the same page heading across multiple pages.</p>
-<p>The page heading should relate specifically to the information being asked for on the current page, not any higher-level section the page is part of.</p>
-<h4 id="asking-complex-questions" tabindex="-1">Asking complex questions <a class="anchor-link" href="#asking-complex-questions"> </a></h4>
-<p>Use <a href="../hint_text">hint text</a> if you need to give a small explanation.</p>
-<p>Do not use hint text if you need to give a lengthy explanation with lists and paragraphs. Screen readers read out the entire text when users interact with the form element. This could frustrate users if the text is long.</p>
-<p>Do not use links in hint text. While screen readers will read out the link text when describing the field, they will not tell users the text is a link.</p>
-<p>If you’re asking a question that needs a detailed explanation, use:</p>
-<ul>
-<li>a <code>&lt;h1&gt;</code> heading that’s a statement (for example, ‘Eligibility through SI contributions from Abroad’) rather than a question</li>
-<li>whatever mix of text, paragraphs, lists and examples best explains your question to users</li>
-<li>a label, above the form input, that asks users a specific question – for example, ‘Are there Social Insurance contributions in another country?’</li>
-</ul>
-<p><em>Example</em></p>
-<div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
-<!--beforeMain-->
-<section class="govcy-container govcy-mb-4" id="beforeMainContainer">
-    <span class="bi bi-chevron-left"></span>
-    <a href="#" class="govcy-back-link">Back</a>
-</section>
-<!--main-->
-<main class="govcy-container" id="mainContainer">
-    <h1>Eligibility through SI contributions from Abroad</h1>
-    <p>You may still ne eligible, if there are social insurance contributions in another country.</p>
-    <form action="" class="govcy-form" novalidate>
-        <fieldset class="govcy-fieldset govcy-mb-4">
-            <legend class="govcy-legend">Are there Social Insurance Contributions in another country?</legend>
-            <div class="govcy-form-control">
-                <label class="govcy-radio">Yes
-                    <input class="govcy-radio-input" type="radio" name="radio">
-                    <span class="govcy-radio-checked"></span>
-                </label>
-                <label class="govcy-radio">No
-                    <input class="govcy-radio-input" type="radio" name="radio">
-                    <span class="govcy-radio-checked"></span>
-                </label>
-            </div>
-        </fieldset>
-    <button type="button" class="govcy-btn-primary govcy-mb-4">Next</button>
-    </form>
-</main>
-</div>
-<p><em>Example</em></p>
-<div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
-<!--beforeMain-->
-<section class="govcy-container govcy-mb-4" id="beforeMainContainer">
-    <span class="bi bi-chevron-left"></span>
-    <a href="#" class="govcy-back-link">Back</a>
-</section>
-<!--main-->
-<main class="govcy-container" id="mainContainer">
-    <form action="" class="govcy-form" novalidate>
-        <fieldset class="govcy-fieldset">
-            <legend class="govcy-legend"><h1>Select your certificate</h1></legend>
-            <div class="govcy-form-control">
-                <label class="govcy-radio">Vaccination
-                    <input class="govcy-radio-input" type="radio" name="radio">
-                    <span class="govcy-radio-checked"></span>
-                    <span class="govcy-hint govcy-mt-2">You have been vaccinated and this has been entered in the relevant database of the Ministry of Health.</span>
-                </label>
-                <label class="govcy-radio">Recovery
-                    <input class="govcy-radio-input" type="radio" name="radio">
-                    <span class="govcy-radio-checked"></span>
-                    <span class="govcy-hint govcy-mt-2">You have been diagnosed with COVID-19, and the test result has been declared and entered in the relevant database of the Ministry of Health.</span>
-                </label>
-                <label class="govcy-radio">Laboratory testing
-                    <input class="govcy-radio-input" type="radio" name="radio">
-                    <span class="govcy-radio-checked"></span>
-                    <span class="govcy-hint govcy-mt-2">You have been tested during the last 7 days for COVID-19 after undergoing a laboratory antigen rapid test or molecular methodology (RT-PCR) test and received a negative result which has been entered by the laboratory in the relevant database of the Ministry of Health.</span>
-                </label>
-            </div>
-        </fieldset>
-        <button type="button" class="govcy-btn-primary govcy-mb-4">Next</button>
-    </form>
-</main>
-</div>
-<h4 id="asking-multiple-questions-on-a-page" tabindex="-1">Asking multiple questions on a page <a class="anchor-link" href="#asking-multiple-questions-on-a-page"> </a></h4>
-<p>Sometimes it makes sense to group a number of related questions on the same page.</p>
-<p>User research will tell you when you can group pages together. For example, if you’re designing an internal service for government users who need to repeat and switch between tasks quickly.</p>
-<p>If you need to ask for multiple related things on a page, use a statement as the heading.</p>
-<p>Use bold font weight for <code>&lt;labels&gt;</code> or <code>&lt;legends&gt;</code> that describe each field.</p>
-<p><em>Example</em></p>
-<div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
-<!--beforeMain-->
-<section class="govcy-container govcy-mb-4" id="beforeMainContainer">
-    <span class="bi bi-chevron-left"></span>
-    <a href="#" class="govcy-back-link">Back</a>
-</section>
-<!--main-->
-<main class="govcy-container" id="mainContainer">
-    <h1>Password Details</h1>
-    <form action="" class="govcy-form" novalidate>
-        <div class="govcy-form-control govcy-mb-4">
-        <label class="govcy-label" for="passport">Passport Number</label>
-        <input type="text" class="govcy-text-input" spellcheck="false" pattern="[0-9]*" inputmode="numeric" id="passport">
-    </div>
-    <fieldset class="govcy-fieldset govcy-mb-4">
-        <div class="govcy-form-control">
-            <legend class="govcy-label govcy-mb-1">Expiry Date</legend>
-            <span class="govcy-hint govcy-mb-3">For example, 12 11 2027</span>
-            <div class="govcy-d-flex">
-                <div class="govcy-d-block">
-                    <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="day">Day</label>
-                    <input class="govcy-text-input govcy-text-input-char_3 govcy-p-2" placeholder="" maxlength="2" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" id="day">
-                </div>
-                <div class="govcy-d-block govcy-ml-2">
-                    <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="month">Month</label>
-                    <input class="govcy-text-input govcy-text-input-char_3 govcy-p-2" placeholder="" maxlength="2" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" id="month">
-                </div>
-                <div class="govcy-d-block govcy-ml-2">
-                    <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="year">Year</label>
-                    <input class="govcy-text-input govcy-text-input-char_6 govcy-p-3" placeholder="" maxlength="4" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" id="year">
-                </div>
-            </div>
-        </div>
-    </fieldset>    
-    <button type="button" class="govcy-btn-primary govcy-mb-4">Next</button>
-    </form>
-</main>
-</div>
-<h3 id="continue-button" tabindex="-1">Continue button <a class="anchor-link" href="#continue-button"> </a></h3>
-<p>Make sure your ‘Continue’ button is:</p>
-<ul>
-<li>labelled ‘Continue’, not ‘Next’</li>
-<li>aligned to the left so users do not miss it</li>
-</ul>
 
             </div>
     
-    <aside class="govcy-col-3 govcy-order-first">
-                <ul class="nav-side govcy-flex-column"><li>Ask users for</li><li><a href="/govcy-design-system-docs/patterns/currency-amount/" class="nav-link">Currency amount</a></li><li><a href="/govcy-design-system-docs/patterns/dates/" class="nav-link">Dates</a></li><li><a href="/govcy-design-system-docs/patterns/email/" class="nav-link">Email</a></li><li><a href="/govcy-design-system-docs/patterns/names/" class="nav-link">Names</a></li><li><a href="/govcy-design-system-docs/patterns/telephone/" class="nav-link">Telephone</a></li><li>Help users</li><li><a href="/govcy-design-system-docs/patterns/check_answers/" class="nav-link">Check answers</a></li><li><a href="/govcy-design-system-docs/patterns/confirm_phone_number/" class="nav-link">Confirm a phone number</a></li><li><a href="/govcy-design-system-docs/patterns/hint_text/" class="nav-link">Hint Text</a></li><li>Pages</li><li><a href="/govcy-design-system-docs/patterns/page-not-found-pages/" class="nav-link">Page not found pages</a></li><li><a href="/govcy-design-system-docs/patterns/question_pages/" class="nav-link active">Question pages</a></li><li><a href="/govcy-design-system-docs/patterns/service-unavailable-pages/" class="nav-link">Service unavailable pages</a></li><li><a href="/govcy-design-system-docs/patterns/there-is-a-problem/" class="nav-link">There is a problem with the service pages</a></li><li>How to</li><li><a href="/govcy-design-system-docs/patterns/focus_state/" class="nav-link">Focus state</a></li><li><a href="/govcy-design-system-docs/patterns/labels_and_legend_headings/" class="nav-link">Labels and legends headings</a></li><li><a href="/govcy-design-system-docs/patterns/multiple_things/" class="nav-link">Add multiple things </a></li><li><a href="/govcy-design-system-docs/patterns/service_structure/" class="nav-link">Structuring a service</a></li>
+    <aside class="govcy-col-md-3 govcy-col-lg-2 govcy-order-first-desk">
+                <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Pages in this section</div>
+                <ul class="govcy-list-unstyled"><li class="govcy-fw-bolder govcy-mb-3">Ask users for</li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/addresses/">Addresses</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/bank_details/">Bank details</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/currency-amount/">Currency amount</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/dates/">Dates</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/email/">Email</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/gender_sex/">Gender or sex</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/names/">Names</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/numeric_inputs/">Numeric inputs</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/social_insurance_number/">Social Insurance Numbers</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/telephone/">Telephone numbers</a></li><li class="govcy-fw-bolder govcy-mb-3">Help users</li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/confirm_email_address/">Confirm an email address</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/confirm_phone_number/">Confirm a phone number</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/contact_department_or_team/">Contact a department or service team</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/filter_results/">Filter results</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/multiple_things/">Add multiple things </a></li><li class="govcy-fw-bolder govcy-mb-3">Pages</li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/check_answers/">Check answers page</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/confirmation-pages/">Confirmation pages</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/cookies_pages/">Cookies page and cookies consent</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/page-not-found-pages/">Page not found pages</a></li><li class="app-side-link active"><a href="/govcy-design-system-docs/patterns/question_pages/">Question pages</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/service-unavailable-pages/">Service unavailable pages</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/step_by_step_navigation/">Step by step navigation</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/task-list-page/">Task list page</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/there-is-a-problem/">There is a problem with the service pages</a></li><li class="govcy-fw-bolder govcy-mb-3">How to</li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/focus_state/">Focus state</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/labels_and_legend_headings/">Labels and legends</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/service_structure/">Structuring a service</a></li>
                 </ul>
             </aside>
         </div>
     </main>
-    <!-- Footer -->
-    <div class="govcy-container-fluid govcy-br-top-8 govcy-br-top-primary govcy-p-3 govcy-bg-light govcy-d-print-none">
-            <div class="govcy-container">
-                <div class="row">   
-                    <footer class="govcy-footer">
-                        <span class="govcy-d-inline-block govcy-valign-top govcy-pb-2"><img alt="govcy-logo"></span>
-                                <ul class="govcy-d-inline-block  govcy-m-0 govcy-pl-3 govcy-efs-medium">
-                                <li><a href="/govcy-design-system-docs/privacy-statement">Privacy statement</a></li>
-                                <li><a href="/govcy-design-system-docs/cookie-policy">Cookie policy</a></li>
-                                <li><a href="/govcy-design-system-docs/accessibility-statement">Accessibility statement</a></li>
-                                <li class="govcy-d-block govcy-text-dark">© Republic of Cyprus, 2021</li>
+        <!-- Footer -->
+    <footer class="govcy-footer govcy-d-print-none"> 
+    <div class="govcy-px-4">
+        <div class="govcy-container">
+            <div class="govcy-row">
+                <div class="govcy-col-md-12 govcy-footer-column">
+                    <div class="govcy-row">
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Links</h3></li>
+                                <li><a href="/govcy-design-system-docs/">Home</a></li>
+                                <li><a href="/govcy-design-system-docs/getting-started">Get started</a></li>
+                                <li><a href="https://github.com/gov-cy/govcy-design-system" target="_blank">Github - Developer Assets</a></li>
+                                <li><a href="https://github.com/gov-cy/govcy-design-system-docs" target="_blank">Github - Design System website</a></li>
                             </ul>
-                    </footer>
+                        </div>
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Tools and libraries</h3></li>
+                                <li><a href="https://www.figma.com/@dsf_cy" target="_blank">Figma</a></li>
+                                <li><a href="https://excalidraw-libraries-git-cevangelougovcy-gov-e2dec6-excalidraw.vercel.app/?theme=light&sort=default#cevangelougovcy-gov-cy-uds-library" target="_blank">Exalidraw</a></li>
+                                <li><a href="https://www.npmjs.com/~gov-cy" target="_blank">npm</a></li>
+                            </ul>
+                        </div>
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Previous Versions</h3></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v2/" target="_blank">Ver. 2x</a></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v0/" target="_blank">Ver. 0x</a></li></ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-        
-        
-        
-        
-        
-        <script src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-js"></script>
-        <script>
-            const { autocomplete } = window['@algolia/autocomplete-js'];
-        </script>
-
-
-        <script>
-        autocomplete({
-        container: '#autocomplete',
-        placeholder: 'Search Design System',
-        getSources() {
-            return [
-            {
-                sourceId: 'links',
-                getItems({ query }) {
-                return [
-{ label: "Colours", url: '/govcy-design-system-docs/styles/colour/', keys: "" },{ label: "Page Templates", url: '/govcy-design-system-docs/styles/page_templates/', keys: "" },{ label: "Grid system", url: '/govcy-design-system-docs/styles/grid/', keys: "" },{ label: "Vertical Spacing", url: '/govcy-design-system-docs/styles/vertical_spacing/', keys: "" },{ label: "Layout", url: '/govcy-design-system-docs/styles/layout/', keys: "" },{ label: "Typography", url: '/govcy-design-system-docs/styles/typography/', keys: "fonts text Paragraph Headings Unordered Ordered list Links" },{ label: "Back Link", url: '/govcy-design-system-docs/components/back_link/', keys: "" },{ label: "Breadcrumbs", url: '/govcy-design-system-docs/components/breadcrumbs/', keys: "" },{ label: "Button", url: '/govcy-design-system-docs/components/button/', keys: "" },{ label: "Checkbox", url: '/govcy-design-system-docs/components/checkbox/', keys: "" },{ label: "Date input", url: '/govcy-design-system-docs/components/date_input/', keys: "" },{ label: "Details", url: '/govcy-design-system-docs/components/details/', keys: "" },{ label: "Error Message", url: '/govcy-design-system-docs/components/error_message/', keys: "" },{ label: "Error Summary", url: '/govcy-design-system-docs/components/error_summary/', keys: "" },{ label: "Fieldset", url: '/govcy-design-system-docs/components/fieldset/', keys: "" },{ label: "File", url: '/govcy-design-system-docs/components/file/', keys: "" },{ label: "Footer", url: '/govcy-design-system-docs/components/footer/', keys: "" },{ label: "Header", url: '/govcy-design-system-docs/components/header/', keys: "" },{ label: "Panel", url: '/govcy-design-system-docs/components/panel/', keys: "success panel" },{ label: "Radio", url: '/govcy-design-system-docs/components/radio/', keys: "" },{ label: "Select", url: '/govcy-design-system-docs/components/select/', keys: "" },{ label: "Skip Link", url: '/govcy-design-system-docs/components/skip_link/', keys: "" },{ label: "Table", url: '/govcy-design-system-docs/components/table/', keys: "" },{ label: "Text Input", url: '/govcy-design-system-docs/components/text_input/', keys: "" },{ label: "User’s name and sign out", url: '/govcy-design-system-docs/components/user_name_and_sign_out/', keys: "" },{ label: "How to create a page using the gov.cy design system", url: '/govcy-design-system-docs/guides/create_a_page/', keys: "" },{ label: "How to create new design elements using the gov.cy utility classes", url: '/govcy-design-system-docs/guides/create_a_design_element/', keys: "" },{ label: "Check answers", url: '/govcy-design-system-docs/patterns/check_answers/', keys: "" },{ label: "Confirm a phone number", url: '/govcy-design-system-docs/patterns/confirm_phone_number/', keys: "" },{ label: "Currency amount", url: '/govcy-design-system-docs/patterns/currency-amount/', keys: "" },{ label: "Dates", url: '/govcy-design-system-docs/patterns/dates/', keys: "" },{ label: "Email", url: '/govcy-design-system-docs/patterns/email/', keys: "" },{ label: "Focus state", url: '/govcy-design-system-docs/patterns/focus_state/', keys: "" },{ label: "Hint Text", url: '/govcy-design-system-docs/patterns/hint_text/', keys: "" },{ label: "Labels and legends headings", url: '/govcy-design-system-docs/patterns/labels_and_legend_headings/', keys: "" },{ label: "Add multiple things ", url: '/govcy-design-system-docs/patterns/multiple_things/', keys: "" },{ label: "Names", url: '/govcy-design-system-docs/patterns/names/', keys: "" },{ label: "Page not found pages", url: '/govcy-design-system-docs/patterns/page-not-found-pages/', keys: "" },{ label: "Question pages", url: '/govcy-design-system-docs/patterns/question_pages/', keys: "" },{ label: "Service unavailable pages", url: '/govcy-design-system-docs/patterns/service-unavailable-pages/', keys: "" },{ label: "Structuring a service", url: '/govcy-design-system-docs/patterns/service_structure/', keys: "" },{ label: "Telephone", url: '/govcy-design-system-docs/patterns/telephone/', keys: "" },{ label: "There is a problem with the service pages", url: '/govcy-design-system-docs/patterns/there-is-a-problem/', keys: "" },{ label: "Design System", url: '/govcy-design-system-docs/', keys: "" },{ label: "Get Started", url: '/govcy-design-system-docs/getting_started/', keys: "CSS CDN meta tags social theme manifest icon" },{ label: "Styles", url: '/govcy-design-system-docs/styles/', keys: "" },{ label: "Components", url: '/govcy-design-system-docs/components/', keys: "" },{ label: "Patterns", url: '/govcy-design-system-docs/patterns/', keys: "" },{ label: "Utilities", url: '/govcy-design-system-docs/css_utilities/', keys: "" },{ label: "Moving from Version 0.1.0", url: '/govcy-design-system-docs/moving_from_v_0/', keys: "" },{ label: "Guides", url: '/govcy-design-system-docs/guides/', keys: "" },{ label: "Privacy policy – your personal information", url: '/govcy-design-system-docs/privacy-statement/', keys: "" },{ label: "Cookies used by the Design System", url: '/govcy-design-system-docs/cookie-policy/', keys: "" },{ label: "Accessibility statement", url: '/govcy-design-system-docs/accessibility-statement/', keys: "" },
-                ].filter(({ label ,keys }) =>
-                    label.toLowerCase().includes(query.toLowerCase()) 
-                    || keys.toLowerCase().includes(query.toLowerCase())
-                );
-                },
-                getItemUrl({ item }) {
-                    return item.url;
-                },
-                 templates: {
-                    item({ item, createElement }) {
-                        return createElement('div', {
-                        dangerouslySetInnerHTML: {
-                            __html: `<div>
-                            <a
-                                href="${item.url}">
-                                ${item.label}
-                            <a/> 
-                            </div>`,
-                        },
-                        });
-                    },
-                    noResults() {
-                        return 'No results.';
-                    }
-                }
-                // ...
-            },
-            ];
-        }
-    });
-
-        </script>
+        <div class="govcy-container govcy-footer-separator">
+            <div class="govcy-d-flex govcy-justify-content-between govcy-align-items-end govcy-flex-wrap">
+                <div class="govcy-my-4">
+                    <ul>
+                        <li><a href="/govcy-design-system-docs/privacy-statement">Privacy statement</a></li>
+                        <li><a href="/govcy-design-system-docs/cookie-policy">Cookies</a></li>
+                        <li><a href="/govcy-design-system-docs/accessibility-statement">Accessibility</a></li>
+                    </ul>
+                    <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
+                        <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
+                        <span class="govcy-mr-6 govcy-mt-2 govcy-mb-2">© Republic of Cyprus, 2024</span>
+                        <a href="https://europa.eu/" title="Go to EU Website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="/govcy-design-system-docs/img/FundedbyEU_NextGeneration_H53-EN.png" alt="Funded by the EU Next Generation EU"></a>
+                        <a href="http://www.cyprus-tomorrow.gov.cy/" title="Go to Cyprus to tomorrow website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="/govcy-design-system-docs/img/CYpros to aurio logo eng_H53_EN.png" alt="Cyprus tomorrow, recovery and resilience plan"></a>
+                    </div>
+                </div>
+                <div class="govcy-my-4">
+                   <a href="https://www.gov.cy" class="govcy-footer-logo" title="Go to the GOV.CY homepage"><img alt="gov.cy Logo"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+            <script src="/govcy-design-system-docs/js/govcy.uds.min.js" type="text/javascript"></script>
+        <script src="/govcy-design-system-docs/js/uds.js" type="text/javascript"></script>
     </body>
 </html>

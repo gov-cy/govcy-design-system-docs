@@ -1,47 +1,73 @@
 ---
 title: "Design System"
+layout: "home_base.njk"
+showTitle: false
+showBeforeMain: false
 localization: 
     el: "/el/index.html"
 ---
 
-<div class="govcy-container govcy-py-3 govcy-bg-light">
-    <div class="row">
-        <div class="govcy-col-5 order-md-last govcy-text-center">
-            <img src="img/browser.png" class="img-fluid" alt="Design system">
-        </div>
-        <div class="govcy-col-7 order-md-first">
-            <p>Design your services using GOV.CY styles, components and patterns.</p>
-            <p>Use the design system to make your service consistent with GOV.CY and avoid repeating work that’s already been done. The Design System makes it easy for digital teams to build accessible, consistent, and performant services and products to meet Cyprus' needs.</p>
-            <p><button type="button" class="govcy-btn-primary" onclick="window.location='getting_started/'">Get Started</button> </p>
-            <p>Currently <strong>v{{ site.version }}</strong>
-            <span class="govcy-px-1">·</span>
-            <a href="https://gov-cy.github.io/govcy-design-system-docs-v0/">v0.1.0 documentation</a>
-            <span class="govcy-px-1">·</span>
-            <a href="moving_from_v_0">How to move from Version 0.1.0</a>
-            </p>
-        </div>
-    </div>
-</div>
+## What's new
 
+**{{ site.dsUpdateDate }}**
+Version 3.0.0 of the Design system has been released.
+
+[Read the full change log (opens in new tab)](https://github.com/gov-cy/govcy-design-system/blob/main/CHANGELOG.md){rel="noreferrer noopener" target="_blank"}.
+
+<hr>
+
+## Overview
+At its core, the gov.cy Unified Design System (UDS) consists of universal assets, elements, components, patterns and code guidance on how to design, build and develop websites and services that make use of the Cyprus government branding and image. This allows its users and teams to build a citizen centric, consistent, clean and intuitive user experience throughout gov.cy, that is accessible to everyone. 
+
+If you are starting a new service or website, first go through our [getting started guide](getting-started/).
+
+<hr>
 <div class="govcy-container govcy-py-3">
-    <div class="row">
-        <div class="govcy-col-4">
-            <p><img src="img/styles.png" alt="Styles"> </p>
-            <h2>Styles</h2>
-                <p>A visual styles to make your service look like GOV.CY with of colours, images, layouts, grid system, spacing and typography. </p>
-                <p><a href="styles/">Browse styles</a></p>
+    <div class="govcy-row">
+        <div class="govcy-col-md-4 govcy-my-2">
+            <div class="govcy-bg-main-shade-3 govcy-p-7 govcy-d-flex govcy-flex-column govcy-h-100">
+                <h2 class="govcy-pt-0">Styles</h2>
+                <p class="govcy-flex-fill">Make your service and website look like gov.cy with guides for applying layout &amp; grids, spacing, typography, colours and images.</p>
+                <div><a href="./styles/index.html">Browse styles</a></div>
+            </div>
         </div>
-    <div class="govcy-col-4">
-        <p><img src="img/components.png" alt="Components"> </p>
-        <h2>Components</h2>
-            <p>Reusable elements of the user interface such as components for forms, navigation, panels, tables and more.</p>
-            <p><a href="components/">Browse Components</a></p>
-    </div>
-    <div class="govcy-col-4">
-        <p><img src="img/patterns.png" alt="Patterns"> </p>
-        <h2>Patterns</h2>
-        <p>Best practice design solutions for specific user-focused tasks and page types, such as addresses, bank details and so on.</p>
-            <p><a href="patterns/">Browse Patterns</a></p>
-    </div>
+        <div class="govcy-col-md-4 govcy-my-2">
+            <div class="govcy-bg-main-shade-3 govcy-p-7 govcy-d-flex govcy-flex-column govcy-h-100">
+                <h2 class="govcy-pt-0">Components</h2>
+                <p class="govcy-flex-fill">Save time and keep the pages consistent with reusable, accesible components for forms, inputs, selections, panels, tables, navigations and more.</p>
+                <div><a href="./components/index.html">Browse components</a></div>
+            </div>
+        </div>
+        <div class="govcy-col-md-4 govcy-my-2">
+            <div class="govcy-bg-main-shade-3 govcy-p-7 govcy-d-flex govcy-flex-column govcy-h-100">
+                <h2 class="govcy-pt-0">Patterns</h2>
+                <p class="govcy-flex-fill">Help users with completing common tasks such as entering names and addresses, filling and applying for forms and account creation.</p>
+                <div><a href="./patterns/index.html">Browse patterns</a></div>
+            </div>
+        </div>
     </div>
 </div>
+<hr>
+<section class="govcy-my-5">
+    <div class="govcy-container">
+        <h2>In use</h2>
+        <div class="govcy-row govcy-row-cols-1 govcy-row-cols-md-2 govcy-row-cols-lg-3">
+            <div class="col govcy-mb-4">
+                <div>
+                    <div class="govcy-bg-main-shade-3 govcy-p-3 govcy-mb-1">
+                        <img src="./img/gov-cy-website.jpg" alt="Screenshot of gov.cy" class="w-100 govcy-m-0">
+                    </div>
+                    <div><a href="https://www.gov.cy" target="_blank">Portal - gov.cy</a></div>
+                </div>
+            </div>
+            <div class="col govcy-mb-4">
+                <div>
+                    <div class="govcy-bg-main-shade-3 govcy-p-3 govcy-mb-1">
+                        <img src="./img/citizen-docs-website.jpg" alt="Screenshot of the citizens documents service" class="w-100 govcy-m-0">
+                    </div>
+                    <div><a href="https://citizen-documents.service.gov.cy/" target="_blank">Citizens documents service</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

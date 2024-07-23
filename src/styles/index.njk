@@ -1,10 +1,12 @@
 ---
 title: "Styles"
-order: 1
+order: 2
 tags : ['top_menu']
+showCategoryMenu : true
 ---
-<p>Make your service look and feel like GOV.CY.</p>
 
+<p>The Unified Design System’s visual design is based on consistent layouts, palettes of typography, spacing units, colour, and other discrete elements.</p>
+<p>If you are using the our <a href="../getting-started/developer-assets">developers assets</a> and the code in our documentation, you will not need any additional styling.</p>
 <p>Use the links on this page to navigated to the desired style element.</p>
 
 <div class="govcy-container">
@@ -14,7 +16,12 @@ tags : ['top_menu']
         {% if locale  == pag.data.locale -%}
             {#- Checks if we want to show the index page -#}
             {% if (pag.fileSlug == category and showIndexInCategoryMenu) or pag.fileSlug != category -%}
-                <div class="govcy-col-4 govcy-mb-3"><a class="app-card" href="{{ pag.url | url }}">{{ pag.data.title }}</a></div>
+                <div class="govcy-col-4 govcy-mb-3">
+                   <a class="app-card" href="{{ pag.url | url }}">
+                         <h3>{{ pag.data.title }}</h3>
+                        {% if pag.data.description %}<p class="flex-fill">{{ pag.data.description }}</p>{% endif %}
+                    </a>
+                </div>
             {%- endif %}
         {%- endif %}
     {%- endfor -%}

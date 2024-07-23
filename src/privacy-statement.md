@@ -9,4 +9,4 @@ This privacy policy explains how the Digital Services Factory (DSF) collects and
 No personal data are collected by DSF through this website.
 
 ## Complaints
-You can complain about the way your personal information has been used by [contacting the Office of the Commissioner for Personal Data Protection](https://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/page1i_en/page1i_en?opendocument){target="_blank"}. 
+You can complain about the way your personal information has been used by [contacting the Office of the Commissioner for Personal Data Protection (opens in new tab)](https://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/page1i_en/page1i_en?opendocument){rel="noreferrer noopener" target="_blank"}. 

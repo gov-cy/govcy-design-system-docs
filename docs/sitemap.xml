@@ -1,32 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/header_default/</loc>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/experiments/cond-radio-aria/</loc>
             <lastmod>2022-02-01T00:00:01.000Z</lastmod>
         </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/header_with_name/</loc>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/experiments/step-by-step-no-accordion/</loc>
             <lastmod>2022-02-01T00:00:01.000Z</lastmod>
         </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/header_with_name_and_nav/</loc>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/getting-started/</loc>
             <lastmod>2022-02-01T00:00:01.000Z</lastmod>
         </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/layouts/</loc>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/cookies-essential-el/</loc>
             <lastmod>2022-02-01T00:00:01.000Z</lastmod>
         </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/page_templates_demo/</loc>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/cookies-essential-en/</loc>
             <lastmod>2022-02-01T00:00:01.000Z</lastmod>
         </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/sample/</loc>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/cookies-optional-el/</loc>
+            <lastmod>2022-02-01T00:00:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/cookies-optional-en/</loc>
+            <lastmod>2022-02-01T00:00:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/cookies-with-concent/</loc>
+            <lastmod>2022-02-01T00:00:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/example-cond-radio-select/</loc>
+            <lastmod>2022-02-01T00:00:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/step-by-step-and/</loc>
+            <lastmod>2022-02-01T00:00:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/step-by-step-default/</loc>
+            <lastmod>2022-02-01T00:00:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/step-by-step-or/</loc>
+            <lastmod>2022-02-01T00:00:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/step-by-step-two-thirds/</loc>
+            <lastmod>2022-02-01T00:00:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/step-page/</loc>
+            <lastmod>2022-02-01T00:00:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/templare-heading-title-more/</loc>
+            <lastmod>2022-02-01T00:00:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/templare-heading-title/</loc>
+            <lastmod>2022-02-01T00:00:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/template-address/</loc>
+            <lastmod>2022-02-01T00:00:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/template-heading-back/</loc>
+            <lastmod>2022-02-01T00:00:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/template-heading-breadcrumbs/</loc>
+            <lastmod>2022-02-01T00:00:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/template-heading-error-summary/</loc>
+            <lastmod>2022-02-01T00:00:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/template-heading-input-js/</loc>
+            <lastmod>2022-02-01T00:00:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/template-heading-input/</loc>
+            <lastmod>2022-02-01T00:00:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/template-heading-phase-banner/</loc>
+            <lastmod>2022-02-01T00:00:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/template-order-of-things-all/</loc>
+            <lastmod>2022-02-01T00:00:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/template-radios/</loc>
             <lastmod>2022-02-01T00:00:01.000Z</lastmod>
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/styles/colour/</loc>
             <lastmod>2022-02-01T00:00:01.000Z</lastmod>
         </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/styles/page_templates/</loc>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/getting-started/principles/</loc>
             <lastmod>2022-02-01T00:00:02.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/getting-started/developer-assets/</loc>
+            <lastmod>2022-02-01T00:00:03.000Z</lastmod>
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/styles/grid/</loc>
             <lastmod>2022-02-01T00:00:03.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/getting-started/page-template/</loc>
+            <lastmod>2022-02-01T00:00:04.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/styles/images/</loc>
+            <lastmod>2022-02-01T00:00:04.000Z</lastmod>
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/styles/vertical_spacing/</loc>
             <lastmod>2022-02-01T00:00:04.000Z</lastmod>
@@ -34,8 +100,14 @@
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/styles/layout/</loc>
             <lastmod>2022-02-01T00:00:05.000Z</lastmod>
         </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/getting-started/dsf-libraries/</loc>
+            <lastmod>2022-02-01T00:00:06.000Z</lastmod>
+        </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/styles/typography/</loc>
             <lastmod>2022-02-01T00:00:06.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/accordion/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/back_link/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
@@ -46,10 +118,22 @@
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/button/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/character_count/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/checkbox/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/cookie_banner/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/data_tables/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/date_input/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/date_picker/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/details/</loc>
@@ -73,7 +157,13 @@
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/header/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/inset_text/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/panel/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/phase_banner/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/radio/</loc>
@@ -82,16 +172,25 @@
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/select/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/skip_link/</loc>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/summary_list/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/table/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/tag/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/text_input/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/textarea/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/user_name_and_sign_out/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/warning_text/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/guides/create_a_page/</loc>
@@ -100,10 +199,28 @@
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/guides/create_a_design_element/</loc>
             <lastmod>2022-02-01T00:01:02.000Z</lastmod>
         </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/addresses/</loc>
+            <lastmod>2022-02-01T00:01:02.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/bank_details/</loc>
+            <lastmod>2022-02-01T00:01:02.000Z</lastmod>
+        </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/check_answers/</loc>
             <lastmod>2022-02-01T00:01:02.000Z</lastmod>
         </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/confirm_email_address/</loc>
+            <lastmod>2022-02-01T00:01:02.000Z</lastmod>
+        </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/confirm_phone_number/</loc>
+            <lastmod>2022-02-01T00:01:02.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/confirmation-pages/</loc>
+            <lastmod>2022-02-01T00:01:02.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/contact_department_or_team/</loc>
+            <lastmod>2022-02-01T00:01:02.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/cookies_pages/</loc>
             <lastmod>2022-02-01T00:01:02.000Z</lastmod>
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/currency-amount/</loc>
@@ -115,10 +232,13 @@
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/email/</loc>
             <lastmod>2022-02-01T00:01:02.000Z</lastmod>
         </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/filter_results/</loc>
+            <lastmod>2022-02-01T00:01:02.000Z</lastmod>
+        </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/focus_state/</loc>
             <lastmod>2022-02-01T00:01:02.000Z</lastmod>
         </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/hint_text/</loc>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/gender_sex/</loc>
             <lastmod>2022-02-01T00:01:02.000Z</lastmod>
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/labels_and_legend_headings/</loc>
@@ -128,6 +248,9 @@
             <lastmod>2022-02-01T00:01:02.000Z</lastmod>
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/names/</loc>
+            <lastmod>2022-02-01T00:01:02.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/numeric_inputs/</loc>
             <lastmod>2022-02-01T00:01:02.000Z</lastmod>
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/page-not-found-pages/</loc>
@@ -142,58 +265,55 @@
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/service_structure/</loc>
             <lastmod>2022-02-01T00:01:02.000Z</lastmod>
         </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/social_insurance_number/</loc>
+            <lastmod>2022-02-01T00:01:02.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/step_by_step_navigation/</loc>
+            <lastmod>2022-02-01T00:01:02.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/task-list-page/</loc>
+            <lastmod>2022-02-01T00:01:02.000Z</lastmod>
+        </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/telephone/</loc>
             <lastmod>2022-02-01T00:01:02.000Z</lastmod>
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/there-is-a-problem/</loc>
             <lastmod>2022-02-01T00:01:02.000Z</lastmod>
         </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/</loc>
-            <lastmod>2022-02-07T09:56:54.474Z</lastmod>
-        </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/getting_started/</loc>
-            <lastmod>2022-02-08T13:05:25.999Z</lastmod>
-        </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/styles/</loc>
-            <lastmod>2022-02-08T20:25:26.091Z</lastmod>
-        </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/</loc>
-            <lastmod>2022-02-25T12:34:16.391Z</lastmod>
-        </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/</loc>
-            <lastmod>2022-03-04T19:50:55.908Z</lastmod>
-        </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/css_utilities/</loc>
-            <lastmod>2022-03-23T12:27:59.432Z</lastmod>
-        </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/moving_from_v_0/</loc>
-            <lastmod>2022-03-23T12:27:59.435Z</lastmod>
-        </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/mutiple_things/</loc>
-            <lastmod>2022-03-29T06:29:35.493Z</lastmod>
-        </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/test/</loc>
-            <lastmod>2022-05-15T19:07:36.304Z</lastmod>
-        </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/mobile_auto/</loc>
-            <lastmod>2022-07-29T11:36:02.892Z</lastmod>
-        </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/mobile_auto_1/</loc>
-            <lastmod>2022-08-02T05:17:44.425Z</lastmod>
-        </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/samples/mobile_auto_2/</loc>
-            <lastmod>2022-08-05T10:59:59.097Z</lastmod>
-        </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/guides/</loc>
-            <lastmod>2022-12-12T12:47:14.858Z</lastmod>
-        </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/privacy-statement/</loc>
-            <lastmod>2022-12-29T07:02:06.217Z</lastmod>
-        </url><url>
-            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/cookie-policy/</loc>
-            <lastmod>2022-12-29T07:11:31.917Z</lastmod>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/guides/create_an_html_email/</loc>
+            <lastmod>2022-02-01T00:01:03.000Z</lastmod>
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/accessibility-statement/</loc>
-            <lastmod>2022-12-29T07:18:09.572Z</lastmod>
+            <lastmod>2024-07-23T05:18:25.334Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/cookie-policy/</loc>
+            <lastmod>2024-07-23T05:18:25.340Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/css_utilities/</loc>
+            <lastmod>2024-07-23T05:18:25.346Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/</loc>
+            <lastmod>2024-07-23T05:18:25.350Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/privacy-statement/</loc>
+            <lastmod>2024-07-23T05:18:25.363Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/components/</loc>
+            <lastmod>2024-07-23T05:18:25.488Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/guides/</loc>
+            <lastmod>2024-07-23T05:18:25.661Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/htmls/simple_quesrtion/</loc>
+            <lastmod>2024-07-23T05:18:25.684Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/htmls/submission-email/</loc>
+            <lastmod>2024-07-23T05:18:25.690Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/patterns/</loc>
+            <lastmod>2024-07-23T05:18:26.243Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//govcy-design-system-docs/styles/</loc>
+            <lastmod>2024-07-23T05:18:26.485Z</lastmod>
         </url>
 </urlset>

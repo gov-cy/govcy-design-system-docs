@@ -1,0 +1,1306 @@
+<!doctype html>
+<html lang="en">
+        <head>
+    <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Social -->
+        <meta property="og:description" content="Design your services using gov.cy styles, components and patterns.">
+        <meta property="og:title" content="Data tables - Unified Design System - gov.cy">
+        <meta property="og:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://gov-cy.github.io/govcy-design-system-docs/img/icons-512.png">
+        <meta property="og:site_name" content="gov.cy">
+    
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
+        <meta property="twitter:title" content="Data tables - Unified Design System - gov.cy">
+        <meta property="twitter:description" content="Design your services using gov.cy styles, components and patterns.">
+        <meta property="twitter:image" content="https://gov-cy.github.io/govcy-design-system-docs/img/icons-512.png">
+        <!-- Theme --> 
+        <link rel="manifest" href="/govcy-design-system-docs/manifest.json">
+        <meta name="theme-color" content="#31576F">
+        <link rel="icon" type="image/png" sizes="48x48" href="/govcy-design-system-docs/img/favicon-48x48.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/govcy-design-system-docs/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/govcy-design-system-docs/img/favicon-16x16.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/govcy-design-system-docs/img/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/govcy-design-system-docs/img/apple-touch-icon-120x120-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/govcy-design-system-docs/img/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/govcy-design-system-docs/img/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="/govcy-design-system-docs/img/apple-touch-icon-57x57-precomposed.png">
+        <!-- Bootstrap CSS -->
+        <link href="/govcy-design-system-docs/css/govcy.uds.min.css" rel="stylesheet" >
+        
+        <link href="/govcy-design-system-docs/css/docs.css" rel="stylesheet" >
+        <!-- Prism Highlighter CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-a11y-dark.min.css" rel="stylesheet">
+        <title>Data tables - Unified Design System - gov.cy</title>
+        <meta name="description" content="Design your services using gov.cy styles, components and patterns.">
+    </head>
+    <body>
+        <section class="govcy-container-fluid" id="bodyStartContainer">
+        <a href="#mainContainer" class="govcy-skip-link">Skip to main content</a> 
+    </section>
+    <header class="govcy-header govcy-d-print-none" id="headerContainer">
+  <div class="govcy-header-main-area">
+    <div
+      class="govcy-container govcy-main-area-items govcy-justify-content-between"
+    >
+      <div class="govcy-navigation-container govcy-align-items-center">
+        <div class="govcy-service-container">
+          <a href="https://www.gov.cy" class="govcy-logo" title="Go to the GOV.CY homepage"
+            ><img alt="gov.cy Logo"
+          /></a>
+          <span class="govcy-service-name">
+            <a href="/govcy-design-system-docs/">Unified Design System</a>
+          </span>
+        </div>
+        <ul class="govcy-menu-items">
+          <li class="govcy-mobile-menu govcy-mobile-menu-only govcy-dropdown govcy-ms-auto">
+            <span>
+                <a href="#" class="govcy-menu-item govcy-expand-btn">Menu</a>
+            </span>
+          </li>
+          <li class="govcy-global-search">
+            <span><a href="#" class="govcy-menu-item" aria-label="Search, expands search text box when clicked" aria-haspopup="true"><i class="govcy-search-icon"></i></a></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="govcy-header-menu-area">
+    <nav class="govcy-mainmenu">
+      <div class="govcy-container">
+          <ul class="govcy-menu-items">
+              <li>
+                      <a href="/govcy-design-system-docs/getting-started/" class="govcy-menu-item">
+                          Get Started
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/styles/" class="govcy-menu-item">
+                          Styles
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/components/" class="govcy-menu-item active">
+                          Components
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/patterns/" class="govcy-menu-item">
+                          Patterns
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/css_utilities/" class="govcy-menu-item">
+                          Utilities
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/guides/" class="govcy-menu-item">
+                          Guides
+                      </a>
+                  </li>
+          </ul>
+      </div>
+    </nav>
+    <div class="govcy-header-search-area">
+        <div class="govcy-container">
+            <div class="govcy-form">
+                
+                <div class="govcy-form-control">
+                    <span class="pagefind-custom-label">Search the Design System</span>
+                    <link href="/govcy-design-system-docs/pagefind/pagefind-ui.css" rel="stylesheet">
+                    <div id="search-div" class="search"></div>
+                    <script src="/govcy-design-system-docs/pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search-div', showImages: false, translations : {placeholder:''} }); document.querySelector('.pagefind-ui__search-input').setAttribute('aria-label', 'Search the Design System');"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</header>
+
+    
+<!--beforeMain-->
+    <section class="govcy-container" id="beforeMainContainer">
+        
+        
+        <div class="govcy-phase-banner">
+            <span class="govcy-tag">Ver. 3.0.0</span>
+            <span class="govcy-ml-2">For the older version visit <a href='https://gov-cy.github.io/govcy-design-system-docs-v2/'>v2 documentation</a> </span>
+        </div>
+        
+    </section>
+
+    <!--Main-->
+    <main class="govcy-container" id="mainContainer">
+        <div class="govcy-row">
+            <div class="govcy-col-md-9 govcy-col-lg-10 govcy-order-last-desk">
+                <h1 data-pagefind-weight="10">Data tables</h1>
+                
+                
+                    <aside class="toc-outter">
+                        <strong>On this page</strong>
+                        <nav class="toc">
+                <ol>
+                    
+                    <li><a href="#when-to-use-this-component">When to use this component</a>
+            		</li>
+
+                    <li><a href="#when-not-to-use-this-component">When not to use this component</a>
+            		</li>
+
+                    <li><a href="#how-it-works">How it works</a>
+            
+                <ol>
+                    
+                    <li><a href="#basic-variant">Basic variant</a>
+            
+                <ol>
+                    
+                    <li><a href="#cdn-css">CDN CSS</a>
+            		</li>
+
+                    <li><a href="#cdn-javascript">CDN JavaScript</a>
+            		</li>
+
+                    <li><a href="#table-html">Table HTML</a>
+            		</li>
+
+                    <li><a href="#javascript-for-initialization">JavaScript for initialization</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#exports-variant">Exports variant</a>
+            
+                <ol>
+                    
+                    <li><a href="#cdn-css-1">CDN CSS</a>
+            		</li>
+
+                    <li><a href="#cdn-javascript-1">CDN JavaScript</a>
+            		</li>
+
+                    <li><a href="#table-html-1">Table HTML</a>
+            		</li>
+
+                    <li><a href="#javascript-for-initialization-1">JavaScript for initialization</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#language-support">Language Support</a>
+            		</li>
+                </ol>
+            		</li>
+                </ol>
+            </nav>
+                    </aside>
+                
+                <p>Data tables are used to organize and display large data sets. The data table component allows for customization with additional functionality.</p>
+<p>Data tables display data sets in a table format across rows and columns and offers functionality for sorting, filtering and more.</p>
+<h2 id="when-to-use-this-component" tabindex="-1">When to use this component</h2>
+<p>Only use a data table if there’s evidence it’s helpful for the user to:</p>
+<ul>
+<li>To organize and display large set of data.</li>
+<li>If your user must navigate to a specific piece of data to complete a task.</li>
+<li>Displaying all of a user’s resources.</li>
+</ul>
+<h2 id="when-not-to-use-this-component" tabindex="-1">When not to use this component</h2>
+<p>Data tables hide information from the users. Not all users will notice the navigation and ordering buttons or understand how they work. For this reason, you should only use them in specific situations and if user research supports it.</p>
+<p>Prefer to present information specific to the task in hand, rather than displaying every available information in a data table.</p>
+<p>Do not use the component:</p>
+<ul>
+<li>when a more complex display of the data or interactions are required.</li>
+<li>As a replacement for a spreadsheet application.</li>
+<li>As a replacement for <a href="../../patterns/check_answers/">check your answers</a> page.</li>
+<li>When a table doesn’t include as many rows. In such a case, prefer to use a normal table.</li>
+</ul>
+<h2 id="how-it-works" tabindex="-1">How it works</h2>
+<p>The component should only exist in the <a href="../../getting-started/page-template/#sections">main section</a>. The component uses JavaScript and utilizes the open source <a href="https://datatables.net/" rel="noreferrer noopener" target="_blank">DataTables (opens in new tab)</a> version 1.13.2 library. In addition to the <a href="../../getting-started/developer-assets/">developer assets</a> and depending on the variant you what to use, you need to reference the DataTable’s CSS and JavaScript CDN files accordingly.</p>
+<h3 id="basic-variant" tabindex="-1">Basic variant</h3>
+<p>The basic variant can sort data in ascending or descending order. Search functionality can be used to filter specific items from the table.</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/2.3.2/css/buttons.dataTables.min.css">
+<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/2.3.2/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/2.3.2/js/buttons.html5.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/plug-ins/1.13.4/sorting/datetime-moment.js"></script>
+<table id="dt" class="govcy-table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Office</th>
+            <th>Age</th>
+            <th>Start date</th>
+            <th>Salary</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Tiger Nixon</td>
+            <td>System Architect</td>
+            <td>Edinburgh</td>
+            <td>61</td>
+            <td>22/05/2023</td>
+            <td>$320,800</td>
+        </tr>
+        <tr>
+            <td>Garrett Winters</td>
+            <td>Accountant</td>
+            <td>Tokyo</td>
+            <td>63</td>
+            <td>17/05/2023</td>
+            <td>$170,750</td>
+        </tr>
+        <tr>
+            <td>Ashton Cox</td>
+            <td>Junior Technical Author</td>
+            <td>San Francisco</td>
+            <td>66</td>
+            <td>07/02/2023</td>
+            <td>$86,000</td>
+        </tr>
+        <tr>
+            <td>Cedric Kelly</td>
+            <td>Senior Javascript Developer</td>
+            <td>Edinburgh</td>
+            <td>22</td>
+            <td>08/05/2023</td>
+            <td>$433,060</td>
+        </tr>
+        <tr>
+            <td>Airi Satou</td>
+            <td>Accountant</td>
+            <td>Tokyo</td>
+            <td>33</td>
+            <td>31/08/2023</td>
+            <td>$162,700</td>
+        </tr>
+        <tr>
+            <td>Brielle Williamson</td>
+            <td>Integration Specialist</td>
+            <td>New York</td>
+            <td>61</td>
+            <td>06/01/2023</td>
+            <td>$372,000</td>
+        </tr>
+        <tr>
+            <td>Herrod Chandler</td>
+            <td>Sales Assistant</td>
+            <td>San Francisco</td>
+            <td>59</td>
+            <td>14/07/2023</td>
+            <td>$137,500</td>
+        </tr>
+        <tr>
+            <td>Rhona Davidson</td>
+            <td>Integration Specialist</td>
+            <td>Tokyo</td>
+            <td>55</td>
+            <td>20/12/2023</td>
+            <td>$327,900</td>
+        </tr>
+        <tr>
+            <td>Colleen Hurst</td>
+            <td>Javascript Developer</td>
+            <td>San Francisco</td>
+            <td>39</td>
+            <td>27/05/2023</td>
+            <td>$205,500</td>
+        </tr>
+        <tr>
+            <td>Sonya Frost</td>
+            <td>Software Engineer</td>
+            <td>Edinburgh</td>
+            <td>23</td>
+            <td>18/12/2023</td>
+            <td>$103,600</td>
+        </tr>
+        <tr>
+            <td>Jena Gaines</td>
+            <td>Office Manager</td>
+            <td>London</td>
+            <td>30</td>
+            <td>30/04/2023</td>
+            <td>$90,560</td>
+        </tr>
+        <tr>
+            <td>Quinn Flynn</td>
+            <td>Support Lead</td>
+            <td>Edinburgh</td>
+            <td>22</td>
+            <td>17/09/2023</td>
+            <td>$342,000</td>
+        </tr>
+        <tr>
+            <td>Charde Marshall</td>
+            <td>Regional Director</td>
+            <td>San Francisco</td>
+            <td>36</td>
+            <td>03/05/2023</td>
+            <td>$470,600</td>
+        </tr>
+        <tr>
+            <td>Haley Kennedy</td>
+            <td>Senior Marketing Designer</td>
+            <td>London</td>
+            <td>43</td>
+            <td>17/06/2023</td>
+            <td>$313,500</td>
+        </tr>
+        <tr>
+            <td>Tatyana Fitzpatrick</td>
+            <td>Regional Director</td>
+            <td>London</td>
+            <td>19</td>
+            <td>23/07/2023</td>
+            <td>$385,750</td>
+        </tr>
+        <tr>
+            <td>Michael Silva</td>
+            <td>Marketing Designer</td>
+            <td>London</td>
+            <td>66</td>
+            <td>29/12/2023</td>
+            <td>$456,750</td>
+        </tr>
+        <tr>
+            <td>Paul Byrd</td>
+            <td>Chief Financial Officer (CFO)</td>
+            <td>New York</td>
+            <td>64</td>
+            <td>08/01/2023</td>
+            <td>$725,000</td>
+        </tr>
+        <tr>
+            <td>Gloria Little</td>
+            <td>Systems Administrator</td>
+            <td>New York</td>
+            <td>59</td>
+            <td>01/12/2023</td>
+            <td>$237,500</td>
+        </tr>
+        <tr>
+            <td>Bradley Greer</td>
+            <td>Software Engineer</td>
+            <td>London</td>
+            <td>41</td>
+            <td>13/05/2023</td>
+            <td>$132,000</td>
+        </tr>
+        <tr>
+            <td>Dai Rios</td>
+            <td>Personnel Lead</td>
+            <td>Edinburgh</td>
+            <td>35</td>
+            <td>22/04/2023</td>
+            <td>$217,500</td>
+        </tr>
+        <tr>
+            <td>Jenette Caldwell</td>
+            <td>Development Lead</td>
+            <td>New York</td>
+            <td>30</td>
+            <td>02/01/2023</td>
+            <td>$345,000</td>
+        </tr>
+        <tr>
+            <td>Yuri Berry</td>
+            <td>Chief Marketing Officer (CMO)</td>
+            <td>New York</td>
+            <td>40</td>
+            <td>21/11/2023</td>
+            <td>$675,000</td>
+        </tr>
+        <tr>
+            <td>Caesar Vance</td>
+            <td>Pre-Sales Support</td>
+            <td>New York</td>
+            <td>21</td>
+            <td>11/04/2023</td>
+            <td>$106,450</td>
+        </tr>
+        <tr>
+            <td>Doris Wilder</td>
+            <td>Sales Assistant</td>
+            <td>Sydney</td>
+            <td>23</td>
+            <td>25/09/2023</td>
+            <td>$85,600</td>
+        </tr>
+        <tr>
+            <td>Angelica Ramos</td>
+            <td>Chief Executive Officer (CEO)</td>
+            <td>London</td>
+            <td>47</td>
+            <td>06/05/2023</td>
+            <td>$1,200,000</td>
+        </tr>
+        <tr>
+            <td>Gavin Joyce</td>
+            <td>Developer</td>
+            <td>Edinburgh</td>
+            <td>42</td>
+            <td>24/07/2023</td>
+            <td>$92,575</td>
+        </tr>
+        <tr>
+            <td>Jennifer Chang</td>
+            <td>Regional Director</td>
+            <td>Singapore</td>
+            <td>28</td>
+            <td>12/11/2023</td>
+            <td>$357,650</td>
+        </tr>
+        <tr>
+            <td>Brenden Wagner</td>
+            <td>Software Engineer</td>
+            <td>San Francisco</td>
+            <td>28</td>
+            <td>21/01/2023</td>
+            <td>$206,850</td>
+        </tr>
+        <tr>
+            <td>Fiona Green</td>
+            <td>Chief Operating Officer (COO)</td>
+            <td>San Francisco</td>
+            <td>48</td>
+            <td>15/01/2023</td>
+            <td>$850,000</td>
+        </tr>
+        <tr>
+            <td>Shou Itou</td>
+            <td>Regional Marketing</td>
+            <td>Tokyo</td>
+            <td>20</td>
+            <td>26/01/2023</td>
+            <td>$163,000</td>
+        </tr>
+        <tr>
+            <td>Michelle House</td>
+            <td>Integration Specialist</td>
+            <td>Sydney</td>
+            <td>37</td>
+            <td>08/09/2023</td>
+            <td>$95,400</td>
+        </tr>
+        <tr>
+            <td>Suki Burks</td>
+            <td>Developer</td>
+            <td>London</td>
+            <td>53</td>
+            <td>16/07/2023</td>
+            <td>$114,500</td>
+        </tr>
+        <tr>
+            <td>Prescott Bartlett</td>
+            <td>Technical Author</td>
+            <td>London</td>
+            <td>27</td>
+            <td>20/11/2023</td>
+            <td>$145,000</td>
+        </tr>
+        <tr>
+            <td>Gavin Cortez</td>
+            <td>Team Leader</td>
+            <td>San Francisco</td>
+            <td>22</td>
+            <td>01/03/2023</td>
+            <td>$235,500</td>
+        </tr>
+        <tr>
+            <td>Martena Mccray</td>
+            <td>Post-Sales support</td>
+            <td>Edinburgh</td>
+            <td>46</td>
+            <td>02/03/2023</td>
+            <td>$324,050</td>
+        </tr>
+        <tr>
+            <td>Unity Butler</td>
+            <td>Marketing Designer</td>
+            <td>San Francisco</td>
+            <td>47</td>
+            <td>02/08/2023</td>
+            <td>$85,675</td>
+        </tr>
+        <tr>
+            <td>Howard Hatfield</td>
+            <td>Office Manager</td>
+            <td>San Francisco</td>
+            <td>51</td>
+            <td>18/05/2023</td>
+            <td>$164,500</td>
+        </tr>
+        <tr>
+            <td>Hope Fuentes</td>
+            <td>Secretary</td>
+            <td>San Francisco</td>
+            <td>41</td>
+            <td>12/12/2023</td>
+            <td>$109,850</td>
+        </tr>
+        <tr>
+            <td>Vivian Harrell</td>
+            <td>Financial Controller</td>
+            <td>San Francisco</td>
+            <td>62</td>
+            <td>07/05/2023</td>
+            <td>$452,500</td>
+        </tr>
+        <tr>
+            <td>Timothy Mooney</td>
+            <td>Office Manager</td>
+            <td>London</td>
+            <td>37</td>
+            <td>06/07/2023</td>
+            <td>$136,200</td>
+        </tr>
+        <tr>
+            <td>Jackson Bradshaw</td>
+            <td>Director</td>
+            <td>New York</td>
+            <td>65</td>
+            <td>09/09/2023</td>
+            <td>$645,750</td>
+        </tr>
+        <tr>
+            <td>Olivia Liang</td>
+            <td>Support Engineer</td>
+            <td>Singapore</td>
+            <td>64</td>
+            <td>16/05/2023</td>
+            <td>$234,500</td>
+        </tr>
+        <tr>
+            <td>Bruno Nash</td>
+            <td>Software Engineer</td>
+            <td>London</td>
+            <td>38</td>
+            <td>08/04/2023</td>
+            <td>$163,500</td>
+        </tr>
+        <tr>
+            <td>Sakura Yamamoto</td>
+            <td>Support Engineer</td>
+            <td>Tokyo</td>
+            <td>37</td>
+            <td>16/07/2023</td>
+            <td>$139,575</td>
+        </tr>
+        <tr>
+            <td>Thor Walton</td>
+            <td>Developer</td>
+            <td>New York</td>
+            <td>61</td>
+            <td>06/09/2023</td>
+            <td>$98,540</td>
+        </tr>
+        <tr>
+            <td>Finn Camacho</td>
+            <td>Support Engineer</td>
+            <td>San Francisco</td>
+            <td>47</td>
+            <td>13/11/2023</td>
+            <td>$87,500</td>
+        </tr>
+        <tr>
+            <td>Serge Baldwin</td>
+            <td>Data Coordinator</td>
+            <td>Singapore</td>
+            <td>64</td>
+            <td>19/04/2023</td>
+            <td>$138,575</td>
+        </tr>
+        <tr>
+            <td>Zenaida Frank</td>
+            <td>Software Engineer</td>
+            <td>New York</td>
+            <td>63</td>
+            <td>23/07/2023</td>
+            <td>$125,250</td>
+        </tr>
+        <tr>
+            <td>Zorita Serrano</td>
+            <td>Software Engineer</td>
+            <td>San Francisco</td>
+            <td>56</td>
+            <td>07/01/2023</td>
+            <td>$115,000</td>
+        </tr>
+        <tr>
+            <td>Jennifer Acosta</td>
+            <td>Junior Javascript Developer</td>
+            <td>Edinburgh</td>
+            <td>43</td>
+            <td>30/04/2023</td>
+            <td>$75,650</td>
+        </tr>
+        <tr>
+            <td>Cara Stevens</td>
+            <td>Sales Assistant</td>
+            <td>New York</td>
+            <td>46</td>
+            <td>01/04/2023</td>
+            <td>$145,600</td>
+        </tr>
+        <tr>
+            <td>Hermione Butler</td>
+            <td>Regional Director</td>
+            <td>London</td>
+            <td>47</td>
+            <td>11/06/2023</td>
+            <td>$356,250</td>
+        </tr>
+        <tr>
+            <td>Lael Greer</td>
+            <td>Systems Administrator</td>
+            <td>London</td>
+            <td>21</td>
+            <td>15/10/2023</td>
+            <td>$103,500</td>
+        </tr>
+        <tr>
+            <td>Jonas Alexander</td>
+            <td>Developer</td>
+            <td>San Francisco</td>
+            <td>30</td>
+            <td>23/09/2023</td>
+            <td>$86,500</td>
+        </tr>
+        <tr>
+            <td>Shad Decker</td>
+            <td>Regional Director</td>
+            <td>Edinburgh</td>
+            <td>51</td>
+            <td>02/09/2023</td>
+            <td>$183,000</td>
+        </tr>
+        <tr>
+            <td>Michael Bruce</td>
+            <td>Javascript Developer</td>
+            <td>Singapore</td>
+            <td>29</td>
+            <td>16/11/2023</td>
+            <td>$183,000</td>
+        </tr>
+        <tr>
+            <td>Donna Snider</td>
+            <td>Customer Support</td>
+            <td>New York</td>
+            <td>27</td>
+            <td>18/06/2023</td>
+            <td>$112,000</td>
+        </tr>
+    </tbody>
+</table>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        //use moment.js to sort dates
+        $.fn.dataTable.moment( 'DD/MM/YYYY' );
+         let table = new DataTable('#dt', {
+            scrollX: true, //allow scrolling for small devices
+            dom: 'frtip'
+        });
+    });
+</script>
+</div>
+<h4 id="cdn-css" tabindex="-1">CDN CSS</h4>
+<p>Include the following code in your <code>&lt;head&gt;</code>.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/css<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre>
+<h4 id="cdn-javascript" tabindex="-1">CDN JavaScript</h4>
+<p>Include the following JavaScript files.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span> <span class="token attr-name">language</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>javascript<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://code.jquery.com/jquery-3.5.1.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span> <span class="token attr-name">language</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>javascript<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span> <span class="token attr-name">language</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>javascript<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span> <span class="token attr-name">language</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>javascript<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdn.datatables.net/plug-ins/1.13.4/sorting/datetime-moment.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span></code></pre>
+<h4 id="table-html" tabindex="-1">Table HTML</h4>
+<p>The table’s HTML must have a unique <code>id</code> and include the class <code>govcy-table</code>. For example:</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>dt<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-table<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>thead</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span>Column 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span>Column 2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>thead</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tbody</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>Row 1 Data 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>Row 1 Data 2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>Row 2 Data 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>Row 2 Data 2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tbody</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">></span></span></code></pre>
+<p>Make sure to include the <code>&lt;thead&gt;</code> section.</p>
+<h4 id="javascript-for-initialization" tabindex="-1">JavaScript for initialization</h4>
+<p>To initialize the Data Table for the basic variant, use the following code:</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript"><br>    document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'DOMContentLoaded'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>        <span class="token comment">//use moment.js to sort dates</span><br>        $<span class="token punctuation">.</span>fn<span class="token punctuation">.</span>dataTable<span class="token punctuation">.</span><span class="token function">moment</span><span class="token punctuation">(</span> <span class="token string">'DD/MM/YYYY'</span> <span class="token punctuation">)</span><span class="token punctuation">;</span><br>        <br>         <span class="token keyword">let</span> table <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">DataTable</span><span class="token punctuation">(</span><span class="token string">'#dt'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><br>            <span class="token literal-property property">scrollX</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">//allow scrolling for small devices</span><br>            <span class="token literal-property property">dom</span><span class="token operator">:</span> <span class="token string">'frtip'</span><br>        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span></code></pre>
+<p>Make sure to reference the HTML table’s <code>id</code>. In the example above example, the table with <code>id=&quot;dt&quot;</code> will be initialized.</p>
+<h3 id="exports-variant" tabindex="-1">Exports variant</h3>
+<p>In addition to the ability to sort and search data, the Exports variant can also export the table into Excel, PDF or CSV formats.</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<table id="dt-export" class="govcy-table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Office</th>
+            <th>Age</th>
+            <th>Start date</th>
+            <th>Salary</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Tiger Nixon</td>
+            <td>System Architect</td>
+            <td>Edinburgh</td>
+            <td>61</td>
+            <td>22/05/2023</td>
+            <td>$320,800</td>
+        </tr>
+        <tr>
+            <td>Garrett Winters</td>
+            <td>Accountant</td>
+            <td>Tokyo</td>
+            <td>63</td>
+            <td>17/05/2023</td>
+            <td>$170,750</td>
+        </tr>
+        <tr>
+            <td>Ashton Cox</td>
+            <td>Junior Technical Author</td>
+            <td>San Francisco</td>
+            <td>66</td>
+            <td>07/02/2023</td>
+            <td>$86,000</td>
+        </tr>
+        <tr>
+            <td>Cedric Kelly</td>
+            <td>Senior Javascript Developer</td>
+            <td>Edinburgh</td>
+            <td>22</td>
+            <td>08/05/2023</td>
+            <td>$433,060</td>
+        </tr>
+        <tr>
+            <td>Airi Satou</td>
+            <td>Accountant</td>
+            <td>Tokyo</td>
+            <td>33</td>
+            <td>31/08/2023</td>
+            <td>$162,700</td>
+        </tr>
+        <tr>
+            <td>Brielle Williamson</td>
+            <td>Integration Specialist</td>
+            <td>New York</td>
+            <td>61</td>
+            <td>06/01/2023</td>
+            <td>$372,000</td>
+        </tr>
+        <tr>
+            <td>Herrod Chandler</td>
+            <td>Sales Assistant</td>
+            <td>San Francisco</td>
+            <td>59</td>
+            <td>14/07/2023</td>
+            <td>$137,500</td>
+        </tr>
+        <tr>
+            <td>Rhona Davidson</td>
+            <td>Integration Specialist</td>
+            <td>Tokyo</td>
+            <td>55</td>
+            <td>20/12/2023</td>
+            <td>$327,900</td>
+        </tr>
+        <tr>
+            <td>Colleen Hurst</td>
+            <td>Javascript Developer</td>
+            <td>San Francisco</td>
+            <td>39</td>
+            <td>27/05/2023</td>
+            <td>$205,500</td>
+        </tr>
+        <tr>
+            <td>Sonya Frost</td>
+            <td>Software Engineer</td>
+            <td>Edinburgh</td>
+            <td>23</td>
+            <td>18/12/2023</td>
+            <td>$103,600</td>
+        </tr>
+        <tr>
+            <td>Jena Gaines</td>
+            <td>Office Manager</td>
+            <td>London</td>
+            <td>30</td>
+            <td>30/04/2023</td>
+            <td>$90,560</td>
+        </tr>
+        <tr>
+            <td>Quinn Flynn</td>
+            <td>Support Lead</td>
+            <td>Edinburgh</td>
+            <td>22</td>
+            <td>17/09/2023</td>
+            <td>$342,000</td>
+        </tr>
+        <tr>
+            <td>Charde Marshall</td>
+            <td>Regional Director</td>
+            <td>San Francisco</td>
+            <td>36</td>
+            <td>03/05/2023</td>
+            <td>$470,600</td>
+        </tr>
+        <tr>
+            <td>Haley Kennedy</td>
+            <td>Senior Marketing Designer</td>
+            <td>London</td>
+            <td>43</td>
+            <td>17/06/2023</td>
+            <td>$313,500</td>
+        </tr>
+        <tr>
+            <td>Tatyana Fitzpatrick</td>
+            <td>Regional Director</td>
+            <td>London</td>
+            <td>19</td>
+            <td>23/07/2023</td>
+            <td>$385,750</td>
+        </tr>
+        <tr>
+            <td>Michael Silva</td>
+            <td>Marketing Designer</td>
+            <td>London</td>
+            <td>66</td>
+            <td>29/12/2023</td>
+            <td>$456,750</td>
+        </tr>
+        <tr>
+            <td>Paul Byrd</td>
+            <td>Chief Financial Officer (CFO)</td>
+            <td>New York</td>
+            <td>64</td>
+            <td>08/01/2023</td>
+            <td>$725,000</td>
+        </tr>
+        <tr>
+            <td>Gloria Little</td>
+            <td>Systems Administrator</td>
+            <td>New York</td>
+            <td>59</td>
+            <td>01/12/2023</td>
+            <td>$237,500</td>
+        </tr>
+        <tr>
+            <td>Bradley Greer</td>
+            <td>Software Engineer</td>
+            <td>London</td>
+            <td>41</td>
+            <td>13/05/2023</td>
+            <td>$132,000</td>
+        </tr>
+        <tr>
+            <td>Dai Rios</td>
+            <td>Personnel Lead</td>
+            <td>Edinburgh</td>
+            <td>35</td>
+            <td>22/04/2023</td>
+            <td>$217,500</td>
+        </tr>
+        <tr>
+            <td>Jenette Caldwell</td>
+            <td>Development Lead</td>
+            <td>New York</td>
+            <td>30</td>
+            <td>02/01/2023</td>
+            <td>$345,000</td>
+        </tr>
+        <tr>
+            <td>Yuri Berry</td>
+            <td>Chief Marketing Officer (CMO)</td>
+            <td>New York</td>
+            <td>40</td>
+            <td>21/11/2023</td>
+            <td>$675,000</td>
+        </tr>
+        <tr>
+            <td>Caesar Vance</td>
+            <td>Pre-Sales Support</td>
+            <td>New York</td>
+            <td>21</td>
+            <td>11/04/2023</td>
+            <td>$106,450</td>
+        </tr>
+        <tr>
+            <td>Doris Wilder</td>
+            <td>Sales Assistant</td>
+            <td>Sydney</td>
+            <td>23</td>
+            <td>25/09/2023</td>
+            <td>$85,600</td>
+        </tr>
+        <tr>
+            <td>Angelica Ramos</td>
+            <td>Chief Executive Officer (CEO)</td>
+            <td>London</td>
+            <td>47</td>
+            <td>06/05/2023</td>
+            <td>$1,200,000</td>
+        </tr>
+        <tr>
+            <td>Gavin Joyce</td>
+            <td>Developer</td>
+            <td>Edinburgh</td>
+            <td>42</td>
+            <td>24/07/2023</td>
+            <td>$92,575</td>
+        </tr>
+        <tr>
+            <td>Jennifer Chang</td>
+            <td>Regional Director</td>
+            <td>Singapore</td>
+            <td>28</td>
+            <td>12/11/2023</td>
+            <td>$357,650</td>
+        </tr>
+        <tr>
+            <td>Brenden Wagner</td>
+            <td>Software Engineer</td>
+            <td>San Francisco</td>
+            <td>28</td>
+            <td>21/01/2023</td>
+            <td>$206,850</td>
+        </tr>
+        <tr>
+            <td>Fiona Green</td>
+            <td>Chief Operating Officer (COO)</td>
+            <td>San Francisco</td>
+            <td>48</td>
+            <td>15/01/2023</td>
+            <td>$850,000</td>
+        </tr>
+        <tr>
+            <td>Shou Itou</td>
+            <td>Regional Marketing</td>
+            <td>Tokyo</td>
+            <td>20</td>
+            <td>26/01/2023</td>
+            <td>$163,000</td>
+        </tr>
+        <tr>
+            <td>Michelle House</td>
+            <td>Integration Specialist</td>
+            <td>Sydney</td>
+            <td>37</td>
+            <td>08/09/2023</td>
+            <td>$95,400</td>
+        </tr>
+        <tr>
+            <td>Suki Burks</td>
+            <td>Developer</td>
+            <td>London</td>
+            <td>53</td>
+            <td>16/07/2023</td>
+            <td>$114,500</td>
+        </tr>
+        <tr>
+            <td>Prescott Bartlett</td>
+            <td>Technical Author</td>
+            <td>London</td>
+            <td>27</td>
+            <td>20/11/2023</td>
+            <td>$145,000</td>
+        </tr>
+        <tr>
+            <td>Gavin Cortez</td>
+            <td>Team Leader</td>
+            <td>San Francisco</td>
+            <td>22</td>
+            <td>01/03/2023</td>
+            <td>$235,500</td>
+        </tr>
+        <tr>
+            <td>Martena Mccray</td>
+            <td>Post-Sales support</td>
+            <td>Edinburgh</td>
+            <td>46</td>
+            <td>02/03/2023</td>
+            <td>$324,050</td>
+        </tr>
+        <tr>
+            <td>Unity Butler</td>
+            <td>Marketing Designer</td>
+            <td>San Francisco</td>
+            <td>47</td>
+            <td>02/08/2023</td>
+            <td>$85,675</td>
+        </tr>
+        <tr>
+            <td>Howard Hatfield</td>
+            <td>Office Manager</td>
+            <td>San Francisco</td>
+            <td>51</td>
+            <td>18/05/2023</td>
+            <td>$164,500</td>
+        </tr>
+        <tr>
+            <td>Hope Fuentes</td>
+            <td>Secretary</td>
+            <td>San Francisco</td>
+            <td>41</td>
+            <td>12/12/2023</td>
+            <td>$109,850</td>
+        </tr>
+        <tr>
+            <td>Vivian Harrell</td>
+            <td>Financial Controller</td>
+            <td>San Francisco</td>
+            <td>62</td>
+            <td>07/05/2023</td>
+            <td>$452,500</td>
+        </tr>
+        <tr>
+            <td>Timothy Mooney</td>
+            <td>Office Manager</td>
+            <td>London</td>
+            <td>37</td>
+            <td>06/07/2023</td>
+            <td>$136,200</td>
+        </tr>
+        <tr>
+            <td>Jackson Bradshaw</td>
+            <td>Director</td>
+            <td>New York</td>
+            <td>65</td>
+            <td>09/09/2023</td>
+            <td>$645,750</td>
+        </tr>
+        <tr>
+            <td>Olivia Liang</td>
+            <td>Support Engineer</td>
+            <td>Singapore</td>
+            <td>64</td>
+            <td>16/05/2023</td>
+            <td>$234,500</td>
+        </tr>
+        <tr>
+            <td>Bruno Nash</td>
+            <td>Software Engineer</td>
+            <td>London</td>
+            <td>38</td>
+            <td>08/04/2023</td>
+            <td>$163,500</td>
+        </tr>
+        <tr>
+            <td>Sakura Yamamoto</td>
+            <td>Support Engineer</td>
+            <td>Tokyo</td>
+            <td>37</td>
+            <td>16/07/2023</td>
+            <td>$139,575</td>
+        </tr>
+        <tr>
+            <td>Thor Walton</td>
+            <td>Developer</td>
+            <td>New York</td>
+            <td>61</td>
+            <td>06/09/2023</td>
+            <td>$98,540</td>
+        </tr>
+        <tr>
+            <td>Finn Camacho</td>
+            <td>Support Engineer</td>
+            <td>San Francisco</td>
+            <td>47</td>
+            <td>13/11/2023</td>
+            <td>$87,500</td>
+        </tr>
+        <tr>
+            <td>Serge Baldwin</td>
+            <td>Data Coordinator</td>
+            <td>Singapore</td>
+            <td>64</td>
+            <td>19/04/2023</td>
+            <td>$138,575</td>
+        </tr>
+        <tr>
+            <td>Zenaida Frank</td>
+            <td>Software Engineer</td>
+            <td>New York</td>
+            <td>63</td>
+            <td>23/07/2023</td>
+            <td>$125,250</td>
+        </tr>
+        <tr>
+            <td>Zorita Serrano</td>
+            <td>Software Engineer</td>
+            <td>San Francisco</td>
+            <td>56</td>
+            <td>07/01/2023</td>
+            <td>$115,000</td>
+        </tr>
+        <tr>
+            <td>Jennifer Acosta</td>
+            <td>Junior Javascript Developer</td>
+            <td>Edinburgh</td>
+            <td>43</td>
+            <td>30/04/2023</td>
+            <td>$75,650</td>
+        </tr>
+        <tr>
+            <td>Cara Stevens</td>
+            <td>Sales Assistant</td>
+            <td>New York</td>
+            <td>46</td>
+            <td>01/04/2023</td>
+            <td>$145,600</td>
+        </tr>
+        <tr>
+            <td>Hermione Butler</td>
+            <td>Regional Director</td>
+            <td>London</td>
+            <td>47</td>
+            <td>11/06/2023</td>
+            <td>$356,250</td>
+        </tr>
+        <tr>
+            <td>Lael Greer</td>
+            <td>Systems Administrator</td>
+            <td>London</td>
+            <td>21</td>
+            <td>15/10/2023</td>
+            <td>$103,500</td>
+        </tr>
+        <tr>
+            <td>Jonas Alexander</td>
+            <td>Developer</td>
+            <td>San Francisco</td>
+            <td>30</td>
+            <td>23/09/2023</td>
+            <td>$86,500</td>
+        </tr>
+        <tr>
+            <td>Shad Decker</td>
+            <td>Regional Director</td>
+            <td>Edinburgh</td>
+            <td>51</td>
+            <td>02/09/2023</td>
+            <td>$183,000</td>
+        </tr>
+        <tr>
+            <td>Michael Bruce</td>
+            <td>Javascript Developer</td>
+            <td>Singapore</td>
+            <td>29</td>
+            <td>16/11/2023</td>
+            <td>$183,000</td>
+        </tr>
+        <tr>
+            <td>Donna Snider</td>
+            <td>Customer Support</td>
+            <td>New York</td>
+            <td>27</td>
+            <td>18/06/2023</td>
+            <td>$112,000</td>
+        </tr>
+    </tbody>
+</table>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        $.fn.dataTable.moment( 'DD/MM/YYYY' );
+         let table = new DataTable('#dt-export', {
+            order: [[4, 'asc']],
+            stripeClasses: [],
+            scrollX: true,
+            dom: 'Bfrtip',
+            buttons: [
+                'copyHtml5',
+                'excelHtml5',
+                'csvHtml5',
+                'pdfHtml5'
+            ]
+        });
+    });
+</script>
+</div>
+<h4 id="cdn-css-1" tabindex="-1">CDN CSS</h4>
+<p>Include the following code in your <code>&lt;head&gt;</code>.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/css<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/css<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdn.datatables.net/buttons/2.3.2/css/buttons.dataTables.min.css<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre>
+<h4 id="cdn-javascript-1" tabindex="-1">CDN JavaScript</h4>
+<p>Include the following JavaScript files.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span> <span class="token attr-name">language</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>javascript<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://code.jquery.com/jquery-3.5.1.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span> <span class="token attr-name">language</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>javascript<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span> <span class="token attr-name">language</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>javascript<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdn.datatables.net/buttons/2.3.2/js/dataTables.buttons.min.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span> <span class="token attr-name">language</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>javascript<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span> <span class="token attr-name">language</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>javascript<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span> <span class="token attr-name">language</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>javascript<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span> <span class="token attr-name">language</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>javascript<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdn.datatables.net/buttons/2.3.2/js/buttons.html5.min.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span> <span class="token attr-name">language</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>javascript<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span> <span class="token attr-name">language</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>javascript<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdn.datatables.net/plug-ins/1.13.4/sorting/datetime-moment.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span></code></pre>
+<h4 id="table-html-1" tabindex="-1">Table HTML</h4>
+<p>Use the same table structure as the basic variant.</p>
+<h4 id="javascript-for-initialization-1" tabindex="-1">JavaScript for initialization</h4>
+<p>To initialize the Data Table for the export variant, use the following code:</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript"><br>    document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'DOMContentLoaded'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>        $<span class="token punctuation">.</span>fn<span class="token punctuation">.</span>dataTable<span class="token punctuation">.</span><span class="token function">moment</span><span class="token punctuation">(</span> <span class="token string">'DD/MM/YYYY'</span> <span class="token punctuation">)</span><span class="token punctuation">;</span><br>        <br>         <span class="token keyword">let</span> table <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">DataTable</span><span class="token punctuation">(</span><span class="token string">'#dt-export'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><br>            <span class="token literal-property property">order</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">,</span> <span class="token string">'asc'</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">,</span><br>            <span class="token literal-property property">stripeClasses</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span><br>            <span class="token literal-property property">scrollX</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span><br>            <span class="token literal-property property">dom</span><span class="token operator">:</span> <span class="token string">'Bfrtip'</span><span class="token punctuation">,</span><br>            <span class="token literal-property property">buttons</span><span class="token operator">:</span> <span class="token punctuation">[</span><br>                <span class="token string">'copyHtml5'</span><span class="token punctuation">,</span><br>                <span class="token string">'excelHtml5'</span><span class="token punctuation">,</span><br>                <span class="token string">'csvHtml5'</span><span class="token punctuation">,</span><br>                <span class="token string">'pdfHtml5'</span><br>            <span class="token punctuation">]</span><br>        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span></code></pre>
+<p>Make sure to reference the HTML table’s <code>id</code>. In the example above example, the table with <code>id=&quot;dt-export&quot;</code> will be initialized.</p>
+<h3 id="language-support" tabindex="-1">Language Support</h3>
+<p>The default language used in DataTables is English. Load the desired language directly to the browser.</p>
+<p>In the DataTable initialization add <code>language: {url: '...'}</code>.</p>
+<p>For Greek translation for DataTables use <code>//cdn.datatables.net/plug-ins/1.13.4/i18n/el.json</code><br>
+For Turkish translation for DataTables use <code>//cdn.datatables.net/plug-ins/1.13.4/i18n/tr.json</code></p>
+<p>For example:</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript"><br>    document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'DOMContentLoaded'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>        $<span class="token punctuation">.</span>fn<span class="token punctuation">.</span>dataTable<span class="token punctuation">.</span><span class="token function">moment</span><span class="token punctuation">(</span> <span class="token string">'DD/MM/YYYY'</span> <span class="token punctuation">)</span><span class="token punctuation">;</span><br>            <br>        <span class="token keyword">let</span> table <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">DataTable</span><span class="token punctuation">(</span><span class="token string">'#dt-greek'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><br>            <span class="token literal-property property">language</span><span class="token operator">:</span> <span class="token punctuation">{</span><br>                <span class="token literal-property property">url</span><span class="token operator">:</span> <span class="token string">'//cdn.datatables.net/plug-ins/1.13.4/i18n/el.json'</span><span class="token punctuation">,</span><br>            <span class="token punctuation">}</span><span class="token punctuation">,</span><br>            <span class="token literal-property property">scrollX</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">//allow scrolling for small devices</span><br>            <span class="token literal-property property">dom</span><span class="token operator">:</span> <span class="token string">'frtip'</span><br>        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span></code></pre>
+
+            </div>
+    
+    <aside class="govcy-col-md-3 govcy-col-lg-2 govcy-order-first-desk">
+                <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Pages in this section</div>
+                <ul class="govcy-list-unstyled"><li class="app-side-link"><a href="/govcy-design-system-docs/components/accordion/">Accordion</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/back_link/">Back Link</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/breadcrumbs/">Breadcrumbs</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/button/">Button</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/character_count/">Character count</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/checkbox/">Checkbox</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/cookie_banner/">Cookie banner</a></li><li class="app-side-link active"><a href="/govcy-design-system-docs/components/data_tables/">Data tables</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/date_input/">Date input</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/date_picker/">Date picker</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/details/">Details</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/error_message/">Error Message</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/error_summary/">Error Summary</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/fieldset/">Fieldset</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/file/">File upload</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/footer/">Footer</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/header/">Header</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/inset_text/">Inset text</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/panel/">Panel</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/phase_banner/">Phase banner</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/radio/">Radio</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/select/">Select</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/summary_list/">Summary list</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/table/">Table</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/tag/">Tag</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/text_input/">Text Input</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/textarea/">Textarea</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/user_name_and_sign_out/">User’s name and sign out</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/warning_text/">Warning text</a></li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+        <!-- Footer -->
+    <footer class="govcy-footer govcy-d-print-none"> 
+    <div class="govcy-px-4">
+        <div class="govcy-container">
+            <div class="govcy-row">
+                <div class="govcy-col-md-12 govcy-footer-column">
+                    <div class="govcy-row">
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Links</h3></li>
+                                <li><a href="/govcy-design-system-docs/">Home</a></li>
+                                <li><a href="/govcy-design-system-docs/getting-started">Get started</a></li>
+                                <li><a href="https://github.com/gov-cy/govcy-design-system" target="_blank">Github - Developer Assets</a></li>
+                                <li><a href="https://github.com/gov-cy/govcy-design-system-docs" target="_blank">Github - Design System website</a></li>
+                            </ul>
+                        </div>
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Tools and libraries</h3></li>
+                                <li><a href="https://www.figma.com/@dsf_cy" target="_blank">Figma</a></li>
+                                <li><a href="https://excalidraw-libraries-git-cevangelougovcy-gov-e2dec6-excalidraw.vercel.app/?theme=light&sort=default#cevangelougovcy-gov-cy-uds-library" target="_blank">Exalidraw</a></li>
+                                <li><a href="https://www.npmjs.com/~gov-cy" target="_blank">npm</a></li>
+                            </ul>
+                        </div>
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Previous Versions</h3></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v2/" target="_blank">Ver. 2x</a></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v0/" target="_blank">Ver. 0x</a></li></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="govcy-container govcy-footer-separator">
+            <div class="govcy-d-flex govcy-justify-content-between govcy-align-items-end govcy-flex-wrap">
+                <div class="govcy-my-4">
+                    <ul>
+                        <li><a href="/govcy-design-system-docs/privacy-statement">Privacy statement</a></li>
+                        <li><a href="/govcy-design-system-docs/cookie-policy">Cookies</a></li>
+                        <li><a href="/govcy-design-system-docs/accessibility-statement">Accessibility</a></li>
+                    </ul>
+                    <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
+                        <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
+                        <span class="govcy-mr-6 govcy-mt-2 govcy-mb-2">© Republic of Cyprus, 2024</span>
+                        <a href="https://europa.eu/" title="Go to EU Website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="/govcy-design-system-docs/img/FundedbyEU_NextGeneration_H53-EN.png" alt="Funded by the EU Next Generation EU"></a>
+                        <a href="http://www.cyprus-tomorrow.gov.cy/" title="Go to Cyprus to tomorrow website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="/govcy-design-system-docs/img/CYpros to aurio logo eng_H53_EN.png" alt="Cyprus tomorrow, recovery and resilience plan"></a>
+                    </div>
+                </div>
+                <div class="govcy-my-4">
+                   <a href="https://www.gov.cy" class="govcy-footer-logo" title="Go to the GOV.CY homepage"><img alt="gov.cy Logo"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+            <script src="/govcy-design-system-docs/js/govcy.uds.min.js" type="text/javascript"></script>
+        <script src="/govcy-design-system-docs/js/uds.js" type="text/javascript"></script>
+    </body>
+</html>
