@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="en">
-    <head>
+        <head>
     <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Social -->
         <meta property="og:description" content="Design your services using gov.cy styles, components and patterns.">
-        <meta property="og:title" content="Design System - Design System - gov.cy">
+        <meta property="og:title" content="Design System - Unified Design System - gov.cy">
         <meta property="og:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
         <meta property="og:type" content="website">
         <meta property="og:image" content="https://gov-cy.github.io/govcy-design-system-docs/img/icons-512.png">
@@ -14,7 +14,7 @@
     
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
-        <meta property="twitter:title" content="Design System - Design System - gov.cy">
+        <meta property="twitter:title" content="Design System - Unified Design System - gov.cy">
         <meta property="twitter:description" content="Design your services using gov.cy styles, components and patterns.">
         <meta property="twitter:image" content="https://gov-cy.github.io/govcy-design-system-docs/img/icons-512.png">
         <!-- Theme --> 
@@ -29,198 +29,237 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/govcy-design-system-docs/img/apple-touch-icon-72x72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="/govcy-design-system-docs/img/apple-touch-icon-57x57-precomposed.png">
         <!-- Bootstrap CSS -->
-        <link href="/govcy-design-system-docs/css/main.css" rel="stylesheet" >
+        <link href="/govcy-design-system-docs/css/govcy.uds.min.css" rel="stylesheet" >
         
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-theme-classic"/>
         <link href="/govcy-design-system-docs/css/docs.css" rel="stylesheet" >
-        <!--<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">-->
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vs.min.css" integrity="sha512-54dqOdBwMzeeRRYZieLqjlGc/w9+AI3vLUdz9PW6QFVTfkL0e7CYLWXKQPV+HqZi5QIj8JKsbzIkeplWVhlY+A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vsc-dark-plus.min.css" integrity="sha512-GU4Q2LAEtdpc8WmjcbSJGxM6c8D69ggI3mc5SRnfnxpg5AkYYA0BEVve0W9Oj2wZR0UItklQK2RBKLtDsQHNzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
-        <title>Design System - Design System - gov.cy</title>
+        <!-- Prism Highlighter CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-a11y-dark.min.css" rel="stylesheet">
+        <title>Design System - Unified Design System - gov.cy</title>
         <meta name="description" content="Design your services using gov.cy styles, components and patterns.">
     </head>
     <body>
-    <a href="#mainContainer" class="govcy-skip-link">Skip to main content</a> 
-    <!--Header-->
-    <div class="govcy-container-fluid govcy-p-0 govcy-m-0 govcy-position-relative govcy-d-print-none">
-         <div class="govcy-container">
-             <div class="row">
-                 <header class="govcy-header govcy-bg-primary govcy-text-white govcy-bg-primary-right">
-                      <a href="/govcy-design-system-docs/" class="govcy-logo"> <img></a>
-                     
-                     <input class="govcy-menu-btn govcy-d-none" type="checkbox" id="menu-btn">
-                     <label class="govcy-menu-icon govcy-d-md-none" for="menu-btn">Menu
-                         <span class="material-icons govcy-my-3">arrow_drop_down</span>
-                     </label>
-                     <span class="govcy-service-name">Design System </span>
-                     <ul class="govcy-menu govcy-bg-sub-menu govcy-bg-md-primary">
-                     
-                    <li>
-                            <a href="/govcy-design-system-docs/getting_started/" >
-                                Get Started
-                            </a>
-                            </li><li>
-                            <a href="/govcy-design-system-docs/styles/" >
-                                Styles
-                            </a>
-                            </li><li>
-                            <a href="/govcy-design-system-docs/components/" >
-                                Components
-                            </a>
-                            </li><li>
-                            <a href="/govcy-design-system-docs/patterns/" >
-                                Patterns
-                            </a>
-                            </li><li>
-                            <a href="/govcy-design-system-docs/css_utilities/" >
-                                Utilities
-                            </a>
-                            </li><li>
-                            <a href="/govcy-design-system-docs/guides/" >
-                                Guides
-                            </a>
-                            </li>
-                     </ul>
-                 </header>
-             </div>
-         </div>
-    </div>
-    <!--beforeMain-->
-    <section class="govcy-container govcy-my-2" id="beforeMainContainer">
-        <div class="row">
-            <div class="govcy-col-3 govcy-d-print-none">
-                <span id="autocomplete" class="govcy-w-50"></span>
-            </div>  
-            <div class="govcy-col-3 govcy-mt-2">
-        
-        <span class="govcy-br-2 govcy-text-white govcy-br-primary govcy-rounded-1 govcy-bg-primary govcy-px-3 govcy-fw-bold govcy-efs-small">Ver. 2.2.0</span>
-            </div>
-            
-        </div>
+        <section class="govcy-container-fluid" id="bodyStartContainer">
+        <a href="#mainContainer" class="govcy-skip-link">Skip to main content</a> 
     </section>
-    <!--Main-->
-    <main class="govcy-container govcy-my-2" id="mainContainer">
-        <div class="row">
-            <div class="govcy-col-12 govcy-order-last">
-                <h1>Design System</h1>
+    <header class="govcy-header govcy-d-print-none govcy-mb-0" id="headerContainer">
+  <div class="govcy-header-main-area">
+    <div
+      class="govcy-container govcy-main-area-items govcy-justify-content-between"
+    >
+      <div class="govcy-navigation-container govcy-align-items-center">
+        <div class="govcy-service-container">
+          <a href="https://www.gov.cy" class="govcy-logo" title="Go to the GOV.CY homepage"
+            ><img alt="gov.cy Logo"
+          /></a>
+          <span class="govcy-service-name">
+            <a href="/govcy-design-system-docs/">Unified Design System</a>
+          </span>
+        </div>
+        <ul class="govcy-menu-items">
+          <li class="govcy-mobile-menu govcy-mobile-menu-only govcy-dropdown govcy-ms-auto">
+            <span>
+                <a href="#" class="govcy-menu-item govcy-expand-btn">Menu</a>
+            </span>
+          </li>
+          <li class="govcy-global-search">
+            <span><a href="#" class="govcy-menu-item" aria-label="Search, expands search text box when clicked" aria-haspopup="true"><i class="govcy-search-icon"></i></a></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="govcy-header-menu-area">
+    <nav class="govcy-mainmenu">
+      <div class="govcy-container">
+          <ul class="govcy-menu-items">
+              <li>
+                      <a href="/govcy-design-system-docs/getting-started/" class="govcy-menu-item">
+                          Get Started
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/styles/" class="govcy-menu-item">
+                          Styles
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/components/" class="govcy-menu-item">
+                          Components
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/patterns/" class="govcy-menu-item">
+                          Patterns
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/css_utilities/" class="govcy-menu-item">
+                          Utilities
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/guides/" class="govcy-menu-item">
+                          Guides
+                      </a>
+                  </li>
+          </ul>
+      </div>
+    </nav>
+    <div class="govcy-header-search-area">
+        <div class="govcy-container">
+            <div class="govcy-form">
                 
-                
-                <div class="govcy-container govcy-py-3 govcy-bg-light">
-    <div class="row">
-        <div class="govcy-col-5 order-md-last govcy-text-center">
-            <img src="img/browser.png" class="img-fluid" alt="Design system">
-        </div>
-        <div class="govcy-col-7 order-md-first">
-            <p>Design your services using GOV.CY styles, components and patterns.</p>
-            <p>Use the design system to make your service consistent with GOV.CY and avoid repeating work that’s already been done. The Design System makes it easy for digital teams to build accessible, consistent, and performant services and products to meet Cyprus' needs.</p>
-            <p><button type="button" class="govcy-btn-primary" onclick="window.location='getting_started/'">Get Started</button> </p>
-            <p>Currently <strong>v2.2.0</strong>
-            <span class="govcy-px-1">·</span>
-            <a href="https://gov-cy.github.io/govcy-design-system-docs-v0/">v0.1.0 documentation</a>
-            <span class="govcy-px-1">·</span>
-            <a href="moving_from_v_0">How to move from Version 0.1.0</a>
-            </p>
-        </div>
-    </div>
-</div>
-<div class="govcy-container govcy-py-3">
-    <div class="row">
-        <div class="govcy-col-4">
-            <p><img src="img/styles.png" alt="Styles"> </p>
-            <h2>Styles</h2>
-                <p>A visual styles to make your service look like GOV.CY with of colours, images, layouts, grid system, spacing and typography. </p>
-                <p><a href="styles/">Browse styles</a></p>
-        </div>
-    <div class="govcy-col-4">
-        <p><img src="img/components.png" alt="Components"> </p>
-        <h2>Components</h2>
-            <p>Reusable elements of the user interface such as components for forms, navigation, panels, tables and more.</p>
-            <p><a href="components/">Browse Components</a></p>
-    </div>
-    <div class="govcy-col-4">
-        <p><img src="img/patterns.png" alt="Patterns"> </p>
-        <h2>Patterns</h2>
-        <p>Best practice design solutions for specific user-focused tasks and page types, such as addresses, bank details and so on.</p>
-            <p><a href="patterns/">Browse Patterns</a></p>
-    </div>
-    </div>
-</div>
-            </div>
-    
-    
-        </div>
-    </main>
-    <!-- Footer -->
-    <div class="govcy-container-fluid govcy-br-top-8 govcy-br-top-primary govcy-p-3 govcy-bg-light govcy-d-print-none">
-            <div class="govcy-container">
-                <div class="row">   
-                    <footer class="govcy-footer">
-                        <span class="govcy-d-inline-block govcy-valign-top govcy-pb-2"><img alt="govcy-logo"></span>
-                                <ul class="govcy-d-inline-block  govcy-m-0 govcy-pl-3 govcy-efs-medium">
-                                <li><a href="/govcy-design-system-docs/privacy-statement">Privacy statement</a></li>
-                                <li><a href="/govcy-design-system-docs/cookie-policy">Cookie policy</a></li>
-                                <li><a href="/govcy-design-system-docs/accessibility-statement">Accessibility statement</a></li>
-                                <li class="govcy-d-block govcy-text-dark">© Republic of Cyprus, 2021</li>
-                            </ul>
-                    </footer>
+                <div class="govcy-form-control">
+                    <span class="pagefind-custom-label">Search the Design System</span>
+                    <link href="/govcy-design-system-docs/pagefind/pagefind-ui.css" rel="stylesheet">
+                    <div id="search-div" class="search"></div>
+                    <script src="/govcy-design-system-docs/pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search-div', showImages: false, translations : {placeholder:''} }); document.querySelector('.pagefind-ui__search-input').setAttribute('aria-label', 'Search the Design System');"></script>
                 </div>
             </div>
         </div>
-        <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-        
-        
-        
-        
-        
-        <script src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-js"></script>
-        <script>
-            const { autocomplete } = window['@algolia/autocomplete-js'];
-        </script>
+    </div>
+  </div>
+</header>
 
-
-        <script>
-        autocomplete({
-        container: '#autocomplete',
-        placeholder: 'Search Design System',
-        getSources() {
-            return [
-            {
-                sourceId: 'links',
-                getItems({ query }) {
-                return [
-{ label: "Colours", url: '/govcy-design-system-docs/styles/colour/', keys: "" },{ label: "Page Templates", url: '/govcy-design-system-docs/styles/page_templates/', keys: "" },{ label: "Grid system", url: '/govcy-design-system-docs/styles/grid/', keys: "" },{ label: "Vertical Spacing", url: '/govcy-design-system-docs/styles/vertical_spacing/', keys: "" },{ label: "Layout", url: '/govcy-design-system-docs/styles/layout/', keys: "" },{ label: "Typography", url: '/govcy-design-system-docs/styles/typography/', keys: "fonts text Paragraph Headings Unordered Ordered list Links" },{ label: "Back Link", url: '/govcy-design-system-docs/components/back_link/', keys: "" },{ label: "Breadcrumbs", url: '/govcy-design-system-docs/components/breadcrumbs/', keys: "" },{ label: "Button", url: '/govcy-design-system-docs/components/button/', keys: "" },{ label: "Checkbox", url: '/govcy-design-system-docs/components/checkbox/', keys: "" },{ label: "Date input", url: '/govcy-design-system-docs/components/date_input/', keys: "" },{ label: "Details", url: '/govcy-design-system-docs/components/details/', keys: "" },{ label: "Error Message", url: '/govcy-design-system-docs/components/error_message/', keys: "" },{ label: "Error Summary", url: '/govcy-design-system-docs/components/error_summary/', keys: "" },{ label: "Fieldset", url: '/govcy-design-system-docs/components/fieldset/', keys: "" },{ label: "File", url: '/govcy-design-system-docs/components/file/', keys: "" },{ label: "Footer", url: '/govcy-design-system-docs/components/footer/', keys: "" },{ label: "Header", url: '/govcy-design-system-docs/components/header/', keys: "" },{ label: "Panel", url: '/govcy-design-system-docs/components/panel/', keys: "success panel" },{ label: "Radio", url: '/govcy-design-system-docs/components/radio/', keys: "" },{ label: "Select", url: '/govcy-design-system-docs/components/select/', keys: "" },{ label: "Skip Link", url: '/govcy-design-system-docs/components/skip_link/', keys: "" },{ label: "Table", url: '/govcy-design-system-docs/components/table/', keys: "" },{ label: "Text Input", url: '/govcy-design-system-docs/components/text_input/', keys: "" },{ label: "User’s name and sign out", url: '/govcy-design-system-docs/components/user_name_and_sign_out/', keys: "" },{ label: "How to create a page using the gov.cy design system", url: '/govcy-design-system-docs/guides/create_a_page/', keys: "" },{ label: "How to create new design elements using the gov.cy utility classes", url: '/govcy-design-system-docs/guides/create_a_design_element/', keys: "" },{ label: "Check answers", url: '/govcy-design-system-docs/patterns/check_answers/', keys: "" },{ label: "Confirm a phone number", url: '/govcy-design-system-docs/patterns/confirm_phone_number/', keys: "" },{ label: "Currency amount", url: '/govcy-design-system-docs/patterns/currency-amount/', keys: "" },{ label: "Dates", url: '/govcy-design-system-docs/patterns/dates/', keys: "" },{ label: "Email", url: '/govcy-design-system-docs/patterns/email/', keys: "" },{ label: "Focus state", url: '/govcy-design-system-docs/patterns/focus_state/', keys: "" },{ label: "Hint Text", url: '/govcy-design-system-docs/patterns/hint_text/', keys: "" },{ label: "Labels and legends headings", url: '/govcy-design-system-docs/patterns/labels_and_legend_headings/', keys: "" },{ label: "Add multiple things ", url: '/govcy-design-system-docs/patterns/multiple_things/', keys: "" },{ label: "Names", url: '/govcy-design-system-docs/patterns/names/', keys: "" },{ label: "Page not found pages", url: '/govcy-design-system-docs/patterns/page-not-found-pages/', keys: "" },{ label: "Question pages", url: '/govcy-design-system-docs/patterns/question_pages/', keys: "" },{ label: "Service unavailable pages", url: '/govcy-design-system-docs/patterns/service-unavailable-pages/', keys: "" },{ label: "Structuring a service", url: '/govcy-design-system-docs/patterns/service_structure/', keys: "" },{ label: "Telephone", url: '/govcy-design-system-docs/patterns/telephone/', keys: "" },{ label: "There is a problem with the service pages", url: '/govcy-design-system-docs/patterns/there-is-a-problem/', keys: "" },{ label: "Design System", url: '/govcy-design-system-docs/', keys: "" },{ label: "Get Started", url: '/govcy-design-system-docs/getting_started/', keys: "CSS CDN meta tags social theme manifest icon" },{ label: "Styles", url: '/govcy-design-system-docs/styles/', keys: "" },{ label: "Components", url: '/govcy-design-system-docs/components/', keys: "" },{ label: "Patterns", url: '/govcy-design-system-docs/patterns/', keys: "" },{ label: "Utilities", url: '/govcy-design-system-docs/css_utilities/', keys: "" },{ label: "Moving from Version 0.1.0", url: '/govcy-design-system-docs/moving_from_v_0/', keys: "" },{ label: "Guides", url: '/govcy-design-system-docs/guides/', keys: "" },{ label: "Privacy policy – your personal information", url: '/govcy-design-system-docs/privacy-statement/', keys: "" },{ label: "Cookies used by the Design System", url: '/govcy-design-system-docs/cookie-policy/', keys: "" },{ label: "Accessibility statement", url: '/govcy-design-system-docs/accessibility-statement/', keys: "" },
-                ].filter(({ label ,keys }) =>
-                    label.toLowerCase().includes(query.toLowerCase()) 
-                    || keys.toLowerCase().includes(query.toLowerCase())
-                );
-                },
-                getItemUrl({ item }) {
-                    return item.url;
-                },
-                 templates: {
-                    item({ item, createElement }) {
-                        return createElement('div', {
-                        dangerouslySetInnerHTML: {
-                            __html: `<div>
-                            <a
-                                href="${item.url}">
-                                ${item.label}
-                            <a/> 
-                            </div>`,
-                        },
-                        });
-                    },
-                    noResults() {
-                        return 'No results.';
-                    }
-                }
-                // ...
-            },
-            ];
-        }
-    });
-
-        </script>
+<div id="mainContainer">
+    <section class="govcy-bg-main-shade-3 govcy-pb-6 govcy-header-separator below-header">
+        <div class="govcy-container">
+            <div class="govcy-row">
+                <div class="govcy-col-md-6 govcy-mb-3">
+                    <h1>A Design system for everything gov.cy</h1>
+                    
+                    <div class="govcy-phase-banner govcy-phase-banner-light">
+                        <span class="govcy-tag">Ver. 3.0.0</span>
+                        <span class="govcy-ml-2">For the older version visit <a href='https://gov-cy.github.io/govcy-design-system-docs-v2/'>v2 documentation</a> </span>
+                    </div>
+                    
+                    <p>The Unified Design System was developed to empower fast and accessible creation of gov.cy services and websites.</p>
+                    <p>Use the UDS to make services and websites consistent with gov.cy.</p>
+                    <button type="button" class="govcy-btn-primary" onclick="window.location='getting-started/'">Get Started</button>
+                </div>
+                <div class="govcy-col-md-6 govcy-my-3">
+                    <img src="img/DSIconograpy.svg" alt="Unified Design system">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+    <!--Main-->
+    <main class="govcy-container">
+        <div class="govcy-row">
+            <div class="govcy-col-12">
+                
+                <h2 id="what%E2%80%99s-new" tabindex="-1">What’s new</h2>
+<p><strong>23/7/2024</strong><br>
+Version 3.0.0 of the Design system has been released.</p>
+<p><a href="https://github.com/gov-cy/govcy-design-system/blob/main/CHANGELOG.md" rel="noreferrer noopener" target="_blank">Read the full change log (opens in new tab)</a>.</p>
+<hr>
+<h2 id="overview" tabindex="-1">Overview</h2>
+<p>At its core, the gov.cy Unified Design System (UDS) consists of universal assets, elements, components, patterns and code guidance on how to design, build and develop websites and services that make use of the Cyprus government branding and image. This allows its users and teams to build a citizen centric, consistent, clean and intuitive user experience throughout gov.cy, that is accessible to everyone.</p>
+<p>If you are starting a new service or website, first go through our <a href="getting-started/">getting started guide</a>.</p>
+<hr>
+<div class="govcy-container govcy-py-3">
+    <div class="govcy-row">
+        <div class="govcy-col-md-4 govcy-my-2">
+            <div class="govcy-bg-main-shade-3 govcy-p-7 govcy-d-flex govcy-flex-column govcy-h-100">
+                <h2 class="govcy-pt-0">Styles</h2>
+                <p class="govcy-flex-fill">Make your service and website look like gov.cy with guides for applying layout &amp; grids, spacing, typography, colours and images.</p>
+                <div><a href="./styles/index.html">Browse styles</a></div>
+            </div>
+        </div>
+        <div class="govcy-col-md-4 govcy-my-2">
+            <div class="govcy-bg-main-shade-3 govcy-p-7 govcy-d-flex govcy-flex-column govcy-h-100">
+                <h2 class="govcy-pt-0">Components</h2>
+                <p class="govcy-flex-fill">Save time and keep the pages consistent with reusable, accesible components for forms, inputs, selections, panels, tables, navigations and more.</p>
+                <div><a href="./components/index.html">Browse components</a></div>
+            </div>
+        </div>
+        <div class="govcy-col-md-4 govcy-my-2">
+            <div class="govcy-bg-main-shade-3 govcy-p-7 govcy-d-flex govcy-flex-column govcy-h-100">
+                <h2 class="govcy-pt-0">Patterns</h2>
+                <p class="govcy-flex-fill">Help users with completing common tasks such as entering names and addresses, filling and applying for forms and account creation.</p>
+                <div><a href="./patterns/index.html">Browse patterns</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<section class="govcy-my-5">
+    <div class="govcy-container">
+        <h2>In use</h2>
+        <div class="govcy-row govcy-row-cols-1 govcy-row-cols-md-2 govcy-row-cols-lg-3">
+            <div class="col govcy-mb-4">
+                <div>
+                    <div class="govcy-bg-main-shade-3 govcy-p-3 govcy-mb-1">
+                        <img src="./img/gov-cy-website.jpg" alt="Screenshot of gov.cy" class="w-100 govcy-m-0">
+                    </div>
+                    <div><a href="https://www.gov.cy" target="_blank">Portal - gov.cy</a></div>
+                </div>
+            </div>
+            <div class="col govcy-mb-4">
+                <div>
+                    <div class="govcy-bg-main-shade-3 govcy-p-3 govcy-mb-1">
+                        <img src="./img/citizen-docs-website.jpg" alt="Screenshot of the citizens documents service" class="w-100 govcy-m-0">
+                    </div>
+                    <div><a href="https://citizen-documents.service.gov.cy/" target="_blank">Citizens documents service</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+            </div>
+        </div>
+    </main>
+        <!-- Footer -->
+    <footer class="govcy-footer govcy-d-print-none"> 
+    <div class="govcy-px-4">
+        <div class="govcy-container">
+            <div class="govcy-row">
+                <div class="govcy-col-md-12 govcy-footer-column">
+                    <div class="govcy-row">
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Links</h3></li>
+                                <li><a href="/govcy-design-system-docs/">Home</a></li>
+                                <li><a href="/govcy-design-system-docs/getting-started">Get started</a></li>
+                                <li><a href="https://github.com/gov-cy/govcy-design-system" target="_blank">Github - Developer Assets</a></li>
+                                <li><a href="https://github.com/gov-cy/govcy-design-system-docs" target="_blank">Github - Design System website</a></li>
+                            </ul>
+                        </div>
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Tools and libraries</h3></li>
+                                <li><a href="https://www.figma.com/@dsf_cy" target="_blank">Figma</a></li>
+                                <li><a href="https://excalidraw-libraries-git-cevangelougovcy-gov-e2dec6-excalidraw.vercel.app/?theme=light&sort=default#cevangelougovcy-gov-cy-uds-library" target="_blank">Exalidraw</a></li>
+                                <li><a href="https://www.npmjs.com/~gov-cy" target="_blank">npm</a></li>
+                            </ul>
+                        </div>
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Previous Versions</h3></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v2/" target="_blank">Ver. 2x</a></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v0/" target="_blank">Ver. 0x</a></li></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="govcy-container govcy-footer-separator">
+            <div class="govcy-d-flex govcy-justify-content-between govcy-align-items-end govcy-flex-wrap">
+                <div class="govcy-my-4">
+                    <ul>
+                        <li><a href="/govcy-design-system-docs/privacy-statement">Privacy statement</a></li>
+                        <li><a href="/govcy-design-system-docs/cookie-policy">Cookies</a></li>
+                        <li><a href="/govcy-design-system-docs/accessibility-statement">Accessibility</a></li>
+                    </ul>
+                    <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
+                        <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
+                        <span class="govcy-mr-6 govcy-mt-2 govcy-mb-2">© Republic of Cyprus, 2024</span>
+                        <a href="https://europa.eu/" title="Go to EU Website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="/govcy-design-system-docs/img/FundedbyEU_NextGeneration_H53-EN.png" alt="Funded by the EU Next Generation EU"></a>
+                        <a href="http://www.cyprus-tomorrow.gov.cy/" title="Go to Cyprus to tomorrow website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="/govcy-design-system-docs/img/CYpros to aurio logo eng_H53_EN.png" alt="Cyprus tomorrow, recovery and resilience plan"></a>
+                    </div>
+                </div>
+                <div class="govcy-my-4">
+                   <a href="https://www.gov.cy" class="govcy-footer-logo" title="Go to the GOV.CY homepage"><img alt="gov.cy Logo"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+            <script src="/govcy-design-system-docs/js/govcy.uds.min.js" type="text/javascript"></script>
+        <script src="/govcy-design-system-docs/js/uds.js" type="text/javascript"></script>
     </body>
 </html>

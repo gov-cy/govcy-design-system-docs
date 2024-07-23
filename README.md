@@ -1,5 +1,5 @@
-# dsf-design-system documentation
-This is the readme for the dsf-design-system-docs-static repository, which is used to publish the GOV.CY design system documentation. 
+# govcy-design-system documentation
+This is the readme for the govcy-design-system-docs repository, which is used to publish the GOV.CY Unified Design System documentation. 
 
 It can be used though as a template for building and publish other static sites, based on markdown content and the GOV.CY design system. 
 
@@ -14,7 +14,7 @@ The site uses a Github repository and Github Pages to publish to content and npm
 
 ### 1. Clone the repository
 
-Run  `git clone https://github.com/gov-cy/dsf-design-system-docs-static.git` from the command line
+Run  `git clone https://github.com/gov-cy/govcy-design-system-docs.git` from the command line
 
 ### 2. Make changes
 
@@ -26,23 +26,22 @@ See the [How to Run](#how-to-run) section
 
 ### 4. Build  
 
-- Delete the `/docs/` folder. 
-- Run `npm run build-github-pages`. See the [Build to be published under domain's subfolder](#build-to-be-published-under-domains-subfolder) section.
+Run `npm run build-github-pages`. See the [Build to be published under domain's subfolder](#build-to-be-published-under-domains-subfolder) section.
 
 ### 5. Publish 
 
-- Commit and push to main.
+Commit and push to main.
 
 ## How to make a new site? 
 
-You need to have [Node.js](https://nodejs.org/en/) installed.
+You need to have [Node.js](https://nodejs.org/en/) and [NPM](https://www.npmjs.com) installed.
 
 ### 1. Download the tool
 
 Download the tool or fork it. 
 
-- [Git repository](https://github.com/gov-cy/dsf-design-system-docs-static)
-- [Download](https://github.com/gov-cy/dsf-design-system-docs-static/archive/refs/heads/main.zip)
+- [Git repository](https://github.com/gov-cy/govcy-design-system-docs)
+- [Download](https://github.com/gov-cy/govcy-design-system-docs/archive/refs/heads/main.zip)
 
 ### 2. Unzip  
 
@@ -50,7 +49,7 @@ Unzip the file in a new folder on a local drive. Do not install the kit on a clo
 
 ### 3. Install modules
 
-Navigate to the unziped `dsf-design-system-docs-static-master` folder though the command line and Run the following command `npm install`
+Navigate to the unziped `govcy-design-system-docs` folder though the command line and Run the following command `npm install`
 
 ### 4. Connect it to a Github repository
 
@@ -103,11 +102,11 @@ To build the site to be published under a domain's subfolder (such as GitHub's P
 
 ```json
 {
-  "name": "dsf-design-system-docs-static",
+  "name": "govcy-design-system-docs",
   ...
   ...
   "scripts": {
-    "build-github-pages": "npx @11ty/eleventy --pathprefix=dsf-design-system-docs-static",
+    "build-github-pages": "npx @11ty/eleventy --pathprefix=govcy-design-system-docs",
     ...
     ...
   },
@@ -128,7 +127,7 @@ You can change the site's configuration in the file `src/_data/sites.js`. See th
 module.exports = {
   buildTime: new Date(), //the site's build time
   isMultiLanguage : true, //if true a dropdown will appear to change the language
-  url : "https://gov-cy.github.io/dsf-design-system-docs-static", //url of site. It is used in generating things like the sidemap.xml
+  url : "https://gov-cy.github.io/govcy-design-system-docs", //url of site. It is used in generating things like the sidemap.xml
   showTOC: false, // if yes will show table of contents for pages based on headers (h2,h3,h4)
   showDraft: true, //if yes show draft badge
   showVersion: true, // if yes show the version badge
@@ -155,7 +154,7 @@ module.exports = {
       "privacy_label":"Όροι Χρήσης",
       "cookie_label":"Προστασία Προσωπικών Δεδομένων",
       "accessibility_label":"Προσβασιμότητα",
-      "copyright_label":"© Κυπριακή Δημοκρατία, 2021",
+      "copyright_label":"© Κυπριακή Δημοκρατία, 2024",
       "search_placeholder":"Έρευνα στο Design System"
     },
     "en" : {
@@ -170,7 +169,7 @@ module.exports = {
       "privacy_label":"Privacy statement",
       "cookie_label":"Cookie policy",
       "accessibility_label":"Accessibility statement",
-      "copyright_label":"© Republic of Cyprus, 2021",
+      "copyright_label":"© Republic of Cyprus, 2024",
       "search_placeholder":"Search Design System"
     }
   }
@@ -189,10 +188,10 @@ For example create a file named `/src/test.md` with the following content :
 ---
 title: "Test"
 date: 2022-02-01 00:00:05Z #by defining the date for each page you can contol the order they appear in the side menus
-searchKeys: "fonts text Paragraph Headings Unordered Ordered list Links" #keyword that are included when using the the search function
 eleventyExcludeFromCollections: false #if true exclude from all searches and lists. Default is false
 hideSideMap: false #if true hide from sidemap.xml. Default is false
 hideSearch: false #if true hide from search results. Default is false
+description: "descriptions of the page"
 ---
 
 This is a test page.
@@ -215,6 +214,8 @@ A category consists of a root page, for example `/styles` and a list of pages th
     "tags" : "styles", // Category name
     "showCategoryMenu" : true, // Indicate whether to show the category side menu
     "showIndexInCategoryMenu" : false // Indicate whether to add the root page in the side menu
+    "showTitle" : true, // Indicate whether to show the title
+    "showBeforeMain" : true // Indicate whether to show the before main section (which shows the version)
   }
 ```
 3. Create a file under that folder named `index.md` for the **root page**. For example:

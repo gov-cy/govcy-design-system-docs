@@ -1,6 +1,7 @@
 ---
 "title" : "Table"
 date: 2022-02-01 00:01:01Z
+description: "Use the table component to make information easier to compare and scan for users."
 ---
 Use the table component to make information easier to compare and scan for users.
 
@@ -8,18 +9,20 @@ Use the table component to make information easier to compare and scan for users
 Use the table component to let users compare information in rows and columns.
 
 ## When not to use this component
-Never use the table component to layout content on a page. 
+Never use the table component to layout content on a page. Instead, use the [grid system](../../styles/grid/).
 
 ## How it works
-You can use the HTML below to create a table component. 
+The component should only exist in the [main section](../../getting-started/page-template/#sections). 
+
+You can use the HTML below to create a table component.
 
 *Example*
-<div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
 <table class="govcy-table">
     <thead>
         <tr class="govcy-br-input">
-            <th>Property</th>
-            <th>Value</th>
+            <th scope="col">Property</th>
+            <th scope="col">Value</th>
         </tr>
     </thead>
     <tbody>
@@ -37,20 +40,19 @@ You can use the HTML below to create a table component.
         </tr>
         <tr>
             <th>Social insurance number</th>
-            <td>7361063</td>
+            <td>123456</td>
         </tr>
     </tbody>
 </table>
 </div>
 
-*Sample HTML Code*
-
+*HTML code*
 ```html
 <table class="govcy-table">
     <thead>
         <tr class="govcy-br-input">
-            <th>Property</th>
-            <th>Value</th>
+            <th scope="col">Property</th>
+            <th scope="col">Value</th>
         </tr>
     </thead>
     <tbody>
@@ -68,86 +70,86 @@ You can use the HTML below to create a table component.
         </tr>
         <tr>
             <th>Social insurance number</th>
-            <td>7361063</td>
+            <td>123456</td>
         </tr>
     </tbody>
 </table>
 ```
 ### Table headers
-Use table headers to tell users what the rows and columns represent. Use the `scope` attribute to help users of assistive technology distinguish between row and column headers.
+Use table headers to tell users what the rows and columns represent. Use the `scope` attribute to help users of assistive technology distinguish between row and column headers.
 
 *Example*
-<div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
 <table class="govcy-table">
     <thead>
         <tr>
             <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col">Expence</th>
+            <th scope="col">Notes</th>
+            <th scope="col" class="govcy-text-end">Amount</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <td>Server</td>
+            <td>120 GB RAM, xxx processor</td>
+            <td class="govcy-text-end">5000</td>
         </tr>
         <tr>
             <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <td>Monitor</td>
+            <td>22 inch</td>
+            <td class="govcy-text-end">100</td>
         </tr>
         <tr>
             <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
+            <td>Keyboard</td>
+            <td>Greek Layout</td>
+            <td class="govcy-text-end">20</td>
         </tr>
     </tbody>
 </table>
 </div>
 
-*Sample HTML Code*
-
+*HTML code*
 ```html
 <table class="govcy-table">
     <thead>
         <tr>
             <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col">Expence</th>
+            <th scope="col">Notes</th>
+            <th scope="col" class="govcy-text-end">Amount</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <td>Server</td>
+            <td>120 GB RAM, xxx processor</td>
+            <td class="govcy-text-end">5000</td>
         </tr>
         <tr>
             <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <td>Monitor</td>
+            <td>22 inch</td>
+            <td class="govcy-text-end">100</td>
         </tr>
         <tr>
             <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
+            <td>Keyboard</td>
+            <td>Greek Layout</td>
+            <td class="govcy-text-end">20</td>
         </tr>
     </tbody>
 </table>
 ```
-
-### Numbers in a table
-When comparing columns of numbers, align the numbers to the right in table cells.
+### Numbers in table
+When comparing columns of numbers, align the numbers to the right in table cells using the `govcy-text-end` class.
 
 *Example*
-<div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
 <table class="govcy-table">
     <thead>
         <tr>
@@ -180,8 +182,7 @@ When comparing columns of numbers, align the numbers to the right in table cells
 </table>
 </div>
 
-*Sample HTML Code*
-
+*HTML code*
 ```html
 <table class="govcy-table">
     <thead>
@@ -214,248 +215,271 @@ When comparing columns of numbers, align the numbers to the right in table cells
     </tbody>
 </table>
 ```
-
 ### Responsive tables
-Responsive tables allow tables to adjusting designs to accommodate screens of different sizes. Always use responsive tables, unless there is a specific reason not to. 
+Responsive tables allow tables to adjusting designs to accommodate screens of different sizes. Always use responsive tables, unless there is a specific reason not to.
 
 There are two ways you can achive this.
 
 #### Vertical responsive tables
+Vertical responsive tables place each cell of a row in a single column. This is the preferred method for responsive tables.
 
-Vertical responsive tables place each cell of a row in a single column. This is the prefered method for responsive tables.
-
-Make any table vertically responsive by adding a `.govcy-table-responsive-vertical` class in a table.
+Make any table vertically responsive by adding a `.govcy-table-responsive-vertical` class in a table.
 
 *Example*
-<div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
-      <table class="govcy-table govcy-table-responsive-vertical govcy-mb-4">
-        <tbody>
-          <tr>
-            <th scope="row" class="col-3">Bank Details</th>
-            <td class="col-7">
-              <p>
-                <span class="govcy-fw-bold">Account Name</span>
-                <span class="govcy-d-block">Andreas Andreou</span>
-              </p>
-              <p>
-                <span class="govcy-fw-bold">Bank</span>
-                <span class="govcy-d-block">Bank of Cyprus</span>
-              </p>
-              <p class="govcy-mb-0">
-                <span class="govcy-fw-bold">International Bank Account Number (IBAN)</span>
-                <span class="govcy-d-block">CY**********************7654</span>
-              </p>
-            </td>
-            <td class="col-2 govcy-text-sm-start govcy-text-md-end">
-              <a href="">Change</a>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row" class="col-3">Personal Details</th>
-            <td class="col-7">
-              <p>
-                <span class="govcy-fw-bold">Email address</span>
-                <span class="govcy-d-block">abc@windowslive.com</span>
-              </p>
-              <p class="govcy-mb-0">
-                <span class="govcy-fw-bold">Mobile Number</span>
-                <span class="govcy-d-block">99123456</span>
-              </p>
-            </td>
-            <td class="col-2 govcy-text-sm-start govcy-text-md-end">
-              <a href="">Change</a>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row" class="col-3">Claim Children</th>
-            <td class="col-7">
-              <p class="govcy-mb-0">
-                <span class="govcy-d-block">George of no one</span>
-              </p>
-            </td>
-            <td class="col-2 govcy-text-sm-start govcy-text-md-end"></td>
-          </tr>
-        </tbody>
-      </table>
-</div>
-
-*Sample HTML Code*
-
-```html
-<table class="govcy-table govcy-table-responsive-vertical govcy-mb-4">
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<table class="govcy-table govcy-table-responsive-vertical">
     <tbody>
         <tr>
-        <th scope="row" class="col-3">Bank Details</th>
-        <td class="col-7">
-            <p>
-            <span class="govcy-fw-bold">Account Name</span>
-            <span class="govcy-d-block">Andreas Andreou</span>
-            </p>
-            <p>
-            <span class="govcy-fw-bold">Bank</span>
-            <span class="govcy-d-block">Bank of Cyprus</span>
-            </p>
-            <p class="govcy-mb-0">
-            <span class="govcy-fw-bold">International Bank Account Number (IBAN)</span>
-            <span class="govcy-d-block">CY**********************7654</span>
-            </p>
-        </td>
-        <td class="col-2 govcy-text-sm-start govcy-text-md-end">
-            <a href="">Change</a>
-        </td>
+            <th>Account Name</th>
+            <td>Andreas Andreou</td>
         </tr>
         <tr>
-        <th scope="row" class="col-3">Personal Details</th>
-        <td class="col-7">
-            <p>
-            <span class="govcy-fw-bold">Email address</span>
-            <span class="govcy-d-block">abc@windowslive.com</span>
-            </p>
-            <p class="govcy-mb-0">
-            <span class="govcy-fw-bold">Mobile Number</span>
-            <span class="govcy-d-block">99123456</span>
-            </p>
-        </td>
-        <td class="col-2 govcy-text-sm-start govcy-text-md-end">
-            <a href="">Change</a>
-        </td>
+            <th>Bank</th>
+            <td>Bank of Cyprus</td>
         </tr>
         <tr>
-        <th scope="row" class="col-3">Claim Children</th>
-        <td class="col-7">
-            <p class="govcy-mb-0">
-            <span class="govcy-d-block">George of no one</span>
-            </p>
-        </td>
-        <td class="col-2 govcy-text-sm-start govcy-text-md-end"></td>
+            <th>International Bank Account Number (IBAN)</th>
+            <td>CY**********************7654</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+*HTML code*
+```html
+<table class="govcy-table govcy-table-responsive-vertical">
+    <tbody>
+        <tr>
+            <th>Account Name</th>
+            <td>Andreas Andreou</td>
+        </tr>
+        <tr>
+            <th>Bank</th>
+            <td>Bank of Cyprus</td>
+        </tr>
+        <tr>
+            <th>International Bank Account Number (IBAN)</th>
+            <td>CY**********************7654</td>
+        </tr>
+    </tbody>
+</table>
+```
+
+Using the `.govcy-table-responsive-vertical` class, will hide the table header in small viewports. If you wish to show the the headers while using this variant, you can add `<div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">{ HEADER-NAME }</div>` in each cell as shown in the example below:
+
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<table class="govcy-table govcy-table-responsive-vertical">
+    <thead>
+        <tr>
+            <th>Input</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Input</div>
+                Account Name
+            </td>
+            <td>
+                <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Value</div>
+                Andreas Andreou
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Input</div>
+                Bank
+            </td>
+            <td>
+                <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Value</div>
+                Bank of Cyprus
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Input</div>
+                International Bank Account Number (IBAN)
+            </td>
+            <td>
+                <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Value</div>
+                CY**********************7654
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+*HTML code*
+```html
+<table class="govcy-table govcy-table-responsive-vertical">
+    <thead>
+        <tr>
+            <th>Input</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Input</div>
+                Account Name
+            </td>
+            <td>
+                <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Value</div>
+                Andreas Andreou
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Input</div>
+                Bank
+            </td>
+            <td>
+                <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Value</div>
+                Bank of Cyprus
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Input</div>
+                International Bank Account Number (IBAN)
+            </td>
+            <td>
+                <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Value</div>
+                CY**********************7654
+            </td>
         </tr>
     </tbody>
 </table>
 ```
 
 #### Horizontal responsive tables
+Horizontal responsive tables allow tables to be scrolled horizontally with ease.
 
-Horizontal responsive tables allow tables to be scrolled horizontally with ease. 
-
-Make any table horizontally responsive across all viewports by wrapping a `.govcy-table` with `.govcy-table-responsive`. 
+Make any table horizontally responsive across all viewports by wrapping a `.govcy-table` with `.govcy-table-responsive`.
 
 *Example*
-<div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
 <div class="govcy-table-responsive">
     <table class="govcy-table">
         <thead>
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">Heading</th>
-            <th scope="col">Heading</th>
-            <th scope="col">Heading</th>
-            <th scope="col">Heading</th>
-            <th scope="col">Heading</th>
-            <th scope="col">Heading</th>
-            <th scope="col">Heading</th>
-            <th scope="col">Heading</th>
-            <th scope="col">Heading</th>
-        </tr>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Heading</th>
+                <th scope="col">Heading</th>
+                <th scope="col">Heading</th>
+                <th scope="col">Heading</th>
+                <th scope="col">Heading</th>
+                <th scope="col">Heading</th>
+                <th scope="col">Heading</th>
+                <th scope="col">Heading</th>
+                <th scope="col">Heading</th>
+            </tr>
         </thead>
         <tbody>
-        <tr>
-            <th scope="row">1</th>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-        </tr>
-        <tr>
-            <th scope="row">2</th>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-        </tr>
-        <tr>
-            <th scope="row">3</th>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-        </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+            </tr>
         </tbody>
     </table>
 </div>
 </div>
 
-*Sample HTML Code*
-
+*HTML code*
 ```html
 <div class="govcy-table-responsive">
     <table class="govcy-table">
         <thead>
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">Heading</th>
-            <th scope="col">Heading</th>
-            <th scope="col">Heading</th>
-            <th scope="col">Heading</th>
-            <th scope="col">Heading</th>
-            <th scope="col">Heading</th>
-            <th scope="col">Heading</th>
-            <th scope="col">Heading</th>
-            <th scope="col">Heading</th>
-        </tr>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Heading</th>
+                <th scope="col">Heading</th>
+                <th scope="col">Heading</th>
+                <th scope="col">Heading</th>
+                <th scope="col">Heading</th>
+                <th scope="col">Heading</th>
+                <th scope="col">Heading</th>
+                <th scope="col">Heading</th>
+                <th scope="col">Heading</th>
+            </tr>
         </thead>
         <tbody>
-        <tr>
-            <th scope="row">1</th>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-        </tr>
-        <tr>
-            <th scope="row">2</th>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-        </tr>
-        <tr>
-            <th scope="row">3</th>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-            <td>Cell</td>
-        </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+            </tr>
         </tbody>
     </table>
 </div>
 ```
+## Accessibility
+Make sure:
+- you use [table headers](#table-headers) when applicable
+- you test your tables in smaller viewports, for example on mobile devices. Consider using a [responsive table](#responsive-tables) variant 

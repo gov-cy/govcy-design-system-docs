@@ -1,0 +1,7 @@
+{
+    "layout" : "base.njk",
+    "category" : "get started",
+    "tags" : "get started",
+    "showCategoryMenu" : true,
+    "showIndexInCategoryMenu" : true
+  }

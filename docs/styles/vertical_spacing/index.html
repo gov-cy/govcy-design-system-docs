@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="en">
-    <head>
+        <head>
     <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Social -->
         <meta property="og:description" content="Design your services using gov.cy styles, components and patterns.">
-        <meta property="og:title" content="Vertical Spacing - Design System - gov.cy">
+        <meta property="og:title" content="Vertical Spacing - Unified Design System - gov.cy">
         <meta property="og:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
         <meta property="og:type" content="website">
         <meta property="og:image" content="https://gov-cy.github.io/govcy-design-system-docs/img/icons-512.png">
@@ -14,7 +14,7 @@
     
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
-        <meta property="twitter:title" content="Vertical Spacing - Design System - gov.cy">
+        <meta property="twitter:title" content="Vertical Spacing - Unified Design System - gov.cy">
         <meta property="twitter:description" content="Design your services using gov.cy styles, components and patterns.">
         <meta property="twitter:image" content="https://gov-cy.github.io/govcy-design-system-docs/img/icons-512.png">
         <!-- Theme --> 
@@ -29,80 +29,110 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/govcy-design-system-docs/img/apple-touch-icon-72x72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="/govcy-design-system-docs/img/apple-touch-icon-57x57-precomposed.png">
         <!-- Bootstrap CSS -->
-        <link href="/govcy-design-system-docs/css/main.css" rel="stylesheet" >
+        <link href="/govcy-design-system-docs/css/govcy.uds.min.css" rel="stylesheet" >
         
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-theme-classic"/>
         <link href="/govcy-design-system-docs/css/docs.css" rel="stylesheet" >
-        <!--<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">-->
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vs.min.css" integrity="sha512-54dqOdBwMzeeRRYZieLqjlGc/w9+AI3vLUdz9PW6QFVTfkL0e7CYLWXKQPV+HqZi5QIj8JKsbzIkeplWVhlY+A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vsc-dark-plus.min.css" integrity="sha512-GU4Q2LAEtdpc8WmjcbSJGxM6c8D69ggI3mc5SRnfnxpg5AkYYA0BEVve0W9Oj2wZR0UItklQK2RBKLtDsQHNzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
-        <title>Vertical Spacing - Design System - gov.cy</title>
+        <!-- Prism Highlighter CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-a11y-dark.min.css" rel="stylesheet">
+        <title>Vertical Spacing - Unified Design System - gov.cy</title>
         <meta name="description" content="Design your services using gov.cy styles, components and patterns.">
     </head>
     <body>
-    <a href="#mainContainer" class="govcy-skip-link">Skip to main content</a> 
-    <!--Header-->
-    <div class="govcy-container-fluid govcy-p-0 govcy-m-0 govcy-position-relative govcy-d-print-none">
-         <div class="govcy-container">
-             <div class="row">
-                 <header class="govcy-header govcy-bg-primary govcy-text-white govcy-bg-primary-right">
-                      <a href="/govcy-design-system-docs/" class="govcy-logo"> <img></a>
-                     
-                     <input class="govcy-menu-btn govcy-d-none" type="checkbox" id="menu-btn">
-                     <label class="govcy-menu-icon govcy-d-md-none" for="menu-btn">Menu
-                         <span class="material-icons govcy-my-3">arrow_drop_down</span>
-                     </label>
-                     <span class="govcy-service-name">Design System </span>
-                     <ul class="govcy-menu govcy-bg-sub-menu govcy-bg-md-primary">
-                     
-                    <li>
-                            <a href="/govcy-design-system-docs/getting_started/" >
-                                Get Started
-                            </a>
-                            </li><li>
-                            <a href="/govcy-design-system-docs/styles/"  class="active">
-                                Styles
-                            </a>
-                            </li><li>
-                            <a href="/govcy-design-system-docs/components/" >
-                                Components
-                            </a>
-                            </li><li>
-                            <a href="/govcy-design-system-docs/patterns/" >
-                                Patterns
-                            </a>
-                            </li><li>
-                            <a href="/govcy-design-system-docs/css_utilities/" >
-                                Utilities
-                            </a>
-                            </li><li>
-                            <a href="/govcy-design-system-docs/guides/" >
-                                Guides
-                            </a>
-                            </li>
-                     </ul>
-                 </header>
-             </div>
-         </div>
-    </div>
-    <!--beforeMain-->
-    <section class="govcy-container govcy-my-2" id="beforeMainContainer">
-        <div class="row">
-            <div class="govcy-col-3 govcy-d-print-none">
-                <span id="autocomplete" class="govcy-w-50"></span>
-            </div>  
-            <div class="govcy-col-3 govcy-mt-2">
-        
-        <span class="govcy-br-2 govcy-text-white govcy-br-primary govcy-rounded-1 govcy-bg-primary govcy-px-3 govcy-fw-bold govcy-efs-small">Ver. 2.2.0</span>
-            </div>
-            
-        </div>
+        <section class="govcy-container-fluid" id="bodyStartContainer">
+        <a href="#mainContainer" class="govcy-skip-link">Skip to main content</a> 
     </section>
+    <header class="govcy-header govcy-d-print-none" id="headerContainer">
+  <div class="govcy-header-main-area">
+    <div
+      class="govcy-container govcy-main-area-items govcy-justify-content-between"
+    >
+      <div class="govcy-navigation-container govcy-align-items-center">
+        <div class="govcy-service-container">
+          <a href="https://www.gov.cy" class="govcy-logo" title="Go to the GOV.CY homepage"
+            ><img alt="gov.cy Logo"
+          /></a>
+          <span class="govcy-service-name">
+            <a href="/govcy-design-system-docs/">Unified Design System</a>
+          </span>
+        </div>
+        <ul class="govcy-menu-items">
+          <li class="govcy-mobile-menu govcy-mobile-menu-only govcy-dropdown govcy-ms-auto">
+            <span>
+                <a href="#" class="govcy-menu-item govcy-expand-btn">Menu</a>
+            </span>
+          </li>
+          <li class="govcy-global-search">
+            <span><a href="#" class="govcy-menu-item" aria-label="Search, expands search text box when clicked" aria-haspopup="true"><i class="govcy-search-icon"></i></a></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="govcy-header-menu-area">
+    <nav class="govcy-mainmenu">
+      <div class="govcy-container">
+          <ul class="govcy-menu-items">
+              <li>
+                      <a href="/govcy-design-system-docs/getting-started/" class="govcy-menu-item">
+                          Get Started
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/styles/" class="govcy-menu-item active">
+                          Styles
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/components/" class="govcy-menu-item">
+                          Components
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/patterns/" class="govcy-menu-item">
+                          Patterns
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/css_utilities/" class="govcy-menu-item">
+                          Utilities
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/guides/" class="govcy-menu-item">
+                          Guides
+                      </a>
+                  </li>
+          </ul>
+      </div>
+    </nav>
+    <div class="govcy-header-search-area">
+        <div class="govcy-container">
+            <div class="govcy-form">
+                
+                <div class="govcy-form-control">
+                    <span class="pagefind-custom-label">Search the Design System</span>
+                    <link href="/govcy-design-system-docs/pagefind/pagefind-ui.css" rel="stylesheet">
+                    <div id="search-div" class="search"></div>
+                    <script src="/govcy-design-system-docs/pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search-div', showImages: false, translations : {placeholder:''} }); document.querySelector('.pagefind-ui__search-input').setAttribute('aria-label', 'Search the Design System');"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</header>
+
+    
+<!--beforeMain-->
+    <section class="govcy-container" id="beforeMainContainer">
+        
+        
+        <div class="govcy-phase-banner">
+            <span class="govcy-tag">Ver. 3.0.0</span>
+            <span class="govcy-ml-2">For the older version visit <a href='https://gov-cy.github.io/govcy-design-system-docs-v2/'>v2 documentation</a> </span>
+        </div>
+        
+    </section>
+
     <!--Main-->
-    <main class="govcy-container govcy-my-2" id="mainContainer">
-        <div class="row">
-            <div class="govcy-col-9 govcy-order-last">
-                <h1>Vertical Spacing</h1>
+    <main class="govcy-container" id="mainContainer">
+        <div class="govcy-row">
+            <div class="govcy-col-md-9 govcy-col-lg-10 govcy-order-last-desk">
+                <h1 data-pagefind-weight="10">Vertical Spacing</h1>
                 
                 
                     <aside class="toc-outter">
@@ -110,142 +140,345 @@
                         <nav class="toc">
                 <ol>
                     
-                    <li><a href="#component-margin">Component margin</a>
+                    <li><a href="#understanding-the-spacing-scale">Understanding the spacing scale</a>
             		</li>
 
-                    <li><a href="#vertical-spacing-with-govcy-css">Vertical spacing with GOVCY CSS</a>
+                    <li><a href="#elements-spacing-values">Elements spacing values</a>
+            
+                <ol>
+                    
+                    <li><a href="#large-screens-768%2B">Large Screens 768+</a>
+            		</li>
+
+                    <li><a href="#smaller-screens-767-and-below">Smaller Screens 767 and below</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#header-spacing-values">Header spacing values</a>
+            
+                <ol>
+                    
+                    <li><a href="#spacing-after-the-header">Spacing after the header</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#footer-spacing-values">Footer spacing values</a>
+            		</li>
+
+                    <li><a href="#spacing-with-gov.cy-css">Spacing with gov.cy CSS</a>
+            
+                <ol>
+                    
+                    <li><a href="#custom-components">Custom components</a>
+            		</li>
+                </ol>
             		</li>
                 </ol>
             </nav>
                     </aside>
                 
                 <p>Use the design system to lay out the content on your service’s pages vertically in a uniform and consisted manner.</p>
-<h2 id="component-margin" tabindex="-1">Component margin <a class="anchor-link" href="#component-margin"> </a></h2>
-<p>The system uses margin bottom attribute on each component to manage vertical spacing and distinguishes <a href="../typography">typography</a> ( i.e. <code>&lt;p&gt;,&lt;ul&gt;,&lt;ol&gt; </code>), <a href="../typography/#headings">headings </a> (i.e. <code>&lt;h1&gt;,&lt;h2&gt;,&lt;h3&gt;,&lt;h4&gt;,&lt;h5&gt;,&lt;h6&gt;</code>) from the <a href="../../components">rest of the components</a>.</p>
-<p>The following margin bottom values must be applied:</p>
+<h2 id="understanding-the-spacing-scale" tabindex="-1">Understanding the spacing scale</h2>
+<p>The spacing scale displays the various spacing achievable between items.</p>
 <table class="govcy-table">
 <thead>
 <tr>
-<th>Component Type</th>
-<th>margin-bottom value</th>
+<th>Spacing Unit</th>
+<th>Rem</th>
+<th>Pixels</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>typography</td>
-<td>16px</td>
+<td><strong>0</strong></td>
+<td>0</td>
+<td>0</td>
 </tr>
 <tr>
-<td>headings</td>
-<td>24px</td>
+<td><strong>1</strong></td>
+<td>0.25</td>
+<td>4</td>
 </tr>
 <tr>
-<td>rest of components</td>
-<td>24px</td>
+<td><strong>2</strong></td>
+<td>0.5</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td>0.75</td>
+<td>12</td>
+</tr>
+<tr>
+<td><strong>4</strong></td>
+<td>1</td>
+<td>16</td>
+</tr>
+<tr>
+<td><strong>5</strong></td>
+<td>1.25</td>
+<td>20</td>
+</tr>
+<tr>
+<td><strong>6</strong></td>
+<td>1.5</td>
+<td>24</td>
+</tr>
+<tr>
+<td><strong>7</strong></td>
+<td>1.75</td>
+<td>28</td>
+</tr>
+<tr>
+<td><strong>8</strong></td>
+<td>2</td>
+<td>32</td>
+</tr>
+<tr>
+<td><strong>9</strong></td>
+<td>2.25</td>
+<td>36</td>
+</tr>
+<tr>
+<td><strong>10</strong></td>
+<td>2.5</td>
+<td>40</td>
+</tr>
+<tr>
+<td><strong>11</strong></td>
+<td>2.75</td>
+<td>44</td>
+</tr>
+<tr>
+<td><strong>12</strong></td>
+<td>3</td>
+<td>48</td>
+</tr>
+<tr>
+<td><strong>16</strong></td>
+<td>4</td>
+<td>64</td>
+</tr>
+<tr>
+<td><strong>20</strong></td>
+<td>5</td>
+<td>80</td>
 </tr>
 </tbody>
 </table>
-<h2 id="vertical-spacing-with-govcy-css" tabindex="-1">Vertical spacing with GOVCY CSS <a class="anchor-link" href="#vertical-spacing-with-govcy-css"> </a></h2>
-<p>The grid system automatically adjusts vertical spacing when using the<a href="../../getting_started/#css-and-javascript"> govcy css</a> for typography, headings and components that include the <code>govcy-form-control</code> class.</p>
-<p>If you like to implement the same vertical spacing as decribed above, you can use the <a href="../../css_utilities/#margin%2C-padding">margin utility classes</a> as follows</p>
+<h2 id="elements-spacing-values" tabindex="-1">Elements spacing values</h2>
+<p>The system uses a combination padding and margin attributes on each element to manage vertical spacing.</p>
+<p>The elements spacing for ‘large screens’ is used when the screen is wider than the <a href="../../getting-started/page-template/#responsive-breakpoint">responsive breakpoint</a> (767px), whereas for smaller screens heading spacing begins from the responsive breakpoint and below.</p>
+<p>The following spacing values must be applied:</p>
+<h4 id="large-screens-768%2B" tabindex="-1">Large Screens 768+</h4>
+<div class="govcy-table-responsive">
 <table class="govcy-table">
 <thead>
 <tr>
-<th>Utility Class</th>
-<th>margin-bottom value</th>
+<th></th>
+<th>H1</th>
+<th>H2</th>
+<th>H3</th>
+<th>H4</th>
+<th>P/ul/ol</th>
+<th>Pictures</th>
+<th>Components</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>govcy-mb-3</td>
-<td>16px</td>
+<td><strong>Top</strong></td>
+<td>0px</td>
+<td>20px</td>
+<td>20px</td>
+<td>20px</td>
+<td>0px</td>
+<td>0px</td>
+<td>0px</td>
 </tr>
 <tr>
-<td>govcy-mb-4</td>
+<td><strong>Bottom</strong></td>
+<td>24px</td>
+<td>24px</td>
+<td>24px</td>
+<td>24px</td>
+<td>24px</td>
+<td>24px</td>
 <td>24px</td>
 </tr>
 </tbody>
 </table>
+</div>
+<p><img src="/govcy-design-system-docs/img/v3_vs_components.png" alt="Representation of vertical spacing of a component for large screens" style="aspect-ratio: auto;"></p>
+<h4 id="smaller-screens-767-and-below" tabindex="-1">Smaller Screens 767 and below</h4>
+<div class="govcy-table-responsive">
+<table class="govcy-table">
+<thead>
+<tr>
+<th></th>
+<th>H1</th>
+<th>H2</th>
+<th>H3</th>
+<th>H4</th>
+<th>P/u/ol</th>
+<th>Pictures</th>
+<th>Components</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Top</strong></td>
+<td>0px</td>
+<td>12px</td>
+<td>12px</td>
+<td>12px</td>
+<td>0px</td>
+<td>0px</td>
+<td>0px</td>
+</tr>
+<tr>
+<td><strong>Bottom</strong></td>
+<td>24px</td>
+<td>24px</td>
+<td>24px</td>
+<td>24px</td>
+<td>24px</td>
+<td>24px</td>
+<td>24px</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><img src="/govcy-design-system-docs/img/v3_vs_components_small.png" alt="Representation of vertical spacing of a component for smaller screens" style="aspect-ratio: auto;"></p>
+<h2 id="header-spacing-values" tabindex="-1">Header spacing values</h2>
+<p>The header spacing concerns the vertical spacing of the <a href="../../getting-started/page-template/#sections">header section of the page template</a>.</p>
+<p>The following spacing values must be applied:</p>
+<table class="govcy-table">
+<thead>
+<tr>
+<th>Large screens (768px+)</th>
+<th>Smaller screens (767px and below)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>0px</strong> Top</td>
+<td><strong>0px</strong> Top</td>
+</tr>
+<tr>
+<td><strong>64px</strong> Bottom</td>
+<td><strong>44px</strong> Bottom</td>
+</tr>
+</tbody>
+</table>
+<p><img src="/govcy-design-system-docs/img/v3_vs_header.png" alt="Representation of header spacing" style="aspect-ratio: auto;"></p>
+<h3 id="spacing-after-the-header" tabindex="-1">Spacing after the header</h3>
+<p>In order to achieve the spacing values for the header, consider which element follows the header.</p>
+<p>Usually the first element after the header is either a <a href="../../components/back_link/">back link</a>, a <a href="../../components/breadcrumbs/">breadcrumb</a> or a <code>H1</code> title of the page which already have top margin 0px, and there is no need for special care.</p>
+<p><img src="/govcy-design-system-docs/img/v3_vs_header_after.png" alt="Representation of the first element after the header" style="aspect-ratio: auto;"></p>
+<p>On the other hand, if the following element has pre-existing top spacing, such as an <code>H2</code>, the spacing between the header and <code>H2</code> will combine to 84px which should be avoided (the 84px spacing comes from the existing 64px bottom of the header plus the 20px top of the <code>H2</code>).</p>
+<p><strong>This means the FIRST element right after the header, should always have 0px top spacing so as not to interfere with the header spacing.</strong></p>
+<p>If the first element is not a <a href="../../components/back_link/">back link</a>, a <a href="../../components/breadcrumbs/">breadcrumb</a> or a <code>H1</code> title, use the <code>govcy-pt-0</code> class achieve the correct spacing as shown in the example below:</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<h2 class="govcy-pt-0">Lorem Ipsum</h2>
+</div>
+<p><em>HTML code</em></p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-pt-0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Lorem Ipsum<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span></code></pre>
+<h2 id="footer-spacing-values" tabindex="-1">Footer spacing values</h2>
+<p>The footer spacing concerns the vertical spacing of the <a href="../../getting-started/page-template/#sections">footer section of the page template</a>.</p>
+<p>The following spacing values must be applied:</p>
+<table class="govcy-table">
+<thead>
+<tr>
+<th>Large screens (768px+)</th>
+<th>Smaller screens (767px and below)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>40px</strong> Top</td>
+<td><strong>20px</strong> Top</td>
+</tr>
+<tr>
+<td><strong>0px</strong> Bottom</td>
+<td><strong>0px</strong> Bottom</td>
+</tr>
+</tbody>
+</table>
+<p>Unlike the header there is no need for any adjustments to elements on top of the footer.</p>
+<p><img src="/govcy-design-system-docs/img/v3_vs_footer.png" alt="Representation of the footer spacing" style="aspect-ratio: auto;"></p>
+<h2 id="spacing-with-gov.cy-css" tabindex="-1">Spacing with gov.cy CSS</h2>
+<p>Using our <a href="../../getting-started/developer-assets">developers assets</a> and the code in our documentation,  the vertical spacing is adjusted automatically.</p>
+<h3 id="custom-components" tabindex="-1">Custom components</h3>
+<p>If you are implementing a custom component that is not included in our documentation, you can use the <a href="../../css_utilities">margin utility classes</a>. To achieve the <a href="#elements-spacing-values">bottom margin of 24px that all elements have</a>, use the <code>govcy-mb-6</code> class.</p>
 
             </div>
     
-    <aside class="govcy-col-3 govcy-order-first">
-                <ul class="nav-side govcy-flex-column"><li><a href="/govcy-design-system-docs/styles/colour/" class="nav-link">Colours</a></li><li><a href="/govcy-design-system-docs/styles/page_templates/" class="nav-link">Page Templates</a></li><li><a href="/govcy-design-system-docs/styles/grid/" class="nav-link">Grid system</a></li><li><a href="/govcy-design-system-docs/styles/vertical_spacing/" class="nav-link active">Vertical Spacing</a></li><li><a href="/govcy-design-system-docs/styles/layout/" class="nav-link">Layout</a></li><li><a href="/govcy-design-system-docs/styles/typography/" class="nav-link">Typography</a></li>
+    <aside class="govcy-col-md-3 govcy-col-lg-2 govcy-order-first-desk">
+                <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Pages in this section</div>
+                <ul class="govcy-list-unstyled"><li class="app-side-link"><a href="/govcy-design-system-docs/styles/colour/">Colours</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/styles/grid/">Grid system</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/styles/images/">Images</a></li><li class="app-side-link active"><a href="/govcy-design-system-docs/styles/vertical_spacing/">Vertical Spacing</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/styles/layout/">Layout</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/styles/typography/">Typography</a></li>
                 </ul>
             </aside>
         </div>
     </main>
-    <!-- Footer -->
-    <div class="govcy-container-fluid govcy-br-top-8 govcy-br-top-primary govcy-p-3 govcy-bg-light govcy-d-print-none">
-            <div class="govcy-container">
-                <div class="row">   
-                    <footer class="govcy-footer">
-                        <span class="govcy-d-inline-block govcy-valign-top govcy-pb-2"><img alt="govcy-logo"></span>
-                                <ul class="govcy-d-inline-block  govcy-m-0 govcy-pl-3 govcy-efs-medium">
-                                <li><a href="/govcy-design-system-docs/privacy-statement">Privacy statement</a></li>
-                                <li><a href="/govcy-design-system-docs/cookie-policy">Cookie policy</a></li>
-                                <li><a href="/govcy-design-system-docs/accessibility-statement">Accessibility statement</a></li>
-                                <li class="govcy-d-block govcy-text-dark">© Republic of Cyprus, 2021</li>
+        <!-- Footer -->
+    <footer class="govcy-footer govcy-d-print-none"> 
+    <div class="govcy-px-4">
+        <div class="govcy-container">
+            <div class="govcy-row">
+                <div class="govcy-col-md-12 govcy-footer-column">
+                    <div class="govcy-row">
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Links</h3></li>
+                                <li><a href="/govcy-design-system-docs/">Home</a></li>
+                                <li><a href="/govcy-design-system-docs/getting-started">Get started</a></li>
+                                <li><a href="https://github.com/gov-cy/govcy-design-system" target="_blank">Github - Developer Assets</a></li>
+                                <li><a href="https://github.com/gov-cy/govcy-design-system-docs" target="_blank">Github - Design System website</a></li>
                             </ul>
-                    </footer>
+                        </div>
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Tools and libraries</h3></li>
+                                <li><a href="https://www.figma.com/@dsf_cy" target="_blank">Figma</a></li>
+                                <li><a href="https://excalidraw-libraries-git-cevangelougovcy-gov-e2dec6-excalidraw.vercel.app/?theme=light&sort=default#cevangelougovcy-gov-cy-uds-library" target="_blank">Exalidraw</a></li>
+                                <li><a href="https://www.npmjs.com/~gov-cy" target="_blank">npm</a></li>
+                            </ul>
+                        </div>
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Previous Versions</h3></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v2/" target="_blank">Ver. 2x</a></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v0/" target="_blank">Ver. 0x</a></li></ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-        
-        
-        
-        
-        
-        <script src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-js"></script>
-        <script>
-            const { autocomplete } = window['@algolia/autocomplete-js'];
-        </script>
-
-
-        <script>
-        autocomplete({
-        container: '#autocomplete',
-        placeholder: 'Search Design System',
-        getSources() {
-            return [
-            {
-                sourceId: 'links',
-                getItems({ query }) {
-                return [
-{ label: "Colours", url: '/govcy-design-system-docs/styles/colour/', keys: "" },{ label: "Page Templates", url: '/govcy-design-system-docs/styles/page_templates/', keys: "" },{ label: "Grid system", url: '/govcy-design-system-docs/styles/grid/', keys: "" },{ label: "Vertical Spacing", url: '/govcy-design-system-docs/styles/vertical_spacing/', keys: "" },{ label: "Layout", url: '/govcy-design-system-docs/styles/layout/', keys: "" },{ label: "Typography", url: '/govcy-design-system-docs/styles/typography/', keys: "fonts text Paragraph Headings Unordered Ordered list Links" },{ label: "Back Link", url: '/govcy-design-system-docs/components/back_link/', keys: "" },{ label: "Breadcrumbs", url: '/govcy-design-system-docs/components/breadcrumbs/', keys: "" },{ label: "Button", url: '/govcy-design-system-docs/components/button/', keys: "" },{ label: "Checkbox", url: '/govcy-design-system-docs/components/checkbox/', keys: "" },{ label: "Date input", url: '/govcy-design-system-docs/components/date_input/', keys: "" },{ label: "Details", url: '/govcy-design-system-docs/components/details/', keys: "" },{ label: "Error Message", url: '/govcy-design-system-docs/components/error_message/', keys: "" },{ label: "Error Summary", url: '/govcy-design-system-docs/components/error_summary/', keys: "" },{ label: "Fieldset", url: '/govcy-design-system-docs/components/fieldset/', keys: "" },{ label: "File", url: '/govcy-design-system-docs/components/file/', keys: "" },{ label: "Footer", url: '/govcy-design-system-docs/components/footer/', keys: "" },{ label: "Header", url: '/govcy-design-system-docs/components/header/', keys: "" },{ label: "Panel", url: '/govcy-design-system-docs/components/panel/', keys: "success panel" },{ label: "Radio", url: '/govcy-design-system-docs/components/radio/', keys: "" },{ label: "Select", url: '/govcy-design-system-docs/components/select/', keys: "" },{ label: "Skip Link", url: '/govcy-design-system-docs/components/skip_link/', keys: "" },{ label: "Table", url: '/govcy-design-system-docs/components/table/', keys: "" },{ label: "Text Input", url: '/govcy-design-system-docs/components/text_input/', keys: "" },{ label: "User’s name and sign out", url: '/govcy-design-system-docs/components/user_name_and_sign_out/', keys: "" },{ label: "How to create a page using the gov.cy design system", url: '/govcy-design-system-docs/guides/create_a_page/', keys: "" },{ label: "How to create new design elements using the gov.cy utility classes", url: '/govcy-design-system-docs/guides/create_a_design_element/', keys: "" },{ label: "Check answers", url: '/govcy-design-system-docs/patterns/check_answers/', keys: "" },{ label: "Confirm a phone number", url: '/govcy-design-system-docs/patterns/confirm_phone_number/', keys: "" },{ label: "Currency amount", url: '/govcy-design-system-docs/patterns/currency-amount/', keys: "" },{ label: "Dates", url: '/govcy-design-system-docs/patterns/dates/', keys: "" },{ label: "Email", url: '/govcy-design-system-docs/patterns/email/', keys: "" },{ label: "Focus state", url: '/govcy-design-system-docs/patterns/focus_state/', keys: "" },{ label: "Hint Text", url: '/govcy-design-system-docs/patterns/hint_text/', keys: "" },{ label: "Labels and legends headings", url: '/govcy-design-system-docs/patterns/labels_and_legend_headings/', keys: "" },{ label: "Add multiple things ", url: '/govcy-design-system-docs/patterns/multiple_things/', keys: "" },{ label: "Names", url: '/govcy-design-system-docs/patterns/names/', keys: "" },{ label: "Page not found pages", url: '/govcy-design-system-docs/patterns/page-not-found-pages/', keys: "" },{ label: "Question pages", url: '/govcy-design-system-docs/patterns/question_pages/', keys: "" },{ label: "Service unavailable pages", url: '/govcy-design-system-docs/patterns/service-unavailable-pages/', keys: "" },{ label: "Structuring a service", url: '/govcy-design-system-docs/patterns/service_structure/', keys: "" },{ label: "Telephone", url: '/govcy-design-system-docs/patterns/telephone/', keys: "" },{ label: "There is a problem with the service pages", url: '/govcy-design-system-docs/patterns/there-is-a-problem/', keys: "" },{ label: "Design System", url: '/govcy-design-system-docs/', keys: "" },{ label: "Get Started", url: '/govcy-design-system-docs/getting_started/', keys: "CSS CDN meta tags social theme manifest icon" },{ label: "Styles", url: '/govcy-design-system-docs/styles/', keys: "" },{ label: "Components", url: '/govcy-design-system-docs/components/', keys: "" },{ label: "Patterns", url: '/govcy-design-system-docs/patterns/', keys: "" },{ label: "Utilities", url: '/govcy-design-system-docs/css_utilities/', keys: "" },{ label: "Moving from Version 0.1.0", url: '/govcy-design-system-docs/moving_from_v_0/', keys: "" },{ label: "Guides", url: '/govcy-design-system-docs/guides/', keys: "" },{ label: "Privacy policy – your personal information", url: '/govcy-design-system-docs/privacy-statement/', keys: "" },{ label: "Cookies used by the Design System", url: '/govcy-design-system-docs/cookie-policy/', keys: "" },{ label: "Accessibility statement", url: '/govcy-design-system-docs/accessibility-statement/', keys: "" },
-                ].filter(({ label ,keys }) =>
-                    label.toLowerCase().includes(query.toLowerCase()) 
-                    || keys.toLowerCase().includes(query.toLowerCase())
-                );
-                },
-                getItemUrl({ item }) {
-                    return item.url;
-                },
-                 templates: {
-                    item({ item, createElement }) {
-                        return createElement('div', {
-                        dangerouslySetInnerHTML: {
-                            __html: `<div>
-                            <a
-                                href="${item.url}">
-                                ${item.label}
-                            <a/> 
-                            </div>`,
-                        },
-                        });
-                    },
-                    noResults() {
-                        return 'No results.';
-                    }
-                }
-                // ...
-            },
-            ];
-        }
-    });
-
-        </script>
+        <div class="govcy-container govcy-footer-separator">
+            <div class="govcy-d-flex govcy-justify-content-between govcy-align-items-end govcy-flex-wrap">
+                <div class="govcy-my-4">
+                    <ul>
+                        <li><a href="/govcy-design-system-docs/privacy-statement">Privacy statement</a></li>
+                        <li><a href="/govcy-design-system-docs/cookie-policy">Cookies</a></li>
+                        <li><a href="/govcy-design-system-docs/accessibility-statement">Accessibility</a></li>
+                    </ul>
+                    <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
+                        <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
+                        <span class="govcy-mr-6 govcy-mt-2 govcy-mb-2">© Republic of Cyprus, 2024</span>
+                        <a href="https://europa.eu/" title="Go to EU Website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="/govcy-design-system-docs/img/FundedbyEU_NextGeneration_H53-EN.png" alt="Funded by the EU Next Generation EU"></a>
+                        <a href="http://www.cyprus-tomorrow.gov.cy/" title="Go to Cyprus to tomorrow website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="/govcy-design-system-docs/img/CYpros to aurio logo eng_H53_EN.png" alt="Cyprus tomorrow, recovery and resilience plan"></a>
+                    </div>
+                </div>
+                <div class="govcy-my-4">
+                   <a href="https://www.gov.cy" class="govcy-footer-logo" title="Go to the GOV.CY homepage"><img alt="gov.cy Logo"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+            <script src="/govcy-design-system-docs/js/govcy.uds.min.js" type="text/javascript"></script>
+        <script src="/govcy-design-system-docs/js/uds.js" type="text/javascript"></script>
     </body>
 </html>

@@ -1,5 +1,6 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const fs = require("fs"); 
+const { execSync } = require('child_process');
 
 const mdOptions = {
   html: true,
@@ -18,9 +19,13 @@ module.exports = function (eleventyConfig) {
   //let pluginTOC = require('eleventy-plugin-toc')
   let pluginNestTOC = require('eleventy-plugin-nesting-toc');
 
+  //pagefind 
+  eleventyConfig.on('eleventy.after', () => {
+    execSync(`npx pagefind --source docs --glob \"**/*.html\"`, { encoding: 'utf-8' })
+  })
 
   const mdAnchorOpts = {
-    permalink: true,
+    permalink: false,
     permalinkClass: 'anchor-link',
     permalinkSymbol: ' ',
     level: [1, 2, 3, 4]
@@ -61,11 +66,15 @@ module.exports = function (eleventyConfig) {
   });
 
 
-  //copy css
+  //copy `htmls` contains clear HTML samples
+  eleventyConfig.addPassthroughCopy("./src/htmls");
+  //copy `js`
+  eleventyConfig.addPassthroughCopy("./src/js");
+  //copy `css`
   eleventyConfig.addPassthroughCopy("./src/css");
-  //copy img
+  //copy `img`
   eleventyConfig.addPassthroughCopy("./src/img");
-  //copy manifest
+  //copy `manifest`
   eleventyConfig.addPassthroughCopy("./src/manifest.json");
 
 /**

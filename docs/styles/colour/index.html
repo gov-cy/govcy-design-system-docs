@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="en">
-    <head>
+        <head>
     <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Social -->
         <meta property="og:description" content="Design your services using gov.cy styles, components and patterns.">
-        <meta property="og:title" content="Colours - Design System - gov.cy">
+        <meta property="og:title" content="Colours - Unified Design System - gov.cy">
         <meta property="og:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
         <meta property="og:type" content="website">
         <meta property="og:image" content="https://gov-cy.github.io/govcy-design-system-docs/img/icons-512.png">
@@ -14,7 +14,7 @@
     
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
-        <meta property="twitter:title" content="Colours - Design System - gov.cy">
+        <meta property="twitter:title" content="Colours - Unified Design System - gov.cy">
         <meta property="twitter:description" content="Design your services using gov.cy styles, components and patterns.">
         <meta property="twitter:image" content="https://gov-cy.github.io/govcy-design-system-docs/img/icons-512.png">
         <!-- Theme --> 
@@ -29,80 +29,110 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/govcy-design-system-docs/img/apple-touch-icon-72x72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="/govcy-design-system-docs/img/apple-touch-icon-57x57-precomposed.png">
         <!-- Bootstrap CSS -->
-        <link href="/govcy-design-system-docs/css/main.css" rel="stylesheet" >
+        <link href="/govcy-design-system-docs/css/govcy.uds.min.css" rel="stylesheet" >
         
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-theme-classic"/>
         <link href="/govcy-design-system-docs/css/docs.css" rel="stylesheet" >
-        <!--<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">-->
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vs.min.css" integrity="sha512-54dqOdBwMzeeRRYZieLqjlGc/w9+AI3vLUdz9PW6QFVTfkL0e7CYLWXKQPV+HqZi5QIj8JKsbzIkeplWVhlY+A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vsc-dark-plus.min.css" integrity="sha512-GU4Q2LAEtdpc8WmjcbSJGxM6c8D69ggI3mc5SRnfnxpg5AkYYA0BEVve0W9Oj2wZR0UItklQK2RBKLtDsQHNzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
-        <title>Colours - Design System - gov.cy</title>
+        <!-- Prism Highlighter CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-a11y-dark.min.css" rel="stylesheet">
+        <title>Colours - Unified Design System - gov.cy</title>
         <meta name="description" content="Design your services using gov.cy styles, components and patterns.">
     </head>
     <body>
-    <a href="#mainContainer" class="govcy-skip-link">Skip to main content</a> 
-    <!--Header-->
-    <div class="govcy-container-fluid govcy-p-0 govcy-m-0 govcy-position-relative govcy-d-print-none">
-         <div class="govcy-container">
-             <div class="row">
-                 <header class="govcy-header govcy-bg-primary govcy-text-white govcy-bg-primary-right">
-                      <a href="/govcy-design-system-docs/" class="govcy-logo"> <img></a>
-                     
-                     <input class="govcy-menu-btn govcy-d-none" type="checkbox" id="menu-btn">
-                     <label class="govcy-menu-icon govcy-d-md-none" for="menu-btn">Menu
-                         <span class="material-icons govcy-my-3">arrow_drop_down</span>
-                     </label>
-                     <span class="govcy-service-name">Design System </span>
-                     <ul class="govcy-menu govcy-bg-sub-menu govcy-bg-md-primary">
-                     
-                    <li>
-                            <a href="/govcy-design-system-docs/getting_started/" >
-                                Get Started
-                            </a>
-                            </li><li>
-                            <a href="/govcy-design-system-docs/styles/"  class="active">
-                                Styles
-                            </a>
-                            </li><li>
-                            <a href="/govcy-design-system-docs/components/" >
-                                Components
-                            </a>
-                            </li><li>
-                            <a href="/govcy-design-system-docs/patterns/" >
-                                Patterns
-                            </a>
-                            </li><li>
-                            <a href="/govcy-design-system-docs/css_utilities/" >
-                                Utilities
-                            </a>
-                            </li><li>
-                            <a href="/govcy-design-system-docs/guides/" >
-                                Guides
-                            </a>
-                            </li>
-                     </ul>
-                 </header>
-             </div>
-         </div>
-    </div>
-    <!--beforeMain-->
-    <section class="govcy-container govcy-my-2" id="beforeMainContainer">
-        <div class="row">
-            <div class="govcy-col-3 govcy-d-print-none">
-                <span id="autocomplete" class="govcy-w-50"></span>
-            </div>  
-            <div class="govcy-col-3 govcy-mt-2">
-        
-        <span class="govcy-br-2 govcy-text-white govcy-br-primary govcy-rounded-1 govcy-bg-primary govcy-px-3 govcy-fw-bold govcy-efs-small">Ver. 2.2.0</span>
-            </div>
-            
-        </div>
+        <section class="govcy-container-fluid" id="bodyStartContainer">
+        <a href="#mainContainer" class="govcy-skip-link">Skip to main content</a> 
     </section>
+    <header class="govcy-header govcy-d-print-none" id="headerContainer">
+  <div class="govcy-header-main-area">
+    <div
+      class="govcy-container govcy-main-area-items govcy-justify-content-between"
+    >
+      <div class="govcy-navigation-container govcy-align-items-center">
+        <div class="govcy-service-container">
+          <a href="https://www.gov.cy" class="govcy-logo" title="Go to the GOV.CY homepage"
+            ><img alt="gov.cy Logo"
+          /></a>
+          <span class="govcy-service-name">
+            <a href="/govcy-design-system-docs/">Unified Design System</a>
+          </span>
+        </div>
+        <ul class="govcy-menu-items">
+          <li class="govcy-mobile-menu govcy-mobile-menu-only govcy-dropdown govcy-ms-auto">
+            <span>
+                <a href="#" class="govcy-menu-item govcy-expand-btn">Menu</a>
+            </span>
+          </li>
+          <li class="govcy-global-search">
+            <span><a href="#" class="govcy-menu-item" aria-label="Search, expands search text box when clicked" aria-haspopup="true"><i class="govcy-search-icon"></i></a></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="govcy-header-menu-area">
+    <nav class="govcy-mainmenu">
+      <div class="govcy-container">
+          <ul class="govcy-menu-items">
+              <li>
+                      <a href="/govcy-design-system-docs/getting-started/" class="govcy-menu-item">
+                          Get Started
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/styles/" class="govcy-menu-item active">
+                          Styles
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/components/" class="govcy-menu-item">
+                          Components
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/patterns/" class="govcy-menu-item">
+                          Patterns
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/css_utilities/" class="govcy-menu-item">
+                          Utilities
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/guides/" class="govcy-menu-item">
+                          Guides
+                      </a>
+                  </li>
+          </ul>
+      </div>
+    </nav>
+    <div class="govcy-header-search-area">
+        <div class="govcy-container">
+            <div class="govcy-form">
+                
+                <div class="govcy-form-control">
+                    <span class="pagefind-custom-label">Search the Design System</span>
+                    <link href="/govcy-design-system-docs/pagefind/pagefind-ui.css" rel="stylesheet">
+                    <div id="search-div" class="search"></div>
+                    <script src="/govcy-design-system-docs/pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search-div', showImages: false, translations : {placeholder:''} }); document.querySelector('.pagefind-ui__search-input').setAttribute('aria-label', 'Search the Design System');"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</header>
+
+    
+<!--beforeMain-->
+    <section class="govcy-container" id="beforeMainContainer">
+        
+        
+        <div class="govcy-phase-banner">
+            <span class="govcy-tag">Ver. 3.0.0</span>
+            <span class="govcy-ml-2">For the older version visit <a href='https://gov-cy.github.io/govcy-design-system-docs-v2/'>v2 documentation</a> </span>
+        </div>
+        
+    </section>
+
     <!--Main-->
-    <main class="govcy-container govcy-my-2" id="mainContainer">
-        <div class="row">
-            <div class="govcy-col-9 govcy-order-last">
-                <h1>Colours</h1>
+    <main class="govcy-container" id="mainContainer">
+        <div class="govcy-row">
+            <div class="govcy-col-md-9 govcy-col-lg-10 govcy-order-last-desk">
+                <h1 data-pagefind-weight="10">Colours</h1>
                 
                 
                     <aside class="toc-outter">
@@ -110,315 +140,498 @@
                         <nav class="toc">
                 <ol>
                     
-                    <li><a href="#theme-colours">Theme colours</a>
+                    <li><a href="#main-colours">Main Colours</a>
             		</li>
 
-                    <li><a href="#typography-colours">Typography colours</a>
+                    <li><a href="#text">Text</a>
             		</li>
 
-                    <li><a href="#link-colours">Link colours</a>
+                    <li><a href="#links">Links</a>
             		</li>
 
-                    <li><a href="#border-colours">Border Colours</a>
+                    <li><a href="#background">Background</a>
             		</li>
 
-                    <li><a href="#button-%2F-input-colours">Button / Input colours</a>
+                    <li><a href="#borders">Borders</a>
+            		</li>
+
+                    <li><a href="#buttons">Buttons</a>
+            		</li>
+
+                    <li><a href="#focus">Focus</a>
+            		</li>
+
+                    <li><a href="#status">Status</a>
+            		</li>
+
+                    <li><a href="#additional-colours">Additional Colours</a>
+            		</li>
+
+                    <li><a href="#colours-with-gov.cy-css">Colours with gov.cy CSS</a>
+            		</li>
+
+                    <li><a href="#accessibility">Accessibility</a>
             		</li>
                 </ol>
             </nav>
                     </aside>
                 
-                <p>Always use the GOV.CY color palette.</p>
-<h2 id="theme-colours" tabindex="-1">Theme colours <a class="anchor-link" href="#theme-colours"> </a></h2>
-<p>Use theme colours for buttons, alerts, list groups, borders, text and backgrounds</p>
-<div class="table-responsive">
-<table class="govcy-table">
+                <p>The colour palette provides the colour structure of gov.cy websites and services.</p>
+<p>Always use the gov.cy colour palette.</p>
+<div class="govcy-alert-notification govcy-br-5 govcy-br-info govcy-px-0">
+    <div class="govcy-alert-notification-header govcy-fw-bold govcy-bg-info govcy-fs-4">Warning</div>
+    <div class="govcy-alert-notification-body">
+        <p class="govcy-pl-4 govcy-pt-6">
+		<span class="govcy-warning-text govcy-d-inline">
+			<span class="govcy-warning-text-icon" aria-hidden="true">!</span></span>
+			<a href="../../getting-started/principles/#6.-consistent">Consistency</a> is very important, so do not deviate from the colours used in the guidance and coded examples of the Unified Design System. If you are using the our <a href="../../getting-started/developer-assets">developers assets</a> and the code in our documentation, you will not need any additional styling.
+		</p>
+    </div>
+</div>
+<h2 id="main-colours" tabindex="-1">Main Colours</h2>
+<p>The main colours frame the brand and provide the signature of gov.cy.</p>
+<table class="govcy-table govcy-table-responsive-vertical">
 <thead>
 <tr>
+<th>Name</th>
 <th>Colour</th>
-<th>Colour name</th>
-<th>hex</th>
-<th>Where to use</th>
+<th>Hex</th>
+<th>When to use</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#31576F">       </div></td>
-<td>primary</td>
+<td><strong>Primary</strong></td>
+<td><div class="govcy-rounded-2 govcy-bg-primary govcy-mb-2" style="width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
 <td><code>#31576F</code></td>
-<td>To be used as the colour for primary buttons and other classes as primary colour.</td>
+<td>Used as the colour for primary buttons, navigation bars and other classes to help elevate the branding of gov.cy.</td>
 </tr>
 <tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#B09038">       </div></td>
-<td>secondary</td>
-<td><code>#B09038</code></td>
-<td>To be used as the colour for secondary buttons and other classes as secondary colour.</td>
-</tr>
-<tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#00703C">       </div></td>
-<td>success</td>
-<td><code>#00703C</code></td>
-<td>To be used to mark success in messages and alerts.</td>
-</tr>
-<tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#d4351c">       </div></td>
-<td>danger</td>
-<td><code>#d4351c</code></td>
-<td>To be used to mark danger or errors in messages and alerts.</td>
-</tr>
-<tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#487d93">       </div></td>
-<td>info</td>
-<td><code>#487d93</code></td>
-<td>To be used in informational messages and alerts.</td>
-</tr>
-<tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#ebf1f3">       </div></td>
-<td>light</td>
-<td><code>#ebf1f3</code></td>
-<td>To be used as a light background on specific components such as <a href="#">Footer</a>.</td>
+<td><strong>Secondary</strong></td>
+<td><div class="govcy-rounded-2 govcy-bg-secondary govcy-mb-2" style="width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
+<td><code>#FFAD2D</code></td>
+<td>Used as a filler colour for classes, lines and sections to elevate the branding of gov.cy.</td>
 </tr>
 </tbody>
 </table>
-</div>
-<h2 id="typography-colours" tabindex="-1">Typography colours <a class="anchor-link" href="#typography-colours"> </a></h2>
+<h2 id="text" tabindex="-1">Text</h2>
 <p>Colours used for text based content.</p>
-<div class="table-responsive">
-<table class="govcy-table">
+<table class="govcy-table govcy-table-responsive-vertical">
 <thead>
 <tr>
+<th>Name</th>
 <th>Colour</th>
-<th>Colour name</th>
-<th>hex</th>
-<th>Where to use</th>
+<th>Hex</th>
+<th>When to use</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#272525">       </div></td>
-<td>headings</td>
+<td><strong>Headings</strong></td>
+<td><div class="govcy-rounded-2 govcy-bg-body govcy-mb-2" style="width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
 <td><code>#272525</code></td>
-<td>To be used for heading text colour.</td>
+<td>Used as text heading text colour</td>
 </tr>
 <tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#272525">       </div></td>
-<td>body</td>
+<td><strong>Body</strong></td>
+<td><div class="govcy-rounded-2 govcy-bg-body govcy-mb-2" style="width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
 <td><code>#272525</code></td>
-<td>To be used for body text colour.</td>
+<td>Used as body text colour</td>
 </tr>
 <tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#6D6E70">       </div></td>
-<td>hint</td>
+<td><strong>Secondary</strong></td>
+<td><div class="govcy-rounded-2 govcy-bg-outer-space govcy-mb-2" style="width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
+<td><code>#474545</code></td>
+<td>Used as a filler colour for classes, lines and sections to elevate the branding of gov.cy.</td>
+</tr>
+<tr>
+<td><strong>Hint</strong></td>
+<td><div class="govcy-rounded-2 govcy-bg-hint govcy-mb-2" style="width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
 <td><code>#6D6E70</code></td>
-<td>To be used for hint text colour.</td>
+<td>Used as hint text colour.</td>
 </tr>
 </tbody>
 </table>
-</div>
-<h2 id="link-colours" tabindex="-1">Link colours <a class="anchor-link" href="#link-colours"> </a></h2>
+<h2 id="links" tabindex="-1">Links</h2>
 <p>Colours related to links.</p>
-<div class="table-responsive">
-<table class="govcy-table">
+<table class="govcy-table govcy-table-responsive-vertical">
 <thead>
 <tr>
+<th>Name</th>
 <th>Colour</th>
-<th>Colour name</th>
-<th>hex</th>
+<th>Hex</th>
+<th>When to use</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#1d70b8">       </div></td>
-<td>link standard</td>
-<td><code>#1d70b8</code></td>
+<td style="width:180px;"><strong>Link standard</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2" style="background:#1D70B8;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
+<td><code>#1D70B8</code></td>
+<td>Used as the default link colour</td>
 </tr>
 <tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#003078">       </div></td>
-<td>link hover</td>
+<td><strong>Link hover</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2" style="background:#003078;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
 <td><code>#003078</code></td>
+<td>Used as the default link hover</td>
 </tr>
 <tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#4c2c92">       </div></td>
-<td>link visited</td>
-<td><code>#4c2c92</code></td>
+<td><strong>Link visited</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2" style="background:#4C2C92;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
+<td><code>#4C2C92</code></td>
+<td>Used as the visited link status colour</td>
 </tr>
 <tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#272525">       </div></td>
-<td>link active</td>
+<td><strong>Link active</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2" style="background:#272525;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
 <td><code>#272525</code></td>
+<td>Used as the active link colour</td>
 </tr>
 <tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#942514">       </div></td>
-<td>link danger hover</td>
-<td><code>#942514</code></td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2 id="border-colours" tabindex="-1">Border Colours <a class="anchor-link" href="#border-colours"> </a></h2>
-<p>Colours related to borders.</p>
-<div class="table-responsive">
-<table class="govcy-table">
-<thead>
-<tr>
-<th>Colour</th>
-<th>Colour name</th>
-<th>hex</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#BBBCBF">       </div></td>
-<td>border standard</td>
-<td><code>#BBBCBF</code></td>
-</tr>
-<tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#272525">       </div></td>
-<td>border input</td>
-<td><code>#272525</code></td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2 id="button-%2F-input-colours" tabindex="-1">Button / Input colours <a class="anchor-link" href="#button-%2F-input-colours"> </a></h2>
-<p>Colours related to buttons</p>
-<div class="table-responsive">
-<table class="govcy-table">
-<thead>
-<tr>
-<th>Colour</th>
-<th>Colour name</th>
-<th>hex</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#31576F">       </div></td>
-<td>brand-primary</td>
-<td><code>#31576F</code></td>
-</tr>
-<tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#254355">       </div></td>
-<td>button primary hover</td>
-<td><code>#254355</code></td>
-</tr>
-<tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#D0D1D3">       </div></td>
-<td>button secondary</td>
-<td><code>#D0D1D3</code></td>
-</tr>
-<tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#A6A8AA">       </div></td>
-<td>button secondary hover</td>
-<td><code>#A6A8AA</code></td>
-</tr>
-<tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#D4351C">       </div></td>
-<td>button tirtiary</td>
+<td><strong>Link danger</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2" style="background:#D4351C;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
 <td><code>#D4351C</code></td>
+<td>Used to convey caution in links</td>
 </tr>
 <tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#AA1D13">       </div></td>
-<td>button tirtiary hover</td>
-<td><code>#AA1D13</code></td>
-</tr>
-<tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#00703C">       </div></td>
-<td>button success</td>
-<td><code>#00703C</code></td>
-</tr>
-<tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#274e13">       </div></td>
-<td>button success hover</td>
-<td><code>#274e13</code></td>
-</tr>
-<tr>
-<td><div class="govcy-rounded-2" style="width:70px; background-color:#ffdd00">       </div></td>
-<td>button active / input focus</td>
-<td><code>#ffdd00</code></td>
+<td><strong>Link danger hover</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2" style="background:#942514;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
+<td><code>#942514</code></td>
+<td>Used to convey caution in link’s hover</td>
 </tr>
 </tbody>
 </table>
-</div>
+<h2 id="background" tabindex="-1">Background</h2>
+<p>Colours to fill the background of the below sections.</p>
+<table class="govcy-table govcy-table-responsive-vertical">
+<thead>
+<tr>
+<th>Name</th>
+<th>Colour</th>
+<th>Hex</th>
+<th>When to use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Panel</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2 govcy-d-flex govcy-align-items-center govcy-justify-content-center" style="background:#00703C;color:#ffffff;width:100px;height:50px;" aria-label="Visual representation of the colour">Text</div></td>
+<td>Background: <code>#00703C</code><br>Text: <code>#ffffff</code></td>
+<td>Used to mark success on panels</td>
+</tr>
+<tr>
+<td><strong>Footer</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2 govcy-d-flex govcy-align-items-center govcy-justify-content-center" style="background:#EBF1F3;color:#272525;width:100px;height:50px;" aria-label="Visual representation of the colour">Text</div></td>
+<td>Background: <code>#EBF1F3</code><br>Text: <code>#272525</code></td>
+<td>Used as the footer colours</td>
+</tr>
+<tr>
+<td><strong>Header</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2 govcy-d-flex govcy-align-items-center govcy-justify-content-center" style="background:#31576F;color:#ffffff;width:100px;height:50px;" aria-label="Visual representation of the colour">Text</div></td>
+<td>Background: <code>#31576F</code><br>Text: <code>#ffffff</code></td>
+<td>Used as the header colours</td>
+</tr>
+</tbody>
+</table>
+<h2 id="borders" tabindex="-1">Borders</h2>
+<p>Colours related to borders.</p>
+<table class="govcy-table govcy-table-responsive-vertical">
+<thead>
+<tr>
+<th>Name</th>
+<th>Colour</th>
+<th>Hex</th>
+<th>When to use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="width:180px;"><strong>Border standard</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2" style="background:#BBBCBF;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
+<td><code>#BBBCBF</code></td>
+<td>Used as the default border state colour</td>
+</tr>
+<tr>
+<td><strong>Border input</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2" style="background:#272525;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
+<td><code>#272525</code></td>
+<td>Used as border input state colour</td>
+</tr>
+<tr>
+<td><strong>Border single line</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2" style="background:#999999;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
+<td><code>#999999</code></td>
+<td>Used as visited link status colour</td>
+</tr>
+</tbody>
+</table>
+<h2 id="buttons" tabindex="-1">Buttons</h2>
+<p>Colours related to buttons.</p>
+<table class="govcy-table govcy-table-responsive-vertical">
+<thead>
+<tr>
+<th>Name</th>
+<th>Colour</th>
+<th>Hex</th>
+<th>When to use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Primary button</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2 govcy-d-flex govcy-align-items-center govcy-justify-content-center" style="background:#31576F;color:#ffffff;width:100px;height:50px;" aria-label="Visual representation of the colour">Text</div></td>
+<td>Background: <code>#31576F</code><br>Text: <code>#ffffff</code></td>
+<td>Used as the primary button colours</td>
+</tr>
+<tr>
+<td><strong>Secondary button</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2 govcy-d-flex govcy-align-items-center govcy-justify-content-center" style="background:#D0D1D3;color:#272525;width:100px;height:50px;" aria-label="Visual representation of the colour">Text</div></td>
+<td>Background: <code>#D0D1D3</code><br>Text: <code>#272525</code></td>
+<td>Used as the secondary button colours</td>
+</tr>
+<tr>
+<td><strong>Warning button</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2 govcy-d-flex govcy-align-items-center govcy-justify-content-center" style="background:#D4351C;color:#ffffff;width:100px;height:50px;" aria-label="Visual representation of the colour">Text</div></td>
+<td>Background: <code>#D4351C</code><br>Text: <code>#ffffff</code></td>
+<td>Used as the warning button colours</td>
+</tr>
+<tr>
+<td><strong>Success button</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2 govcy-d-flex govcy-align-items-center govcy-justify-content-center" style="background:#00703C;color:#ffffff;width:100px;height:50px;" aria-label="Visual representation of the colour">Text</div></td>
+<td>Background: <code>#00703C</code><br>Text: <code>#ffffff</code></td>
+<td>Used as the success button colours</td>
+</tr>
+<tr>
+<td><strong>Primary button hover</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2 govcy-d-flex govcy-align-items-center govcy-justify-content-center" style="background:#254355;color:#ffffff;width:100px;height:50px;" aria-label="Visual representation of the colour">Text</div></td>
+<td>Background: <code>#254355</code><br>Text: <code>#ffffff</code></td>
+<td>Used as the primary button hover colours</td>
+</tr>
+<tr>
+<td><strong>Secondary button hover</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2 govcy-d-flex govcy-align-items-center govcy-justify-content-center" style="background:#A6A8AA;color:#272525;width:100px;height:50px;" aria-label="Visual representation of the colour">Text</div></td>
+<td>Background: <code>#A6A8AA</code><br>Text: <code>#272525</code></td>
+<td>Used as the secondary button hover colours</td>
+</tr>
+<tr>
+<td><strong>Warning button hover</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2 govcy-d-flex govcy-align-items-center govcy-justify-content-center" style="background:#AA1D13;color:#ffffff;width:100px;height:50px;" aria-label="Visual representation of the colour">Text</div></td>
+<td>Background: <code>#AA1D13</code><br>Text: <code>#ffffff</code></td>
+<td>Used as the warning button hover colours</td>
+</tr>
+<tr>
+<td><strong>Success button hover</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2 govcy-d-flex govcy-align-items-center govcy-justify-content-center" style="background:#274E13;color:#ffffff;width:100px;height:50px;" aria-label="Visual representation of the colour">Text</div></td>
+<td>Background: <code>#274E13</code><br>Text: <code>#ffffff</code></td>
+<td>Used as the success button hover colours</td>
+</tr>
+<tr>
+<td><strong>Active button</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2 govcy-d-flex govcy-align-items-center govcy-justify-content-center" style="background:#FFDD00;color:#272525;width:100px;height:50px;" aria-label="Visual representation of the colour">Text</div></td>
+<td>Background: <code>#FFDD00</code><br>Text: <code>#272525</code></td>
+<td>Used for the active button states</td>
+</tr>
+</tbody>
+</table>
+<h2 id="focus" tabindex="-1">Focus</h2>
+<p>Colours that display the <a href="../../patterns/focus_state/">focus state</a> of elements when a user navigates the website or a service using tab.</p>
+<table class="govcy-table govcy-table-responsive-vertical">
+<thead>
+<tr>
+<th>Name</th>
+<th>Colour</th>
+<th>Hex</th>
+<th>When to use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Focus colour</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2" style="background:#FFDD00;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
+<td><code>#FFDD00</code></td>
+<td>Used for focused elements</td>
+</tr>
+<tr>
+<td><strong>Focus text</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2" style="background:#272525;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
+<td><code>#272525</code></td>
+<td>Used for focused text</td>
+</tr>
+</tbody>
+</table>
+<h2 id="status" tabindex="-1">Status</h2>
+<p>Colours that display and alert the status of elements.</p>
+<table class="govcy-table govcy-table-responsive-vertical">
+<thead>
+<tr>
+<th>Name</th>
+<th>Colour</th>
+<th>Hex</th>
+<th>When to use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Success</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2" style="background:#00703C;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
+<td><code>#00703C</code></td>
+<td>Used to mark success</td>
+</tr>
+<tr>
+<td><strong>Danger</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2" style="background:#D4351C;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
+<td><code>#D4351C</code></td>
+<td>Used to convey caution</td>
+</tr>
+<tr>
+<td><strong>Info</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2" style="background:#487D93;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
+<td><code>#487D93</code></td>
+<td>For informational messages and alerts</td>
+</tr>
+<tr>
+<td><strong>Alpha banner light</strong></td>
+<td><div class="govcy-rounded-2 govcy-br-1 govcy-br-primary govcy-mb-2" style="background:#ffffff;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
+<td><code>#ffffff</code></td>
+<td>Used for light banner that displays the version of a service.</td>
+</tr>
+<tr>
+<td><strong>Alpha banner dark</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2" style="background:#31576F;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
+<td><code>#31576F</code></td>
+<td>Used for dark banner that displays the version of a service.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="additional-colours" tabindex="-1">Additional Colours</h2>
+<p>Additional colours are extra colours to be used on components or sections when the main colours might not be the best fit.</p>
+<p>Should be used only when the main colours wont suffice.</p>
+<table class="govcy-table govcy-table-responsive-vertical">
+<thead>
+<tr>
+<th>Name</th>
+<th>Colour</th>
+<th>Hex</th>
+<th>When to use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>light-gray</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2" style="background:#E6E6E7;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
+<td><code>#E6E6E7</code></td>
+<td>Mostly used as background</td>
+</tr>
+<tr>
+<td><strong>dark-gray</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2" style="background:#999999;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
+<td><code>#999999</code></td>
+<td>Mostly used for lines and to seperate content</td>
+</tr>
+<tr>
+<td><strong>main-shade-0</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2" style="background:#2E5268;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
+<td><code>#2E5268</code></td>
+<td>For items above the header</td>
+</tr>
+<tr>
+<td><strong>main-shade-1</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2" style="background:#CCDBE2;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
+<td><code>#CCDBE2</code></td>
+<td>Mainly used for menu double dropdown</td>
+</tr>
+<tr>
+<td><strong>main-shade-2</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2" style="background:#DAE5EA;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
+<td><code>#DAE5EA</code></td>
+<td>Mainly used for menu double dropdown</td>
+</tr>
+<tr>
+<td><strong>main-shade-3</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2" style="background:#EBF1F3;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
+<td><code>#EBF1F3</code></td>
+<td>Mostly used as background</td>
+</tr>
+<tr>
+<td><strong>main-shade-4</strong></td>
+<td><div class="govcy-rounded-2 govcy-mb-2" style="background:#F5F8F9;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
+<td><code>#F5F8F9</code></td>
+<td>Used for lighter backgrounds. Used at cookies popup</td>
+</tr>
+</tbody>
+</table>
+<h2 id="colours-with-gov.cy-css" tabindex="-1">Colours with gov.cy CSS</h2>
+<p>Using our <a href="../../getting-started/developer-assets">developers assets</a> and the code in our documentation,  colours adjust automatically for each design element.</p>
+<h2 id="accessibility" tabindex="-1">Accessibility</h2>
+<p>It is important to always test your implementation’s colours against the minimum contrast ratio of 4.5:1.</p>
+<p>All elements presented in the Unified Design System documentation, use colours in a manner so as to comply with the minimum contrast ratio, but that does not mean that any implementation that uses the gov.cy CSS, automatically complies with the contrast ratio.</p>
+<p>Be extra careful when including components within other components, when you are overwriting the default appearance of elements, or when you are implementing custom elements. For example if you use an anchor with  <code>class=&quot;govcy-link-inverse&quot;</code> on a light backgrounds, it will fail the contrast test.</p>
+
             </div>
     
-    <aside class="govcy-col-3 govcy-order-first">
-                <ul class="nav-side govcy-flex-column"><li><a href="/govcy-design-system-docs/styles/colour/" class="nav-link active">Colours</a></li><li><a href="/govcy-design-system-docs/styles/page_templates/" class="nav-link">Page Templates</a></li><li><a href="/govcy-design-system-docs/styles/grid/" class="nav-link">Grid system</a></li><li><a href="/govcy-design-system-docs/styles/vertical_spacing/" class="nav-link">Vertical Spacing</a></li><li><a href="/govcy-design-system-docs/styles/layout/" class="nav-link">Layout</a></li><li><a href="/govcy-design-system-docs/styles/typography/" class="nav-link">Typography</a></li>
+    <aside class="govcy-col-md-3 govcy-col-lg-2 govcy-order-first-desk">
+                <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Pages in this section</div>
+                <ul class="govcy-list-unstyled"><li class="app-side-link active"><a href="/govcy-design-system-docs/styles/colour/">Colours</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/styles/grid/">Grid system</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/styles/images/">Images</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/styles/vertical_spacing/">Vertical Spacing</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/styles/layout/">Layout</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/styles/typography/">Typography</a></li>
                 </ul>
             </aside>
         </div>
     </main>
-    <!-- Footer -->
-    <div class="govcy-container-fluid govcy-br-top-8 govcy-br-top-primary govcy-p-3 govcy-bg-light govcy-d-print-none">
-            <div class="govcy-container">
-                <div class="row">   
-                    <footer class="govcy-footer">
-                        <span class="govcy-d-inline-block govcy-valign-top govcy-pb-2"><img alt="govcy-logo"></span>
-                                <ul class="govcy-d-inline-block  govcy-m-0 govcy-pl-3 govcy-efs-medium">
-                                <li><a href="/govcy-design-system-docs/privacy-statement">Privacy statement</a></li>
-                                <li><a href="/govcy-design-system-docs/cookie-policy">Cookie policy</a></li>
-                                <li><a href="/govcy-design-system-docs/accessibility-statement">Accessibility statement</a></li>
-                                <li class="govcy-d-block govcy-text-dark">© Republic of Cyprus, 2021</li>
+        <!-- Footer -->
+    <footer class="govcy-footer govcy-d-print-none"> 
+    <div class="govcy-px-4">
+        <div class="govcy-container">
+            <div class="govcy-row">
+                <div class="govcy-col-md-12 govcy-footer-column">
+                    <div class="govcy-row">
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Links</h3></li>
+                                <li><a href="/govcy-design-system-docs/">Home</a></li>
+                                <li><a href="/govcy-design-system-docs/getting-started">Get started</a></li>
+                                <li><a href="https://github.com/gov-cy/govcy-design-system" target="_blank">Github - Developer Assets</a></li>
+                                <li><a href="https://github.com/gov-cy/govcy-design-system-docs" target="_blank">Github - Design System website</a></li>
                             </ul>
-                    </footer>
+                        </div>
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Tools and libraries</h3></li>
+                                <li><a href="https://www.figma.com/@dsf_cy" target="_blank">Figma</a></li>
+                                <li><a href="https://excalidraw-libraries-git-cevangelougovcy-gov-e2dec6-excalidraw.vercel.app/?theme=light&sort=default#cevangelougovcy-gov-cy-uds-library" target="_blank">Exalidraw</a></li>
+                                <li><a href="https://www.npmjs.com/~gov-cy" target="_blank">npm</a></li>
+                            </ul>
+                        </div>
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Previous Versions</h3></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v2/" target="_blank">Ver. 2x</a></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v0/" target="_blank">Ver. 0x</a></li></ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-        
-        
-        
-        
-        
-        <script src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-js"></script>
-        <script>
-            const { autocomplete } = window['@algolia/autocomplete-js'];
-        </script>
-
-
-        <script>
-        autocomplete({
-        container: '#autocomplete',
-        placeholder: 'Search Design System',
-        getSources() {
-            return [
-            {
-                sourceId: 'links',
-                getItems({ query }) {
-                return [
-{ label: "Colours", url: '/govcy-design-system-docs/styles/colour/', keys: "" },{ label: "Page Templates", url: '/govcy-design-system-docs/styles/page_templates/', keys: "" },{ label: "Grid system", url: '/govcy-design-system-docs/styles/grid/', keys: "" },{ label: "Vertical Spacing", url: '/govcy-design-system-docs/styles/vertical_spacing/', keys: "" },{ label: "Layout", url: '/govcy-design-system-docs/styles/layout/', keys: "" },{ label: "Typography", url: '/govcy-design-system-docs/styles/typography/', keys: "fonts text Paragraph Headings Unordered Ordered list Links" },{ label: "Back Link", url: '/govcy-design-system-docs/components/back_link/', keys: "" },{ label: "Breadcrumbs", url: '/govcy-design-system-docs/components/breadcrumbs/', keys: "" },{ label: "Button", url: '/govcy-design-system-docs/components/button/', keys: "" },{ label: "Checkbox", url: '/govcy-design-system-docs/components/checkbox/', keys: "" },{ label: "Date input", url: '/govcy-design-system-docs/components/date_input/', keys: "" },{ label: "Details", url: '/govcy-design-system-docs/components/details/', keys: "" },{ label: "Error Message", url: '/govcy-design-system-docs/components/error_message/', keys: "" },{ label: "Error Summary", url: '/govcy-design-system-docs/components/error_summary/', keys: "" },{ label: "Fieldset", url: '/govcy-design-system-docs/components/fieldset/', keys: "" },{ label: "File", url: '/govcy-design-system-docs/components/file/', keys: "" },{ label: "Footer", url: '/govcy-design-system-docs/components/footer/', keys: "" },{ label: "Header", url: '/govcy-design-system-docs/components/header/', keys: "" },{ label: "Panel", url: '/govcy-design-system-docs/components/panel/', keys: "success panel" },{ label: "Radio", url: '/govcy-design-system-docs/components/radio/', keys: "" },{ label: "Select", url: '/govcy-design-system-docs/components/select/', keys: "" },{ label: "Skip Link", url: '/govcy-design-system-docs/components/skip_link/', keys: "" },{ label: "Table", url: '/govcy-design-system-docs/components/table/', keys: "" },{ label: "Text Input", url: '/govcy-design-system-docs/components/text_input/', keys: "" },{ label: "User’s name and sign out", url: '/govcy-design-system-docs/components/user_name_and_sign_out/', keys: "" },{ label: "How to create a page using the gov.cy design system", url: '/govcy-design-system-docs/guides/create_a_page/', keys: "" },{ label: "How to create new design elements using the gov.cy utility classes", url: '/govcy-design-system-docs/guides/create_a_design_element/', keys: "" },{ label: "Check answers", url: '/govcy-design-system-docs/patterns/check_answers/', keys: "" },{ label: "Confirm a phone number", url: '/govcy-design-system-docs/patterns/confirm_phone_number/', keys: "" },{ label: "Currency amount", url: '/govcy-design-system-docs/patterns/currency-amount/', keys: "" },{ label: "Dates", url: '/govcy-design-system-docs/patterns/dates/', keys: "" },{ label: "Email", url: '/govcy-design-system-docs/patterns/email/', keys: "" },{ label: "Focus state", url: '/govcy-design-system-docs/patterns/focus_state/', keys: "" },{ label: "Hint Text", url: '/govcy-design-system-docs/patterns/hint_text/', keys: "" },{ label: "Labels and legends headings", url: '/govcy-design-system-docs/patterns/labels_and_legend_headings/', keys: "" },{ label: "Add multiple things ", url: '/govcy-design-system-docs/patterns/multiple_things/', keys: "" },{ label: "Names", url: '/govcy-design-system-docs/patterns/names/', keys: "" },{ label: "Page not found pages", url: '/govcy-design-system-docs/patterns/page-not-found-pages/', keys: "" },{ label: "Question pages", url: '/govcy-design-system-docs/patterns/question_pages/', keys: "" },{ label: "Service unavailable pages", url: '/govcy-design-system-docs/patterns/service-unavailable-pages/', keys: "" },{ label: "Structuring a service", url: '/govcy-design-system-docs/patterns/service_structure/', keys: "" },{ label: "Telephone", url: '/govcy-design-system-docs/patterns/telephone/', keys: "" },{ label: "There is a problem with the service pages", url: '/govcy-design-system-docs/patterns/there-is-a-problem/', keys: "" },{ label: "Design System", url: '/govcy-design-system-docs/', keys: "" },{ label: "Get Started", url: '/govcy-design-system-docs/getting_started/', keys: "CSS CDN meta tags social theme manifest icon" },{ label: "Styles", url: '/govcy-design-system-docs/styles/', keys: "" },{ label: "Components", url: '/govcy-design-system-docs/components/', keys: "" },{ label: "Patterns", url: '/govcy-design-system-docs/patterns/', keys: "" },{ label: "Utilities", url: '/govcy-design-system-docs/css_utilities/', keys: "" },{ label: "Moving from Version 0.1.0", url: '/govcy-design-system-docs/moving_from_v_0/', keys: "" },{ label: "Guides", url: '/govcy-design-system-docs/guides/', keys: "" },{ label: "Privacy policy – your personal information", url: '/govcy-design-system-docs/privacy-statement/', keys: "" },{ label: "Cookies used by the Design System", url: '/govcy-design-system-docs/cookie-policy/', keys: "" },{ label: "Accessibility statement", url: '/govcy-design-system-docs/accessibility-statement/', keys: "" },
-                ].filter(({ label ,keys }) =>
-                    label.toLowerCase().includes(query.toLowerCase()) 
-                    || keys.toLowerCase().includes(query.toLowerCase())
-                );
-                },
-                getItemUrl({ item }) {
-                    return item.url;
-                },
-                 templates: {
-                    item({ item, createElement }) {
-                        return createElement('div', {
-                        dangerouslySetInnerHTML: {
-                            __html: `<div>
-                            <a
-                                href="${item.url}">
-                                ${item.label}
-                            <a/> 
-                            </div>`,
-                        },
-                        });
-                    },
-                    noResults() {
-                        return 'No results.';
-                    }
-                }
-                // ...
-            },
-            ];
-        }
-    });
-
-        </script>
+        <div class="govcy-container govcy-footer-separator">
+            <div class="govcy-d-flex govcy-justify-content-between govcy-align-items-end govcy-flex-wrap">
+                <div class="govcy-my-4">
+                    <ul>
+                        <li><a href="/govcy-design-system-docs/privacy-statement">Privacy statement</a></li>
+                        <li><a href="/govcy-design-system-docs/cookie-policy">Cookies</a></li>
+                        <li><a href="/govcy-design-system-docs/accessibility-statement">Accessibility</a></li>
+                    </ul>
+                    <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
+                        <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
+                        <span class="govcy-mr-6 govcy-mt-2 govcy-mb-2">© Republic of Cyprus, 2024</span>
+                        <a href="https://europa.eu/" title="Go to EU Website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="/govcy-design-system-docs/img/FundedbyEU_NextGeneration_H53-EN.png" alt="Funded by the EU Next Generation EU"></a>
+                        <a href="http://www.cyprus-tomorrow.gov.cy/" title="Go to Cyprus to tomorrow website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="/govcy-design-system-docs/img/CYpros to aurio logo eng_H53_EN.png" alt="Cyprus tomorrow, recovery and resilience plan"></a>
+                    </div>
+                </div>
+                <div class="govcy-my-4">
+                   <a href="https://www.gov.cy" class="govcy-footer-logo" title="Go to the GOV.CY homepage"><img alt="gov.cy Logo"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+            <script src="/govcy-design-system-docs/js/govcy.uds.min.js" type="text/javascript"></script>
+        <script src="/govcy-design-system-docs/js/uds.js" type="text/javascript"></script>
     </body>
 </html>

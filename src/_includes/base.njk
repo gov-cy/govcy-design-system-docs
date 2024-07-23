@@ -1,108 +1,15 @@
 <!doctype html>
 <html lang="{{locale}}">
-    <head>
-    <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Social -->
-        <meta property="og:description" content="{{ site.localization[locale].description }}">
-        <meta property="og:title" content="{{ title }} - {{ site.localization[locale].subtitle }} - {{ site.localization[locale].title }}">
-        <meta property="og:url" content="{{ site.url }}">
-        <meta property="og:type" content="website">
-        <meta property="og:image" content="{{ site.url }}img/icons-512.png">
-        <meta property="og:site_name" content="{{ site.localization[locale].title }}">
-    
-        <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="{{ site.url }}">
-        <meta property="twitter:title" content="{{ title }} - {{ site.localization[locale].subtitle }} - {{ site.localization[locale].title }}">
-        <meta property="twitter:description" content="{{ site.localization[locale].description }}">
-        <meta property="twitter:image" content="{{ site.url }}img/icons-512.png">
-        <!-- Theme --> 
-        <link rel="manifest" href="{{'/manifest.json' | url }}">
-        <meta name="theme-color" content="#31576F">
-        <link rel="icon" type="image/png" sizes="48x48" href="{{ '/img/favicon-48x48.png' | url }}">
-        <link rel="icon" type="image/png" sizes="32x32" href="{{ '/img/favicon-32x32.png' | url }}">
-        <link rel="icon" type="image/png" sizes="16x16" href="{{ '/img/favicon-16x16.png' | url }}">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ '/img/apple-touch-icon-144x144-precomposed.png' | url }}">
-        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ '/img/apple-touch-icon-120x120-precomposed.png' | url }}">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ '/img/apple-touch-icon-114x114-precomposed.png' | url }}">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ '/img/apple-touch-icon-72x72-precomposed.png' | url }}">
-        <link rel="apple-touch-icon-precomposed" href="{{ '/img/apple-touch-icon-57x57-precomposed.png' | url }}">
-        <!-- Bootstrap CSS -->
-        <link href="{{ '/css/main.css' | url }}" rel="stylesheet" >
-        {# <link href="{{ site.cssCDN }}" rel="stylesheet" > #}
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-theme-classic"/>
-        <link href="{{ '/css/docs.css' | url }}" rel="stylesheet" >
-        <!--<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">-->
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vs.min.css" integrity="sha512-54dqOdBwMzeeRRYZieLqjlGc/w9+AI3vLUdz9PW6QFVTfkL0e7CYLWXKQPV+HqZi5QIj8JKsbzIkeplWVhlY+A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.5.0/prism-vsc-dark-plus.min.css" integrity="sha512-GU4Q2LAEtdpc8WmjcbSJGxM6c8D69ggI3mc5SRnfnxpg5AkYYA0BEVve0W9Oj2wZR0UItklQK2RBKLtDsQHNzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
-        <title>{{ title }} - {{ site.localization[locale].subtitle }} - {{ site.localization[locale].title }}</title>
-        <meta name="description" content="{{ site.localization[locale].description }}">
-    </head>
+    {% include 'sections/head.njk' %}
     <body>
-    <a href="#mainContainer" class="govcy-skip-link">{{ site.localization[locale].skip_to_main }}</a> 
-    <!--Header-->
-    <div class="govcy-container-fluid govcy-p-0 govcy-m-0 govcy-position-relative govcy-d-print-none">
-         <div class="govcy-container">
-             <div class="row">
-                 <header class="govcy-header govcy-bg-primary govcy-text-white govcy-bg-primary-right">
-                      <a href="{% if site.isMultiLanguage %}{{locale}}{{ '/' | url }}{%else%}{{ '/' | url }}{% endif %}" class="govcy-logo"> <img></a>
-                     {% if site.isMultiLanguage %}
-                     <form class="govcy-text-white govcy-bg-primary">
-                         <select id="govcy-lang-menu" name="govcy-lang-menu" class="govcy-lang-menu govcy-text-white">
-                         {# loop through languages #}
-                         {% for language in site.languages %}
-                            <option value="{{ language.code }}"{% if locale == language.code %} selected{% endif %}>{{ language.label }}</option>
-                         {% endfor %}
-                     </form>
-                     {% endif %}
-                     <input class="govcy-menu-btn govcy-d-none" type="checkbox" id="menu-btn">
-                     <label class="govcy-menu-icon govcy-d-md-none" for="menu-btn">{{ site.localization[locale].menu }}
-                         <span class="material-icons govcy-my-3">arrow_drop_down</span>
-                     </label>
-                     <span class="govcy-service-name">{{ site.localization[locale].subtitle }} </span>
-                     <ul class="govcy-menu govcy-bg-sub-menu govcy-bg-md-primary">
-                     {# Depending on locale loop through categories #}
-                    {% if locale == 'en' %}
-                        {%- for cat in collections.categoriesSortByOrderAscEn -%}
-                            <li>
-                            <a href="{{ cat.url | url }}" {% if category == cat.data.category %} class="active"{% endif %}>
-                                {{ cat.data.title }}
-                            </a>
-                            </li>
-                        {%- endfor -%}
-                    {% elif locale == 'el' %}
-                        {%- for cat in collections.categoriesSortByOrderAscEl -%}
-                            <li>
-                            <a href="{{ cat.url | url }}" {% if category == cat.data.category %} class="active"{% endif %}>
-                                {{ cat.data.title }}
-                            </a>
-                            </li>
-                        {%- endfor -%}
-                    {% endif %}
-                     </ul>
-                 </header>
-             </div>
-         </div>
-    </div>
-    <!--beforeMain-->
-    <section class="govcy-container govcy-my-2" id="beforeMainContainer">
-        <div class="row">
-            <div class="govcy-col-3 govcy-d-print-none">
-                <span id="autocomplete" class="govcy-w-50"></span>
-            </div>  
-            <div class="govcy-col-3 govcy-mt-2">
-        {%if site.showDraft%}<span class="govcy-br-2 govcy-text-white govcy-br-danger govcy-rounded-1 govcy-bg-danger govcy-efs-small">&nbsp;{{ site.localization[locale].draft }}&nbsp;</span>{% endif %}
-        {%if site.showVersion%}<span class="govcy-br-2 govcy-text-white govcy-br-primary govcy-rounded-1 govcy-bg-primary govcy-px-3 govcy-fw-bold govcy-efs-small">{{ site.localization[locale].version }} {{ site.version }}</span>{% endif %}
-            </div>
-            
-        </div>
-    </section>
+    {% include 'sections/skip_to_main.njk' %}
+    {% include 'sections/header.njk' %}
+    {% include 'sections/before_main.njk' %}
     <!--Main-->
-    <main class="govcy-container govcy-my-2" id="mainContainer">
-        <div class="row">
-            <div class="govcy-col-{% if showCategoryMenu %}9{% else %}12{% endif %} govcy-order-last">
-                <h1>{{ title }}</h1>
+    <main class="govcy-container" id="mainContainer"{% if hideSearch %} data-pagefind-ignore{% endif %}>
+        <div class="govcy-row">
+            <div class="{% if showCategoryMenu %}govcy-col-md-9 govcy-col-lg-10{% else %}govcy-col-12{% endif %} govcy-order-last-desk">
+                {% if showTitle %}<h1 data-pagefind-weight="10">{{ title }}</h1>{% endif %}
                 {# Check if we want to show table of contents#}
                 {% if site.showTOC and content | toc %}
                     <aside class="toc-outter">
@@ -115,17 +22,18 @@
     {# Check if showCategoryMenu is true, to change the layout to have 2 columns and add menu
     This should be default in styles, components and patterns  #}
     {% if showCategoryMenu -%}
-            <aside class="govcy-col-3 govcy-order-first">
-                <ul class="nav-side govcy-flex-column">
+            <aside class="govcy-col-md-3 govcy-col-lg-2 govcy-order-first-desk">
+                <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">{{ site.localization[locale].side_title }}</div>
+                <ul class="govcy-list-unstyled">
                 {#- if showSubcategoriesInMenu the loop through `availableSubcategories` defined in folder.json -#}
                 {%- if showSubcategoriesInMenu %}
                     {%- for subCat in availableSubcategories -%}
                         {#- show the subcategory name -#}
-                        <li>{{ site.localization[locale][subCat] }}</li>
+                        <li class="govcy-fw-bolder govcy-mb-3">{{ site.localization[locale][subCat] }}</li>
                         {%- for pagSubCat in collections[subCat] -%}
                             {#- Checks if we want to show the index page -#}
                             {% if (pagSubCat.fileSlug == category and showIndexInCategoryMenu) or pagSubCat.fileSlug != category -%}
-                                <li><a href="{{ pagSubCat.url | url }}" class="nav-link{% if page.url == pagSubCat.url %} active{% endif %}">{{ pagSubCat.data.title }}</a></li>
+                                <li class="app-side-link{% if page.url == pagSubCat.url %} active{% endif %}"><a href="{{ pagSubCat.url | url }}">{{ pagSubCat.data.title }}</a></li>
                             {%- endif %}
                         {%- endfor -%}
                     {%- endfor -%}
@@ -138,7 +46,7 @@
                         {% if locale  == pag.data.locale -%}
                             {#- Checks if we want to show the index page -#}
                             {% if (pag.fileSlug == category and showIndexInCategoryMenu) or pag.fileSlug != category -%}
-                                <li><a href="{{ pag.url | url }}" class="nav-link{% if page.url == pag.url %} active{% endif %}">{{ pag.data.title }}</a></li>
+                                <li class="app-side-link{% if page.url == pag.url %} active{% endif %}"><a href="{{ pag.url | url }}">{{ pag.data.title }}</a></li>
                             {%- endif %}
                         {%- endif %}
                     {%- endfor -%}
@@ -148,90 +56,7 @@
     {%- endif %}
         </div>
     </main>
-    <!-- Footer -->
-    <div class="govcy-container-fluid govcy-br-top-8 govcy-br-top-primary govcy-p-3 govcy-bg-light govcy-d-print-none">
-            <div class="govcy-container">
-                <div class="row">   
-                    <footer class="govcy-footer">
-                        <span class="govcy-d-inline-block govcy-valign-top govcy-pb-2"><img alt="govcy-logo"></span>
-                                <ul class="govcy-d-inline-block  govcy-m-0 govcy-pl-3 govcy-efs-medium">
-                                <li><a href="{{ '/privacy-statement' | url }}">{{ site.localization[locale].privacy_label }}</a></li>
-                                <li><a href="{{ '/cookie-policy' | url }}">{{ site.localization[locale].cookie_label }}</a></li>
-                                <li><a href="{{ '/accessibility-statement' | url }}">{{ site.localization[locale].accessibility_label }}</a></li>
-                                <li class="govcy-d-block govcy-text-dark">{{ site.localization[locale].copyright_label }}</li>
-                            </ul>
-                    </footer>
-                </div>
-            </div>
-        </div>
-        <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-        {# Change language script #}
-        {% if site.isMultiLanguage %}
-        <script>
-        document.getElementById("govcy-lang-menu").onchange = function() {
-            var selectedOption = this.value;
-            window.location.href =  "/"+selectedOption;
-        }
-        </script>
-        {% endif %}
-        
-        
-        {# Search script #}
-        <script src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-js"></script>
-        <script>
-            const { autocomplete } = window['@algolia/autocomplete-js'];
-        </script>
-
-
-        <script>
-        autocomplete({
-        container: '#autocomplete',
-        placeholder: '{{ site.localization[locale].search_placeholder }}',
-        getSources() {
-            return [
-            {
-                sourceId: 'links',
-                getItems({ query }) {
-                return [
-{% for page in collections.all %}
-    {%- if not page.data.hideSearch -%}
-        {%- if locale == page.data.locale -%}
-            { label: "{{page.data.title}}", url: '{{ page.url | url }}', keys: "{{page.data.searchKeys}}" },
-        {%- endif -%}
-    {%- endif -%}
-{% endfor %}
-                ].filter(({ label ,keys }) =>
-                    label.toLowerCase().includes(query.toLowerCase()) 
-                    || keys.toLowerCase().includes(query.toLowerCase())
-                );
-                },
-                getItemUrl({ item }) {
-                    return item.url;
-                },
-                 templates: {
-                    item({ item, createElement }) {
-                        return createElement('div', {
-                        dangerouslySetInnerHTML: {
-                            __html: `<div>
-                            <a
-                                href="${item.url}">
-                                ${item.label}
-                            <a/> 
-                            </div>`,
-                        },
-                        });
-                    },
-                    noResults() {
-                        return 'No results.';
-                    }
-                }
-                // ...
-            },
-            ];
-        }
-    });
-
-        </script>
+    {% include 'sections/footer.njk' %}
+    {% include 'sections/js.njk' %}
     </body>
 </html>
