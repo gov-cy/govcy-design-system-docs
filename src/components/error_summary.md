@@ -10,7 +10,7 @@ When there is a validation error, you must show both an error summary and an err
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
 <div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
-    <h2>There is a problem</h2>
+    <h2 role="alert">There is a problem</h2>
     <p class="govcy-mb-0">
         <a href="#">Enter your full name</a>
         <a href="#">Social insurance number should be 16 digit long</a>
@@ -21,7 +21,7 @@ When there is a validation error, you must show both an error summary and an err
 *HTML code*
 ```html
 <div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
-    <h2>There is a problem</h2>
+    <h2 role="alert">There is a problem</h2>
     <p class="govcy-mb-0">
         <a href="#">Enter your full name</a>
         <a href="#">Social insurance number should be 16 digit long</a>
@@ -48,12 +48,15 @@ The component should only exist in the [main section](../../getting-started/page
 
 When showing the error summary, use [linking to an element on the same page](../../styles/typography/#linking-to-an-element-on-the-same-page) to move keyboard focus to the error summary heading. This will draw the attention to the users that there is an a problem. Sighted users will be navigated to the error summary area on the page, and screen readers will read out that there is a problem. 
 
+<img src="{{ '/img/UDS_error_summary_js.gif' | url }}" alt="Visual representation of how to show the error summary using linking to an element on the same page" class="govcy-img-ar-auto" style="height: 400px;">
+
 Here are some sample pages showing the error summary when the user clicks the ‘continue’ button. 
 - [Server side rendering example (opens in new tab)](../../samples/template-heading-input/){rel="noreferrer noopener" target="_blank"}. This example redirects the user to a different page that shows the error, this was done for demonstration purposes, in a real implementation, the errors should appear in the same page.
 - [Single page application example (opens in new tab)](../../samples/template-heading-input-js/){rel="noreferrer noopener" target="_blank"}.
 
 You must also:
 
+- include the attribute `role="alert"` on the error summary heading (`<h2>`)
 - include the heading ‘There is a problem’ in English and ‘Υπάρχει πρόβλημα’ in Greek
 - if there is a validation error on a field, use use [linking to an element on the same page](../../styles/typography/#linking-to-an-element-on-the-same-page) to link each error to the fields that have validation errors
     - make sure the error messages in the error summary are worded the same as those which appear next to the fields with errors
@@ -75,7 +78,7 @@ For questions that require a user to answer using a single field, like a file up
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
 <div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
-    <h2>There is a problem</h2>
+    <h2 role="alert">There is a problem</h2>
     <p>
         <a href="#in3">Enter your full name</a>
     </p>
@@ -96,7 +99,7 @@ For questions that require a user to answer using a single field, like a file up
 *HTML code*
 ```html
 <div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
-    <h2>There is a problem</h2>
+    <h2 role="alert">There is a problem</h2>
     <p>
         <a href="#in3">Enter your full name</a>
     </p>
@@ -120,7 +123,7 @@ If you do not know which field contains an error, link to the first field.
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
 <div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
-    <h2>There is a problem</h2>
+    <h2 role="alert">There is a problem</h2>
     <p>
         <a href="#year_err2">Date of birth must include a year</a>
     </p>
@@ -169,7 +172,7 @@ If you do not know which field contains an error, link to the first field.
 *HTML code*
 ```html
 <div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
-    <h2>There is a problem</h2>
+    <h2 role="alert">There is a problem</h2>
     <p>
         <a href="#year_err2">Date of birth must include a year</a>
     </p>
@@ -219,7 +222,7 @@ For questions that require a user to select one or more options from a list usin
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
 <div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
-    <h2>There is a problem</h2>
+    <h2 role="alert">There is a problem</h2>
     <p>
         <a href="#check4-nationality">Select if you are Cypriot, from other European country, or citizen from another country</a>
     </p>
@@ -253,7 +256,7 @@ For questions that require a user to select one or more options from a list usin
 *HTML code*
 ```html
 <div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
-    <h2>There is a problem</h2>
+    <h2 role="alert">There is a problem</h2>
     <p>
         <a href="#check4-nationality">Select if you are Cypriot, from other European country, or citizen from another country</a>
     </p>
@@ -291,7 +294,7 @@ In such a case, the link for each error in the error summary, should link to the
 
 *Example*
 <div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
-    <h2>There is a problem</h2>
+    <h2 role="alert">There is a problem</h2>
     <p class="govcy-mb-0">
         <a href="#contact-details">Complete the section on your contact details</a>
         <a href="#medical-information">Complete the section on medical information</a>
@@ -301,7 +304,7 @@ In such a case, the link for each error in the error summary, should link to the
 *HTML code*
 ```html
 <div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
-    <h2>There is a problem</h2>
+    <h2 role="alert">There is a problem</h2>
     <p class="govcy-mb-0">
         <a href="#contact-details">Complete the section on your contact details</a>
         <a href="#medical-information">Complete the section on medical information</a>
@@ -319,7 +322,7 @@ In such a case you should still use the error summary and error messages compone
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
 <div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
-    <h2>There is a problem</h2>
+    <h2 role="alert">There is a problem</h2>
     <p>
         <a href="#">Enter your full name</a>
         <a href="#">Social insurance number should be 16 digit long</a>
@@ -332,7 +335,7 @@ In such a case you should still use the error summary and error messages compone
 *HTML code*
 ```html
 <div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
-    <h2>There is a problem</h2>
+    <h2 role="alert">There is a problem</h2>
     <p>
         <a href="#">Enter your full name</a>
         <a href="#">Social insurance number should be 16 digit long</a>
@@ -351,4 +354,5 @@ Use the following text in the heading:
 Make sure:
 - you link the error summary to where the user can correct the error
 - you use the [error message component](../error_message) on validation errors
-- when showing the error summary, to use [linking to an element on the same page](../../styles/typography/#linking-to-an-element-on-the-same-page) to move keyboard focus to the error summary heading.
+- when showing the error summary, to use [linking to an element on the same page](../../styles/typography/#linking-to-an-element-on-the-same-page) to move keyboard focus to the error summary heading
+- include the attribute `role="alert"` on the error summary heading (`<h2>`)

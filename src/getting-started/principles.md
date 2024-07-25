@@ -2,7 +2,7 @@
 title: "Design System Principles"
 date: 2022-02-01 00:00:02Z
 --- 
-The purpose of the gov.cy Unified Design System is to create a citizen centric, consistent, clean and intuitive user experience through the services and websites of gov.cy that is accessible to everyone”​
+The purpose of the gov.cy Unified Design System is to create a citizen centric, consistent, clean and intuitive user experience through the services and websites of gov.cy that is accessible to everyone.
 
 When designing and implementing websites and services throughout gov.cy, consider the following principles.
  

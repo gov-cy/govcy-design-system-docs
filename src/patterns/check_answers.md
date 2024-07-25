@@ -532,7 +532,7 @@ If a user tries to submit and there is a validation or business error that preve
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
 <div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
-    <h2>There is a problem</h2>
+    <h2 role="alert">There is a problem</h2>
     <p>
         <a href="#contact-details">Complete the section on your contact details</a>
         <a href="#medical-information">Complete the section on medical information</a>
@@ -596,7 +596,7 @@ If a user tries to submit and there is a validation or business error that preve
 *HTML code*
 ```html
 <div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
-    <h2>There is a problem</h2>
+    <h2 role="alert">There is a problem</h2>
     <p>
         <a href="#contact-details">Complete the section on your contact details</a>
         <a href="#medical-information">Complete the section on medical information</a>

@@ -12,7 +12,7 @@ layout : "base_for_samples.njk"
     <div class="govcy-row">
         <article class="govcy-col-8">
             <div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
-                <h2 id="errorSummary" >There is a problem</h2>
+                <h2 id="errorSummary"  role="alert">There is a problem</h2>
                 <p class="govcy-mb-0">
                     <a href="#in-tel">Enter a valid telephone number</a>
                 </p>
