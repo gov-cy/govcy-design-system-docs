@@ -268,7 +268,7 @@ If the user tries to continue without completing all tasks, display the [error s
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
 <div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
-    <h2 data-toc-exclude>There is a problem</h2>
+    <h2 data-toc-exclude role="alert">There is a problem</h2>
     <p class="govcy-mb-0">
         <a href="#contact-details">Complete the section on your contact details</a>
         <a href="#medical-information">Complete the section on medical information</a>
@@ -309,7 +309,7 @@ If the user tries to continue without completing all tasks, display the [error s
 *HTML code*
 ```html
 <div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
-    <h2>There is a problem</h2>
+    <h2 role="alert">There is a problem</h2>
     <p class="govcy-mb-0">
         <a href="#contact-details">Complete the section on your contact details</a>
         <a href="#medical-information">Complete the section on medical information</a>
@@ -354,7 +354,7 @@ In the scenario shown in the example below, the users were asked to declare thei
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
 <div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
-    <h2 data-toc-exclude>There is a problem</h2>
+    <h2 data-toc-exclude role="alert">There is a problem</h2>
     <p class="govcy-mb-0">
         <a href="#deposits">Declare an impairment on either deposits or securities</a>
     </p>
@@ -390,7 +390,7 @@ In the scenario shown in the example below, the users were asked to declare thei
 *HTML code*
 ```html
 <div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
-    <h2>There is a problem</h2>
+    <h2 role="alert">There is a problem</h2>
     <p class="govcy-mb-0">
         <a href="#deposits">Declare an impairment on either deposits or securities</a>
     </p>
