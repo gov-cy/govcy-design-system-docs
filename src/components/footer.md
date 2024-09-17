@@ -16,7 +16,7 @@ Add a copyright notice to the footer to clarify who owns the copyright. For gov.
 
 Users can navigate within the footer links also by using the keyboard.
 
-See below the different variants of the footer component. Make sure to change the links `href` according to your implementation. The gov.cy logo link should lead to `https://gov.cy`
+See below the different variants of the footer component. Make sure to change the links `href` according to your implementation. The gov.cy logo link should lead to `https://gov.cy` for the Greek version of the site and `https://www.gov.cy/en/` for the English version.
 
 Use the `govcy-d-print-none` to hide the footer on print media.  
 
@@ -48,7 +48,7 @@ Also when applicable you may add
                 </div>
             </div>
             <div class="govcy-my-4">
-                <a href="/" class="govcy-footer-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"/></a>
+                <a href="https://www.gov.cy/en/" class="govcy-footer-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"/></a>
             </div>
         </div>
     </div>
@@ -73,7 +73,7 @@ Also when applicable you may add
                 </div>
             </div>
             <div class="govcy-my-4">
-                <a href="/" class="govcy-footer-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"/></a>
+                <a href="https://www.gov.cy/en/" class="govcy-footer-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"/></a>
             </div>
         </div>
     </div>
@@ -102,7 +102,7 @@ For EU funded sites and services, also display the "Funded by the European Union
                 </div>
             </div>
             <div class="govcy-my-4">
-                <a href="/" class="govcy-footer-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"/></a>
+                <a href="https://www.gov.cy/en/" class="govcy-footer-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"/></a>
             </div>
         </div>
     </div>
@@ -129,7 +129,7 @@ For EU funded sites and services, also display the "Funded by the European Union
                 </div>
             </div>
             <div class="govcy-my-4">
-                <a href="/" class="govcy-footer-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"/></a>
+                <a href="https://www.gov.cy/en/" class="govcy-footer-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"/></a>
             </div>
         </div>
     </div>
@@ -158,7 +158,7 @@ In Greek use the following variant. Make sure the use the correct text at the `a
                 </div>
             </div>
             <div class="govcy-my-4">
-                <a href="/" class="govcy-footer-logo" title="Μετάβαση στην αρχική σελίδα του gov.cy"><img alt="gov.cy Logo"/></a>
+                <a href="https://www.gov.cy/en/" class="govcy-footer-logo" title="Μετάβαση στην αρχική σελίδα του gov.cy"><img alt="gov.cy Logo"/></a>
             </div>
         </div>
     </div>
@@ -185,7 +185,7 @@ In Greek use the following variant. Make sure the use the correct text at the `a
                 </div>
             </div>
             <div class="govcy-my-4">
-                <a href="/" class="govcy-footer-logo" title="Μετάβαση στην αρχική σελίδα του gov.cy"><img alt="gov.cy Logo"/></a>
+                <a href="https://www.gov.cy/en/" class="govcy-footer-logo" title="Μετάβαση στην αρχική σελίδα του gov.cy"><img alt="gov.cy Logo"/></a>
             </div>
         </div>
     </div>
@@ -246,7 +246,7 @@ Only add secondary navigation if you’re creating a gov.cy service, and you wan
                     </div>
                 </div>
                 <div class="govcy-my-4">
-                    <a href="../../" class="govcy-footer-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"/></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-footer-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"/></a>
                 </div>
             </div>
         </div>
@@ -306,7 +306,7 @@ Only add secondary navigation if you’re creating a gov.cy service, and you wan
                     </div>
                 </div>
                 <div class="govcy-my-4">
-                    <a href="../../" class="govcy-footer-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"/></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-footer-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"/></a>
                 </div>
             </div>
         </div>

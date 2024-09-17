@@ -146,7 +146,7 @@ Use table headers to tell users what the rows and columns represent. Use the `s
 </table>
 ```
 ### Numbers in table
-When comparing columns of numbers, align the numbers to the right in table cells using the `govcy-text-end` class.
+When comparing columns of numbers, align the numbers to the right in table cells using the `govcy-text-end` class. If you are using a [vertical responsive table](#vertical-responsive-tables-with-headers), consider using the `govcy-text-md-end` class, to right align only on desktops and larger.
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
@@ -218,7 +218,7 @@ When comparing columns of numbers, align the numbers to the right in table cells
 ### Responsive tables
 Responsive tables allow tables to adjusting designs to accommodate screens of different sizes. Always use responsive tables, unless there is a specific reason not to.
 
-There are two ways you can achive this.
+There are two ways you can achieve this.
 
 #### Vertical responsive tables
 Vertical responsive tables place each cell of a row in a single column. This is the preferred method for responsive tables.
@@ -264,6 +264,8 @@ Make any table vertically responsive by adding a `.govcy-table-responsive-verti
     </tbody>
 </table>
 ```
+
+#### Vertical responsive tables with headers
 
 Using the `.govcy-table-responsive-vertical` class, will hide the table header in small viewports. If you wish to show the the headers while using this variant, you can add `<div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">{ HEADER-NAME }</div>` in each cell as shown in the example below:
 
