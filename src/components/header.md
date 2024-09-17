@@ -18,7 +18,7 @@ You can only have one gov.cy header on each page. Be consistent, have the same h
 
 Users can navigate within the header links also by using the keyboard.
 
-See below the different variants of the header component. Make sure to change the links `href` according to your implementation. The gov.cy logo link should lead to `https://gov.cy`. 
+See below the different variants of the header component. Make sure to change the links `href` according to your implementation. The gov.cy logo link should lead to `https://gov.cy` for the Greek version of the site and `https://www.gov.cy/en/` for the English version. 
 
 Use the `govcy-d-print-none` to hide the header on print media. 
 
@@ -34,7 +34,7 @@ Use the default header for services and websites that consist of only a single p
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                 </div>
                 <ul class="govcy-menu-items govcy-ms-auto">
                     <li class="govcy-desktop-menu-only"><span><a href="#"
@@ -72,7 +72,7 @@ Use the default header for services and websites that consist of only a single p
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                 </div>
                 <ul class="govcy-menu-items govcy-ms-auto">
                     <li class="govcy-desktop-menu-only"><span><a href="#"
@@ -115,7 +115,7 @@ Depending on your case, you may add link your service name, with the service's h
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                     <span class="govcy-service-name"><a href="#">Design System</a></span>
                 </div>
                 <ul class="govcy-menu-items">
@@ -154,7 +154,7 @@ Depending on your case, you may add link your service name, with the service's h
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                     <span class="govcy-service-name"><a href="#">Design System</a></span>
                 </div>
                 <ul class="govcy-menu-items">
@@ -196,7 +196,7 @@ If the service name is too long, then the section breaks.
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                     <span class="govcy-service-name">Deputy Ministry of Research, Innovation and Digital Policy</span>
                 </div>
                 <ul class="govcy-menu-items">
@@ -235,7 +235,7 @@ If the service name is too long, then the section breaks.
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                     <span class="govcy-service-name">Deputy Ministry of Research, Innovation and Digital Policy</span>
                 </div>
                 <ul class="govcy-menu-items">
@@ -276,7 +276,7 @@ If a site/service is only available in one language, use a header without a lang
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                     <span class="govcy-service-name">Design system</span>
                 </div>
             </div>
@@ -292,7 +292,7 @@ If a site/service is only available in one language, use a header without a lang
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                     <span class="govcy-service-name">Design system</span>
                 </div>
             </div>
@@ -311,7 +311,7 @@ For longer sites and services with lots of content, make sure to add a search ba
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="../../" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                     <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                     <span class="govcy-service-name">Service Name</span>
                 </div>
                 <ul class="govcy-menu-items">
@@ -364,7 +364,7 @@ For longer sites and services with lots of content, make sure to add a search ba
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="../../" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                     <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                     <span class="govcy-service-name">Service Name</span>
                 </div>
                 <ul class="govcy-menu-items">
@@ -430,7 +430,7 @@ Use a header with login in services or websites that require the user to login.
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                     <span class="govcy-service-name">Service Name</span>
                 </div>
                 <ul class="govcy-menu-items">
@@ -486,7 +486,7 @@ Use a header with login in services or websites that require the user to login.
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                     <span class="govcy-service-name">Service Name</span>
                 </div>
                 <ul class="govcy-menu-items">
@@ -545,7 +545,7 @@ Use a header with the user name and sign out on services or websites that requir
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                     <span class="govcy-service-name">Service Name</span>
                 </div>
                 <ul class="govcy-menu-items">
@@ -601,7 +601,7 @@ Use a header with the user name and sign out on services or websites that requir
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                     <span class="govcy-service-name">Service Name</span>
                 </div>
                 <ul class="govcy-menu-items">
@@ -648,7 +648,7 @@ Use this header if you wish to link a contact page at the header.
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                     <span class="govcy-service-name">Service Name</span>
                 </div>
                 <ul class="govcy-menu-items">
@@ -693,7 +693,7 @@ Use this header if you wish to link a contact page at the header.
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                     <span class="govcy-service-name">Service Name</span>
                 </div>
                 <ul class="govcy-menu-items">
@@ -740,7 +740,7 @@ Use the header with navigation if you need to include basic navigation.
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                     <span class="govcy-service-name">Service Name</span>
                 </div>
                 <ul class="govcy-menu-items">
@@ -788,7 +788,7 @@ Use the header with navigation if you need to include basic navigation.
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                     <span class="govcy-service-name">Service Name</span>
                 </div>
                 <ul class="govcy-menu-items">
@@ -840,7 +840,7 @@ It’s important to note that menu pages that have a govcy-dropdown that are not
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                     <span class="govcy-service-name">Service Name</span>
                 </div>
                 <ul class="govcy-menu-items">
@@ -920,7 +920,7 @@ It’s important to note that menu pages that have a govcy-dropdown that are not
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                     <span class="govcy-service-name">Service Name</span>
                 </div>
                 <ul class="govcy-menu-items">
@@ -1004,7 +1004,7 @@ As mentioned above, menu pages that have a govcy-dropdown that are not linkable 
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                     <span class="govcy-service-name">Service Name</span>
                 </div>
                 <ul class="govcy-menu-items">
@@ -1093,7 +1093,7 @@ As mentioned above, menu pages that have a govcy-dropdown that are not linkable 
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                     <span class="govcy-service-name">Service Name</span>
                 </div>
                 <ul class="govcy-menu-items">
@@ -1195,7 +1195,7 @@ A header including all the options is a rare occurrence, however this is how it 
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                     <span class="govcy-service-name">Service Name</span>
                 </div>
                 <ul class="govcy-menu-items">
@@ -1311,7 +1311,7 @@ A header including all the options is a rare occurrence, however this is how it 
         <div class="govcy-container govcy-main-area-items">
             <div class="govcy-navigation-container">
                 <div class="govcy-service-container">
-                    <a href="/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
+                    <a href="https://www.gov.cy/en/" class="govcy-logo" title="Go to the gov.cy homepage"><img alt="gov.cy Logo"></a>
                     <span class="govcy-service-name">Service Name</span>
                 </div>
                 <ul class="govcy-menu-items">
