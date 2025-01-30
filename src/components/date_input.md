@@ -191,6 +191,89 @@ If you’re asking more than one question on the page, do not set the contents o
 </form>
 ```
 
+### Mobile friendly input
+If you intend for the date input to be used on mobile devices, it’s best to include only the numeric representation of months in the month input. This ensures that date inputs remain aligned on a single line on smaller screens, improving usability and consistency.
+
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4" style="max-width: 380px; width: 100%; margin-left: 0;">
+<div action="" class="govcy-form" novalidate="">
+    <fieldset class="govcy-fieldset" role="group" aria-describedby="dateMobile-hint">
+        <legend class="govcy-legend">Date input</legend>
+        <div class="govcy-form-control">
+            <span class="govcy-hint" id="dateMobile-hint">For example, 12 11 2007</span>
+            <div class="govcy-d-flex govcy-flex-wrap">
+                <div class="govcy-d-block govcy-mr-3">
+                    <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="day_mobile">Day</label>
+                    <input id="day_mobile" class="govcy-text-input govcy-text-input-char_3" maxlength="2" type="text" pattern="[0-9]*" inputmode="numeric">
+                </div>
+                <div class="govcy-d-block govcy-mr-3">
+                    <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="month_mobile">Month</label>
+                    <select id="month_mobile" class="govcy-select">
+                        <option value="" selected=""></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </div>
+                <div class="govcy-d-block govcy-mr-3">
+                    <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="year_mobile">Year</label>
+                    <input id="year_mobile" class="govcy-text-input govcy-text-input-char_6" placeholder="" maxlength="4" type="text" pattern="[0-9]*" inputmode="numeric">
+                </div>
+            </div>
+        </div>
+    </fieldset>
+</div>
+</div>
+
+*HTML code*
+```html
+<form action="" class="govcy-form" novalidate="">
+    <fieldset class="govcy-fieldset" role="group" aria-describedby="dateMobile-hint">
+        <legend class="govcy-legend">Date input</legend>
+        <div class="govcy-form-control">
+            <span class="govcy-hint" id="dateMobile-hint">For example, 12 11 2007</span>
+            <div class="govcy-d-flex govcy-flex-wrap">
+                <div class="govcy-d-block govcy-mr-3">
+                    <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="day_mobile">Day</label>
+                    <input id="day_mobile" class="govcy-text-input govcy-text-input-char_3" maxlength="2" type="text" pattern="[0-9]*" inputmode="numeric">
+                </div>
+                <div class="govcy-d-block govcy-mr-3">
+                    <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="month_mobile">Month</label>
+                    <select id="month_mobile" class="govcy-select">
+                        <option value="" selected=""></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </div>
+                <div class="govcy-d-block govcy-mr-3">
+                    <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="year_mobile">Year</label>
+                    <input id="year_mobile" class="govcy-text-input govcy-text-input-char_6" placeholder="" maxlength="4" type="text" pattern="[0-9]*" inputmode="numeric">
+                </div>
+            </div>
+        </div>
+    </fieldset>
+</form>
+```
+
 ### Autocomplete for a date of birth
 Use the `autocomplete` attribute on the date input component when you’re asking for a date of birth. This lets browsers autofill the information on a user’s behalf if they’ve entered it previously.
 
@@ -212,18 +295,18 @@ To do this, set the `autocomplete` attribute on the 3 fields to `bday-day`, 
                     <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="month_3">Month</label>
                     <select id="month_3" class="govcy-select" autocomplete="bday-month">
                         <option value="" selected=""></option>
-                        <option value="1">1 - January</option>
-                        <option value="2">2 - February</option>
-                        <option value="3">3 - March</option>
-                        <option value="4">4 - April</option>
-                        <option value="5">5 - May</option>
-                        <option value="6">6 - June</option>
-                        <option value="7">7 - July</option>
-                        <option value="8">8 - August</option>
-                        <option value="9">9 - September</option>
-                        <option value="10">10 - October</option>
-                        <option value="11">11 - November</option>
-                        <option value="12">12 - December</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
                     </select>
                 </div>
                 <div class="govcy-d-block govcy-mr-3">
@@ -252,18 +335,18 @@ To do this, set the `autocomplete` attribute on the 3 fields to `bday-day`, 
                     <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="month_3">Month</label>
                     <select id="month_3" class="govcy-select" autocomplete="bday-month">
                         <option value="" selected=""></option>
-                        <option value="1">1 - January</option>
-                        <option value="2">2 - February</option>
-                        <option value="3">3 - March</option>
-                        <option value="4">4 - April</option>
-                        <option value="5">5 - May</option>
-                        <option value="6">6 - June</option>
-                        <option value="7">7 - July</option>
-                        <option value="8">8 - August</option>
-                        <option value="9">9 - September</option>
-                        <option value="10">10 - October</option>
-                        <option value="11">11 - November</option>
-                        <option value="12">12 - December</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
                     </select>
                 </div>
                 <div class="govcy-d-block govcy-mr-3">
@@ -324,18 +407,18 @@ If you’re highlighting the whole date, style all the fields like this:
                     <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="month_err1">Month</label>
                     <select id="month_err1" class="govcy-select govcy-select-error" autocomplete="bday-month">
                         <option value="" selected=""></option>
-                        <option value="1">1 - January</option>
-                        <option value="2">2 - February</option>
-                        <option value="3">3 - March</option>
-                        <option value="4">4 - April</option>
-                        <option value="5">5 - May</option>
-                        <option value="6">6 - June</option>
-                        <option value="7">7 - July</option>
-                        <option value="8">8 - August</option>
-                        <option value="9">9 - September</option>
-                        <option value="10">10 - October</option>
-                        <option value="11">11 - November</option>
-                        <option value="12">12 - December</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
                     </select>
                 </div>
                 <div class="govcy-d-block govcy-mr-3">
@@ -367,18 +450,18 @@ If you’re highlighting the whole date, style all the fields like this:
                     <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="month_err1">Month</label>
                     <select id="month_err1" class="govcy-select govcy-select-error" autocomplete="bday-month">
                         <option value="" selected=""></option>
-                        <option value="1">1 - January</option>
-                        <option value="2">2 - February</option>
-                        <option value="3">3 - March</option>
-                        <option value="4">4 - April</option>
-                        <option value="5">5 - May</option>
-                        <option value="6">6 - June</option>
-                        <option value="7">7 - July</option>
-                        <option value="8">8 - August</option>
-                        <option value="9">9 - September</option>
-                        <option value="10">10 - October</option>
-                        <option value="11">11 - November</option>
-                        <option value="12">12 - December</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
                     </select>
                 </div>
                 <div class="govcy-d-block govcy-mr-3">
@@ -412,18 +495,18 @@ If you’re highlighting part of the date - either the day, month or year - only
                     <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="month_err2">Month</label>
                     <select id="month_err2" class="govcy-select govcy-select-error" autocomplete="bday-month">
                         <option value="" selected=""></option>
-                        <option value="1">1 - January</option>
-                        <option value="2">2 - February</option>
-                        <option value="3">3 - March</option>
-                        <option value="4">4 - April</option>
-                        <option value="5">5 - May</option>
-                        <option value="6">6 - June</option>
-                        <option value="7">7 - July</option>
-                        <option value="8">8 - August</option>
-                        <option value="9">9 - September</option>
-                        <option value="10">10 - October</option>
-                        <option value="11">11 - November</option>
-                        <option value="12">12 - December</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
                     </select>
                 </div>
                 <div class="govcy-d-block govcy-mr-3">
@@ -455,18 +538,18 @@ If you’re highlighting part of the date - either the day, month or year - only
                     <label class="govcy-label govcy-mb-1 govcy-fw-normal govcy-mb-2" for="month_err2">Month</label>
                     <select id="month_err2" class="govcy-select govcy-select-error" autocomplete="bday-month">
                         <option value="" selected=""></option>
-                        <option value="1">1 - January</option>
-                        <option value="2">2 - February</option>
-                        <option value="3">3 - March</option>
-                        <option value="4">4 - April</option>
-                        <option value="5">5 - May</option>
-                        <option value="6">6 - June</option>
-                        <option value="7">7 - July</option>
-                        <option value="8">8 - August</option>
-                        <option value="9">9 - September</option>
-                        <option value="10">10 - October</option>
-                        <option value="11">11 - November</option>
-                        <option value="12">12 - December</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
                     </select>
                 </div>
                 <div class="govcy-d-block govcy-mr-3">

@@ -22,9 +22,9 @@ Use the `govcy-d-print-none` to hide the footer on print media.
 
 ### Default footer
 The default footer has links for copyright notice, gov.cy logo and links for:
-- privacy statement
-- cookie policy
-- accessibility statements
+- [privacy statement](../../patterns/privacy_policy_page/)
+- [cookie policy](../../patterns/cookies_pages/)
+- [accessibility statements](../../patterns/accessibility_pages/)
 
 Also when applicable you may add 
 - the help us improve this service (feedback) link

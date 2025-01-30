@@ -1,0 +1,1056 @@
+{
+  "date": "2025-01-29",
+  "results": [
+    {
+      "url": "/components/accordion/",
+      "issues": []
+    },
+    {
+      "url": "/components/back_link/",
+      "issues": []
+    },
+    {
+      "url": "/components/button/",
+      "issues": []
+    },
+    {
+      "url": "/components/breadcrumbs/",
+      "issues": []
+    },
+    {
+      "url": "/components/character_count/",
+      "issues": []
+    },
+    {
+      "url": "/components/checkbox/",
+      "issues": []
+    },
+    {
+      "url": "/components/data_tables/",
+      "issues": []
+    },
+    {
+      "url": "/components/date_input/",
+      "issues": []
+    },
+    {
+      "url": "/components/cookie_banner/",
+      "issues": []
+    },
+    {
+      "url": "/components/date_picker/",
+      "issues": []
+    },
+    {
+      "url": "/components/details/",
+      "issues": []
+    },
+    {
+      "url": "/components/error_summary/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.G1,G123,G124.NoSuchID",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This link points to a named anchor \"contact-details\" within the document, but no anchor exists with that name.",
+          "context": "<a href=\"#contact-details\">Complete the section on your co...</a>",
+          "selector": "#mainContainer > div > div > div:nth-child(50) > p > a:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.G1,G123,G124.NoSuchID",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This link points to a named anchor \"medical-information\" within the document, but no anchor exists with that name.",
+          "context": "<a href=\"#medical-information\">Complete the section on medical...</a>",
+          "selector": "#mainContainer > div > div > div:nth-child(50) > p > a:nth-child(2)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/components/fieldset/",
+      "issues": []
+    },
+    {
+      "url": "/components/error_message/",
+      "issues": []
+    },
+    {
+      "url": "/components/file/",
+      "issues": []
+    },
+    {
+      "url": "/components/footer/",
+      "issues": []
+    },
+    {
+      "url": "/components/inset_text/",
+      "issues": []
+    },
+    {
+      "url": "/components/panel/",
+      "issues": []
+    },
+    {
+      "url": "/components/header/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Duplicate id attribute value \"headerContainer\" found on the web page.",
+          "context": "<header class=\"govcy-header govcy-d-print-none\" id=\"headerContainer\">\n    <div class=\"govcy-header-m...</header>",
+          "selector": "#headerContainer",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/components/phase_banner/",
+      "issues": []
+    },
+    {
+      "url": "/components/select/",
+      "issues": []
+    },
+    {
+      "url": "/components/summary_list/",
+      "issues": []
+    },
+    {
+      "url": "/components/radio/",
+      "issues": []
+    },
+    {
+      "url": "/components/table/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H63.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Not all th elements in this table have a scope attribute. These cells should contain a scope attribute to identify their association with td elements.",
+          "context": "<table class=\"govcy-table\">\n    <thead>\n        <tr class=...</table>",
+          "selector": "#mainContainer > div > div > div:nth-child(12) > table",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/components/tag/",
+      "issues": []
+    },
+    {
+      "url": "/components/warning_text/",
+      "issues": []
+    },
+    {
+      "url": "/components/textarea/",
+      "issues": []
+    },
+    {
+      "url": "/components/text_input/",
+      "issues": []
+    },
+    {
+      "url": "/components/user_name_and_sign_out/",
+      "issues": []
+    },
+    {
+      "url": "/guides/create_an_html_email/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+          "context": "<iframe src=\"../../htmls/submission-email/\" width=\"100%\" frameborder=\"0\" scrolling=\"no\" class=\"govcy-br-1 govcy-br-standard govcy-mb-4\" onload=\"resizeIframe(this)\" style=\"height: 1529px;\"></iframe>",
+          "selector": "#mainContainer > div > div > iframe",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/guides/create_a_design_element/",
+      "issues": []
+    },
+    {
+      "url": "/getting-started/developer-assets/",
+      "issues": []
+    },
+    {
+      "url": "/guides/create_a_page/",
+      "issues": []
+    },
+    {
+      "url": "/getting-started/dsf-libraries/",
+      "issues": []
+    },
+    {
+      "url": "/getting-started/principles/",
+      "issues": []
+    },
+    {
+      "url": "/getting-started/page-template/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+          "context": "<iframe src=\"../../samples/template-order-of-things-all/\" width=\"100%\" frameborder=\"0\" scrolling=\"no\" class=\"govcy-br-1 govcy-br-standard govcy-mb-4\" onload=\"resizeIframe(this)\" style=\"height: 1255px;\"></iframe>",
+          "selector": "#mainContainer > div > div > iframe",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/getting-started/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/bank_details/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/confirmation-pages/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/addresses/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/confirm_email_address/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/check_answers/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/confirm_phone_number/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \"submit\" or \"image\", or BUTTON elements with type \"submit\" or omitted/invalid.",
+          "context": "<form action=\"\" class=\"govcy-form\" novalidate=\"\">\n    <div class=\"govcy-form-con...</form>",
+          "selector": "#mainContainer > div > div > div:nth-child(21) > form",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/patterns/cookies_pages/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+          "context": "<iframe src=\"../../samples/cookies-essential-en/\" width=\"100%\" frameborder=\"0\" scrolling=\"no\" class=\"govcy-br-1 govcy-br-standard govcy-mb-4\" onload=\"resizeIframe(this)\" style=\"height: 1931px;\"></iframe>",
+          "selector": "#mainContainer > div > div > iframe:nth-child(31)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+          "context": "<iframe src=\"../../samples/cookies-essential-el/\" width=\"100%\" frameborder=\"0\" scrolling=\"no\" class=\"govcy-br-1 govcy-br-standard govcy-mb-4\" onload=\"resizeIframe(this)\" style=\"height: 2171px;\"></iframe>",
+          "selector": "#mainContainer > div > div > iframe:nth-child(33)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+          "context": "<iframe src=\"../../samples/cookies-with-concent/\" width=\"100%\" frameborder=\"0\" scrolling=\"no\" class=\"govcy-br-1 govcy-br-standard govcy-mb-4\" onload=\"resizeIframe(this)\" style=\"height: 929px;\"></iframe>",
+          "selector": "#mainContainer > div > div > iframe:nth-child(55)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H63.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Not all th elements in this table have a scope attribute. These cells should contain a scope attribute to identify their association with td elements.",
+          "context": "<table class=\"govcy-table\">\n\t<thead>\n\t\t<tr class=\"govcy-br...</table>",
+          "selector": "#mainContainer > div > div > div:nth-child(60) > table",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H63.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Not all th elements in this table have a scope attribute. These cells should contain a scope attribute to identify their association with td elements.",
+          "context": "<table class=\"govcy-table\">\n\t<thead>\n\t\t<tr class=\"govcy-br...</table>",
+          "selector": "#mainContainer > div > div > div:nth-child(64) > table",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+          "context": "<iframe src=\"../../samples/cookies-optional-en/\" width=\"100%\" frameborder=\"0\" scrolling=\"no\" class=\"govcy-br-1 govcy-br-standard govcy-mb-4\" onload=\"resizeIframe(this)\" style=\"height: 2569px;\"></iframe>",
+          "selector": "#mainContainer > div > div > iframe:nth-child(79)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+          "context": "<iframe src=\"../../samples/cookies-optional-el/\" width=\"100%\" frameborder=\"0\" scrolling=\"no\" class=\"govcy-br-1 govcy-br-standard govcy-mb-4\" onload=\"resizeIframe(this)\" style=\"height: 2885px;\"></iframe>",
+          "selector": "#mainContainer > div > div > iframe:nth-child(81)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/patterns/contact_department_or_team/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/dates/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/filter_results/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/email/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/currency-amount/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/gender_sex/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/focus_state/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/multiple_things/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/labels_and_legend_headings/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/names/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/numeric_inputs/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/question_pages/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/page-not-found-pages/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/service-unavailable-pages/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/social_insurance_number/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/service_structure/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/step_by_step_navigation/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+          "context": "<iframe src=\"../../samples/step-by-step-default/\" width=\"100%\" frameborder=\"0\" scrolling=\"no\" class=\"govcy-br-1 govcy-br-standard govcy-mb-4\" onload=\"resizeIframe(this)\" style=\"height: 963px;\"></iframe>",
+          "selector": "#mainContainer > div > div > iframe:nth-child(18)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+          "context": "<iframe src=\"../../samples/step-by-step-two-thirds/\" width=\"100%\" frameborder=\"0\" scrolling=\"no\" class=\"govcy-br-1 govcy-br-standard govcy-mb-4\" onload=\"resizeIframe(this)\" style=\"height: 1321px;\"></iframe>",
+          "selector": "#mainContainer > div > div > iframe:nth-child(21)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+          "context": "<iframe src=\"../../samples/step-page/\" width=\"100%\" frameborder=\"0\" scrolling=\"no\" class=\"govcy-br-1 govcy-br-standard govcy-mb-4\" onload=\"resizeIframe(this)\" style=\"height: 787px;\"></iframe>",
+          "selector": "#mainContainer > div > div > iframe:nth-child(25)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+          "context": "<iframe src=\"../../samples/step-by-step-and/\" width=\"100%\" frameborder=\"0\" scrolling=\"no\" class=\"govcy-br-1 govcy-br-standard govcy-mb-4\" onload=\"resizeIframe(this)\" style=\"height: 813px;\"></iframe>",
+          "selector": "#mainContainer > div > div > iframe:nth-child(46)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+          "context": "<iframe src=\"../../samples/step-by-step-or/\" width=\"100%\" frameborder=\"0\" scrolling=\"no\" class=\"govcy-br-1 govcy-br-standard govcy-mb-4\" onload=\"resizeIframe(this)\" style=\"height: 813px;\"></iframe>",
+          "selector": "#mainContainer > div > div > iframe:nth-child(48)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/patterns/task-list-page/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Duplicate id attribute value \"company-information\" found on the web page.",
+          "context": "<a id=\"company-information\" href=\"#\">Company information <span class...</a>",
+          "selector": "#company-information",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Duplicate id attribute value \"contact-details\" found on the web page.",
+          "context": "<a id=\"contact-details\" href=\"#\">Your contact details <span clas...</a>",
+          "selector": "#contact-details",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Duplicate id attribute value \"convictions\" found on the web page.",
+          "context": "<a id=\"convictions\" href=\"#\">List convictions <span class=\"g...</a>",
+          "selector": "#convictions",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Duplicate id attribute value \"financial-evidence\" found on the web page.",
+          "context": "<a id=\"financial-evidence\" href=\"#\">Provide financial evidence <spa...</a>",
+          "selector": "#financial-evidence",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/patterns/telephone/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/there-is-a-problem/",
+      "issues": []
+    },
+    {
+      "url": "/styles/colour/",
+      "issues": []
+    },
+    {
+      "url": "/styles/grid/",
+      "issues": []
+    },
+    {
+      "url": "/styles/images/",
+      "issues": []
+    },
+    {
+      "url": "/styles/layout/",
+      "issues": []
+    },
+    {
+      "url": "/styles/vertical_spacing/",
+      "issues": []
+    },
+    {
+      "url": "/styles/typography/",
+      "issues": []
+    },
+    {
+      "url": "/cookie-policy/",
+      "issues": []
+    },
+    {
+      "url": "/accessibility-statement/",
+      "issues": []
+    },
+    {
+      "url": "/privacy-statement/",
+      "issues": []
+    },
+    {
+      "url": "/css_utilities/",
+      "issues": []
+    },
+    {
+      "url": "/components/",
+      "issues": []
+    },
+    {
+      "url": "/guides/",
+      "issues": []
+    },
+    {
+      "url": "/patterns/",
+      "issues": []
+    },
+    {
+      "url": "/styles/",
+      "issues": []
+    },
+    {
+      "url": "/",
+      "issues": []
+    },
+    {
+      "url": "/htmls/simple_quesrtion/",
+      "issues": []
+    },
+    {
+      "url": "/htmls/submission-email/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "<td align=\"center\">\n                <!--[if mso]>\n...</td>",
+          "selector": "html > body > table > tbody > tr > td",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "<td align=\"left\" valign=\"top\" style=\"padding: 12px 16px 0px;background:#31576f;background-color:#31576f;\">\n                            <i...</td>",
+          "selector": "html > body > table > tbody > tr > td > table:nth-child(1) > tbody > tr:nth-child(1) > td",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "<td align=\"left\" valign=\"top\" style=\"padding:0px 16px 12px;border-bottom: 4px solid #ffad2d;background:#31576f;background-color:#31576f;\">\n                            <!...</td>",
+          "selector": "html > body > table > tbody > tr > td > table:nth-child(1) > tbody > tr:nth-child(2) > td",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "<td align=\"center\" valign=\"top\" style=\"padding:10px 16px;\">\n                            <d...</td>",
+          "selector": "html > body > table > tbody > tr > td > table:nth-child(2) > tbody > tr:nth-child(1) > td",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "<td align=\"center\" valign=\"top\" style=\"padding:10px 0;\">\n                            <t...</td>",
+          "selector": "html > body > table > tbody > tr > td > table:nth-child(2) > tbody > tr:nth-child(2) > td",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "<td align=\"center\" valign=\"top\" style=\"padding:10px 16px;\">\n                              ...</td>",
+          "selector": "html > body > table > tbody > tr > td > table:nth-child(2) > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "<td align=\"center\" valign=\"top\" style=\"padding:10px 16px;\">\n                              ...</td>",
+          "selector": "html > body > table > tbody > tr > td > table:nth-child(2) > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "<td align=\"center\" valign=\"top\" style=\"padding:10px 16px;\">\n                            <d...</td>",
+          "selector": "html > body > table > tbody > tr > td > table:nth-child(2) > tbody > tr:nth-child(3) > td",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "<td align=\"center\" valign=\"top\" style=\"padding:10px 16px;\">\n                            <d...</td>",
+          "selector": "html > body > table > tbody > tr > td > table:nth-child(2) > tbody > tr:nth-child(4) > td",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "<td align=\"center\" valign=\"top\" style=\"padding:10px 16px;\">\n                            <d...</td>",
+          "selector": "html > body > table > tbody > tr > td > table:nth-child(2) > tbody > tr:nth-child(5) > td",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "<td align=\"center\" valign=\"top\" style=\"padding:10px 16px;\">\n                            <d...</td>",
+          "selector": "html > body > table > tbody > tr > td > table:nth-child(2) > tbody > tr:nth-child(6) > td",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "<td align=\"center\" valign=\"top\" style=\"padding:10px 16px;\">\n                            <d...</td>",
+          "selector": "html > body > table > tbody > tr > td > table:nth-child(2) > tbody > tr:nth-child(7) > td",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "<td align=\"center\" valign=\"top\" style=\"padding:10px 16px;\">\n                            <d...</td>",
+          "selector": "html > body > table > tbody > tr > td > table:nth-child(2) > tbody > tr:nth-child(8) > td",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "<td align=\"center\" valign=\"top\" style=\"padding:10px 16px;\">\n                            <d...</td>",
+          "selector": "html > body > table > tbody > tr > td > table:nth-child(2) > tbody > tr:nth-child(9) > td",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "<td align=\"center\" valign=\"top\" style=\"padding:10px 16px;\">\n                            <d...</td>",
+          "selector": "html > body > table > tbody > tr > td > table:nth-child(2) > tbody > tr:nth-child(10) > td",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "<td align=\"center\" valign=\"top\" style=\"padding:10px 16px;\">\n                            <d...</td>",
+          "selector": "html > body > table > tbody > tr > td > table:nth-child(2) > tbody > tr:nth-child(11) > td",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "<ol style=\"margin:0; margin-left: 16px; padding:0; line-height:22px;\" align=\"left\">\n                              ...</ol>",
+          "selector": "html > body > table > tbody > tr > td > table:nth-child(2) > tbody > tr:nth-child(11) > td > div > ol",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "<td align=\"center\" valign=\"top\" style=\"padding:10px 16px;\">\n                            <d...</td>",
+          "selector": "html > body > table > tbody > tr > td > table:nth-child(2) > tbody > tr:nth-child(12) > td",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "<ul style=\"margin:0; margin-left: 16px; padding:0; line-height:22px;\" align=\"left\" type=\"disc\">\n                              ...</ul>",
+          "selector": "html > body > table > tbody > tr > td > table:nth-child(2) > tbody > tr:nth-child(12) > td > div > ul",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "<td align=\"center\" valign=\"top\" style=\"padding:10px 16px 10px;border-top: 4px solid #ffad2d;background:#ebf1f3;background-color:#ebf1f3;\">\n                            <d...</td>",
+          "selector": "html > body > table > tbody > tr > td > table:nth-child(3) > tbody > tr > td",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/experiments/step-by-step-no-accordion/",
+      "issues": []
+    },
+    {
+      "url": "/samples/cookies-essential-el/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H63.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Not all th elements in this table have a scope attribute. These cells should contain a scope attribute to identify their association with td elements.",
+          "context": "<table class=\"govcy-table\">\n                <thead>\n      ...</table>",
+          "selector": "html > body > main > div > article > table",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/samples/cookies-optional-el/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H63.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Not all th elements in this table have a scope attribute. These cells should contain a scope attribute to identify their association with td elements.",
+          "context": "<table class=\"govcy-table\">\n                <thead>\n      ...</table>",
+          "selector": "html > body > main > div > article > table:nth-child(5)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H63.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Not all th elements in this table have a scope attribute. These cells should contain a scope attribute to identify their association with td elements.",
+          "context": "<table class=\"govcy-table\">\n                <thead>\n      ...</table>",
+          "selector": "html > body > main > div > article > table:nth-child(18)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/samples/cookies-with-concent/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \"submit\" or \"image\", or BUTTON elements with type \"submit\" or omitted/invalid.",
+          "context": "<form action=\"\" class=\"govcy-form\" novalidate=\"\">\n                <div class=\"go...</form>",
+          "selector": "#mainContainer1 > div > article > form",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/samples/template-order-of-things-all/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \"submit\" or \"image\", or BUTTON elements with type \"submit\" or omitted/invalid.",
+          "context": "<form action=\"\" class=\"govcy-form\" novalidate=\"\">\n                <div class=\"go...</form>",
+          "selector": "#mainContainer1 > div > article > form",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/experiments/cond-radio-aria/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \"submit\" or \"image\", or BUTTON elements with type \"submit\" or omitted/invalid.",
+          "context": "<form action=\"\" class=\"govcy-form\" novalidate=\"\">\n    <fieldset class=\"govcy-fie...</form>",
+          "selector": "#mainContainer > div > article > form",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/samples/a11y-radio-legend/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \"submit\" or \"image\", or BUTTON elements with type \"submit\" or omitted/invalid.",
+          "context": "<form action=\"\" class=\"govcy-form\" novalidate=\"\">\n                    <fieldset ...</form>",
+          "selector": "#mainContainer > div > article > form",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/samples/a11y-radio-legend-bad/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \"submit\" or \"image\", or BUTTON elements with type \"submit\" or omitted/invalid.",
+          "context": "<form action=\"\" class=\"govcy-form\" novalidate=\"\">\n                    <fieldset ...</form>",
+          "selector": "#mainContainer > div > article > form",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Fieldset.Name",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This fieldset element does not have a name available to an accessibility API. Valid names are: legend element, aria-label undefined, aria-labelledby undefined.",
+          "context": "<fieldset class=\"govcy-fieldset\">\n                        <h1>Do...</fieldset>",
+          "selector": "#mainContainer > div > article > form > fieldset",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H71.NoLegend",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Fieldset does not contain a legend element. All fieldsets should contain a legend element that describes a description of the field group.",
+          "context": "<fieldset class=\"govcy-fieldset\">\n                        <h1>Do...</fieldset>",
+          "selector": "#mainContainer > div > article > form > fieldset",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/samples/cookies-essential-en/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H63.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Not all th elements in this table have a scope attribute. These cells should contain a scope attribute to identify their association with td elements.",
+          "context": "<table class=\"govcy-table\">\n                <thead>\n      ...</table>",
+          "selector": "html > body > main > div > article > table",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/samples/cookies-optional-en/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H63.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Not all th elements in this table have a scope attribute. These cells should contain a scope attribute to identify their association with td elements.",
+          "context": "<table class=\"govcy-table\">\n                <thead>\n      ...</table>",
+          "selector": "html > body > main > div > article > table:nth-child(5)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H63.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Not all th elements in this table have a scope attribute. These cells should contain a scope attribute to identify their association with td elements.",
+          "context": "<table class=\"govcy-table\">\n                <thead>\n      ...</table>",
+          "selector": "html > body > main > div > article > table:nth-child(18)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/samples/example-cond-radio-select/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \"submit\" or \"image\", or BUTTON elements with type \"submit\" or omitted/invalid.",
+          "context": "<form action=\"\" class=\"govcy-form\" novalidate=\"\">\n                <fieldset clas...</form>",
+          "selector": "#mainContainer > div > article > form",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/samples/step-by-step-default/",
+      "issues": []
+    },
+    {
+      "url": "/samples/step-by-step-and/",
+      "issues": []
+    },
+    {
+      "url": "/samples/step-by-step-or/",
+      "issues": []
+    },
+    {
+      "url": "/samples/step-by-step-two-thirds/",
+      "issues": []
+    },
+    {
+      "url": "/samples/step-page/",
+      "issues": []
+    },
+    {
+      "url": "/samples/template-address/",
+      "issues": []
+    },
+    {
+      "url": "/samples/templare-heading-title-more/",
+      "issues": []
+    },
+    {
+      "url": "/samples/template-heading-error-summary/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \"submit\" or \"image\", or BUTTON elements with type \"submit\" or omitted/invalid.",
+          "context": "<form action=\"\" class=\"govcy-form\" novalidate=\"\">\n                <div class=\"go...</form>",
+          "selector": "#mainContainer > div > article > form",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/samples/templare-heading-title/",
+      "issues": []
+    },
+    {
+      "url": "/samples/template-heading-breadcrumbs/",
+      "issues": []
+    },
+    {
+      "url": "/samples/template-heading-input-js/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \"submit\" or \"image\", or BUTTON elements with type \"submit\" or omitted/invalid.",
+          "context": "<form action=\"\" class=\"govcy-form\" novalidate=\"\">\n                <div id=\"formC...</form>",
+          "selector": "#mainContainer > div > article > form",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/samples/template-heading-back/",
+      "issues": []
+    },
+    {
+      "url": "/samples/template-heading-phase-banner/",
+      "issues": []
+    },
+    {
+      "url": "/samples/template-heading-input/",
+      "issues": [
+        {
+          "code": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \"submit\" or \"image\", or BUTTON elements with type \"submit\" or omitted/invalid.",
+          "context": "<form action=\"\" class=\"govcy-form\" novalidate=\"\">\n                <div class=\"go...</form>",
+          "selector": "#mainContainer > div > article > form",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    },
+    {
+      "url": "/samples/template-radios/",
+      "issues": []
+    }
+  ]
+}

@@ -69,6 +69,91 @@ Note that the code example below shows only the `Main` section.
 </main>
 ```
 
+### Next steps
+If the service requires the user to take more actions after the confirmation page, you should provide the [next steps](../step_by_step_navigation/#always-visible-step-by-step-navigation):
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<!--main-->
+ <div class="govcy-container">
+    <div class="govcy-row">
+        <article class="govcy-col-8">
+            <div class="govcy-alert-completed-notification">
+                <div class="govcy-alert-completed-notification-body govcy-bg-success">
+                    <h1>Application Complete</h1>
+                    <p>Your Reference Number</p>
+                    <p class="fw-bold">DSF2204111303108618</p>
+                </div>   
+            </div>
+            <p>We have sent you a confirmation email</p>
+            <p><a href="#">Help us improve this service</a></p>
+            <h2>Next steps</h2>
+            <div class="govcy-accordion govcy-accordion-steps govcy-mb-0">
+                <div class="govcy-accordion-item">
+                    <div class="govcy-accordion-step">1</div>
+                    <h3 class="govcy-pt-4">
+                        <span class="govcy-visually-hidden">Step 1, </span>Make an appointment
+                    </h3> 
+                    <div>
+                        <p><a href="#">Make an appointment</a> at the service point</p>
+                    </div>
+                </div>
+                <div class="govcy-accordion-item">
+                    <div class="govcy-accordion-step">2</div>
+                    <h3 class="govcy-pt-4">
+                            <span class="govcy-visually-hidden">Step 2, </span>Pick up
+                    </h3>
+                    <div>
+                        <p>Pick up your documents from the service point</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+</div>
+</div>
+
+*HTML code*
+```html
+ <!--main-->
+ <main class="govcy-container">
+    <div class="govcy-row">
+        <article class="govcy-col-8">
+            <div class="govcy-alert-completed-notification">
+                <div class="govcy-alert-completed-notification-body govcy-bg-success">
+                    <h1>Application Complete</h1>
+                    <p>Your Reference Number</p>
+                    <p class="fw-bold">DSF2204111303108618</p>
+                </div>   
+            </div>
+            <p>We have sent you a confirmation email</p>
+            <p><a href="#">Help us improve this service</a></p>
+            <h2>Next steps</h2>
+            <div class="govcy-accordion govcy-accordion-steps govcy-mb-0">
+                <div class="govcy-accordion-item">
+                    <div class="govcy-accordion-step">1</div>
+                    <h3 class="govcy-pt-4">
+                        <span class="govcy-visually-hidden">Step 1, </span>Make an appointment
+                    </h3> 
+                    <div>
+                        <p><a href="#">Make an appointment</a> at the service point</p>
+                    </div>
+                </div>
+                <div class="govcy-accordion-item">
+                    <div class="govcy-accordion-step">2</div>
+                    <h3 class="govcy-pt-4">
+                            <span class="govcy-visually-hidden">Step 2, </span>Pick up
+                    </h3>
+                    <div>
+                        <p>Pick up your documents from the service point</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+</main>
+```
+
+
 ### Help users who bookmark the page
 Some users will bookmark the confirmation page as a form of receipt. You should allow them to return to the page, whenever possible.
 
