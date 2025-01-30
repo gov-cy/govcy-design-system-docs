@@ -74,6 +74,64 @@ You can find the code of the link to section below:
 	<a href="#">Learn to drive a car: step by step</a>
 </div>
 ```
+
+### Always visible step by step navigation
+
+You may use the always visible step by step navigation pattern to show the next steps to the user (for example in the next steps of the [confirmation page](../confirmation-pages/#next-steps) ). This variation does not use the accordion component, instead the steps are always visible to the user. 
+
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<div class="govcy-accordion govcy-accordion-steps govcy-mb-0">
+	<div class="govcy-accordion-item">
+		<div class="govcy-accordion-step">1</div>
+		<h3 class="govcy-pt-4">
+			<span class="govcy-visually-hidden">Step 1, </span>Make an appointment
+		</h3> 
+		<div>
+			<p><a href="#">Make an appointment</a> at the service point</p>
+		</div>
+	</div>
+	<div class="govcy-accordion-item">
+		<div class="govcy-accordion-step">2</div>
+		<h3 class="govcy-pt-4">
+				<span class="govcy-visually-hidden">Step 2, </span>Pick up
+		</h3>
+		<div>
+			<p>Pick up your documents from the service point</p>
+		</div>
+	</div>
+</div>
+</div>
+
+*HTML code*
+```html
+<div class="govcy-accordion govcy-accordion-steps govcy-mb-0">
+	<div class="govcy-accordion-item">
+		<div class="govcy-accordion-step">1</div>
+		<h3 class="govcy-pt-4">
+			<span class="govcy-visually-hidden">Step 1, </span>Make an appointment
+		</h3> 
+		<div>
+			<p><a href="#">Make an appointment</a> at the service point</p>
+		</div>
+	</div>
+	<div class="govcy-accordion-item">
+		<div class="govcy-accordion-step">2</div>
+		<h3 class="govcy-pt-4">
+				<span class="govcy-visually-hidden">Step 2, </span>Pick up
+		</h3>
+		<div>
+			<p>Pick up your documents from the service point</p>
+		</div>
+	</div>
+</div>
+```
+
+*Example in a confirmation page*
+[Open in new tab](../../samples/step-page-static/){rel="noreferrer noopener" target="_blank"}
+
+<iframe src="../../samples/step-page-static/" width="100%" frameborder="0" scrolling="no" class="govcy-br-1 govcy-br-standard govcy-mb-4" onload="resizeIframe(this)"></iframe>
+
 ### Elements of step by step navigation
 
 #### Steps
