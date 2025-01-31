@@ -13,7 +13,7 @@ layout : "base_for_samples.njk"
         <article class="govcy-col-8">
             <h1>Accessibility statement</h1>
             <h2>Conformance status</h2>
-            <p>The <a href="https://www.w3.org/TR/WCAG21/" rel="noreferrer noopener" target="_blank">Web Content Accessibility Guideline</a> (WCAG) defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA.</p> 
+            <p>The <a href="https://www.w3.org/TR/WCAG21/" rel="noreferrer noopener" target="_blank">Web Content Accessibility Guidelines</a> (WCAG) defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA.</p> 
             <p>The [service/website name] is fully conformant with WCAG 2.1 level AA.</p>
             <h2>Assessment approach</h2>
             <p>The [Team] assessed the accessibility of the service using: </p>
@@ -22,7 +22,7 @@ layout : "base_for_samples.njk"
                 <li><a href="https://pa11y.org/" rel="noreferrer noopener" target="_blank">Pa11y</a> </li>
             </ul>
             <h2>Compatibility with browsers</h2> 
-            <p>The [service name] is designed to be compatible with the following browsers: </p> 
+            <p>The service is designed to be compatible with the following browsers: </p> 
             <ul>
                 <li>Chrome on Microsoft Windows</li>
                 <li>Chrome on Android</li> 
@@ -45,8 +45,8 @@ layout : "base_for_samples.njk"
             <ul class="govcy-list-unstyled">
                 <li>Deputy Ministry of Research, Innovation, and Digital Policy<br>134 Lemesos Avenue<br>2015 Strovolos, Lefkosia<br>Cyprus</li>
             </ul>
-            <p>Or you can email <a href="mailto:info@dmrid.gov.cy" target="_blank">info@dmrid.gov.cy</a>.</p>
-            <p>If you are not satisfied with their response, you can <a href="https://eforms.mof.gov.cy/eforms/eforms.nsf/complaintformombudsman_en/complaintformombudsman_en?OpenForm" target="_blank">send a complaint to the Commissioner for Administration and the Protection of Human Rights (Ombudsman)</a>.</p>
+            <p>Or you can email: <a href="mailto:info@dmrid.gov.cy" target="_blank">info@dmrid.gov.cy</a>.</p>
+            <p>If you are not satisfied with the response, you can <a href="https://eforms.mof.gov.cy/eforms/eforms.nsf/complaintformombudsman_en/complaintformombudsman_en?OpenForm" target="_blank">send a complaint to the Commissioner for Administration and the Protection of Human Rights (Ombudsman)</a>.</p>
             <h2>Date</h2>
             <p>This statement was created on [7th of December 2024] </p>
         </article>

@@ -12,6 +12,7 @@ layout : "base_for_samples_el.njk"
     <div class="govcy-row">
         <article class="govcy-col-8">
             <h1>Δήλωση προσβασιμότητας</h1>
+            <h2>Κατάσταση συμμόρφωσης</h2>
             <p>Οι Οδηγίες Προσβασιμότητας Περιεχομένου <a href="https://www.w3.org/TR/WCAG21/" rel="noreferrer noopener" target="_blank">WCAG 2.1</a>WCAG καθορίζουν απαιτήσεις για σχεδιαστές και προγραμματιστές για τη βελτίωση της προσβασιμότητας για τα άτομα με αναπηρίες. Καθορίζουν τρία επίπεδα συμμόρφωσης: Επίπεδο A, Επίπεδο AA, και Επίπεδο AAA.</p> 
             <p>Η [όνομα υπηρεσίας/wesite] συμμορφώνεται πλήρως με τις Οδηγίες του WCAG 2.1 επίπεδο AA. </p>
             <h2>Προσέγγιση αξιολόγησης</h2>
@@ -21,7 +22,7 @@ layout : "base_for_samples_el.njk"
                 <li><a href="https://pa11y.org/" rel="noreferrer noopener" target="_blank">Pa11y</a> </li>
             </ul>
             <h2>Συμβατότητα με τους φυλλομετρητές</h2> 
-            <p>Η [όνομα υπηρεσίας] είναι συμβατή με τους πιο κάτω φυλλομετρητές:</p> 
+            <p>Η υπηρεσίας είναι συμβατή με τους πιο κάτω φυλλομετρητές:</p> 
             <ul>
                 <li>Chrome on Microsoft Windows</li>
                 <li>Chrome on Android</li> 
