@@ -10,7 +10,19 @@ localization:
 ## What's new
 
 **{{ site.dsUpdateDate }}**
-Version 3.0.0 of the Design system has been released.
+Version {{ site.version }} of the Design system has been released.
+
+**Added**
+- [Accessibility statement pages pattern](https://gov-cy.github.io/govcy-design-system-docs/patterns/accessibility_pages/). New pattern.
+- [Privacy policy pages pattern](https://gov-cy.github.io/govcy-design-system-docs/patterns/privacy_policy_page/). New pattern.
+- [Date Input: Mobile friendly variant](https://gov-cy.github.io/govcy-design-system-docs/components/date_input/#mobile-friendly-input). New component variant. 
+- [Step by step: Always visible variant](https://gov-cy.github.io/govcy-design-system-docs/patterns/step_by_step_navigation/). New pattern variant. 
+- [Confirmation pages: Next steps variant](https://gov-cy.github.io/govcy-design-system-docs/patterns/confirmation-pages/#next-steps). New pattern variant. 
+
+**Fixed**
+- [Details component](https://gov-cy.github.io/govcy-design-system-docs/components/details/): Better bottom spacing.
+- [Summary List](https://gov-cy.github.io/govcy-design-system-docs/components/summary_list/): Better spacing between key and value.
+- [Conditional radio](https://gov-cy.github.io/govcy-design-system-docs/components/radio/#conditional-radios-(revealing-a-question)): Better font size for labels and legends inside conditional radios.
 
 [Read the full change log (opens in new tab)](https://github.com/gov-cy/govcy-design-system/blob/main/CHANGELOG.md){rel="noreferrer noopener" target="_blank"}.
 

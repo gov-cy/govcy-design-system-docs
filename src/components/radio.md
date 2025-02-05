@@ -408,7 +408,7 @@ To implement a conditional radio and connect it with a collapsing area, use the 
             </div>
             <div class="govcy-form-control govcy-form-control-hint govcy-pl-4 govcy-ml-5 govcy-radio__conditional govcy-radio__conditional--hidden" id="email-simple-different">
                 <div class="govcy-form-control">
-                    <label class="govcy-label" for="in4-simple">Email Address</label>
+                    <label class="govcy-label govcy-label-primary" for="in4-simple">Email Address</label>
                     <span id="in4-simple-hint" class="govcy-hint">We'll only use this for applying</span>
                     <input id="in4-simple" type="text" class="govcy-text-input" aria-describedby="in4-simple-hint"/>
                 </div>
@@ -437,7 +437,7 @@ To implement a conditional radio and connect it with a collapsing area, use the 
             </div>
             <div class="govcy-form-control govcy-form-control-hint govcy-pl-4 govcy-ml-5 govcy-radio__conditional govcy-radio__conditional--hidden" id="email-simple-different">
                 <div class="govcy-form-control">
-                    <label class="govcy-label" for="in4-simple">Email Address</label>
+                    <label class="govcy-label govcy-label-primary" for="in4-simple">Email Address</label>
                     <span id="in4-simple-hint" class="govcy-hint">We'll only use this for applying</span>
                     <input id="in4-simple" type="text" class="govcy-text-input" aria-describedby="in4-simple-hint"/>
                 </div>
@@ -471,7 +471,7 @@ To start with preselected radio and collapse content:
             </div>
             <div class="govcy-form-control govcy-form-control-hint govcy-pl-4 govcy-ml-5 govcy-radio__conditional" id="email-simple-collapsed-different">
                 <div class="govcy-form-control">
-                    <label class="govcy-label" for="in4-simple-collapsed">Email Address</label>
+                    <label class="govcy-label govcy-label-primary" for="in4-simple-collapsed">Email Address</label>
                     <span id="in4-simple-collapsed-hint" class="govcy-hint">We'll only use this for applying</span>
                     <input id="in4-simple-collapsed" type="text" class="govcy-text-input" aria-describedby="in4-simple-collapsed-hint" value="test@email.com"/>
                 </div>
@@ -500,7 +500,7 @@ To start with preselected radio and collapse content:
             </div>
             <div class="govcy-form-control govcy-form-control-hint govcy-pl-4 govcy-ml-5 govcy-radio__conditional" id="email-simple-collapsed-different">
                 <div class="govcy-form-control">
-                    <label class="govcy-label" for="in4-simple-collapsed">Email Address</label>
+                    <label class="govcy-label govcy-label-primary" for="in4-simple-collapsed">Email Address</label>
                     <span id="in4-simple-collapsed-hint" class="govcy-hint">We'll only use this for applying</span>
                     <input id="in4-simple-collapsed" type="text" class="govcy-text-input" aria-describedby="in4-simple-collapsed-hint" value="test@email.com"/>
                 </div>
@@ -543,12 +543,12 @@ You can add multiple radio buttons in the same conditional group or add multiple
             </div>
             <div class="govcy-form-control govcy-form-control-hint govcy-pl-4 govcy-ml-5 govcy-radio__conditional govcy-radio__conditional--hidden" id="email-different">
                 <div class="govcy-form-control">
-                    <label class="govcy-label" for="in4">Personal Email Address</label>
+                    <label class="govcy-label govcy-label-primary" for="in4">Personal Email Address</label>
                     <span id="in4-hint" class="govcy-hint">We'll only use this for applying</span>
                     <input id="in4" type="text" class="govcy-text-input" aria-describedby="in4-hint"/>
                 </div>
                 <div class="govcy-form-control">
-                    <label class="govcy-label" for="in5">Work Email Address</label>
+                    <label class="govcy-label govcy-label-primary" for="in5">Work Email Address</label>
                     <span id="in5-hint" class="govcy-hint">We'll only use this for applying</span>
                     <input id="in5" type="text" class="govcy-text-input" aria-describedby="in5-hint"/>
                 </div>
@@ -562,7 +562,7 @@ You can add multiple radio buttons in the same conditional group or add multiple
             </div>
             <div class="govcy-form-control govcy-form-control-hint govcy-pl-4 govcy-ml-5 govcy-radio__conditional govcy-radio__conditional--hidden" id="address-different">
                 <div class="govcy-form-control"> 
-                    <label class="govcy-label" for="in4a">Home Address</label>
+                    <label class="govcy-label govcy-label-primary" for="in4a">Home Address</label>
                     <span id="in4a-hint" class="govcy-hint">We'll only use this for applying</span>
                     <input id="in4a" type="text" class="govcy-text-input" aria-describedby="in4a-hint"/>
                 </div>
@@ -591,12 +591,12 @@ You can add multiple radio buttons in the same conditional group or add multiple
             </div>
             <div class="govcy-form-control govcy-form-control-hint govcy-pl-4 govcy-ml-5 govcy-radio__conditional govcy-radio__conditional--hidden" id="email-different">
                 <div class="govcy-form-control">
-                    <label class="govcy-label" for="in4">Personal Email Address</label>
+                    <label class="govcy-label govcy-label-primary" for="in4">Personal Email Address</label>
                     <span id="in4-hint" class="govcy-hint">We'll only use this for applying</span>
                     <input id="in4" type="text" class="govcy-text-input" aria-describedby="in4-hint"/>
                 </div>
                 <div class="govcy-form-control">
-                    <label class="govcy-label" for="in5">Work Email Address</label>
+                    <label class="govcy-label govcy-label-primary" for="in5">Work Email Address</label>
                     <span id="in5-hint" class="govcy-hint">We'll only use this for applying</span>
                     <input id="in5" type="text" class="govcy-text-input" aria-describedby="in5-hint"/>
                 </div>
@@ -610,7 +610,7 @@ You can add multiple radio buttons in the same conditional group or add multiple
             </div>
             <div class="govcy-form-control govcy-form-control-hint govcy-pl-4 govcy-ml-5 govcy-radio__conditional govcy-radio__conditional--hidden" id="address-different">
                 <div class="govcy-form-control"> 
-                    <label class="govcy-label" for="in4a">Home Address</label>
+                    <label class="govcy-label govcy-label-primary" for="in4a">Home Address</label>
                     <span id="in4a-hint" class="govcy-hint">We'll only use this for applying</span>
                     <input id="in4a" type="text" class="govcy-text-input" aria-describedby="in4a-hint"/>
                 </div>
@@ -693,12 +693,12 @@ Make sure to follow the instructions for [error messages](../error_message) and 
             </div>
             <div class="govcy-form-control govcy-form-control-error govcy-pl-4 govcy-ml-5 govcy-radio__conditional" id="email-simple-error-different">
                 <div class="govcy-form-control">
-                    <label class="govcy-label" for="in4-simple-error-1">Perosnal Email Address</label>
+                    <label class="govcy-label govcy-label-primary" for="in4-simple-error-1">Perosnal Email Address</label>
                     <span id="in4-simple-error-hint-1" class="govcy-hint">We'll only use this for applying</span>
                     <input id="in4-simple-error-1" type="text" class="govcy-text-input" aria-describedby="in4-simple-error-hint-1" value="test@email.com"/>
                 </div>
                 <div class="govcy-form-control">
-                    <label class="govcy-label" for="in4-simple-error">Work Email Address</label>
+                    <label class="govcy-label govcy-label-primary" for="in4-simple-error">Work Email Address</label>
                     <span id="in4-simple-error-hint" class="govcy-hint">We'll only use this for applying</span>
                     <p id="in4-simple-error-error-msg" class="govcy-input-error-msg">
                         <span class="govcy-visually-hidden-error">Error:</span>
@@ -769,12 +769,12 @@ Make sure to follow the instructions for [error messages](../error_message) and 
             </div>
             <div class="govcy-form-control govcy-form-control-error govcy-pl-4 govcy-ml-5 govcy-radio__conditional" id="email-simple-error-different">
                 <div class="govcy-form-control">
-                    <label class="govcy-label" for="in4-simple-error-1">Perosnal Email Address</label>
+                    <label class="govcy-label govcy-label-primary" for="in4-simple-error-1">Perosnal Email Address</label>
                     <span id="in4-simple-error-hint-1" class="govcy-hint">We'll only use this for applying</span>
                     <input id="in4-simple-error-1" type="text" class="govcy-text-input" aria-describedby="in4-simple-error-hint-1" value="test@email.com"/>
                 </div>
                 <div class="govcy-form-control">
-                    <label class="govcy-label" for="in4-simple-error">Work Email Address</label>
+                    <label class="govcy-label govcy-label-primary" for="in4-simple-error">Work Email Address</label>
                     <span id="in4-simple-error-hint" class="govcy-hint">We'll only use this for applying</span>
                     <p id="in4-simple-error-error-msg" class="govcy-input-error-msg">
                         <span class="govcy-visually-hidden-error">Error:</span>
