@@ -29,8 +29,8 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/govcy-design-system-docs/img/apple-touch-icon-72x72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="/govcy-design-system-docs/img/apple-touch-icon-57x57-precomposed.png">
         <!-- Bootstrap CSS -->
-        <link href="/govcy-design-system-docs/css/govcy.uds.min.css" rel="stylesheet" >
         
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.1.0/dist/css/govcy.uds.min.css" integrity="sha384-Py9pPShU3OUzcQ3dAfZLkJI0Fgyv9fWKmAdK8f7dS9caBKuKs5z/ZpyERuh0ujm0" crossorigin="anonymous">
         <link href="/govcy-design-system-docs/css/docs.css" rel="stylesheet" >
         <!-- Prism Highlighter CSS -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-a11y-dark.min.css" rel="stylesheet">
@@ -121,8 +121,8 @@
     <section class="govcy-container" id="beforeMainContainer">
         
         
-        <div class="govcy-phase-banner">
-            <span class="govcy-tag">Ver. 3.0.0</span>
+        <div class="govcy-phase-banner  govcy-phase-banner-light">
+            <span class="govcy-tag">Ver. 3.1.0</span>
             <span class="govcy-ml-2">For the older version visit <a href='https://gov-cy.github.io/govcy-design-system-docs-v2/'>v2 documentation</a> </span>
         </div>
         
@@ -174,7 +174,7 @@
                     </aside>
                 
                 <p>The easiest way to get started is to use the jsdelvr CDN to include the gov.cy developer assets in your code, as shown in the <a href="../page-template/#starter-template">page template</a> and the examples below.</p>
-<p>Alternatively you can download the <a href="https://github.com/gov-cy/govcy-design-system/releases/download/v3.0.0/dist.zip">gov.cy starter kit</a>, unzip it and include it in your project.</p>
+<p>Alternatively you can download the <a href="https://github.com/gov-cy/govcy-design-system/releases/download/v3.1.0/dist.zip">gov.cy starter kit</a>, unzip it and include it in your project.</p>
 <p>The following file structure is included in the starter kit:</p>
 <pre class="language-html"><code class="language-html">.<br>+-- css<br>|   +-- govcy.uds.css<br>+-- img<br>|   +-- ...<br>+-- JS<br>|   +-- govcy.uds.js<br>|   +-- locales<br>|       +-- govcy.datepicker.el.js<br>|       +-- govcy.datepicker.en.js<br>+-- manifest.json</code></pre>
 <p>All HTML code examples in this website utilizes the classes, styling and behavior defined in this CSS and JS files of our developer assets.</p>
@@ -182,7 +182,7 @@
 <p>To add the gov.cy styles using our developer assets, add the CSS either using the CDN or using the downloaded starter kit.</p>
 <h3 id="cdn" tabindex="-1">CDN</h3>
 <p>To use the gov.cy CSS with jsdelivr CDN, include the following code in your <code>&lt;head&gt;</code>.</p>
-<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- CSS --></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.0.0/dist/css/govcy.uds.min.css<span class="token punctuation">"</span></span> <span class="token attr-name">integrity</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>sha384-1zLHWOtnS0hOIz5mVEPZp0UH5gUE6eo0CQcCGA3sF2TyYhHyKOd3Ni8Iy/NjEASU<span class="token punctuation">"</span></span> <span class="token attr-name">crossorigin</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>anonymous<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- CSS --></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.1.0/dist/css/govcy.uds.min.css<span class="token punctuation">"</span></span> <span class="token attr-name">integrity</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>sha384-Py9pPShU3OUzcQ3dAfZLkJI0Fgyv9fWKmAdK8f7dS9caBKuKs5z/ZpyERuh0ujm0<span class="token punctuation">"</span></span> <span class="token attr-name">crossorigin</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>anonymous<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre>
 <h3 id="downloaded-starter-kit" tabindex="-1">Downloaded starter kit</h3>
 <p>To add the gov.cy CSS using the downloaded starter kit, use the pre-built <code>css/govcy.uds.min.css</code> file, by including the following code in your <code>&lt;head&gt;</code>.</p>
 <pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- CSS --></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>css/govcy.uds.min.css<span class="token punctuation">"</span></span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token punctuation">></span></span></code></pre>
@@ -191,7 +191,7 @@
 <p>Many of our components require the use of JavaScript to function. To enable them, you can use the gov.cy JS either using the CDN or using the downloaded starter kit to reference the javascript file.</p>
 <h3 id="cdn-1" tabindex="-1">CDN</h3>
 <p>To use the gov.cy CSS with jsdelivr CDN, include the following code right before the closing <code>&lt;/body&gt;</code> tag.</p>
-<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- scripts --></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.0.0/dist/js/govcy.uds.min.js<span class="token punctuation">"</span></span> <span class="token attr-name">integrity</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>sha384-zOuDuogVaaTveh/Ou2iYwCk14zFiSmMk7Ax8yRnXDtOJMyKZH5+ZNibNVwZSKtw+<span class="token punctuation">"</span></span> <span class="token attr-name">crossorigin</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>anonymous<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span></code></pre>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- scripts --></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.1.0/dist/js/govcy.uds.min.js<span class="token punctuation">"</span></span> <span class="token attr-name">integrity</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>sha384-g1c/YT97MWPoo9pbyFgQcxvB2MYLdsOgI2+ldxkEXAbhTzKfyYXCEjk9EVkOP5hp<span class="token punctuation">"</span></span> <span class="token attr-name">crossorigin</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>anonymous<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span></code></pre>
 <h3 id="downloaded-starter-kit-1" tabindex="-1">Downloaded starter kit</h3>
 <p>To add the gov.cy javascript using the downloaded starter kit, use the pre-built <code>js/govcy.uds.js</code> file, by including the following code right before the closing <code>&lt;/body&gt;</code> tag.</p>
 <pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- scripts --></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>js/govcy.uds.min.js<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span></code></pre>
@@ -253,7 +253,7 @@
                     </ul>
                     <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
                         <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
-                        <span class="govcy-mr-6 govcy-mt-2 govcy-mb-2">© Republic of Cyprus, 2024</span>
+                        <span class="govcy-mr-6 govcy-mt-2 govcy-mb-2">© Republic of Cyprus, 2025</span>
                         <a href="https://europa.eu/" title="Go to EU Website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="/govcy-design-system-docs/img/FundedbyEU_NextGeneration_H53-EN.png" alt="Funded by the EU Next Generation EU"></a>
                         <a href="http://www.cyprus-tomorrow.gov.cy/" title="Go to Cyprus to tomorrow website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="/govcy-design-system-docs/img/CYpros to aurio logo eng_H53_EN.png" alt="Cyprus tomorrow, recovery and resilience plan"></a>
                     </div>
@@ -265,7 +265,8 @@
         </div>
     </div>
 </footer>
-            <script src="/govcy-design-system-docs/js/govcy.uds.min.js" type="text/javascript"></script>
+            
+        <script src="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.1.0/dist/js/govcy.uds.min.js" integrity="sha384-g1c/YT97MWPoo9pbyFgQcxvB2MYLdsOgI2+ldxkEXAbhTzKfyYXCEjk9EVkOP5hp" crossorigin="anonymous"></script>
         <script src="/govcy-design-system-docs/js/uds.js" type="text/javascript"></script>
     </body>
 </html>

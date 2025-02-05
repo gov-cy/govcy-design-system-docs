@@ -27,8 +27,8 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ '/img/apple-touch-icon-72x72-precomposed.png' | url }}">
         <link rel="apple-touch-icon-precomposed" href="{{ '/img/apple-touch-icon-57x57-precomposed.png' | url }}">
         <!-- Bootstrap CSS -->
-        <link href="{{ '/css/govcy.uds.min.css' | url }}" rel="stylesheet" >
-        {# <link href="{{ site.cssCDN }}" rel="stylesheet" > #}
+        {# <link href="{{ '/css/govcy.uds.min.css' | url }}" rel="stylesheet" > #}
+        {{ site.cssCDN | safe }}
         <link href="{{ '/css/docs.css' | url }}" rel="stylesheet" >
         <!-- Prism Highlighter CSS -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-a11y-dark.min.css" rel="stylesheet">

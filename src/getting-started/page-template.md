@@ -314,6 +314,6 @@ Here are some sample pages using the gov.cy page template.
 
 ## Accessibility
 Make sure:
-- you include the [skip link (opens in new tab)](#skip-to-main-content) in your page
-- you use the correct [lang attribute (opens in new tab)](#html5-doctype-and-lang) in your page
-- the [page titles are unique (opens in new tab)](#title%2C-description)
+- you include the [skip link](#skip-to-main-content) in your page
+- you use the correct [lang attribute](#html5-doctype-and-lang) in your page
+- the [page titles are unique](#title%2C-description)
