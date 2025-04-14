@@ -24,7 +24,7 @@ Version {{ site.version }} of the Design system has been released.
 - [Summary List](https://gov-cy.github.io/govcy-design-system-docs/components/summary_list/): Better spacing between key and value.
 - [Conditional radio](https://gov-cy.github.io/govcy-design-system-docs/components/radio/#conditional-radios-(revealing-a-question)): Better font size for labels and legends inside conditional radios.
 
-[Read more about what's new](../whats-new).
+[Read more about what's new](whats-new/).
 
 <hr>
 
