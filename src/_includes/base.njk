@@ -8,7 +8,7 @@
     <!--Main-->
     <main class="govcy-container" id="mainContainer"{% if hideSearch %} data-pagefind-ignore{% endif %}>
         <div class="govcy-row">
-            <div class="{% if showCategoryMenu %}govcy-col-md-9 govcy-col-lg-10{% else %}govcy-col-12{% endif %} govcy-order-last-desk">
+            <div class="{% if showCategoryMenu %}govcy-col-md-9 govcy-col-lg-10{% else %}{% if twoThirds %}govcy-col-8{% else %}govcy-col-12{% endif %}{% endif %} govcy-order-last-desk">
                 {% if showTitle %}<h1 data-pagefind-weight="10">{{ title }}</h1>{% endif %}
                 {# Check if we want to show table of contents#}
                 {% if site.showTOC and content | toc %}
