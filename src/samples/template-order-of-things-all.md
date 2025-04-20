@@ -80,6 +80,39 @@ date: 2022-02-01 00:00:01Z
                     <a href="#in-tel">Enter a valid telephone number</a>
                 </p>
             </div>
+            <div class="govcy-step-indicator">
+                <ol class="govcy-step-indicator__segments">
+                    <li class="govcy-step-indicator__segment govcy-step-indicator__segment--complete">
+                        <span class="govcy-step-indicator__label">
+                            Personal information <span class="govcy-visually-hidden">completed</span>
+                        </span>
+                    </li>
+                    <li class="govcy-step-indicator__segment govcy-step-indicator__segment--current" aria-current="step">
+                        <span class="govcy-step-indicator__label">
+                            Phone number
+                        </span>
+                    </li>
+                    <li class="govcy-step-indicator__segment">
+                        <span class="govcy-step-indicator__label">
+                            Address <span class="govcy-visually-hidden">not completed</span>
+                        </span>
+                    </li>
+                    <li class="govcy-step-indicator__segment">
+                        <span class="govcy-step-indicator__label">
+                            Other details <span class="govcy-visually-hidden">not completed</span>
+                        </span>
+                    </li>
+                    <li class="govcy-step-indicator__segment">
+                        <span class="govcy-step-indicator__label">
+                            Consent <span class="govcy-visually-hidden">not completed</span>
+                        </span>
+                    </li>
+                </ol>
+            </div>
+            <div class="govcy-step-indicator__counter">
+                <span class="govcy-visually-hidden">Step </span>
+                <span class="govcy-step-indicator__current-counter">2</span> of 5
+            </div>
             <form action="" class="govcy-form" novalidate>
                 <div class="govcy-form-control govcy-form-control-error">
                     <h1><label class="govcy-label govcy-label-primary" for="in-tel">What is your telephone number?</label></h1>

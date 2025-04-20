@@ -5,17 +5,17 @@ module.exports = {
   showTOC: true,
   showDraft: false,
   showVersion: true,
-  dsUpdateDate : "5/2/2025",
-  version:"3.1.0", 
-  cssCDN: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.1.0/dist/css/govcy.uds.min.css" integrity="sha384-Py9pPShU3OUzcQ3dAfZLkJI0Fgyv9fWKmAdK8f7dS9caBKuKs5z/ZpyERuh0ujm0" crossorigin="anonymous">`,
-  cssDownload: "https://raw.githubusercontent.com/gov-cy/govcy-design-system/v3.1.0/dist/css/govcy.uds.min.css",
-  jsCDN: `<script src="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.1.0/dist/js/govcy.uds.min.js" integrity="sha384-g1c/YT97MWPoo9pbyFgQcxvB2MYLdsOgI2+ldxkEXAbhTzKfyYXCEjk9EVkOP5hp" crossorigin="anonymous"></script>`,
-  jsDownload: "https://raw.githubusercontent.com/gov-cy/govcy-design-system/v3.1.0/dist/js/govcy.uds.min.js",
-  distDownload: "https://github.com/gov-cy/govcy-design-system/releases/download/v3.1.0/dist.zip",
+  dsUpdateDate : "17/4/2025",
+  version:"3.2.0", 
+  cssCDN: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.2.0/dist/css/govcy.uds.min.css" integrity="sha384-qjx16YXHG+Vq/NVtwU2aDTc7DoLOyaVNuOHrwA3aTrckpM/ycxZoR5dx7ezNJ/Lv" crossorigin="anonymous">`,
+  cssDownload: "https://raw.githubusercontent.com/gov-cy/govcy-design-system/v3.2.0/dist/css/govcy.uds.min.css",
+  jsCDN: `<script src="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.2.0/dist/js/govcy.uds.min.js" integrity="sha384-tqEyCdi3GS4uDXctplAd7ODjiK5fo2Xlqv65e8w/cVvrcBf89tsxXFHXXNiUDyM7" crossorigin="anonymous"></script>`,
+  jsDownload: "https://raw.githubusercontent.com/gov-cy/govcy-design-system/v3.2.0/dist/js/govcy.uds.min.js",
+  distDownload: "https://github.com/gov-cy/govcy-design-system/releases/download/v3.2.0/dist.zip",
   github : {
     homeUrl: 'https://github.com/gov-cy/govcy-design-system',
     dsWebsiteUrl: 'https://github.com/gov-cy/govcy-design-system-docs',
-    currentVersion: 'https://github.com/gov-cy/govcy-design-system/tree/v3.1.0',
+    currentVersion: 'https://github.com/gov-cy/govcy-design-system/tree/v3.2.0',
     updateDate: `2/5/2024`
   },
   npm : {
@@ -30,6 +30,14 @@ module.exports = {
   },
   testLibrary : {
     homeUrl: 'https://www.npmjs.com/package/@gov-cy/govcy-frontend-tester',
+    updateDate: `2/5/2024`
+  },
+  rendererLibrary : {
+    homeUrl: 'https://www.npmjs.com/package/@gov-cy/govcy-frontend-renderer',
+    updateDate: `2/5/2024`
+  },
+  prototypeProject : {
+    homeUrl: 'https://github.com/gov-cy/govcy-frontend-prototype',
     updateDate: `2/5/2024`
   },
   emailLibrary : {

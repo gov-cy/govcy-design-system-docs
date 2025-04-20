@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+        <head>
+    <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Social -->
+        <meta property="og:description" content="Design your services using gov.cy styles, components and patterns.">
+        <meta property="og:title" content="Progress indicator - Unified Design System - gov.cy">
+        <meta property="og:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://gov-cy.github.io/govcy-design-system-docs/img/icons-512.png">
+        <meta property="og:site_name" content="gov.cy">
+    
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
+        <meta property="twitter:title" content="Progress indicator - Unified Design System - gov.cy">
+        <meta property="twitter:description" content="Design your services using gov.cy styles, components and patterns.">
+        <meta property="twitter:image" content="https://gov-cy.github.io/govcy-design-system-docs/img/icons-512.png">
+        <!-- Theme --> 
+        <link rel="manifest" href="/govcy-design-system-docs/manifest.json">
+        <meta name="theme-color" content="#31576F">
+        <link rel="icon" type="image/png" sizes="48x48" href="/govcy-design-system-docs/img/favicon-48x48.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/govcy-design-system-docs/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/govcy-design-system-docs/img/favicon-16x16.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/govcy-design-system-docs/img/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/govcy-design-system-docs/img/apple-touch-icon-120x120-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/govcy-design-system-docs/img/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/govcy-design-system-docs/img/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="/govcy-design-system-docs/img/apple-touch-icon-57x57-precomposed.png">
+        <!-- Bootstrap CSS -->
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.2.0/dist/css/govcy.uds.min.css" integrity="sha384-qjx16YXHG+Vq/NVtwU2aDTc7DoLOyaVNuOHrwA3aTrckpM/ycxZoR5dx7ezNJ/Lv" crossorigin="anonymous">
+        <link href="/govcy-design-system-docs/css/docs.css" rel="stylesheet" >
+        <!-- Prism Highlighter CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-a11y-dark.min.css" rel="stylesheet">
+        <title>Progress indicator - Unified Design System - gov.cy</title>
+        <meta name="description" content="Design your services using gov.cy styles, components and patterns.">
+    </head>
+    <body>
+        <section class="govcy-container-fluid" id="bodyStartContainer">
+        <a href="#mainContainer" class="govcy-skip-link">Skip to main content</a> 
+    </section>
+    <header class="govcy-header govcy-d-print-none" id="headerContainer">
+  <div class="govcy-header-main-area">
+    <div
+      class="govcy-container govcy-main-area-items govcy-justify-content-between"
+    >
+      <div class="govcy-navigation-container govcy-align-items-center">
+        <div class="govcy-service-container">
+          <a href="https://www.gov.cy" class="govcy-logo" title="Go to the GOV.CY homepage"
+            ><img alt="gov.cy Logo"
+          /></a>
+          <span class="govcy-service-name">
+            <a href="/govcy-design-system-docs/">Unified Design System</a>
+          </span>
+        </div>
+        <ul class="govcy-menu-items">
+          <li class="govcy-mobile-menu govcy-mobile-menu-only govcy-dropdown govcy-ms-auto">
+            <span>
+                <a href="#" class="govcy-menu-item govcy-expand-btn">Menu</a>
+            </span>
+          </li>
+          <li class="govcy-global-search">
+            <span><a href="#" class="govcy-menu-item" aria-label="Search, expands search text box when clicked" aria-haspopup="true"><i class="govcy-search-icon"></i></a></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="govcy-header-menu-area">
+    <nav class="govcy-mainmenu">
+      <div class="govcy-container">
+          <ul class="govcy-menu-items">
+              <li>
+                      <a href="/govcy-design-system-docs/getting-started/" class="govcy-menu-item">
+                          Get Started
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/styles/" class="govcy-menu-item">
+                          Styles
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/components/" class="govcy-menu-item active">
+                          Components
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/patterns/" class="govcy-menu-item">
+                          Patterns
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/css_utilities/" class="govcy-menu-item">
+                          Utilities
+                      </a>
+                  </li><li>
+                      <a href="/govcy-design-system-docs/guides/" class="govcy-menu-item">
+                          Guides
+                      </a>
+                  </li>
+          </ul>
+      </div>
+    </nav>
+    <div class="govcy-header-search-area">
+        <div class="govcy-container">
+            <div class="govcy-form">
+                
+                <div class="govcy-form-control">
+                    <span class="pagefind-custom-label">Search the Design System</span>
+                    <link href="/govcy-design-system-docs/pagefind/pagefind-ui.css" rel="stylesheet">
+                    <div id="search-div" class="search"></div>
+                    <script src="/govcy-design-system-docs/pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search-div', showImages: false, translations : {placeholder:''} }); document.querySelector('.pagefind-ui__search-input').setAttribute('aria-label', 'Search the Design System');"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</header>
+
+    
+<!--beforeMain-->
+    <section class="govcy-container" id="beforeMainContainer">
+        
+        
+        <div class="govcy-phase-banner  govcy-phase-banner-light">
+            <span class="govcy-tag">Ver. 3.2.0</span>
+            <span class="govcy-ml-2">For the older version visit <a href='https://gov-cy.github.io/govcy-design-system-docs-v2/'>v2 documentation</a> </span>
+        </div>
+        
+    </section>
+
+    <!--Main-->
+    <main class="govcy-container" id="mainContainer">
+        <div class="govcy-row">
+            <div class="govcy-col-md-9 govcy-col-lg-10 govcy-order-last-desk">
+                <h1 data-pagefind-weight="10">Progress indicator</h1>
+                
+                
+                    <aside class="toc-outter">
+                        <strong>On this page</strong>
+                        <nav class="toc">
+                <ol>
+                    
+                    <li><a href="#when-to-use-this-component">When to use this component</a>
+            		</li>
+
+                    <li><a href="#when-not-to-use-this-component">When not to use this component</a>
+            		</li>
+
+                    <li><a href="#how-it-works">How it works</a>
+            
+                <ol>
+                    
+                    <li><a href="#2-to-5-steps-variant">2 to 5 steps variant</a>
+            		</li>
+
+                    <li><a href="#6-to-10-steps-variant">6 to 10 steps variant</a>
+            		</li>
+
+                    <li><a href="#more-than-10-steps-variant">More than 10 steps variant</a>
+            		</li>
+
+                    <li><a href="#component-text">Component text</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#accessibility">Accessibility</a>
+            		</li>
+                </ol>
+            </nav>
+                    </aside>
+                
+                <p>The progress indicator informs users on their progress through a multi-step process on linear service flows. This helps users understand the progression of long processes and reduces uncertainty as they complete each screen.</p>
+<h2 id="when-to-use-this-component" tabindex="-1">When to use this component</h2>
+<p>Use the progress indicator when a user is completing a <a href="../../patterns/service_structure/#variant-1---linear-structure">linear, multi-page service process</a> that can be organized into two or more high-level steps or chapters.</p>
+<div class="govcy-alert-notification govcy-br-5 govcy-br-info govcy-px-0">
+    <div class="govcy-alert-notification-header govcy-fw-bold govcy-bg-info govcy-fs-4">Warning</div>
+    <div class="govcy-alert-notification-body">
+        <p class="govcy-pl-4 govcy-pt-6">
+		<span class="govcy-warning-text govcy-d-inline">
+			<span class="govcy-warning-text-icon" aria-hidden="true">!</span></span>
+			The progress indicator is meant to complement the standard <strong>Back</strong> and <strong>Continue</strong> navigation in a linear sequence. It should <strong>not</strong> be used as a navigation element on its own.
+		</p>
+    </div>
+</div>
+<h2 id="when-not-to-use-this-component" tabindex="-1">When not to use this component</h2>
+<ul>
+<li><strong>Long services with conditional logic.</strong> Avoid using a progress indicator if the number or order of steps may change based on user input.</li>
+<li><strong>Nonlinear processes.</strong> This component is not suitable for journeys where steps can be completed in any order, for example the <a href="../../patterns/service_structure/#variant-2---break-the-service-into-sections">break the service into sections service structure</a>.</li>
+<li><strong>Very short services.</strong> Don’t use a progress indicator if the process has fewer than two steps or chapters. For simple services without clear sections, it’s unnecessary and may add clutter.</li>
+</ul>
+<h2 id="how-it-works" tabindex="-1">How it works</h2>
+<p>Place the progress at the top of the <a href="../../getting-started/page-template/#sections">main section</a>(<code>&lt;main&gt;</code>) container, right above the <code>&lt;h1&gt;</code>. If your page includes an <a href="../error_summary">error summary</a> the progress indicator must be placed right below it. For example the order of elements in a page with a progress indicator should look like this:</p>
+<ol>
+<li><strong>Before main section</strong>
+<ol>
+<li><a href="../back_link/">Back link</a> component</li>
+<li><a href="../phase_banner/">Phase banner</a> component, in case it is used</li>
+</ol>
+</li>
+<li><strong>Main section</strong>
+<ol>
+<li><a href="../error_summary/">Error summary</a> component, in the case of errors.</li>
+<li><strong>Progress indicator</strong></li>
+<li><a href="../../styles/typography/#headings">Header 1 <code>&lt;h1&gt;</code></a>. If your using an input component and you are asking just one question on a page, follow the instructions for <a href="../../patterns/labels_and_legend_headings/#single-question-page">single question page labels and legends</a> and adjust the header accordingly.</li>
+<li>Other <a href="../../components/">components</a>, <a href="../../patterns/">patterns</a> or <a href="../../styles/typography/">typography</a></li>
+</ol>
+</li>
+</ol>
+<p>More information about element placement on a page can be found in the <a href="../../getting-started/page-template/#element-placement-order">page template</a>.</p>
+<p>Always use the progress indicator with a <a href="../back_link">back link</a> and a <a href="../button/#primary-button">continue primary button</a> for navigation.</p>
+<p>Make sure to use the correct variant depending on the number of steps.</p>
+<h3 id="2-to-5-steps-variant" tabindex="-1">2 to 5 steps variant</h3>
+<p>For services with more than 2 and less than 6 steps, use the progress indicator with step labels, step segments and step counters.</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<div class="govcy-step-indicator">
+    <ol class="govcy-step-indicator__segments">
+        <li class="govcy-step-indicator__segment govcy-step-indicator__segment--complete">
+            <span class="govcy-step-indicator__label">
+                Personal information <span class="govcy-visually-hidden">completed</span>
+            </span>
+        </li>
+        <li class="govcy-step-indicator__segment govcy-step-indicator__segment--current" aria-current="step">
+            <span class="govcy-step-indicator__label">
+                Phone number
+            </span>
+        </li>
+        <li class="govcy-step-indicator__segment">
+            <span class="govcy-step-indicator__label">
+                Address <span class="govcy-visually-hidden">not completed</span>
+            </span>
+        </li>
+        <li class="govcy-step-indicator__segment">
+            <span class="govcy-step-indicator__label">
+                Other details <span class="govcy-visually-hidden">not completed</span>
+            </span>
+        </li>
+        <li class="govcy-step-indicator__segment">
+            <span class="govcy-step-indicator__label">
+                Consent <span class="govcy-visually-hidden">not completed</span>
+            </span>
+        </li>
+    </ol>
+</div>
+<div class="govcy-step-indicator__counter">
+    <span class="govcy-visually-hidden">Step </span>
+    <span class="govcy-step-indicator__current-counter">2</span> of 5
+</div>
+</div>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ol</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__segments<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__segment govcy-step-indicator__segment--complete<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__label<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                Personal information <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-visually-hidden<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>completed<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__segment govcy-step-indicator__segment--current<span class="token punctuation">"</span></span> <span class="token attr-name">aria-current</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>step<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__label<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                Phone number<br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__segment<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__label<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                Address <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-visually-hidden<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>not completed<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__segment<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__label<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                Other details <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-visually-hidden<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>not completed<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__segment<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__label<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                Consent <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-visually-hidden<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>not completed<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ol</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__counter<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-visually-hidden<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Step <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__current-counter<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span> of 5<br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<p>Use the following classes on the <code>&lt;li&gt;</code> element for each step to indicate the step status:</p>
+<ul>
+<li>for <strong>completed steps</strong> use <code>govcy-step-indicator__segment govcy-step-indicator__segment--complete</code></li>
+<li>for <strong>current step</strong> use <code>govcy-step-indicator__segment govcy-step-indicator__segment--current</code></li>
+<li>for <strong>uncompleted steps</strong> use <code>govcy-step-indicator__segment</code></li>
+</ul>
+<p>Use the following visually hidden text to help screen readers indicate the status of the step (for translations see the <a href="#component-text">content text section below</a>):</p>
+<ul>
+<li>for <strong>completed steps</strong> use<code>&lt;span class=&quot;govcy-visually-hidden&quot;&gt;completed&lt;/span&gt;</code></li>
+<li>for <strong>uncompleted steps</strong> use <code>&lt;span class=&quot;govcy-visually-hidden&quot;&gt;not completed&lt;/span&gt;</code></li>
+</ul>
+<p>Use the <code>aria-current=&quot;step&quot;</code> attribute indicates the current step.</p>
+<p>Use the <code>&lt;span class=&quot;govcy-visually-hidden&quot;&gt;Step &lt;/span&gt;</code> visually hidden text to help screen readers indicate the step in the counter (for translations see the <a href="#component-text">content text section below</a>).</p>
+<p>On mobile devices, the step labels are hidden.</p>
+<h3 id="6-to-10-steps-variant" tabindex="-1">6 to 10 steps variant</h3>
+<p>For services with more than 6 and less than 11 steps, use the progress indicator with step segments and step counters, without the step labels. You may also use this variant for services with less than 6 steps, if the step names are too long to comfortably fit in the step indicator.</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<div class="govcy-step-indicator">
+    <ol class="govcy-step-indicator__segments" aria-hidden="true">
+        <li class="govcy-step-indicator__segment govcy-step-indicator__segment--complete">
+        </li>
+        <li class="govcy-step-indicator__segment govcy-step-indicator__segment--current" aria-current="step">
+        </li>
+        <li class="govcy-step-indicator__segment">
+        </li>
+        <li class="govcy-step-indicator__segment">
+        </li>
+        <li class="govcy-step-indicator__segment">
+        </li>
+        <li class="govcy-step-indicator__segment">
+        </li>
+        <li class="govcy-step-indicator__segment">
+        </li>
+        <li class="govcy-step-indicator__segment">
+        </li>
+        <li class="govcy-step-indicator__segment">
+        </li>
+        <li class="govcy-step-indicator__segment">
+        </li>
+    </ol>
+</div>
+<div class="govcy-step-indicator__counter">
+    <span class="govcy-visually-hidden">Step </span>
+    <span class="govcy-step-indicator__current-counter">2</span> of 10
+</div>
+</div>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ol</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__segments<span class="token punctuation">"</span></span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__segment govcy-step-indicator__segment--complete<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__segment govcy-step-indicator__segment--current<span class="token punctuation">"</span></span> <span class="token attr-name">aria-current</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>step<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__segment<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__segment<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__segment<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__segment<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__segment<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__segment<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__segment<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__segment<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ol</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__counter<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-visually-hidden<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Step <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__current-counter<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span> of 10<br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<p>Use the following classes on the <code>&lt;li&gt;</code> element for each step to indicate the step status:</p>
+<ul>
+<li>for <strong>completed steps</strong> use <code>govcy-step-indicator__segment govcy-step-indicator__segment--complete</code></li>
+<li>for <strong>current step</strong> use <code>govcy-step-indicator__segment govcy-step-indicator__segment--current</code></li>
+<li>for <strong>uncompleted steps</strong> use <code>govcy-step-indicator__segment</code></li>
+</ul>
+<p>Use the <code>aria-hidden=&quot;true&quot;</code> attribute on the <code>&lt;ol&gt;</code> element to hide the step labels from screen readers.</p>
+<p>Use the <code>aria-current=&quot;step&quot;</code> attribute indicates the current step.</p>
+<p>Use the <code>&lt;span class=&quot;govcy-visually-hidden&quot;&gt;Step &lt;/span&gt;</code> visually hidden text to help screen readers indicate the step in the counter (for translations see the <a href="#component-text">content text section below</a>).</p>
+<h3 id="more-than-10-steps-variant" tabindex="-1">More than 10 steps variant</h3>
+<p>For services with more than 10 steps, use the progress indicator with only step counters.</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<div class="govcy-step-indicator__counter">
+    <span class="govcy-visually-hidden">Step </span>
+    <span class="govcy-step-indicator__current-counter">2</span> of 15
+</div>
+</div>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__counter<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-visually-hidden<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Step <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-step-indicator__current-counter<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span> of 15<br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<p>Use the <code>&lt;span class=&quot;govcy-visually-hidden&quot;&gt;Step &lt;/span&gt;</code> visually hidden text to help screen readers indicate the step in the counter (for translations see the <a href="#component-text">content text section below</a>).</p>
+<h3 id="component-text" tabindex="-1">Component text</h3>
+<p>Use the following text for the visually hidden text:</p>
+<table class="govcy-table">
+<thead>
+<tr>
+<th>Label</th>
+<th>English</th>
+<th>Greek</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Completed</strong></td>
+<td>Completed</td>
+<td>Ολοκληρώθηκε</td>
+</tr>
+<tr>
+<td><strong>Not completed</strong></td>
+<td>Not completed</td>
+<td>Δεν ολοκληρώθηκε</td>
+</tr>
+<tr>
+<td><strong>Step</strong></td>
+<td>Step</td>
+<td>Βήμα</td>
+</tr>
+<tr>
+<td><strong>Of</strong></td>
+<td>Of</td>
+<td>από</td>
+</tr>
+</tbody>
+</table>
+<h2 id="accessibility" tabindex="-1">Accessibility</h2>
+<p>Be sure to:</p>
+<ul>
+<li>Use the following visually hidden text to help screen readers indicate the status of the step</li>
+<li>Use the <code>aria-current=&quot;step&quot;</code> attribute indicates the current step.</li>
+<li>Use the visually hidden text to help screen readers indicate the step in the counter</li>
+<li>If using the 6 to 10 steps variant, use <code>aria-hidden=&quot;true&quot;</code> to the <code>&lt;ol&gt;</code> element.</li>
+</ul>
+
+            </div>
+    
+    <aside class="govcy-col-md-3 govcy-col-lg-2 govcy-order-first-desk">
+                <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Pages in this section</div>
+                <ul class="govcy-list-unstyled"><li class="app-side-link"><a href="/govcy-design-system-docs/components/accordion/">Accordion</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/back_link/">Back Link</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/breadcrumbs/">Breadcrumbs</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/button/">Button</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/character_count/">Character count</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/checkbox/">Checkbox</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/cookie_banner/">Cookie banner</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/data_tables/">Data tables</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/date_input/">Date input</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/date_picker/">Date picker</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/details/">Details</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/error_message/">Error Message</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/error_summary/">Error Summary</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/fieldset/">Fieldset</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/file/">File upload</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/footer/">Footer</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/header/">Header</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/inset_text/">Inset text</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/panel/">Panel</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/phase_banner/">Phase banner</a></li><li class="app-side-link active"><a href="/govcy-design-system-docs/components/progress_indicator/">Progress indicator</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/radio/">Radio</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/select/">Select</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/summary_list/">Summary list</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/table/">Table</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/tag/">Tag</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/text_input/">Text Input</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/textarea/">Textarea</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/user_name_and_sign_out/">User’s name and sign out</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/components/warning_text/">Warning text</a></li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+        <!-- Footer -->
+    <footer class="govcy-footer govcy-d-print-none"> 
+    <div class="govcy-px-4">
+        <div class="govcy-container">
+            <div class="govcy-row">
+                <div class="govcy-col-md-12 govcy-footer-column">
+                    <div class="govcy-row">
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Links</h3></li>
+                                <li><a href="/govcy-design-system-docs/">Home</a></li>
+                                <li><a href="/govcy-design-system-docs/getting-started">Get started</a></li>
+                                <li><a href="https://github.com/gov-cy/govcy-design-system" target="_blank">Github - Developer Assets</a></li>
+                                <li><a href="https://github.com/gov-cy/govcy-design-system-docs" target="_blank">Github - Design System website</a></li>
+                            </ul>
+                        </div>
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Tools and libraries</h3></li>
+                                <li><a href="https://www.figma.com/@dsf_cy" target="_blank">Figma</a></li>
+                                <li><a href="https://excalidraw-libraries-git-cevangelougovcy-gov-e2dec6-excalidraw.vercel.app/?theme=light&sort=default#cevangelougovcy-gov-cy-uds-library" target="_blank">Exalidraw</a></li>
+                                <li><a href="https://www.npmjs.com/~gov-cy" target="_blank">npm</a></li>
+                            </ul>
+                        </div>
+                        <div class="govcy-col-md-4">
+                            <ul>
+                                <li><h3>Previous Versions</h3></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v2/" target="_blank">Ver. 2x</a></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v0/" target="_blank">Ver. 0x</a></li></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="govcy-container govcy-footer-separator">
+            <div class="govcy-d-flex govcy-justify-content-between govcy-align-items-end govcy-flex-wrap">
+                <div class="govcy-my-4">
+                    <ul>
+                        <li><a href="/govcy-design-system-docs/privacy-statement">Privacy statement</a></li>
+                        <li><a href="/govcy-design-system-docs/cookie-policy">Cookies</a></li>
+                        <li><a href="/govcy-design-system-docs/accessibility-statement">Accessibility</a></li>
+                    </ul>
+                    <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
+                        <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
+                        <span class="govcy-mr-6 govcy-mt-2 govcy-mb-2">© Republic of Cyprus, 2025</span>
+                        <a href="https://europa.eu/" title="Go to EU Website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="/govcy-design-system-docs/img/FundedbyEU_NextGeneration_H53-EN.png" alt="Funded by the EU Next Generation EU"></a>
+                        <a href="http://www.cyprus-tomorrow.gov.cy/" title="Go to Cyprus to tomorrow website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="/govcy-design-system-docs/img/CYpros to aurio logo eng_H53_EN.png" alt="Cyprus tomorrow, recovery and resilience plan"></a>
+                    </div>
+                </div>
+                <div class="govcy-my-4">
+                   <a href="https://www.gov.cy" class="govcy-footer-logo" title="Go to the GOV.CY homepage"><img alt="gov.cy Logo"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+            
+        <script src="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.2.0/dist/js/govcy.uds.min.js" integrity="sha384-tqEyCdi3GS4uDXctplAd7ODjiK5fo2Xlqv65e8w/cVvrcBf89tsxXFHXXNiUDyM7" crossorigin="anonymous"></script>
+        <script src="/govcy-design-system-docs/js/uds.js" type="text/javascript"></script>
+    </body>
+</html>

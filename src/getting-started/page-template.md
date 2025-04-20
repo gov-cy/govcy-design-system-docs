@@ -261,8 +261,9 @@ Depending on the website or service, you might need to implement more than one d
     2. [Phase banner](../../components/phase_banner/) component
 4. **Main section** 
     1. [Error summary](../../components/error_summary/) component, in the case of errors.
-    2. [Header 1 `<h1>`](../../styles/typography/#headings). If your using an input component and you are asking just one question on a page, follow the instructions for [single question page labels and legends](../../patterns/labels_and_legend_headings/#single-question-page) and adjust the header accordingly. 
-    3. Other [components](../../components/), [patterns](../../patterns/) or [typography](../../styles/typography/)
+    2. [Progress indicator](../../components/progress_indicator/) component, in case it is used.
+    3. [Header 1 `<h1>`](../../styles/typography/#headings). If your using an input component and you are asking just one question on a page, follow the instructions for [single question page labels and legends](../../patterns/labels_and_legend_headings/#single-question-page) and adjust the header accordingly. 
+    4. Other [components](../../components/), [patterns](../../patterns/) or [typography](../../styles/typography/)
 5. **Footer section**
     1. [Footer](../../components/footer/) component
 

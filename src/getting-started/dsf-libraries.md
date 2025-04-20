@@ -16,17 +16,26 @@ The [Excalidraw library (opens in new tab)]({{site.exalidraw.homeUrl}}){rel="nor
 
 You can [add directly to excalidraw (opens in new tab)]({{site.exalidraw.addUrl}}){rel="noreferrer noopener" target="_blank"} or [download it]({{site.exalidraw.downloadUrl}}). 
 
-## Testing libraries
+## Tools and packages
+Our team uses the following tools and packages for rapid prototyping, development and testing. 
 
-### govcy-frontend-tester NPM package
-Our team uses the  [govcy-frontend-tester package (opens in new tab)]({{site.testLibrary.homeUrl}}){rel="noreferrer noopener" target="_blank"} to perform front end tests in terms of the accessibility and generic guidelines of the design system.
+### govcy-frontend-renderer (npm)
+The [govcy-frontend-renderer package (opens in new tab)]({{site.rendererLibrary.homeUrl}}){rel="noreferrer noopener" target="_blank"} is used to to render HTML for gov.cy elements, as they are defined in the Unified Design System, using njk or json templates.
 
-More details and instructions how to use it, are included in the package's readme file. 
+More details and instructions how to use it, are included in the readme file. 
 
-## Other libraries
+### govcy-frontend-prototype 
+The [govcy-frontend-prototype (opens in new tab)]({{site.prototypeProject.homeUrl}}){rel="noreferrer noopener" target="_blank"} is used to to build prototypes of gov.cy services and websites based on the Unified Design System.
 
-### dsf-email-templates NPM package
+More details and instructions how to use it, are included in the readme file. 
 
-Our team uses the [dsf-email-templates package (opens in new tab)]({{site.emailLibrary.homeUrl}}){rel="noreferrer noopener" target="_blank"} to create HTML emails templates.
+### govcy-frontend-tester (npm)
+The [govcy-frontend-tester package (opens in new tab)]({{site.testLibrary.homeUrl}}){rel="noreferrer noopener" target="_blank"} is used to perform front end tests in terms of the accessibility and generic guidelines of the design system.
 
-You can read more on our [guide on HTML emails](../../guides/create_an_html_email/). More details and instructions how to use the NPM package, are included in the package's readme file. 
+More details and instructions how to use it, are included in the readme file. 
+
+### dsf-email-templates (npm)
+
+The [dsf-email-templates package (opens in new tab)]({{site.emailLibrary.homeUrl}}){rel="noreferrer noopener" target="_blank"} is used to create HTML emails templates.
+
+You can read more on our [guide on HTML emails](../../guides/create_an_html_email/). More details and instructions how to use the NPM package, are included in the readme file. 

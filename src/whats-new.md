@@ -4,7 +4,55 @@ title: "What's new"
 showCategoryMenu : false
 showIndexInCategoryMenu : false
 showTOC: false
+twoThirds: true
 ---
+
+## v3.2.0 - 17/4/2025
+Version 3.2.0 of the Design system has been released.
+
+### Added {data-toc-exclude}
+- [Progress indicator](https://gov-cy.github.io/govcy-design-system-docs/components/progress_indicator/). New component.
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<div class="govcy-step-indicator">
+    <ol class="govcy-step-indicator__segments">
+        <li class="govcy-step-indicator__segment govcy-step-indicator__segment--complete">
+            <span class="govcy-step-indicator__label">
+                Personal information <span class="govcy-visually-hidden">completed</span>
+            </span>
+        </li>
+        <li class="govcy-step-indicator__segment govcy-step-indicator__segment--current" aria-current="step">
+            <span class="govcy-step-indicator__label">
+                Phone number
+            </span>
+        </li>
+        <li class="govcy-step-indicator__segment">
+            <span class="govcy-step-indicator__label">
+                Address <span class="govcy-visually-hidden">not completed</span>
+            </span>
+        </li>
+        <li class="govcy-step-indicator__segment">
+            <span class="govcy-step-indicator__label">
+                Other details <span class="govcy-visually-hidden">not completed</span>
+            </span>
+        </li>
+        <li class="govcy-step-indicator__segment">
+            <span class="govcy-step-indicator__label">
+                Consent <span class="govcy-visually-hidden">not completed</span>
+            </span>
+        </li>
+    </ol>
+</div>
+<div class="govcy-step-indicator__counter">
+    <span class="govcy-visually-hidden">Step </span>
+    <span class="govcy-step-indicator__current-counter">2</span> of 5
+</div>
+</div>
+
+### Changed {data-toc-exclude}
+- [Summary List](https://gov-cy.github.io/govcy-design-system-docs/components/summary_list/): Changes on key with better spacing and better typography on mobile.
+
+-----------------------
 
 ## v3.1.0 - 5/2/2025
 Version 3.1.0 of the Design system has been released.
