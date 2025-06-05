@@ -1,6 +1,7 @@
 module.exports = {
   buildTime: new Date(),
   isMultiLanguage : false,
+  githubPagesUrl : "https://gov-cy.github.io",
   url : "https://gov-cy.github.io/govcy-design-system-docs/",
   showTOC: true,
   showDraft: false,

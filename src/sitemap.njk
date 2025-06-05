@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: true
     {% for page in collections.all %}
         {%- if not page.data.hideSideMap -%}
         <url>
-            <loc>{{ site.url }}{{ page.url | url }}</loc>
+            <loc>{{ site.githubPagesUrl }}{{ page.url | url }}</loc>
             <lastmod>{{ page.date.toISOString() }}</lastmod>
         </url>
         {%- endif -%}
