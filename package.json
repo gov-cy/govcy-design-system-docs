@@ -25,5 +25,8 @@
     "minimist": "1.2.6",
     "async": "2.6.4",
     "@11ty/eleventy": "^1.0.1"
+  },
+  "overrides": {
+    "tar-fs": "^3.1.1"
   }
 }
