@@ -61,7 +61,7 @@ If the service requires users to sign in, choose to use the [Ariadni CY-Login (o
 
 ### Eligibility checks
 
-If users need to meet specific eligibility rules, make sure to perform the eligibility checks before they can the service. 
+If users need to meet specific eligibility rules, make sure to perform the eligibility checks before they can use the service. 
 
 If a user is not eligible to use the service, use the [cannot use the service pages pattern](../cannot-use-the-service) to tell them that they are not eligible. 
 
