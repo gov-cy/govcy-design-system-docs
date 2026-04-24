@@ -6,7 +6,7 @@ module.exports = {
   showTOC: true,
   showDraft: false,
   showVersion: true,
-  dsUpdateDate : "17/4/2025",
+  dsUpdateDate : "24/4/2026",
   version:"3.2.0", 
   cssCDN: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.2.0/dist/css/govcy.uds.min.css" integrity="sha384-qjx16YXHG+Vq/NVtwU2aDTc7DoLOyaVNuOHrwA3aTrckpM/ycxZoR5dx7ezNJ/Lv" crossorigin="anonymous">`,
   cssDownload: "https://raw.githubusercontent.com/gov-cy/govcy-design-system/v3.2.0/dist/css/govcy.uds.min.css",
@@ -33,8 +33,18 @@ module.exports = {
     homeUrl: 'https://www.npmjs.com/package/@gov-cy/govcy-frontend-tester',
     updateDate: `2/5/2024`
   },
+  udsCheckerBrowserExtension : {
+    homeUrl: 'https://github.com/gov-cy/govcy-uds-checker-chrome',
+    updateDate: `2/5/2024`
+  },
   rendererLibrary : {
     homeUrl: 'https://www.npmjs.com/package/@gov-cy/govcy-frontend-renderer',
+    blogUrl: 'https://dsf.dmrid.gov.cy/2026/03/02/building-consistent-government-interfaces-with-govcy-frontend-renderer/',
+    updateDate: `2/5/2024`
+  },
+  expressLibrary : {
+    homeUrl: 'https://www.npmjs.com/package/@gov-cy/govcy-express-services',
+    blogUrl: 'https://dsf.dmrid.gov.cy/2026/01/23/building-government-services-faster-with-express-services/',
     updateDate: `2/5/2024`
   },
   prototypeProject : {

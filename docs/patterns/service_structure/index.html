@@ -153,6 +153,9 @@
                     <li><a href="#sign-in">Sign in</a>
             		</li>
 
+                    <li><a href="#eligibility-checks">Eligibility checks</a>
+            		</li>
+
                     <li><a href="#one-thing-at-a-time">One thing at a time</a>
             
                 <ol>
@@ -163,6 +166,9 @@
             		</li>
 
                     <li><a href="#check-your-answers-page">Check your answers page</a>
+            		</li>
+
+                    <li><a href="#checks-before-submitting">Checks before submitting</a>
             		</li>
 
                     <li><a href="#confirmation-page">Confirmation page</a>
@@ -258,8 +264,10 @@
 <ol>
 <li>Start with an informative start page</li>
 <li>If needed, ask the users to sign-in</li>
+<li>If needed, perform eligibility checks</li>
 <li>Gather information from the users</li>
 <li>Let the users check their answers before submitting</li>
+<li>If needed, perform checks before submitting</li>
 <li>Show the users a confirmation of successful completion page.</li>
 </ol>
 <p>You may structure the “Gather information” step differently, in order to handle the complexity and specific needs of each service.</p>
@@ -277,7 +285,10 @@
 <p>Keep in mind that research has shown that users avoid reading long text, so keep your information minimal, to the point and avoid using legal jargon.</p>
 <p>This page usually resides on the GOV.CY portal.</p>
 <h3 id="sign-in" tabindex="-1">Sign in</h3>
-<p>If the service requires users to sign in, choose to use the <a href="https://dsf.dmrid.gov.cy/2022/06/08/ariadni-cy-login-specifications/" rel="noreferrer noopener" target="_blank">Ariadni CY-Login (opens in new tab)</a> whenever possible to do so.</p>
+<p>If the service requires users to sign in, choose to use the <a href="https://dev.azure.com/cyprus-gov-cds/Documentation/_wiki/wikis/Documentation/14/CY-Login" rel="noreferrer noopener" target="_blank">Ariadni CY-Login (opens in new tab)</a> whenever possible to do so.</p>
+<h3 id="eligibility-checks" tabindex="-1">Eligibility checks</h3>
+<p>If users need to meet specific eligibility rules, make sure to perform the eligibility checks before they can the service.</p>
+<p>If a user is not eligible to use the service, use the <a href="../cannot-use-the-service">cannot use the service pages pattern</a> to tell them that they are not eligible.</p>
 <h3 id="one-thing-at-a-time" tabindex="-1">One thing at a time</h3>
 <p>Prefer to split the <a href="../question_pages">questions</a> across multiple pages with each page containing just one thing, for example:</p>
 <ul>
@@ -314,6 +325,8 @@
 <p>Use the <a href="../check_answers">check answers pattern</a> to let users check their answers before submitting information to a service.</p>
 <p>Make sure to use the <a href="../../components/button/#success-button">success button</a> to indicate that the user is about to completed the service.</p>
 <p><img src="../../img/v3_illustration_check_answers.png" alt="Illustration a check your answers page" style="aspect-ratio: auto;"></p>
+<h3 id="checks-before-submitting" tabindex="-1">Checks before submitting</h3>
+<p>Make sure to perform any checks needed before the submission. If a user cannot submit, use the <a href="../cannot-use-the-service">cannot use the service pages pattern</a> to tell them that they cannot submit.</p>
 <h3 id="confirmation-page" tabindex="-1">Confirmation page</h3>
 <p>After the users have submitted their application, present a <a href="../confirmation-pages/">confirmation page</a> with a panel to inform them that they have successfully completed the transaction. This reassures the users their application has been filed and provides useful information on what will happen next.</p>
 <p><img src="../../img/illustration_confirmation_page.png" alt="Illustration a confirmation page" style="aspect-ratio: auto;"></p>
@@ -544,7 +557,7 @@
     
     <aside class="govcy-col-md-3 govcy-col-lg-2 govcy-order-first-desk">
                 <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Pages in this section</div>
-                <ul class="govcy-list-unstyled"><li class="govcy-fw-bolder govcy-mb-3">Ask users for</li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/addresses/">Addresses</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/bank_details/">Bank details</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/currency-amount/">Currency amount</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/dates/">Dates</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/email/">Email</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/gender_sex/">Gender or sex</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/names/">Names</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/numeric_inputs/">Numeric inputs</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/social_insurance_number/">Social Insurance Numbers</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/telephone/">Telephone numbers</a></li><li class="govcy-fw-bolder govcy-mb-3">Help users</li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/confirm_email_address/">Confirm an email address</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/confirm_phone_number/">Confirm a phone number</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/contact_department_or_team/">Contact a department or service team</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/filter_results/">Filter results</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/multiple_things/">Add multiple things </a></li><li class="govcy-fw-bolder govcy-mb-3">Pages</li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/accessibility_pages/">Accessibility statement pages</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/check_answers/">Check answers page</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/confirmation-pages/">Confirmation pages</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/cookies_pages/">Cookies page and cookies consent</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/page-not-found-pages/">Page not found pages</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/privacy_policy_page/">Privacy policy pages</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/question_pages/">Question pages</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/service-unavailable-pages/">Service unavailable pages</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/step_by_step_navigation/">Step by step navigation</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/task-list-page/">Task list page</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/there-is-a-problem/">There is a problem with the service pages</a></li><li class="govcy-fw-bolder govcy-mb-3">How to</li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/focus_state/">Focus state</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/labels_and_legend_headings/">Labels and legends</a></li><li class="app-side-link active"><a href="/govcy-design-system-docs/patterns/service_structure/">Structuring a service</a></li>
+                <ul class="govcy-list-unstyled"><li class="govcy-fw-bolder govcy-mb-3">Ask users for</li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/addresses/">Addresses</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/bank_details/">Bank details</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/currency-amount/">Currency amount</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/dates/">Dates</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/email/">Email</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/gender_sex/">Gender or sex</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/names/">Names</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/numeric_inputs/">Numeric inputs</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/social_insurance_number/">Social Insurance Numbers</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/telephone/">Telephone numbers</a></li><li class="govcy-fw-bolder govcy-mb-3">Help users</li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/confirm_email_address/">Confirm an email address</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/confirm_phone_number/">Confirm a phone number</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/contact_department_or_team/">Contact a department or service team</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/filter_results/">Filter results</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/multiple_things/">Add multiple things </a></li><li class="govcy-fw-bolder govcy-mb-3">Pages</li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/accessibility_pages/">Accessibility statement pages</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/cannot-use-the-service/">Cannot use the service pages (eligibility)</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/check_answers/">Check answers page</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/confirmation-pages/">Confirmation pages</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/cookies_pages/">Cookies page and cookies consent</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/page-not-found-pages/">Page not found pages</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/privacy_policy_page/">Privacy policy pages</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/question_pages/">Question pages</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/service-unavailable-pages/">Service unavailable pages</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/step_by_step_navigation/">Step by step navigation</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/task-list-page/">Task list page</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/there-is-a-problem/">There is a problem with the service pages</a></li><li class="govcy-fw-bolder govcy-mb-3">How to</li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/focus_state/">Focus state</a></li><li class="app-side-link"><a href="/govcy-design-system-docs/patterns/labels_and_legend_headings/">Labels and legends</a></li><li class="app-side-link active"><a href="/govcy-design-system-docs/patterns/service_structure/">Structuring a service</a></li>
                 </ul>
             </aside>
         </div>

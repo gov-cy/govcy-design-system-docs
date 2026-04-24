@@ -10,15 +10,26 @@ localization:
 ## What's new
 
 **{{ site.dsUpdateDate }}**
-Version {{ site.version }} of the Design system has been released.
+Developer assets are the same with v3.2.0, this update concerns the documentation.
+
+**Changes**
+- Added the [Cannot use the service pages (eligibility)](https://gov-cy.github.io/govcy-design-system-docs/patterns/cannot-use-the-service/) pattern.
+- Changed the [Structuring a service](https://gov-cy.github.io/govcy-design-system-docs/patterns/service_structure/) pattern to include eligibility and submission checks.
+
+----------------------
+
+**17/4/2025**
+Version 3.2.0 of the Design system has been released.
 
 **Changes**
 - Added the [progress indicator](https://gov-cy.github.io/govcy-design-system-docs/components/progress_indicator/) component.
 - Changed the [summary List](https://gov-cy.github.io/govcy-design-system-docs/components/summary_list/) component with better spacing and better typography on mobile.
 
+----------------------
+
 [Read more about what's new](whats-new/).
 
-<hr>
+
 
 ## Overview
 At its core, the gov.cy Unified Design System (UDS) consists of universal assets, elements, components, patterns and code guidance on how to design, build and develop websites and services that make use of the Cyprus government branding and image. This allows its users and teams to build a citizen centric, consistent, clean and intuitive user experience throughout gov.cy, that is accessible to everyone. 

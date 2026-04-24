@@ -254,7 +254,7 @@ Read more about [multiple question page labels and legends](../../patterns/label
  <div class="govcy-container">
     <div class="govcy-row">
         <article class="govcy-col-8">
-            <h1>Password Details</h1>
+            <h1>Passport Details</h1>
             <form action="" class="govcy-form" novalidate>
                 <div class="govcy-form-control">
                     <label class="govcy-label govcy-label-primary" for="pass-no">Passport Number</label>
@@ -311,7 +311,7 @@ Read more about [multiple question page labels and legends](../../patterns/label
  <main class="govcy-container">
     <div class="govcy-row">
         <article class="govcy-col-8">
-            <h1>Password Details</h1>
+            <h1>Passport Details</h1>
             <form action="" class="govcy-form" novalidate>
                 <div class="govcy-form-control">
                     <label class="govcy-label govcy-label-primary" for="pass-no">Passport Number</label>
