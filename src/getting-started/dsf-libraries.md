@@ -19,23 +19,28 @@ You can [add directly to excalidraw (opens in new tab)]({{site.exalidraw.addUrl}
 ## Tools and packages
 Our team uses the following tools and packages for rapid prototyping, development and testing. 
 
-### govcy-frontend-renderer (npm)
-The [govcy-frontend-renderer package (opens in new tab)]({{site.rendererLibrary.homeUrl}}){rel="noreferrer noopener" target="_blank"} is used to to render HTML for gov.cy elements, as they are defined in the Unified Design System, using njk or json templates.
+### govcy Frontend Renderer (npm)
+The [govcy Frontend Renderer package (opens in new tab)]({{site.rendererLibrary.homeUrl}}){rel="noreferrer noopener" target="_blank"} is used to to render HTML for gov.cy elements, as they are defined in the Unified Design System, using njk or json templates.
+
+This package is explained in the blog post [Building consistent government interfaces with Govcy Frontend Renderer (opens in new tab)]({{site.rendererLibrary.blogUrl}}){rel="noreferrer noopener" target="_blank"} and the project's readme file. 
+
+### govcy Express Services (npm)
+The [govcy Express Services package (opens in new tab)]({{site.expressLibrary.homeUrl}}){rel="noreferrer noopener" target="_blank"} is a Node.js / Express-based development framework for building government online services. It’s designed specifically for linear services, the kind that guide users through a series of questions, validate their answers, and submit the data to back-end systems.
+
+This package is explained in the blog post [Building government services faster with Express Services (opens in new tab)]({{site.expressLibrary.blogUrl}}){rel="noreferrer noopener" target="_blank"} and the project's readme file. 
+
+### govcy Frontend Prototype 
+The [govcy Frontend Prototype (opens in new tab)]({{site.prototypeProject.homeUrl}}){rel="noreferrer noopener" target="_blank"} is used to to build prototypes of gov.cy services and websites based on the Unified Design System.
 
 More details and instructions how to use it, are included in the readme file. 
 
-### govcy-frontend-prototype 
-The [govcy-frontend-prototype (opens in new tab)]({{site.prototypeProject.homeUrl}}){rel="noreferrer noopener" target="_blank"} is used to to build prototypes of gov.cy services and websites based on the Unified Design System.
+### gov.cy UDS Checker browser extension
+The [gov.cy UDS Checker browser extension (opens in new tab)]({{site.udsCheckerBrowserExtension.homeUrl}}){rel="noreferrer noopener" target="_blank"} helps designers and developers make sure that every online service or content page follows the official gov.cy Unified Design System (UDS) and Page Template standards. Note that the checker does not substitute the DSF assurance process and it does not perform all possible checks required by DSF.
 
 More details and instructions how to use it, are included in the readme file. 
 
-### govcy-frontend-tester (npm)
-The [govcy-frontend-tester package (opens in new tab)]({{site.testLibrary.homeUrl}}){rel="noreferrer noopener" target="_blank"} is used to perform front end tests in terms of the accessibility and generic guidelines of the design system.
+### dsf Email Templates (npm)
 
-More details and instructions how to use it, are included in the readme file. 
-
-### dsf-email-templates (npm)
-
-The [dsf-email-templates package (opens in new tab)]({{site.emailLibrary.homeUrl}}){rel="noreferrer noopener" target="_blank"} is used to create HTML emails templates.
+The [dsf Email Templates package (opens in new tab)]({{site.emailLibrary.homeUrl}}){rel="noreferrer noopener" target="_blank"} is used to create HTML emails templates.
 
 You can read more on our [guide on HTML emails](../../guides/create_an_html_email/). More details and instructions how to use the NPM package, are included in the readme file. 

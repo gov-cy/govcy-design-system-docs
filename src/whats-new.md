@@ -7,6 +7,15 @@ showTOC: false
 twoThirds: true
 ---
 
+## v3.2.0 - 24/4/2026
+Developer assets are the same with v3.2.0, this update concerns the documentation.
+
+### Added {data-toc-exclude}
+- [Cannot use the service pages (eligibility)](https://gov-cy.github.io/govcy-design-system-docs/patterns/cannot-use-the-service/). New pattern.
+
+### Updated {data-toc-exclude}
+- [Structuring a service](https://gov-cy.github.io/govcy-design-system-docs/patterns/service_structure/). Updated pattern to include eligibility and submission checks.
+
 ## v3.2.0 - 17/4/2025
 Version 3.2.0 of the Design system has been released.
 

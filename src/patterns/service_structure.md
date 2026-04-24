@@ -31,9 +31,11 @@ A service should:
 
 1. Start with an informative start page
 2. If needed, ask the users to sign-in
-3. Gather information from the users
-4. Let the users check their answers before submitting
-5. Show the users a confirmation of successful completion page.
+3. If needed, perform eligibility checks
+4. Gather information from the users
+5. Let the users check their answers before submitting
+6. If needed, perform checks before submitting
+7. Show the users a confirmation of successful completion page.
 
 You may structure the “Gather information” step differently, in order to handle the complexity and specific needs of each service.
 
@@ -55,7 +57,13 @@ This page usually resides on the GOV.CY portal.
 
 ### Sign in
 
-If the service requires users to sign in, choose to use the [Ariadni CY-Login (opens in new tab)](https://dsf.dmrid.gov.cy/2022/06/08/ariadni-cy-login-specifications/){rel="noreferrer noopener" target="_blank"} whenever possible to do so.
+If the service requires users to sign in, choose to use the [Ariadni CY-Login (opens in new tab)](https://dev.azure.com/cyprus-gov-cds/Documentation/_wiki/wikis/Documentation/14/CY-Login){rel="noreferrer noopener" target="_blank"} whenever possible to do so.
+
+### Eligibility checks
+
+If users need to meet specific eligibility rules, make sure to perform the eligibility checks before they can the service. 
+
+If a user is not eligible to use the service, use the [cannot use the service pages pattern](../cannot-use-the-service) to tell them that they are not eligible. 
 
 ### One thing at a time
 
@@ -94,6 +102,11 @@ Use the [check answers pattern](../check_answers) to let users check their answe
 Make sure to use the [success button](../../components/button/#success-button) to indicate that the user is about to completed the service.
 
 ![Illustration a check your answers page](../../img/v3_illustration_check_answers.png){style="aspect-ratio: auto;"}
+
+
+### Checks before submitting
+
+Make sure to perform any checks needed before the submission. If a user cannot submit, use the [cannot use the service pages pattern](../cannot-use-the-service) to tell them that they cannot submit. 
 
 ### Confirmation page
 After the users have submitted their application, present a [confirmation page](../confirmation-pages/) with a panel to inform them that they have successfully completed the transaction. This reassures the users their application has been filed and provides useful information on what will happen next.
