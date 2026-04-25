@@ -12,6 +12,7 @@ Developer assets are the same with v3.2.0, this update concerns the documentatio
 
 ### Added {data-toc-exclude}
 - [Cannot use the service pages (eligibility)](https://gov-cy.github.io/govcy-design-system-docs/patterns/cannot-use-the-service/). New pattern.
+- [How to handle errors and problems in a service](https://gov-cy.github.io/govcy-design-system-docs/guides/how_to_handle_errors_and_problems/). New guide.
 
 ### Updated {data-toc-exclude}
 - [Structuring a service](https://gov-cy.github.io/govcy-design-system-docs/patterns/service_structure/). Updated pattern to include eligibility and submission checks.

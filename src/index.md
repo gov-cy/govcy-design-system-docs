@@ -14,6 +14,7 @@ Developer assets are the same with v3.2.0, this update concerns the documentatio
 
 **Changes**
 - Added the [Cannot use the service pages (eligibility)](https://gov-cy.github.io/govcy-design-system-docs/patterns/cannot-use-the-service/) pattern.
+- Added the [How to handle errors and problems in a service](https://gov-cy.github.io/govcy-design-system-docs/guides/how_to_handle_errors_and_problems/) guide.
 - Changed the [Structuring a service](https://gov-cy.github.io/govcy-design-system-docs/patterns/service_structure/) pattern to include eligibility and submission checks.
 
 ----------------------
