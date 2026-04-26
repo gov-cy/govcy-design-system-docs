@@ -333,6 +333,30 @@ Use a [cannot use the service page](../../patterns/cannot-use-the-service/) from
     <button type="button" class="govcy-btn-success">Submit</button>
 </div>
 
+### When the service gets an unexpected response
+
+Sometimes a service depends on an API or another system to continue the journey.
+
+If the API or system returns an unexpected response, times out, or cannot be reached, do not show an error summary unless the user can fix the problem by changing something in the service.
+
+Use a [there is a problem with the service page](../../patterns/there-is-a-problem/) when the problem is unexpected and the user cannot fix it. This pattern is for unexpected service problems and should be used instead of showing technical messages like 500, bad request, or API error. 
+
+For example, use a there is a problem with the service page when:
+
+- an API does not respond
+- an API returns an unexpected format
+- an API returns an error that is not mapped to a user-facing eligibility or business rule
+- the service cannot save, load, upload, download, or submit because of a system problem
+- the service cannot confirm whether the user is eligible
+
+Do not use an error summary for these problems, because there is no answer or action in the page that the user can correct. Error summaries are for validation errors or other violations that the user can fix. 
+
+If the API response represents a known business rule, show the relevant pattern instead. For example:
+
+- if the response means the user is not eligible, use a [cannot use the service page](../../patterns/cannot-use-the-service/)
+- if the service is deliberately unavailable, use a [service unavailable page](../../patterns/service-unavailable-pages/)
+- if the user needs to change an answer on the check your answers page, use an [error summary](../../components/error_summary/)
+
 ### Choose the right pattern or component
 
 Here is a summary of the patterns and components that can be used to handle errors and problems.
@@ -348,6 +372,7 @@ Here is a summary of the patterns and components that can be used to handle erro
 |The page or URL does not exist|[Page not found pages](../../patterns/page-not-found-pages/)|
 |The service is intentionally unavailable|[Service unavailable pages](../../patterns/service-unavailable-pages/)|
 |There is an unexpected technical problem|[There is a problem with the service pages](../../patterns/there-is-a-problem/)|
+|An API or system returns an unexpected response that the user cannot fix|[There is a problem with the service pages](../../patterns/there-is-a-problem/)|
 
 {.govcy-table}
 

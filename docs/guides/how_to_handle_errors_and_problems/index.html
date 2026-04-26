@@ -183,6 +183,9 @@
                     <li><a href="#when-the-user-is-on-the-check-your-answers-page">When the user is on the check your answers page</a>
             		</li>
 
+                    <li><a href="#when-the-service-gets-an-unexpected-response">When the service gets an unexpected response</a>
+            		</li>
+
                     <li><a href="#choose-the-right-pattern-or-component">Choose the right pattern or component</a>
             		</li>
 
@@ -463,6 +466,25 @@
     </dl>
     <button type="button" class="govcy-btn-success">Submit</button>
 </div>
+<h3 id="when-the-service-gets-an-unexpected-response" tabindex="-1">When the service gets an unexpected response</h3>
+<p>Sometimes a service depends on an API or another system to continue the journey.</p>
+<p>If the API or system returns an unexpected response, times out, or cannot be reached, do not show an error summary unless the user can fix the problem by changing something in the service.</p>
+<p>Use a <a href="../../patterns/there-is-a-problem/">there is a problem with the service page</a> when the problem is unexpected and the user cannot fix it. This pattern is for unexpected service problems and should be used instead of showing technical messages like 500, bad request, or API error.</p>
+<p>For example, use a there is a problem with the service page when:</p>
+<ul>
+<li>an API does not respond</li>
+<li>an API returns an unexpected format</li>
+<li>an API returns an error that is not mapped to a user-facing eligibility or business rule</li>
+<li>the service cannot save, load, upload, download, or submit because of a system problem</li>
+<li>the service cannot confirm whether the user is eligible</li>
+</ul>
+<p>Do not use an error summary for these problems, because there is no answer or action in the page that the user can correct. Error summaries are for validation errors or other violations that the user can fix.</p>
+<p>If the API response represents a known business rule, show the relevant pattern instead. For example:</p>
+<ul>
+<li>if the response means the user is not eligible, use a <a href="../../patterns/cannot-use-the-service/">cannot use the service page</a></li>
+<li>if the service is deliberately unavailable, use a <a href="../../patterns/service-unavailable-pages/">service unavailable page</a></li>
+<li>if the user needs to change an answer on the check your answers page, use an <a href="../../components/error_summary/">error summary</a></li>
+</ul>
 <h3 id="choose-the-right-pattern-or-component" tabindex="-1">Choose the right pattern or component</h3>
 <p>Here is a summary of the patterns and components that can be used to handle errors and problems.</p>
 <table class="govcy-table">
@@ -507,6 +529,10 @@
 </tr>
 <tr>
 <td>There is an unexpected technical problem</td>
+<td><a href="../../patterns/there-is-a-problem/">There is a problem with the service pages</a></td>
+</tr>
+<tr>
+<td>An API or system returns an unexpected response that the user cannot fix</td>
 <td><a href="../../patterns/there-is-a-problem/">There is a problem with the service pages</a></td>
 </tr>
 </tbody>
