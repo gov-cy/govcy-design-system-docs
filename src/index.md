@@ -10,6 +10,14 @@ localization:
 ## What's new
 
 **{{ site.dsUpdateDate }}**
+Version 3.2.1 of the Design system has been released.
+
+**Changes**
+- Fixed [Date Picker's](https://gov-cy.github.io/govcy-design-system-docs/components/date_picker/) next years group button [issue](https://github.com/gov-cy/govcy-design-system/issues/203){rel="noreferrer noopener" target="_blank"}
+
+----------------------
+
+**24/04/2026**
 Developer assets are the same with v3.2.0, this update concerns the documentation.
 
 **Changes**

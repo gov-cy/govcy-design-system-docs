@@ -7,6 +7,12 @@ showTOC: false
 twoThirds: true
 ---
 
+## v3.2.1 - 19/5/2026
+Version 3.2.1 of the Design system has been released.
+
+### Changed {data-toc-exclude}
+- Fixed [Date Picker's](https://gov-cy.github.io/govcy-design-system-docs/components/date_picker/) next years group button [issue](https://github.com/gov-cy/govcy-design-system/issues/203){rel="noreferrer noopener" target="_blank"}
+
 ## v3.2.0 - 24/4/2026
 Developer assets are the same with v3.2.0, this update concerns the documentation.
 
