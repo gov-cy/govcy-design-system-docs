@@ -24,9 +24,9 @@ module.exports = {
     updateDate: `2/5/2024`
   },
   exalidraw: {
-    addUrl: `https://excalidraw.com/?addLibrary=https%3A%2F%2Fexcalidraw-libraries-git-cevangelougovcy-gov-e2dec6-excalidraw.vercel.app%2Flibraries%2Fcevangelougovcy%2Fgov-cy-uds-library.excalidrawlib`,
-    downloadUrl: `https://excalidraw-libraries-git-cevangelougovcy-gov-e2dec6-excalidraw.vercel.app/libraries/cevangelougovcy/gov-cy-uds-library.excalidrawlib`,
-    homeUrl: `https://excalidraw-libraries-git-cevangelougovcy-gov-e2dec6-excalidraw.vercel.app/?theme=light&sort=default#cevangelougovcy-gov-cy-uds-library`,
+    addUrl: `https://excalidraw.com/?addLibrary=https%3A%2F%2Fraw.githubusercontent.com%2Fexcalidraw%2Fexcalidraw-libraries%2Fcevangelougovcy-gov-cy-unified-design-system-1779381858099%2Flibraries%2Fcevangelougovcy%2Fgov-cy-unified-design-system.excalidrawlib%3Fraw%3Dtrue`,
+    downloadUrl: `https://excalidraw-libraries-git-cevangelougovcy-gov-141867-excalidraw.vercel.app/libraries/cevangelougovcy/gov-cy-unified-design-system.excalidrawlib`,
+    homeUrl: `https://excalidraw.com/`,
     updateDate: `28/5/2024`
   },
   testLibrary : {
@@ -35,6 +35,7 @@ module.exports = {
   },
   udsCheckerBrowserExtension : {
     homeUrl: 'https://github.com/gov-cy/govcy-uds-checker-chrome',
+    blogUrl: 'https://dsf.dmrid.gov.cy/2026/03/17/checking-design-system-compliance-with-the-gov-cy-uds-checker-browser-extension/',
     updateDate: `2/5/2024`
   },
   rendererLibrary : {
