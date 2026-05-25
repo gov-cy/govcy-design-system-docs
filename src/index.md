@@ -10,6 +10,15 @@ localization:
 ## What's new
 
 **{{ site.dsUpdateDate }}**
+Version 3.3.0 of the Design system has been released.
+
+**Changes**
+- Added the [Share component](https://gov-cy.github.io/govcy-design-system-docs/components/share/). New component ([issue](https://github.com/gov-cy/govcy-design-system/issues/158){rel="noreferrer noopener" target="_blank"}).
+- Fixed issue `.govcy-link-no-visited-state:visited:focus` color [issue](https://github.com/gov-cy/govcy-design-system/issues/154){rel="noreferrer noopener" target="_blank"}
+
+----------------------
+
+**19/5/2026**
 Version 3.2.1 of the Design system has been released.
 
 **Changes**
@@ -24,15 +33,6 @@ Developer assets are the same with v3.2.0, this update concerns the documentatio
 - Added the [Cannot use the service pages (eligibility)](https://gov-cy.github.io/govcy-design-system-docs/patterns/cannot-use-the-service/) pattern.
 - Added the [How to handle errors and problems in a service](https://gov-cy.github.io/govcy-design-system-docs/guides/how_to_handle_errors_and_problems/) guide.
 - Changed the [Structuring a service](https://gov-cy.github.io/govcy-design-system-docs/patterns/service_structure/) pattern to include eligibility and submission checks.
-
-----------------------
-
-**17/4/2025**
-Version 3.2.0 of the Design system has been released.
-
-**Changes**
-- Added the [progress indicator](https://gov-cy.github.io/govcy-design-system-docs/components/progress_indicator/) component.
-- Changed the [summary List](https://gov-cy.github.io/govcy-design-system-docs/components/summary_list/) component with better spacing and better typography on mobile.
 
 ----------------------
 
