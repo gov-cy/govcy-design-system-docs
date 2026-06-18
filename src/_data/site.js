@@ -24,8 +24,8 @@ module.exports = {
     updateDate: `2/5/2024`
   },
   exalidraw: {
-    addUrl: `https://excalidraw.com/?addLibrary=https%3A%2F%2Fgov-cy.github.io%2Fgovcy-design-system-docs%2Fimg%2Fgov-cy-unified-design-system.excalidrawlib%3Fraw%3Dtrue`,
-    downloadUrl: `https%3A%2F%2Fgov-cy.github.io%2Fgovcy-design-system-docs%2Fimg%2Fgov-cy-unified-design-system.excalidrawlib%3Fraw%3Dtrue`,
+    addUrl: `https://excalidraw.com/?addLibrary=https%3A%2F%2Fraw.githubusercontent.com%2Fexcalidraw%2Fexcalidraw-libraries%2Fcevangelougovcy-gov-cy-unified-design-system-1779381858099%2Flibraries%2Fcevangelougovcy%2Fgov-cy-unified-design-system.excalidrawlib%3Fraw%3Dtrue`,
+    downloadUrl: `https://gov-cy.github.io/govcy-design-system-docs/img/gov-cy-unified-design-system.excalidrawlib`,
     homeUrl: `https://excalidraw.com/`,
     updateDate: `28/5/2024`
   },
