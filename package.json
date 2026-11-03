@@ -32,6 +32,6 @@
     "@11ty/eleventy": "^3.1.5"
   },
   "allowScripts": {
-    "puppeteer@25.9.0": true
+    "puppeteer@25.16.0": true
   }
 }
