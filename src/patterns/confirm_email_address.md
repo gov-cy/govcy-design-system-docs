@@ -65,30 +65,20 @@ Use the [email pattern](../email/) to ask the user for their mobile number:
     <button id="btnMobileSubmit" type="button" class="govcy-btn-primary">Continue</button>
 </form>
 ```
-### 2. Send confirmation code via SMS
+### 2. Send confirmation code via email
 Send an email with the a confirmation code. 
 
 Make sure you write the name of the service on the subject. Apart from the confirmation page, mention when the code expires. For example:
 
-```markdown
-Ο κωδικός ασφαλείας σας είναι:
+*Example in Greek*
+[Open in new tab](../../htmls/confim-email-el/){rel="noreferrer noopener" target="_blank"}
 
-1234
+<iframe src="../../htmls/confim-email-el/" width="100%" frameborder="0" scrolling="no" class="govcy-br-1 govcy-br-standard govcy-mb-4" onload="resizeIframe(this)"></iframe>
 
-Εισαγάγετε τον κωδικό αυτό στη σελίδα ‘Ελέγξετε το email σας’, για να επιβεβαιώσετε ότι έχετε πρόσβαση στο email σας. Ο κωδικός λήγει σε 15 λεπτά. 
+*Example in English*
+[Open in new tab](../../htmls/confim-email-en/){rel="noreferrer noopener" target="_blank"}
 
-Μην απαντήσετε σε αυτό το μήνυμα.
-
-============
-
-Your security code is:
-
-1234
-
-Enter the security code in the “Check your email” page, to confirm that you have been able to access your email. The code expires in 15 minutes. 
-
-Do not reply to this email.
-```
+<iframe src="../../htmls/confim-email-en/" width="100%" frameborder="0" scrolling="no" class="govcy-br-1 govcy-br-standard govcy-mb-4" onload="resizeIframe(this)"></iframe>
 
 You can use our guide on [how to create an HTML email](../../guides/create_an_html_email/) to create emails that are consistent with the styles of gov.cy.
 

@@ -173,27 +173,27 @@ If you need more tag colours, you can use the following classes.
     <tbody>
         <tr>
             <td>govcy-tag</td>
-            <td><span class="govcy-tag">INACTIVE</span></td>
+            <td><span class="govcy-tag">SUBMITTED</span></td>
         </tr>
         <tr>
             <td>govcy-tag govcy-tag-gray</td>
-            <td><span class="govcy-tag govcy-tag-gray">COMPLETED</span></td>
+            <td><span class="govcy-tag govcy-tag-gray">ARCHIVED</span></td>
         </tr>
         <tr>
             <td>govcy-tag govcy-tag-darkgreen</td>
-            <td><span class="govcy-tag govcy-tag-darkgreen">PENDING</span></td>
+            <td><span class="govcy-tag govcy-tag-darkgreen">REGISTERED</span></td>
         </tr>
         <tr>
             <td>govcy-tag govcy-tag-green</td>
-            <td><span class="govcy-tag govcy-tag-green">FINISHED</span></td>
+            <td><span class="govcy-tag govcy-tag-green">AVAILABLE</span></td>
         </tr>
         <tr>
             <td>govcy-tag govcy-tag-purple</td>
-            <td><span class="govcy-tag govcy-tag-purple">SENT</span></td>
+            <td><span class="govcy-tag govcy-tag-purple">SCHEDULED</span></td>
         </tr>
         <tr>
             <td>govcy-tag govcy-tag-blue</td>
-            <td><span class="govcy-tag govcy-tag-blue">NEW</span></td>
+            <td><span class="govcy-tag govcy-tag-blue">IN REVIEW</span></td>
         </tr>
         <tr>
             <td>govcy-tag govcy-tag-red</td>
@@ -205,7 +205,7 @@ If you need more tag colours, you can use the following classes.
         </tr>
         <tr>
             <td>govcy-tag govcy-tag-yellow</td>
-            <td><span class="govcy-tag govcy-tag-yellow">DELAYED</span></td>
+            <td><span class="govcy-tag govcy-tag-yellow">AWAITING PAYMENT</span></td>
         </tr>
     </tbody>
 </table>
@@ -223,27 +223,27 @@ If you need more tag colours, you can use the following classes.
     <tbody>
         <tr>
             <td>govcy-tag</td>
-            <td><span class="govcy-tag">INACTIVE</span></td>
+            <td><span class="govcy-tag">SUBMITTED</span></td>
         </tr>
         <tr>
             <td>govcy-tag govcy-tag-gray</td>
-            <td><span class="govcy-tag govcy-tag-gray">COMPLETED</span></td>
+            <td><span class="govcy-tag govcy-tag-gray">ARCHIVED</span></td>
         </tr>
         <tr>
             <td>govcy-tag govcy-tag-darkgreen</td>
-            <td><span class="govcy-tag govcy-tag-darkgreen">PENDING</span></td>
+            <td><span class="govcy-tag govcy-tag-darkgreen">REGISTERED</span></td>
         </tr>
         <tr>
             <td>govcy-tag govcy-tag-green</td>
-            <td><span class="govcy-tag govcy-tag-green">FINISHED</span></td>
+            <td><span class="govcy-tag govcy-tag-green">AVAILABLE</span></td>
         </tr>
         <tr>
             <td>govcy-tag govcy-tag-purple</td>
-            <td><span class="govcy-tag govcy-tag-purple">SENT</span></td>
+            <td><span class="govcy-tag govcy-tag-purple">SCHEDULED</span></td>
         </tr>
         <tr>
             <td>govcy-tag govcy-tag-blue</td>
-            <td><span class="govcy-tag govcy-tag-blue">NEW</span></td>
+            <td><span class="govcy-tag govcy-tag-blue">IN REVIEW</span></td>
         </tr>
         <tr>
             <td>govcy-tag govcy-tag-red</td>
@@ -255,7 +255,7 @@ If you need more tag colours, you can use the following classes.
         </tr>
         <tr>
             <td>govcy-tag govcy-tag-yellow</td>
-            <td><span class="govcy-tag govcy-tag-yellow">DELAYED</span></td>
+            <td><span class="govcy-tag govcy-tag-yellow">AWAITING PAYMENT</span></td>
         </tr>
     </tbody>
 </table>
